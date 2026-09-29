@@ -16,12 +16,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE_RANGE",
-          "param": [3, 80],
+          "param": [
+            3,
+            80
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_ANY_MANUAL_TRANSPORT",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -36,7 +42,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -54,13 +63,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1304001", "2"],
+          "param": [
+            "1304001",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130400101,
-      "npcId": [13992],
+      "npcId": [
+        13992
+      ],
       "performCfg": "QuestDialogue/LQ/Cyno2_13040/Q1304001",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13040,
@@ -73,17 +87,62 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1304001", "2"],
+          "param": [
+            "1304001",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130400201,
-      "npcId": [1058],
+      "npcId": [
+        1058
+      ],
       "performCfg": "QuestDialogue/LQ/Cyno2_13040/Q1304002",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13040,
       "prePerformCfg": ""
+    }
+  ],
+  "freeStyleDic": {
+    "1058": [
+      1120
+    ],
+    "13992": [
+      1190
+    ]
+  },
+  "HGFFNBIGPJK": true,
+  "showRedPoint": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "dialogList": [
+    {
+      "nextDialogs": [
+        130409902
+      ],
+      "id": 130409901,
+      "talkRole": {
+        "id": "13992",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3272804226
+    },
+    {
+      "id": 130409902,
+      "talkRole": {
+        "id": "13992",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3554511746
+    },
+    {
+      "id": 130409903,
+      "talkRole": {
+        "id": "1058",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1582276170
     }
   ]
 }

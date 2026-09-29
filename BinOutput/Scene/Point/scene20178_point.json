@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "GNIDNEBEJFH",
@@ -14,6 +13,11 @@
         "x": 5.0,
         "y": 5.0,
         "z": 5.0
+      },
+      "sizes": {
+        "x": 5,
+        "y": 5,
+        "z": 5
       }
     },
     "10": {
@@ -34,6 +38,11 @@
         "x": 20.0,
         "y": 40.0,
         "z": 10.0
+      },
+      "sizes": {
+        "x": 20,
+        "y": 40,
+        "z": 10
       }
     },
     "11": {
@@ -58,7 +67,11 @@
       "dungeonQuestConditionList": {},
       "titleTextID": "UI_STC_Intee_DungeonEntry",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "FPBBOEDKMIE": 1,
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry"
     },
     "2": {
       "$type": "LJLGJMBBHMK",
@@ -78,6 +91,11 @@
         "x": 20.0,
         "y": 20.0,
         "z": 15.0
+      },
+      "sizes": {
+        "x": 20,
+        "y": 20,
+        "z": 15
       }
     },
     "3": {
@@ -99,7 +117,13 @@
         "y": 25.0,
         "z": 30.0
       },
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true,
+      "sizes": {
+        "x": 10,
+        "y": 25,
+        "z": 30
+      }
     },
     "4": {
       "$type": "LJLGJMBBHMK",
@@ -125,6 +149,11 @@
         "x": 15.0,
         "y": 40.0,
         "z": 10.0
+      },
+      "sizes": {
+        "x": 15,
+        "y": 40,
+        "z": 10
       }
     },
     "5": {
@@ -144,7 +173,8 @@
         "z": 308.04302978515625
       },
       "specialTipsIconPath": "",
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true
     },
     "6": {
       "$type": "ACECPLPLHPL",
@@ -166,7 +196,8 @@
         "y": 250.0
       },
       "specialTipsIconPath": "",
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true
     },
     "7": {
       "$type": "ACECPLPLHPL",
@@ -182,7 +213,8 @@
         "z": 310.445556640625
       },
       "specialTipsIconPath": "",
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true
     },
     "8": {
       "$type": "ACECPLPLHPL",
@@ -204,7 +236,8 @@
         "y": 180.0
       },
       "specialTipsIconPath": "",
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true
     },
     "9": {
       "$type": "ACECPLPLHPL",
@@ -710,5 +743,499 @@
       "BFKCMEDCIIM": {}
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500,
+  "KJJENKICNLJ": {
+    "1": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 152.75,
+        "y": 313.42999267578125,
+        "z": 339.6700134277344
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 80,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 80,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "10": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 342.4584045410156,
+        "y": 315.9740905761719,
+        "z": 327.4309997558594
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 30,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 30,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 225
+      },
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "11": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 322.47210693359375,
+        "y": 314.85040283203125,
+        "z": 346.7355041503906
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "tranPos": {
+        "x": 322.47210693359375,
+        "y": 320.91546630859375,
+        "z": 346.73553466796875
+      },
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 100,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 100,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 22.500009536743164
+      },
+      "PLBGEEEODKL": "NoReviveRegion"
+    },
+    "12": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 268.218505859375,
+        "y": 253.60079956054688,
+        "z": 419.6742858886719
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 60,
+        "IJLLBONJPNF": 20,
+        "INCDOIJKDNH": 80,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "13": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 268.218505859375,
+        "y": 254.2469940185547,
+        "z": 419.6742858886719
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 60,
+        "IJLLBONJPNF": 25,
+        "INCDOIJKDNH": 80,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "NoReviveRegion"
+    },
+    "14": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 268.218505859375,
+        "y": 255.97669982910156,
+        "z": 493.6427001953125
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 80,
+        "IJLLBONJPNF": 25,
+        "INCDOIJKDNH": 80,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "NoReviveRegion"
+    },
+    "15": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 268.218505859375,
+        "y": 256.7778015136719,
+        "z": 492.0867919921875
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 80,
+        "IJLLBONJPNF": 20,
+        "INCDOIJKDNH": 80,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "16": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 245.4304962158203,
+        "y": 277.85369873046875,
+        "z": 472.3749084472656
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 25,
+        "IJLLBONJPNF": 90,
+        "INCDOIJKDNH": 35,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "17": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 290.8938903808594,
+        "y": 283.2461853027344,
+        "z": 473.4381103515625
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 25,
+        "IJLLBONJPNF": 80,
+        "INCDOIJKDNH": 35,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "18": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 268.8851013183594,
+        "y": 280.98388671875,
+        "z": 503.0549011230469
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 90,
+        "IJLLBONJPNF": 70,
+        "INCDOIJKDNH": 30,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "19": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 250.1425018310547,
+        "y": 277.85369873046875,
+        "z": 472.3749084472656
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 25,
+        "IJLLBONJPNF": 90,
+        "INCDOIJKDNH": 35,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "NoReviveRegion"
+    },
+    "2": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 152.75,
+        "y": 313.42999267578125,
+        "z": 339.6700134277344
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 80,
+        "IJLLBONJPNF": 20,
+        "INCDOIJKDNH": 80,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "NoReviveRegion"
+    },
+    "20": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 285.64990234375,
+        "y": 283.2461853027344,
+        "z": 473.4381103515625
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 25,
+        "IJLLBONJPNF": 80,
+        "INCDOIJKDNH": 35,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "NoReviveRegion"
+    },
+    "21": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 268.8851013183594,
+        "y": 280.98388671875,
+        "z": 502.0928955078125
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 90,
+        "IJLLBONJPNF": 70,
+        "INCDOIJKDNH": 30,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "NoReviveRegion"
+    },
+    "3": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 322.8725891113281,
+        "y": 315.9740905761719,
+        "z": 375.2410888671875
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 25,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 30,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "4": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 303.9827880859375,
+        "y": 315.9740905761719,
+        "z": 366.00640869140625
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 25,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 30,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 45
+      },
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "5": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 294.3609924316406,
+        "y": 315.9740905761719,
+        "z": 345.4731140136719
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 25,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 30,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 90
+      },
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "6": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 283.404296875,
+        "y": 315.9740905761719,
+        "z": 323.2119140625
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 25,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 30,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 67.5
+      },
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "7": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 327.14471435546875,
+        "y": 315.9740905761719,
+        "z": 304.5611877441406
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 25,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 30,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 67.5
+      },
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "8": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 342.3830871582031,
+        "y": 315.9740905761719,
+        "z": 368.2333068847656
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 30,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 25,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 315
+      },
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "9": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 348.819091796875,
+        "y": 315.9740905761719,
+        "z": 349.5740966796875
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 30,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 25,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 270
+      },
+      "PLBGEEEODKL": "DeadRegion"
+    }
+  }
 }

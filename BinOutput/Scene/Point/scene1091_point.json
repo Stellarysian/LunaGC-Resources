@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "PersonalSceneJumpPoint",
@@ -29,7 +28,15 @@
         "y": 40.0,
         "z": 20.0
       },
-      "closeTime": 24.0
+      "closeTime": 24.0,
+      "HJNIGDGMCCK": {
+        "x": 40,
+        "y": 40,
+        "z": 20
+      },
+      "INIPMNIGDCG": 24,
+      "KBHKBGKIPII": true,
+      "OEKKLCFPCAO": "UI_SCENE_ENTRY_EXIT_TempleOfSilence"
     },
     "2": {
       "$type": "PersonalSceneJumpPoint",
@@ -60,7 +67,14 @@
         "y": 30.0,
         "z": 5.0
       },
-      "closeTime": 24.0
+      "closeTime": 24.0,
+      "HJNIGDGMCCK": {
+        "x": 20,
+        "y": 30,
+        "z": 5
+      },
+      "INIPMNIGDCG": 24,
+      "OEKKLCFPCAO": "UI_SCENE_ENTRY_EXIT_TempleOfSilence"
     },
     "3": {
       "$type": "DungeonEntry",
@@ -89,7 +103,16 @@
       },
       "titleTextID": "UI_DUNGERON_ENTRY_1091_3",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "forbidSimpleUnlock": true
+      "forbidSimpleUnlock": true,
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_DUNGERON_ENTRY_1091_3",
+      "PFGLDOIBICE": true
     },
     "4": {
       "$type": "DungeonExit",
@@ -105,8 +128,10 @@
         "z": 585.119873046875
       },
       "specialTipsIconPath": "",
-      "entryPointId": 3
+      "entryPointId": 3,
+      "HMOHDOOAGOJ": 3
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500
 }

@@ -9,27 +9,39 @@
     "EALGMJIJFMB": [
       {
         "FLEMJDMGGHJ": "V4_8_FairyBook_ScanEntity_Avatar_Handler",
-        "NCCKLDFFDOH": "V4_8_FairyBook_ScanEntity_Avatar_Handler"
+        "NCCKLDFFDOH": "V4_8_FairyBook_ScanEntity_Avatar_Handler",
+        "abilityID": "V4_8_FairyBook_ScanEntity_Avatar_Handler",
+        "abilityName": "V4_8_FairyBook_ScanEntity_Avatar_Handler"
       },
       {
         "FLEMJDMGGHJ": "V4_8_FairyBook_ToyBrick_Avatar_ExtraSkillHandler_Ability",
-        "NCCKLDFFDOH": "V4_8_FairyBook_ToyBrick_Avatar_ExtraSkillHandler_Ability"
+        "NCCKLDFFDOH": "V4_8_FairyBook_ToyBrick_Avatar_ExtraSkillHandler_Ability",
+        "abilityID": "V4_8_FairyBook_ToyBrick_Avatar_ExtraSkillHandler_Ability",
+        "abilityName": "V4_8_FairyBook_ToyBrick_Avatar_ExtraSkillHandler_Ability"
       },
       {
         "FLEMJDMGGHJ": "V4_8_FairyBook_ToyBrick_Change_Avatar_ExtraSkillHandler_Ability",
-        "NCCKLDFFDOH": "V4_8_FairyBook_ToyBrick_Change_Avatar_ExtraSkillHandler_Ability"
+        "NCCKLDFFDOH": "V4_8_FairyBook_ToyBrick_Change_Avatar_ExtraSkillHandler_Ability",
+        "abilityID": "V4_8_FairyBook_ToyBrick_Change_Avatar_ExtraSkillHandler_Ability",
+        "abilityName": "V4_8_FairyBook_ToyBrick_Change_Avatar_ExtraSkillHandler_Ability"
       },
       {
         "FLEMJDMGGHJ": "V4_8_FairyBook_ToyBrick_Shoot",
-        "NCCKLDFFDOH": "V4_8_FairyBook_ToyBrick_Shoot"
+        "NCCKLDFFDOH": "V4_8_FairyBook_ToyBrick_Shoot",
+        "abilityID": "V4_8_FairyBook_ToyBrick_Shoot",
+        "abilityName": "V4_8_FairyBook_ToyBrick_Shoot"
       },
       {
         "FLEMJDMGGHJ": "Avatar_Trampoline_Jump_Controller_ToyBrick",
-        "NCCKLDFFDOH": "Avatar_Trampoline_Jump_Controller_ToyBrick"
+        "NCCKLDFFDOH": "Avatar_Trampoline_Jump_Controller_ToyBrick",
+        "abilityID": "Avatar_Trampoline_Jump_Controller_ToyBrick",
+        "abilityName": "Avatar_Trampoline_Jump_Controller_ToyBrick"
       },
       {
         "FLEMJDMGGHJ": "Avatar_Trampoline_Jump_Controller_FloatingBlock",
-        "NCCKLDFFDOH": "Avatar_Trampoline_Jump_Controller_FloatingBlock"
+        "NCCKLDFFDOH": "Avatar_Trampoline_Jump_Controller_FloatingBlock",
+        "abilityID": "Avatar_Trampoline_Jump_Controller_FloatingBlock",
+        "abilityName": "Avatar_Trampoline_Jump_Controller_FloatingBlock"
       }
     ],
     "EILDNHKFDMI": {
@@ -117,6 +129,36 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "V4_8_FairyBook_ActivitySkill_Team_Handler",
+        "abilityName": "V4_8_FairyBook_ActivitySkill_Team_Handler"
+      },
+      {
+        "abilityID": "V4_8_FairyBook_Default_TSkill_Team_Handler",
+        "abilityName": "V4_8_FairyBook_Default_TSkill_Team_Handler"
+      },
+      {
+        "abilityID": "V4_8_FairyBook_Common_CancelAll",
+        "abilityName": "V4_8_FairyBook_Common_CancelAll"
+      },
+      {
+        "abilityID": "V4_8_FairyBook_ToyBrick_Team_Entrance",
+        "abilityName": "V4_8_FairyBook_ToyBrick_Team_Entrance"
+      },
+      {
+        "abilityID": "V4_8_FairyBook_ToyBrick_Shoot_AutoExit_Entrance",
+        "abilityName": "V4_8_FairyBook_ToyBrick_Shoot_AutoExit_Entrance"
+      },
+      {
+        "abilityID": "V4_8_FairyBook_ToyBrick_Shoot_ManualExit_Entrance",
+        "abilityName": "V4_8_FairyBook_ToyBrick_Shoot_ManualExit_Entrance"
+      },
+      {
+        "abilityID": "V4_8_FairyBook_ToyBrick_Out_Of_Region",
+        "abilityName": "V4_8_FairyBook_ToyBrick_Out_Of_Region"
+      }
+    ]
   }
 }

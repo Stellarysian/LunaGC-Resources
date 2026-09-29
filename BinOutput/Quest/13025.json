@@ -5,8 +5,12 @@
   "titleTextMapHash": 3512710423,
   "descTextMapHash": 2826721750,
   "luaPath": "Actor/Quest/LQ13025",
-  "suggestTrackMainQuestList": [13026],
-  "rewardIdList": [113025],
+  "suggestTrackMainQuestList": [
+    13026
+  ],
+  "rewardIdList": [
+    113025
+  ],
   "chapterId": 2036,
   "subQuests": [
     {
@@ -19,14 +23,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -46,14 +56,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -74,14 +90,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -103,14 +125,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -130,14 +158,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -157,14 +191,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -185,14 +225,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -213,14 +259,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -240,14 +292,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -266,13 +324,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1302501", "2"],
+          "param": [
+            "1302501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130250101,
-      "npcId": [13013],
+      "npcId": [
+        13013
+      ],
       "performCfg": "QuestDialogue/LQ/Dehya1_13025/Q1302501",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13025,
@@ -285,13 +348,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1302502", "2"],
+          "param": [
+            "1302502",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130250201,
-      "npcId": [13066],
+      "npcId": [
+        13066
+      ],
       "performCfg": "QuestDialogue/LQ/Dehya1_13025/Q1302502",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13025,
@@ -305,13 +373,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1302503", "2"],
+          "param": [
+            "1302503",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130250301,
-      "npcId": [1052],
+      "npcId": [
+        1052
+      ],
       "performCfg": "QuestDialogue/LQ/Dehya1_13025/Q1302503",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13025,
@@ -324,13 +397,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1302505", "2"],
+          "param": [
+            "1302505",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130250501,
-      "npcId": [13107, 13108, 13065],
+      "npcId": [
+        13107,
+        13108,
+        13065
+      ],
       "performCfg": "QuestDialogue/LQ/Dehya1_13025/Q1302505",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13025,
@@ -343,13 +423,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1302506", "2"],
+          "param": [
+            "1302506",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130250601,
-      "npcId": [1052, 13064],
+      "npcId": [
+        1052,
+        13064
+      ],
       "performCfg": "QuestDialogue/LQ/Dehya1_13025/Q1302506",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13025,
@@ -363,13 +449,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1302509", "2"],
+          "param": [
+            "1302509",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130252001,
-      "npcId": [13066],
+      "npcId": [
+        13066
+      ],
       "performCfg": "QuestDialogue/LQ/Dehya1_13025/Q1302520",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13025,
@@ -383,17 +474,43 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1302501", "2"],
+          "param": [
+            "1302501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 6,
       "initDialog": 130252101,
-      "npcId": [13106],
+      "npcId": [
+        13106
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13025,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "13013": [
+      1160
+    ],
+    "13066": [
+      1160
+    ],
+    "13106": [
+      4121
+    ]
+  },
+  "forcePreloadLuaList": [
+    "10732218568816594579"
+  ],
+  "HGFFNBIGPJK": true,
+  "preloadLuaList": [
+    "5589223509755278220",
+    "1610417076027574002"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 2036
 }

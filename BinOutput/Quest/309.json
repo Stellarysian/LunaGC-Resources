@@ -5,7 +5,9 @@
   "descTextMapHash": 4207665015,
   "luaPath": "Actor/Quest/AQ309",
   "showType": "QUEST_HIDDEN",
-  "suggestTrackMainQuestList": [370],
+  "suggestTrackMainQuestList": [
+    370
+  ],
   "chapterId": 1001,
   "subQuests": [
     {
@@ -17,7 +19,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35802, 3],
+          "param": [
+            35802,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -25,17 +30,26 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_DUNGEON",
-          "param": [1001, 0],
+          "param": [
+            1001,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_FINISH_DUNGEON",
-          "param": [1, 0],
+          "param": [
+            1,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_FINISH_DUNGEON",
-          "param": [1003, 0],
+          "param": [
+            1003,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -74,14 +88,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [30901, 3],
+          "param": [
+            30901,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ENTER_MY_WORLD",
-          "param": [3, 0],
+          "param": [
+            3,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -120,14 +140,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [30903, 3],
+          "param": [
+            30903,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [30904, 0],
+          "param": [
+            30904,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -143,22 +169,34 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_OPEN_STATE",
-          "param": ["7", "0"],
+          "param": [
+            "7",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_SET_OPEN_STATE",
-          "param": ["8", "1"],
+          "param": [
+            "8",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
-          "param": ["10001", "1"],
+          "param": [
+            "10001",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133004919,2"],
+          "param": [
+            "3",
+            "133004919,2"
+          ],
           "param_str": ""
         }
       ],
@@ -171,7 +209,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_ADD_QUEST_PROGRESS",
-          "param": ["359011", "1"],
+          "param": [
+            "359011",
+            "1"
+          ],
           "param_str": ""
         }
       ]
@@ -185,13 +226,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["30901", "2"],
+          "param": [
+            "30901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 3091101,
-      "npcId": [10001],
+      "npcId": [
+        10001
+      ],
       "performCfg": "",
       "questId": 309,
       "prePerformCfg": ""
@@ -203,13 +249,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["30901", "2"],
+          "param": [
+            "30901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 3091201,
-      "npcId": [10002],
+      "npcId": [
+        10002
+      ],
       "performCfg": "",
       "questId": 309,
       "prePerformCfg": ""
@@ -221,13 +272,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["30901", "2"],
+          "param": [
+            "30901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 3091301,
-      "npcId": [10003],
+      "npcId": [
+        10003
+      ],
       "performCfg": "",
       "questId": 309,
       "prePerformCfg": ""
@@ -239,13 +295,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["30901", "2"],
+          "param": [
+            "30901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 3091401,
-      "npcId": [10004],
+      "npcId": [
+        10004
+      ],
       "performCfg": "",
       "questId": 309,
       "prePerformCfg": ""
@@ -257,13 +318,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["30901", "2"],
+          "param": [
+            "30901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 3091501,
-      "npcId": [10005],
+      "npcId": [
+        10005
+      ],
       "performCfg": "",
       "questId": 309,
       "prePerformCfg": ""
@@ -275,16 +341,25 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["30901", "2"],
+          "param": [
+            "30901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 3091601,
-      "npcId": [10006],
+      "npcId": [
+        10006
+      ],
       "performCfg": "",
       "questId": 309,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "preloadLuaList": [
+    "14457059026087496718"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

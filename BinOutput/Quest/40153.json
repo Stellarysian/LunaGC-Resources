@@ -6,7 +6,9 @@
   "descTextMapHash": 349747518,
   "luaPath": "Actor/Quest/EQ40153",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [140153],
+  "rewardIdList": [
+    140153
+  ],
   "subQuests": [
     {
       "subId": 4015301,
@@ -16,7 +18,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4015301, 0],
+          "param": [
+            4015301,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -28,7 +33,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
-          "param": ["4015301", "1"],
+          "param": [
+            "4015301",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -37,7 +45,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -45,5 +56,8 @@
       "beginExec": [],
       "failExec": []
     }
-  ]
+  ],
+  "activityId": 2028,
+  "showRedPoint": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

@@ -14,7 +14,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [1, 0],
+          "param": [
+            1,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -26,12 +29,18 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["3", "133402426"],
+          "param": [
+            "3",
+            "133402426"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["3", "133402666"],
+          "param": [
+            "3",
+            "133402666"
+          ],
           "param_str": ""
         }
       ],
@@ -40,7 +49,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -56,7 +68,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7418101, 0],
+          "param": [
+            7418101,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -71,7 +86,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -89,13 +107,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7418102", "2"],
+          "param": [
+            "7418102",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741810101,
-      "npcId": [21284, 1005],
+      "npcId": [
+        21284,
+        1005
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74181/Q7418101",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74181,
@@ -108,18 +132,24 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7418101", "3"],
+          "param": [
+            "7418101",
+            "3"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741810201,
-      "npcId": [21330],
+      "npcId": [
+        21330
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74181,
       "prePerformCfg": "",
       "questIdleTalk": true
     }
-  ]
+  ],
+  "showRedPoint": true
 }

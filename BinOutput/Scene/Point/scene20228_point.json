@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "LJLGJMBBHMK",
@@ -25,6 +24,11 @@
         "x": 10.0,
         "y": 80.0,
         "z": 50.0
+      },
+      "sizes": {
+        "x": 10,
+        "y": 80,
+        "z": 50
       }
     },
     "3": {
@@ -51,6 +55,11 @@
         "x": 25.0,
         "y": 25.0,
         "z": 20.0
+      },
+      "sizes": {
+        "x": 25,
+        "y": 25,
+        "z": 20
       }
     },
     "4": {
@@ -79,7 +88,14 @@
         "y": 10.0,
         "z": 10.0
       },
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true,
+      "KBHKBGKIPII": true,
+      "sizes": {
+        "x": 10,
+        "y": 10,
+        "z": 10
+      }
     },
     "5": {
       "$type": "LJLGJMBBHMK",
@@ -105,6 +121,11 @@
         "x": 20.0,
         "y": 20.0,
         "z": 20.0
+      },
+      "sizes": {
+        "x": 20,
+        "y": 20,
+        "z": 20
       }
     },
     "6": {
@@ -133,7 +154,14 @@
         "y": 20.0,
         "z": 20.0
       },
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true,
+      "KBHKBGKIPII": true,
+      "sizes": {
+        "x": 20,
+        "y": 20,
+        "z": 20
+      }
     }
   },
   "entities": {
@@ -185,5 +213,91 @@
       }
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500,
+  "KJJENKICNLJ": {
+    "1": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 559.7783203125,
+        "y": 135.89549255371094,
+        "z": 497.4117126464844
+      },
+      "APFOMJCBKAN": {
+        "GJHCGMDKHLP": {
+          "LMBEJPGJGGC": 21,
+          "MJIEGAPCFHD": 1.5,
+          "PNAEFINHLIO": 1
+        },
+        "HFOPOGIEAJD": {
+          "$type": "EIBDCHDHPMO",
+          "FCILJEIGCFJ": {
+            "x": -124.2699966430664,
+            "y": 102.66000366210938,
+            "z": 83.87000274658203
+          },
+          "GGOPDKHFPFO": true,
+          "KAPINHABGCA": 45,
+          "NEIIAPNMPNJ": {
+            "x": 6,
+            "y": -2.5,
+            "z": -2
+          },
+          "NFACLENAOJI": true,
+          "PDJIGKHKGNL": "FollowToTarget"
+        },
+        "NCDKCFCCDNP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1
+        }
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IBAIMPIGNCO": {
+        "APFOMJCBKAN": {
+          "GJHCGMDKHLP": {
+            "LMBEJPGJGGC": 21,
+            "MJIEGAPCFHD": 1.5,
+            "PNAEFINHLIO": 1
+          },
+          "HFOPOGIEAJD": {
+            "$type": "EIBDCHDHPMO",
+            "FCILJEIGCFJ": {
+              "x": -124.2699966430664,
+              "y": 102.66000366210938,
+              "z": 83.87000274658203
+            },
+            "GGOPDKHFPFO": true,
+            "KAPINHABGCA": 45,
+            "NEIIAPNMPNJ": {
+              "x": 6,
+              "y": -2.5,
+              "z": -2
+            },
+            "NFACLENAOJI": true,
+            "PDJIGKHKGNL": "FollowToTarget"
+          },
+          "NCDKCFCCDNP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1
+          }
+        }
+      },
+      "tranPos": {
+        "x": 559.7782592773438,
+        "y": 135.89552307128906,
+        "z": 497.41168212890625
+      },
+      "IDGPBCDDNBC": {
+        "$type": "KPOBGELKMAN",
+        "CFLGDGLFMDO": "Center",
+        "IJLLBONJPNF": 30,
+        "NHLJAFFIMNM": 30,
+        "PCAFJMIOGDB": true
+      },
+      "PFCEHMCBGCO": 202280001,
+      "PLBGEEEODKL": "LevelCamera"
+    }
+  }
 }

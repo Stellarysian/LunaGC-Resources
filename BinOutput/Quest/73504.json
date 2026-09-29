@@ -5,7 +5,9 @@
   "descTextMapHash": 2673413750,
   "luaPath": "",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [173504],
+  "rewardIdList": [
+    173504
+  ],
   "subQuests": [
     {
       "subId": 7350401,
@@ -18,14 +20,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7350003, 3],
+          "param": [
+            7350003,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "0,24"
         }
       ],
@@ -35,5 +43,7 @@
       "failExec": [],
       "guide": {}
     }
-  ]
+  ],
+  "activityId": 2015,
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

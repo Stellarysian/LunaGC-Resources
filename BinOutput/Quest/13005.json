@@ -6,7 +6,9 @@
   "descTextMapHash": 1943984606,
   "luaPath": "Actor/Quest/LQ13005",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [113005],
+  "rewardIdList": [
+    113005
+  ],
   "subQuests": [
     {
       "subId": 1300501,
@@ -19,14 +21,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300301, 2],
+          "param": [
+            1300301,
+            2
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [1300301, 3],
+          "param": [
+            1300301,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -36,5 +44,6 @@
       "failExec": [],
       "guide": {}
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

@@ -16,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7304601, 0],
+          "param": [
+            7304601,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -35,7 +41,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133302020,2"],
+          "param": [
+            "3",
+            "133302020,2"
+          ],
           "param_str": ""
         }
       ],
@@ -55,14 +64,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7304601, 2],
+          "param": [
+            7304601,
+            2
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "7304602",
           "count": 1
         }
@@ -83,20 +98,29 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7304601, 3],
+          "param": [
+            7304601,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7304603, 0],
+          "param": [
+            7304603,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q7304603_guide", "30"],
+        "param": [
+          "Q7304603_guide",
+          "30"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -116,21 +140,29 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7304603, 3],
+          "param": [
+            7304603,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7304602, 3],
+          "param": [
+            7304602,
+            3
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["20661"],
+        "param": [
+          "20661"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -150,21 +182,29 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7304604, 3],
+          "param": [
+            7304604,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7304605, 0],
+          "param": [
+            7304605,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["20661"],
+        "param": [
+          "20661"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_FINISH",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -182,11 +222,19 @@
       "activeMode": "PLAY_MODE_HOST",
       "priority": 5,
       "initDialog": 730460501,
-      "npcId": [20661],
+      "npcId": [
+        20661
+      ],
       "performCfg": "",
       "questId": 73046,
       "prePerformCfg": "",
       "stayFreeStyle": true
     }
+  ],
+  "forcePreloadLuaList": [
+    "13436821500713024277"
+  ],
+  "preloadLuaList": [
+    "16576200780515399865"
   ]
 }

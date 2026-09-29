@@ -17,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [48602, 3],
+          "param": [
+            48602,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [49010, 0],
+          "param": [
+            49010,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -36,7 +42,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1008"],
+        "param": [
+          "1008"
+        ],
         "guideScene": 1008
       },
       "finishParent": true,
@@ -60,5 +68,6 @@
         }
       ]
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

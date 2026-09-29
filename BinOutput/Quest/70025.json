@@ -4,7 +4,9 @@
   "titleTextMapHash": 1726657567,
   "descTextMapHash": 3208492094,
   "luaPath": "Actor/Quest/WQ70025",
-  "rewardIdList": [170025],
+  "rewardIdList": [
+    170025
+  ],
   "subQuests": [
     {
       "subId": 7002501,
@@ -15,19 +17,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": [7002404, 1],
+          "param": [
+            7002404,
+            1
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [5024002, 1],
+          "param": [
+            5024002,
+            1
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7002501, 0],
+          "param": [
+            7002501,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -40,7 +51,10 @@
       "guide": {
         "type": "QUEST_GUIDE_NPC",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["151201", "SELECT_NPC_NONE"],
+        "param": [
+          "151201",
+          "SELECT_NPC_NONE"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -64,7 +78,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1512],
+      "exclusiveNpcList": [
+        1512
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -75,14 +91,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7002501, 3],
+          "param": [
+            7002501,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7002502, 0],
+          "param": [
+            7002502,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -95,7 +117,10 @@
       "guide": {
         "type": "QUEST_GUIDE_NPC",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["156501", "SELECT_NPC_NONE"],
+        "param": [
+          "156501",
+          "SELECT_NPC_NONE"
+        ],
         "guideScene": 1004,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -120,7 +145,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1565],
+      "exclusiveNpcList": [
+        1565
+      ],
       "exclusiveNpcPriority": 1100
     }
   ],
@@ -132,13 +159,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7002501", "2"],
+          "param": [
+            "7002501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 700250101,
-      "npcId": [151201],
+      "npcId": [
+        151201
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70025,
@@ -151,17 +183,29 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7002502", "2"],
+          "param": [
+            "7002502",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 700250201,
-      "npcId": [156501, 1005],
+      "npcId": [
+        156501,
+        1005
+      ],
       "performCfg": "QuestDialogue/WQ/MimiTomo_70024/Q700250201",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70025,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activityId": 5024,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "14457059026087496718"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

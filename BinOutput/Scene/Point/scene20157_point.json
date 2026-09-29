@@ -12,7 +12,8 @@
         "y": 270.0
       },
       "unlocked": true,
-      "specialTipsIconPath": ""
+      "specialTipsIconPath": "",
+      "KBHKBGKIPII": true
     },
     "2": {
       "$type": "LJLGJMBBHMK",
@@ -26,7 +27,8 @@
         "y": 270.0
       },
       "unlocked": true,
-      "specialTipsIconPath": ""
+      "specialTipsIconPath": "",
+      "KBHKBGKIPII": true
     },
     "3": {
       "$type": "LPLKNPCPGGA",
@@ -47,7 +49,12 @@
         "y": 177.0961,
         "z": 282.7395
       },
-      "areaId": 0
+      "areaId": 0,
+      "sizes": {
+        "x": 16,
+        "y": 10,
+        "z": 5
+      }
     }
   },
   "entities": {
@@ -101,5 +108,57 @@
       "BFKCMEDCIIM": {}
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500,
+  "KJJENKICNLJ": {
+    "1": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 339.0353088378906,
+        "y": 158.9134979248047,
+        "z": 276.44769287109375
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "tranPos": {
+        "x": 339.0352783203125,
+        "y": 137.72662353515625,
+        "z": 276.4477233886719
+      },
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 30,
+        "IJLLBONJPNF": 20,
+        "INCDOIJKDNH": 30,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "2": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 86.74696350097656,
+        "y": 175.87469482421875,
+        "z": 282.48699951171875
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 60,
+        "IJLLBONJPNF": 20,
+        "INCDOIJKDNH": 60,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "KBHKBGKIPII": true,
+      "PLBGEEEODKL": "DeadRegion"
+    }
+  }
 }

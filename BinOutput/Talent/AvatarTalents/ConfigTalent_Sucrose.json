@@ -190,50 +190,58 @@
   "Sucrose_Hexenzirkel_1": [
     {
       "$type": "AddAbility",
-      "abilityName": "Avatar_Sucrose_HexenzirkelSkill"
+      "abilityName": "Avatar_Sucrose_HexenzirkelSkill",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "Avatar_Sucrose_WindBlackHole",
-      "talentParam": "Sucrose_Hexenzirkel"
+      "talentParam": "Sucrose_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "Avatar_Sucrose_DemiHurricane_Flusk",
-      "talentParam": "Sucrose_Hexenzirkel"
+      "talentParam": "Sucrose_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "Avatar_Sucrose_DemiHurricane_Mix",
-      "talentParam": "Sucrose_Hexenzirkel"
+      "talentParam": "Sucrose_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Sucrose_WindBlackHole",
       "paramSpecial": "Duration",
       "paramDelta": "%1",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Sucrose_WindBlackHole",
       "paramSpecial": "Ratio",
       "paramDelta": "%2",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Sucrose_HexenzirkelSkill",
       "paramSpecial": "Duration",
       "paramDelta": "%3",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Sucrose_HexenzirkelSkill",
       "paramSpecial": "Ratio",
       "paramDelta": "%4",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     }
   ]
 }

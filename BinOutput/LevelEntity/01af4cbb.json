@@ -8,7 +8,8 @@
     },
     "EALGMJIJFMB": [
       {
-        "NCCKLDFFDOH": "Monster_Dotorre_Moon_ProtectLoadingAvatar"
+        "NCCKLDFFDOH": "Monster_Dotorre_Moon_ProtectLoadingAvatar",
+        "abilityName": "Monster_Dotorre_Moon_ProtectLoadingAvatar"
       }
     ],
     "EILDNHKFDMI": {
@@ -78,7 +79,19 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "Monster_Dotorre_Moon_EspSwitchTeam"
+      },
+      {
+        "abilityName": "Monster_Dotorre_Moon_Gate_Listener"
+      },
+      {
+        "abilityID": "TeamAbility_ForceSync_Threat_V6_3",
+        "abilityName": "TeamAbility_ForceSync_Threat_V6_3"
+      }
+    ]
   },
   "Level_Monster_Dotorre_Moon_Handler": {
     "BBLCBKAFMMO": {
@@ -169,6 +182,25 @@
           "16616662993873952017"
         ]
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "Monster_Dotorre_Moon_EspSwitchTeam"
+      },
+      {
+        "abilityName": "Monster_Dotorre_Moon_GrabSkill_TeamHandler"
+      },
+      {
+        "abilityID": "Avatar_QuestAbility_ClearFollowPet02",
+        "abilityName": "Avatar_QuestAbility_ClearFollowPet02"
+      },
+      {
+        "abilityID": "ActivityAbility_BanShow_Team_LevelEntity",
+        "abilityName": "ActivityAbility_BanShow_Team_LevelEntity"
+      },
+      {
+        "abilityName": "Monster_Dotorre_Moon_Gate_Listener"
+      }
+    ]
   }
 }

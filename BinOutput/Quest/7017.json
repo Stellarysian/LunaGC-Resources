@@ -1111,7 +1111,10 @@
         37120905,
         37120906
       ],
-      "mainId": 7017
+      "mainId": 7017,
+      "npcId": [
+        17009
+      ]
     },
     {
       "finishCond": [
@@ -1447,7 +1450,16 @@
       ],
       "descTextMapHash": 2121326308,
       "subId": 701712,
-      "mainId": 7017
+      "mainId": 7017,
+      "finishExec": [
+        {
+          "param": [
+            "20373",
+            "220373010"
+          ],
+          "type": "QUEST_EXEC_NOTIFY_GROUP_LUA"
+        }
+      ]
     },
     {
       "failExec": [
@@ -1992,7 +2004,16 @@
       "descTextMapHash": 2111747780,
       "subId": 701723,
       "mainId": 7017,
-      "showType": "QUEST_HIDDEN"
+      "showType": "QUEST_HIDDEN",
+      "failCond": [
+        {
+          "param": [
+            20373,
+            0
+          ],
+          "type": "QUEST_CONTENT_LEAVE_SCENE"
+        }
+      ]
     },
     {
       "failExec": [

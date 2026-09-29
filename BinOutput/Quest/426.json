@@ -14,14 +14,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [42601, 0],
+          "param": [
+            42601,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -61,21 +67,30 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [42601, 3],
+          "param": [
+            42601,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [42602, 0],
+          "param": [
+            42602,
+            0
+          ],
           "param_str": ""
         }
       ],
       "failCond": [
         {
           "type": "QUEST_CONTENT_NOT_FINISH_PLOT",
-          "param": [42602, 0],
+          "param": [
+            42602,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -84,14 +99,20 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
-          "param": ["42601", "0"],
+          "param": [
+            "42601",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "failExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
-          "param": ["42601", "0"],
+          "param": [
+            "42601",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -111,15 +132,24 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["42602", "2"],
+          "param": [
+            "42602",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 4260101,
-      "npcId": [1005],
+      "npcId": [
+        1005
+      ],
       "performCfg": "",
       "questId": 426,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "preloadLuaList": [
+    "14457059026087496718"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

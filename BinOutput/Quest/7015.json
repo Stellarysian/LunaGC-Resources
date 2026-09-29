@@ -419,7 +419,10 @@
       "beginWay": "TALK_BEGIN_MANUAL",
       "performCfg": "QuestDialogue/AQ/Snezhnaya_7015/Q701514",
       "initDialog": 70151401,
-      "isRewind": true
+      "isRewind": true,
+      "nextTalks": [
+        701535
+      ]
     },
     {
       "npcId": [
@@ -599,7 +602,11 @@
       "beginWay": "TALK_BEGIN_MANUAL",
       "performCfg": "QuestDialogue/AQ/Snezhnaya_7015/Q701535",
       "initDialog": 70153501,
-      "isRewind": true
+      "isRewind": true,
+      "nextTalks": [
+        701536
+      ],
+      "beginCondComb": "LOGIC_OR"
     },
     {
       "npcId": [
@@ -635,7 +642,8 @@
       "beginWay": "TALK_BEGIN_MANUAL",
       "performCfg": "QuestDialogue/AQ/Snezhnaya_7015/Q701536",
       "isRewind": true,
-      "initDialog": 70153601
+      "initDialog": 70153601,
+      "beginCondComb": "LOGIC_OR"
     }
   ],
   "titleTextMapHash": 3253563239,
@@ -944,7 +952,16 @@
         11620002,
         37120909
       ],
-      "mainId": 7015
+      "mainId": 7015,
+      "finishExec": [
+        {
+          "param": [
+            "1158",
+            "201158008,2"
+          ],
+          "type": "QUEST_EXEC_REFRESH_GROUP_SUITE"
+        }
+      ]
     },
     {
       "finishCond": [
@@ -1326,7 +1343,8 @@
         11620002,
         37120909
       ],
-      "mainId": 7015
+      "mainId": 7015,
+      "stepDescTextMapHash": 2225230685
     },
     {
       "failExec": [
@@ -1707,7 +1725,27 @@
         11620002,
         37120909
       ],
-      "mainId": 7015
+      "mainId": 7015,
+      "failExec": [
+        {
+          "type": "QUEST_EXEC_UNLOCK_MIRROR_AVATAR_TEAM"
+        },
+        {
+          "param": [
+            "701519"
+          ],
+          "type": "QUEST_EXEC_ROLLBACK_QUEST"
+        }
+      ],
+      "failCond": [
+        {
+          "param": [
+            0,
+            0
+          ],
+          "type": "QUEST_CONTENT_ANY_MANUAL_TRANSPORT"
+        }
+      ]
     },
     {
       "failExec": [

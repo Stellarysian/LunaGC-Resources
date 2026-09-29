@@ -299,88 +299,103 @@
   "Albedo_Hexenzirkel_1": [
     {
       "$type": "AddAbility",
-      "abilityName": "Avatar_Albedo_HexenzirkelSkill"
+      "abilityName": "Avatar_Albedo_HexenzirkelSkill",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "AddAbility",
-      "abilityName": "Avatar_Albedo_HexenzirkelSkill_GadgetDetect"
+      "abilityName": "Avatar_Albedo_HexenzirkelSkill_GadgetDetect",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "Avatar_Albedo_HexenzirkelSkill",
-      "talentParam": "Albedo_Hexenzirkel"
+      "talentParam": "Albedo_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "Avatar_Albedo_Hexenzirkel_PermanentSkill_1",
-      "talentParam": "Albedo_Hexenzirkel"
+      "talentParam": "Albedo_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "SkillObj_Albedo_FuriousMonolith_Hexenzirkel",
-      "talentParam": "Albedo_Hexenzirkel"
+      "talentParam": "Albedo_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "SkillObj_Albedo_FuriousMonolith_Field",
-      "talentParam": "Albedo_Hexenzirkel"
+      "talentParam": "Albedo_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "Avatar_Albedo_AlchemicalBreakOut",
-      "talentParam": "Albedo_Hexenzirkel"
+      "talentParam": "Albedo_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "Avatar_Albedo_FullRockAlchemist",
-      "talentParam": "Albedo_Hexenzirkel"
+      "talentParam": "Albedo_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "Avatar_Albedo_FullRockAlchemist_Custom",
-      "talentParam": "Albedo_Hexenzirkel"
+      "talentParam": "Albedo_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Albedo_HexenzirkelSkill",
       "paramSpecial": "Ratio_OG",
       "paramDelta": "%1",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Albedo_HexenzirkelSkill",
       "paramSpecial": "Ratio_OG_Max",
       "paramDelta": "%2",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Albedo_HexenzirkelSkill",
       "paramSpecial": "Ratio_NG",
       "paramDelta": "%3",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Albedo_HexenzirkelSkill",
       "paramSpecial": "Ratio_NG_Max",
       "paramDelta": "%4",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Albedo_HexenzirkelSkill",
       "paramSpecial": "Ratio_OG_Duration",
       "paramDelta": "%5",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Albedo_HexenzirkelSkill",
       "paramSpecial": "Ratio_NG_Duration",
       "paramDelta": "%6",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     }
   ]
 }

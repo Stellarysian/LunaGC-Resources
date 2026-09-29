@@ -4,7 +4,9 @@
   "titleTextMapHash": 190334695,
   "descTextMapHash": 2714721998,
   "luaPath": "Actor/Quest/WQ70532",
-  "rewardIdList": [170532],
+  "rewardIdList": [
+    170532
+  ],
   "subQuests": [
     {
       "subId": 7053201,
@@ -14,13 +16,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7053201, 0],
+          "param": [
+            7053201,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30381"],
+        "param": [
+          "30381"
+        ],
         "guideScene": 3
       },
       "acceptCondComb": "LOGIC_NONE",
@@ -31,7 +38,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -49,17 +59,37 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7053201", "2"],
+          "param": [
+            "7053201",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 705320101,
-      "npcId": [30381],
+      "npcId": [
+        30381
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70532,
       "prePerformCfg": ""
+    }
+  ],
+  "activityId": 2022,
+  "HMJOIJHMGJD": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "suggestTrackOutOfOrder": true,
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE",
+  "dialogList": [
+    {
+      "id": 705321203,
+      "talkRole": {
+        "id": "30382",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1966393082
     }
   ]
 }

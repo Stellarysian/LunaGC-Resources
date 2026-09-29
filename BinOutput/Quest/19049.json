@@ -5,7 +5,9 @@
   "descTextMapHash": 5694358,
   "luaPath": "Actor/Quest/LQ19049",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [119049],
+  "rewardIdList": [
+    119049
+  ],
   "subQuests": [
     {
       "subId": 1904901,
@@ -16,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1905706, 3],
+          "param": [
+            1905706,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "0,24"
         }
       ],
@@ -56,5 +64,7 @@
         }
       ]
     }
-  ]
+  ],
+  "HGFFNBIGPJK": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

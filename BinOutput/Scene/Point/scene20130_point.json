@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "DungeonEntry",
@@ -33,7 +32,16 @@
       },
       "titleTextID": "UI_DUNGEON_ENTRY_560",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_DUNGEON_ENTRY_560"
     },
     "2": {
       "$type": "DungeonExit",
@@ -56,7 +64,9 @@
       },
       "unlocked": true,
       "specialTipsIconPath": "",
-      "entryPointId": 1
+      "entryPointId": 1,
+      "HMOHDOOAGOJ": 1,
+      "KBHKBGKIPII": true
     },
     "3": {
       "$type": "DungeonEntry",
@@ -90,7 +100,16 @@
       },
       "titleTextID": "UI_DUNGEON_ENTRY_561",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "forbidSimpleUnlock": true
+      "forbidSimpleUnlock": true,
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_DUNGEON_ENTRY_561",
+      "PFGLDOIBICE": true
     },
     "4": {
       "$type": "DungeonExit",
@@ -113,7 +132,9 @@
       },
       "unlocked": true,
       "specialTipsIconPath": "",
-      "entryPointId": 3
+      "entryPointId": 3,
+      "HMOHDOOAGOJ": 3,
+      "KBHKBGKIPII": true
     },
     "5": {
       "$type": "DungeonEntry",
@@ -144,7 +165,16 @@
       },
       "titleTextID": "UI_DUNGEON_ENTRY_562",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "forbidSimpleUnlock": true
+      "forbidSimpleUnlock": true,
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_DUNGEON_ENTRY_562",
+      "PFGLDOIBICE": true
     },
     "6": {
       "$type": "DungeonExit",
@@ -167,7 +197,9 @@
       },
       "unlocked": true,
       "specialTipsIconPath": "",
-      "entryPointId": 5
+      "entryPointId": 5,
+      "HMOHDOOAGOJ": 5,
+      "KBHKBGKIPII": true
     },
     "7": {
       "$type": "DungeonEntry",
@@ -220,7 +252,17 @@
       "titleTextID": "UI_ACTIVITY_ROGUEDIARY_DUNGEONENTRY",
       "inteeIcon": "UI_Icon_Intee_Talk",
       "dungeonEntryType": "RogueDiary",
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "EHFJCACBBME": "RogueDiary",
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_ACTIVITY_ROGUEDIARY_DUNGEONENTRY"
     },
     "8": {
       "$type": "PersonalSceneJumpPoint",
@@ -243,8 +285,15 @@
         "y": 3.0,
         "z": 3.0
       },
-      "closeTime": 24.0
+      "closeTime": 24.0,
+      "HJNIGDGMCCK": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "INIPMNIGDCG": 24
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500
 }

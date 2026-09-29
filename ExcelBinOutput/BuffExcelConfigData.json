@@ -3908,7 +3908,9 @@
     "name": "hot单回-4阶",
     "serverBuffId": 100401,
     "serverBuffType": "SERVER_BUFF_AVATAR",
-    "time": 31
+    "time": 31,
+    "isDelWhenLeaveScene": true,
+    "stackType": "BUFF_STACK"
   },
   {
     "abilityName": "ReHP_Ins&Con",
@@ -3919,7 +3921,9 @@
     "name": "hot单回-4阶",
     "serverBuffId": 100402,
     "serverBuffType": "SERVER_BUFF_AVATAR",
-    "time": 31
+    "time": 31,
+    "isDelWhenLeaveScene": true,
+    "stackType": "BUFF_STACK"
   },
   {
     "abilityName": "ReHP_Ins&Con",
@@ -3930,7 +3934,9 @@
     "name": "hot单回-4阶",
     "serverBuffId": 100403,
     "serverBuffType": "SERVER_BUFF_AVATAR",
-    "time": 31
+    "time": 31,
+    "isDelWhenLeaveScene": false,
+    "stackType": "BUFF_REFRESH"
   },
   {
     "abilityName": "ReHP_Ins&Con",
@@ -3941,7 +3947,9 @@
     "name": "hot单回-4阶",
     "serverBuffId": 100404,
     "serverBuffType": "SERVER_BUFF_AVATAR",
-    "time": 31
+    "time": 31,
+    "isDelWhenLeaveScene": false,
+    "stackType": "BUFF_REFRESH"
   },
   {
     "abilityName": "ReHP_Ins&Con",
@@ -3952,7 +3960,9 @@
     "name": "单回料理-3阶-特殊生活天赋",
     "serverBuffId": 108102,
     "serverBuffType": "SERVER_BUFF_AVATAR",
-    "time": 0.01
+    "time": 0.01,
+    "isDelWhenLeaveScene": false,
+    "stackType": "BUFF_REFRESH"
   },
   {
     "abilityName": "Fragrance_01_Team",
@@ -3963,7 +3973,9 @@
     "name": "特殊香氛",
     "serverBuffId": 109001,
     "serverBuffType": "SERVER_BUFF_TEAM",
-    "time": 3600
+    "time": 3600,
+    "isDelWhenLeaveScene": false,
+    "stackType": "BUFF_REFRESH"
   },
   {
     "abilityName": "ClimateAbility_ColdHideAndSeek",
@@ -3974,7 +3986,9 @@
     "name": "温度机制-躲猫猫低温Lv1",
     "serverBuffId": 300018,
     "serverBuffType": "SERVER_BUFF_TEAM",
-    "time": -1
+    "time": -1,
+    "isDelWhenLeaveScene": false,
+    "stackType": "BUFF_REFRESH"
   },
   {
     "abilityName": "ClimateAbility_ColdHideAndSeek",
@@ -3985,7 +3999,9 @@
     "name": "温度机制-躲猫猫低温Lv2",
     "serverBuffId": 300019,
     "serverBuffType": "SERVER_BUFF_TEAM",
-    "time": -1
+    "time": -1,
+    "isDelWhenLeaveScene": false,
+    "stackType": "BUFF_REFRESH"
   },
   {
     "abilityName": "ClimateAbility_ColdHideAndSeek",
@@ -3996,6 +4012,8 @@
     "name": "温度机制-躲猫猫低温常驻",
     "serverBuffId": 300020,
     "serverBuffType": "SERVER_BUFF_TEAM",
-    "time": -1
+    "time": -1,
+    "isDelWhenLeaveScene": false,
+    "stackType": "BUFF_REFRESH"
   }
 ]

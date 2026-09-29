@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "PersonalSceneJumpPoint",
@@ -29,7 +28,15 @@
         "y": 4.0,
         "z": 5.0
       },
-      "closeTime": 24.0
+      "closeTime": 24.0,
+      "HJNIGDGMCCK": {
+        "x": 6,
+        "y": 4,
+        "z": 5
+      },
+      "INIPMNIGDCG": 24,
+      "KBHKBGKIPII": true,
+      "OEKKLCFPCAO": "UI_SCENE_ENTRY_EXIT_NatlanArenaOffice"
     },
     "2": {
       "$type": "DungeonEntry",
@@ -61,7 +68,15 @@
       "inteeIcon": "UI_Icon_Intee_Talk",
       "CEHGBJHALAA": [
         5007
-      ]
+      ],
+      "BOMIAKHPJJI": true,
+      "EAAKMBAMNIA": [
+        5007
+      ],
+      "FPBBOEDKMIE": 1,
+      "GBPJFCLDKCA": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry"
     },
     "3": {
       "$type": "DungeonExit",
@@ -80,7 +95,9 @@
       },
       "specialTipsIconPath": "",
       "isModelHidden": true,
-      "entryPointId": 2
+      "entryPointId": 2,
+      "GBPJFCLDKCA": true,
+      "HMOHDOOAGOJ": 2
     },
     "4": {
       "$type": "DungeonEntry",
@@ -116,8 +133,19 @@
       "titleTextID": "UI_SCENE_ENTRY_EXIT_NatlanArenaOffice",
       "inteeIcon": "UI_NPCTopIcon_QuestTarget",
       "dungeonEntryType": "DirectEnter",
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "EHFJCACBBME": "DirectEnter",
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_SCENE_ENTRY_EXIT_NatlanArenaOffice"
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500
 }

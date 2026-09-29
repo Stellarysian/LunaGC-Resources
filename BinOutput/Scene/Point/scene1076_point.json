@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "PersonalSceneJumpPoint",
@@ -26,7 +25,15 @@
         "y": 5.0,
         "z": 2.5
       },
-      "closeTime": 24.0
+      "closeTime": 24.0,
+      "HJNIGDGMCCK": {
+        "x": 2.5,
+        "y": 5,
+        "z": 2.5
+      },
+      "INIPMNIGDCG": 24,
+      "KBHKBGKIPII": true,
+      "OEKKLCFPCAO": "UI_SCENE_ENTRY_EXIT_CattailTavern"
     },
     "2": {
       "$type": "DungeonEntry",
@@ -55,7 +62,12 @@
       "dungeonQuestConditionList": {},
       "titleTextID": "UI_STC_Intee_DungeonEntry",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "BOMIAKHPJJI": true,
+      "FPBBOEDKMIE": 1,
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry"
     },
     "3": {
       "$type": "DungeonExit",
@@ -74,7 +86,8 @@
         "z": 9.167730331420898
       },
       "specialTipsIconPath": "",
-      "entryPointId": 2
+      "entryPointId": 2,
+      "HMOHDOOAGOJ": 2
     },
     "4": {
       "$type": "DungeonEntry",
@@ -98,7 +111,12 @@
       "dungeonQuestConditionList": {},
       "titleTextID": "UI_STC_Intee_DungeonEntry",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "BOMIAKHPJJI": true,
+      "FPBBOEDKMIE": 1,
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry"
     },
     "5": {
       "$type": "DungeonExit",
@@ -117,7 +135,8 @@
         "z": 8.116352081298828
       },
       "specialTipsIconPath": "",
-      "entryPointId": 4
+      "entryPointId": 4,
+      "HMOHDOOAGOJ": 4
     },
     "6": {
       "$type": "HMJDOCFJACC",
@@ -134,7 +153,9 @@
       },
       "specialTipsIconPath": "",
       "buildingType": "GcgCat",
-      "showOnLockedArea": true
+      "showOnLockedArea": true,
+      "ELHIJCKBKOJ": "GcgCat",
+      "GHCGLHJFFFC": true
     },
     "7": {
       "$type": "HMJDOCFJACC",
@@ -151,7 +172,9 @@
       },
       "specialTipsIconPath": "",
       "buildingType": "GcgBoard",
-      "showOnLockedArea": true
+      "showOnLockedArea": true,
+      "ELHIJCKBKOJ": "GcgBoard",
+      "GHCGLHJFFFC": true
     },
     "8": {
       "$type": "PersonalSceneJumpPoint",
@@ -172,8 +195,11 @@
       "specialTipsIconPath": "",
       "tranSceneId": 3,
       "titleTextID": "",
-      "closeTime": 24.0
+      "closeTime": 24.0,
+      "INIPMNIGDCG": 24,
+      "KBHKBGKIPII": true
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500
 }

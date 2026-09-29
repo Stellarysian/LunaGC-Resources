@@ -61094,5 +61094,2404 @@
       -0.1,
       -0.5
     ]
+  },
+  {
+    "id": 100971,
+    "abilityName": "ActivityAbility_V6_7_Dive_SwitchSkill_Avatar",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Avatar_StaimCostPerLv",
+        "paramValue": -0.30000001192092896
+      },
+      {
+        "paramName": "Avatar_SpeedPerLv",
+        "paramValue": 0.15000000596046448
+      },
+      {
+        "paramName": "Avatar_DamageToRedPerLv",
+        "paramValue": 0.5
+      },
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Avatar_StaimCostPerLv",
+      "Avatar_SpeedPerLv",
+      "Avatar_DamageToRedPerLv"
+    ],
+    "paramValueList": [
+      -0.30000001192092896,
+      0.15000000596046448,
+      0.5
+    ]
+  },
+  {
+    "id": 100972,
+    "abilityName": "Avatar_V6_7_Absorb_SwordFishSlash_Range_Bullet",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Slash_Hold_Ratio",
+        "paramValue": 1.2000000476837158
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Slash_Hold_Ratio"
+    ],
+    "paramValueList": [
+      1.2000000476837158
+    ]
+  },
+  {
+    "id": 100973,
+    "abilityName": "Absorb_V6_7_TrackingMissile_Bullet",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Slash_Click_Ratio",
+        "paramValue": 1
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Slash_Click_Ratio"
+    ],
+    "paramValueList": [
+      1
+    ]
+  },
+  {
+    "id": 100974,
+    "abilityName": "Ability_V6_7_Avatar_Dive_CrabShield",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Crab_Click_Ratio",
+        "paramValue": 0.800000011920929
+      },
+      {
+        "paramName": "Crab_Hold_Ratio",
+        "paramValue": 1
+      },
+      {
+        "paramName": "Crab_Hold_TempDura",
+        "paramValue": -1
+      },
+      {
+        "paramName": "Crab_Click_TempDura",
+        "paramValue": -1
+      },
+      {}
+    ],
+    "paramNameList": [
+      "Crab_Click_Ratio",
+      "Crab_Hold_Ratio",
+      "Crab_Hold_TempDura",
+      "Crab_Click_TempDura"
+    ],
+    "paramValueList": [
+      0.800000011920929,
+      1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": 100975,
+    "abilityName": "Absorb_V6_7_CrabShield_Back_Bullet_01",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Crab_BackBullet_Ratio",
+        "paramValue": 2
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Crab_BackBullet_Ratio"
+    ],
+    "paramValueList": [
+      2
+    ]
+  },
+  {
+    "id": 100976,
+    "abilityName": "Absorb_V6_7_SealEcho_Bullet_01",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Seal_Hold_Ratio",
+        "paramValue": 0.6000000238418579
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Seal_Hold_Ratio"
+    ],
+    "paramValueList": [
+      0.6000000238418579
+    ]
+  },
+  {
+    "id": 100977,
+    "abilityName": "Absorb_V6_7_SealEcho_Bullet_02",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Seal_Click_Ratio",
+        "paramValue": 1
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Seal_Click_Ratio"
+    ],
+    "paramValueList": [
+      1
+    ]
+  },
+  {
+    "id": 100978,
+    "abilityName": "Absorb_V6_7_Echo_Bullet_Super",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Seal_Super_Ratio",
+        "paramValue": 1.7999999523162842
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Seal_Super_Ratio"
+    ],
+    "paramValueList": [
+      1.7999999523162842
+    ]
+  },
+  {
+    "id": 100979,
+    "abilityName": "Avatar_V6_7_DiveSkill_Octopus",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "TickDamageRatio",
+        "paramValue": 0.6000000238418579
+      },
+      {
+        "paramName": "Lightning_DamageRatio",
+        "paramValue": 0.30000001192092896
+      },
+      {
+        "paramName": "Octopus_Hold_TempDura",
+        "paramValue": -1
+      },
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "TickDamageRatio",
+      "Lightning_DamageRatio",
+      "Octopus_Hold_TempDura"
+    ],
+    "paramValueList": [
+      0.6000000238418579,
+      0.30000001192092896,
+      -1
+    ]
+  },
+  {
+    "id": 100980,
+    "abilityName": "Ability_V6_7_Absorb_JellyfishBomb_Short",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "JellyfishBomb_Click_Ratio",
+        "paramValue": 1
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "JellyfishBomb_Click_Ratio"
+    ],
+    "paramValueList": [
+      1
+    ]
+  },
+  {
+    "id": 100981,
+    "abilityName": "Ability_V6_7_Absorb_JellyfishBomb_Hold",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "JellyfishBomb_Hold_Ratio",
+        "paramValue": 2
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "JellyfishBomb_Hold_Ratio"
+    ],
+    "paramValueList": [
+      2
+    ]
+  },
+  {
+    "id": 100982,
+    "abilityName": "Ability_V6_7_Absorb_JellyfishBomb_Little",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "JellyfishBomb_Little_Ratio",
+        "paramValue": 0.5
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "JellyfishBomb_Little_Ratio"
+    ],
+    "paramValueList": [
+      0.5
+    ]
+  },
+  {
+    "id": 100983,
+    "abilityName": "ActivityAbility_V6_7_Dive_Avatar",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "NormalAttack_Ratio",
+        "paramValue": 0.10000000149011612
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "NormalAttack_Ratio"
+    ],
+    "paramValueList": [
+      0.10000000149011612
+    ]
+  },
+  {
+    "id": 100984,
+    "abilityName": "ActivityAbility_V6_7_Dive_Consumable_Item_AddSpeed",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Consumable_Item_AddSpeed",
+        "paramValue": 0.10000000149011612
+      },
+      {
+        "paramName": "Dura",
+        "paramValue": 15
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Consumable_Item_AddSpeed",
+      "Dura"
+    ],
+    "paramValueList": [
+      0.10000000149011612,
+      15
+    ]
+  },
+  {
+    "id": 100985,
+    "abilityName": "ActivityAbility_V6_7_Dive_Consumable_Item_AddHurt",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Consumable_Item_AddHurt",
+        "paramValue": 0.20000000298023224
+      },
+      {
+        "paramName": "Dura",
+        "paramValue": 30
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Consumable_Item_AddHurt",
+      "Dura"
+    ],
+    "paramValueList": [
+      0.20000000298023224,
+      30
+    ]
+  },
+  {
+    "id": 100986,
+    "abilityName": "ActivityAbility_V6_7_Dive_Consumable_Item_AddTempDura",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Consumable_Item_AddTempDura",
+        "paramValue": 5
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Consumable_Item_AddTempDura"
+    ],
+    "paramValueList": [
+      5
+    ]
+  },
+  {
+    "id": 100987,
+    "abilityName": "Avatar_V6_7_Absorb_SwordFishSlash",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Slash_Hold_TempDura",
+        "paramValue": -1
+      },
+      {
+        "paramName": "Slash_Click_TempDura",
+        "paramValue": -1
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Slash_Hold_TempDura",
+      "Slash_Click_TempDura"
+    ],
+    "paramValueList": [
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": 100988,
+    "abilityName": "Ability_V6_7_Avatar_Dive_SealEcho",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Seal_Hold_TempDura",
+        "paramValue": -1
+      },
+      {
+        "paramName": "Seal_Click_TempDura",
+        "paramValue": -2
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Seal_Hold_TempDura",
+      "Seal_Click_TempDura"
+    ],
+    "paramValueList": [
+      -1,
+      -2
+    ]
+  },
+  {
+    "id": 100989,
+    "abilityName": "Ability_V6_7_Avatar_Dive_JellyfishBomb",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Jellyfish_Hold_TempDura",
+        "paramValue": -2
+      },
+      {
+        "paramName": "Jellyfish_Click_TempDura",
+        "paramValue": -1
+      },
+      {
+        "paramName": "LV10_CriticalHurt_Ratio",
+        "paramValue": 2
+      },
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Jellyfish_Hold_TempDura",
+      "Jellyfish_Click_TempDura",
+      "LV10_CriticalHurt_Ratio"
+    ],
+    "paramValueList": [
+      -2,
+      -1,
+      2
+    ]
+  },
+  {
+    "id": 100990,
+    "abilityName": "Avatar_V6_7_Absorb_SwordFishSlash_Range_Bullet_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Slash_Hold_Ratio",
+        "paramValue": 1.2000000476837158
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Slash_Hold_Ratio"
+    ],
+    "paramValueList": [
+      1.2000000476837158
+    ]
+  },
+  {
+    "id": 100991,
+    "abilityName": "ActivityAbility_V7_1_Summoning_Challenge_Level_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Elemental_Damage_Ratio",
+        "paramValue": 0.4000000059604645
+      },
+      {
+        "paramName": "CritHurt",
+        "paramValue": 0.6000000238418579
+      },
+      {
+        "paramName": "Time",
+        "paramValue": 6
+      },
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Elemental_Damage_Ratio",
+      "CritHurt",
+      "Time"
+    ],
+    "paramValueList": [
+      0.4000000059604645,
+      0.6000000238418579,
+      6
+    ]
+  },
+  {
+    "id": 100992,
+    "abilityName": "ActivityAbility_V7_1_Summoning_Challenge_Level_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "MasteryUp",
+        "paramValue": 180
+      },
+      {
+        "paramName": "Time1",
+        "paramValue": 6
+      },
+      {
+        "paramName": "StarConductDamageRatio",
+        "paramValue": 0.4000000059604645
+      },
+      {
+        "paramName": "Time2",
+        "paramValue": 6
+      },
+      {}
+    ],
+    "paramNameList": [
+      "MasteryUp",
+      "Time1",
+      "StarConductDamageRatio",
+      "Time2"
+    ],
+    "paramValueList": [
+      180,
+      6,
+      0.4000000059604645,
+      6
+    ]
+  },
+  {
+    "id": 100993,
+    "abilityName": "ActivityAbility_V7_1_Summoning_Challenge_Level_3",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "AttackUp",
+        "paramValue": 0.15000000596046448
+      },
+      {
+        "paramName": "Time1",
+        "paramValue": 6
+      },
+      {
+        "paramName": "Count",
+        "paramValue": 4
+      },
+      {
+        "paramName": "SubHurtDown",
+        "paramValue": 0.5
+      },
+      {
+        "paramName": "Time2",
+        "paramValue": 6
+      }
+    ],
+    "paramNameList": [
+      "AttackUp",
+      "Time1",
+      "Count",
+      "SubHurtDown",
+      "Time2"
+    ],
+    "paramValueList": [
+      0.15000000596046448,
+      6,
+      4,
+      0.5,
+      6
+    ]
+  },
+  {
+    "id": 100994,
+    "abilityName": "ActivityAbility_V7_1_Summoning_Challenge_Level_4",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "AttackUp",
+        "paramValue": 0.6000000238418579
+      },
+      {
+        "paramName": "CD",
+        "paramValue": 3
+      },
+      {
+        "paramName": "CJB_Ratio",
+        "paramValue": 9
+      },
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "AttackUp",
+      "CD",
+      "CJB_Ratio"
+    ],
+    "paramValueList": [
+      0.6000000238418579,
+      3,
+      9
+    ]
+  },
+  {
+    "id": 100995,
+    "abilityName": "ActivityAbility_V7_1_Summoning_Challenge_Level_5",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Elemental_Damage_Ratio",
+        "paramValue": 0.75
+      },
+      {
+        "paramName": "Time",
+        "paramValue": 6
+      },
+      {
+        "paramName": "AtkUpRate",
+        "paramValue": 0.75
+      },
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Elemental_Damage_Ratio",
+      "Time",
+      "AtkUpRate"
+    ],
+    "paramValueList": [
+      0.75,
+      6,
+      0.75
+    ]
+  },
+  {
+    "id": 100996,
+    "abilityName": "ActivityAbility_CharMaster_Tartaglia_WindZone_Gadget",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "WindZone_Dura",
+        "paramValue": 150
+      },
+      {
+        "paramName": "WindZone_Strength",
+        "paramValue": 20
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "WindZone_Dura",
+      "WindZone_Strength"
+    ],
+    "paramValueList": [
+      150,
+      20
+    ]
+  },
+  {
+    "id": 100997,
+    "abilityName": "ActivityAbility_CharMaster_Tartaglia_01_A",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Critical_Delta_A",
+        "paramValue": 0.05000000074505806
+      },
+      {
+        "paramName": "CriticalHurt_Delta_A",
+        "paramValue": 0.15000000596046448
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Critical_Delta_A",
+      "CriticalHurt_Delta_A"
+    ],
+    "paramValueList": [
+      0.05000000074505806,
+      0.15000000596046448
+    ]
+  },
+  {
+    "id": 100998,
+    "abilityName": "ActivityAbility_CharMaster_Tartaglia_01_B",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Critical_Delta_B",
+        "paramValue": 0.10000000149011612
+      },
+      {
+        "paramName": "CriticalHurt_Delta_B",
+        "paramValue": 0.30000001192092896
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Critical_Delta_B",
+      "CriticalHurt_Delta_B"
+    ],
+    "paramValueList": [
+      0.10000000149011612,
+      0.30000001192092896
+    ]
+  },
+  {
+    "id": 100999,
+    "abilityName": "ActivityAbility_CharMaster_Tartaglia_01_C",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Critical_Delta_C",
+        "paramValue": 0.5
+      },
+      {
+        "paramName": "CriticalHurt_Delta_C",
+        "paramValue": 4
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Critical_Delta_C",
+      "CriticalHurt_Delta_C"
+    ],
+    "paramValueList": [
+      0.5,
+      4
+    ]
+  },
+  {
+    "id": 101000,
+    "abilityName": "ActivityAbility_CharMaster_Xiao_01_HP_recover",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HealRatio",
+        "paramValue": 0.10000000149011612
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HealRatio"
+    ],
+    "paramValueList": [
+      0.10000000149011612
+    ]
+  },
+  {
+    "id": 101001,
+    "abilityName": "ActivityAbility_CharMaster_Xiao_01_Energy_recover",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "TickTime",
+        "paramValue": 2
+      },
+      {
+        "paramName": "EnergyRatio",
+        "paramValue": 0.20000000298023224
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "TickTime",
+      "EnergyRatio"
+    ],
+    "paramValueList": [
+      2,
+      0.20000000298023224
+    ]
+  },
+  {
+    "id": 101002,
+    "abilityName": "LevelBuff_LoopDungeon_StarSuperconductor_7_0",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "CJB_Damage",
+        "paramValue": 40
+      },
+      {
+        "paramName": "CJB_CD",
+        "paramValue": 5
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "CJB_Damage",
+      "CJB_CD"
+    ],
+    "paramValueList": [
+      40,
+      5
+    ]
+  },
+  {
+    "id": 101003,
+    "abilityName": "LevelBuff_LoopDungeon_ElemReactSwirlUp_StarSwirlUp_7_0",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "SwirlUp_Ratio",
+        "paramValue": 2
+      },
+      {
+        "paramName": "StarSwirlUp_Ratio",
+        "paramValue": 0.6000000238418579
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "SwirlUp_Ratio",
+      "StarSwirlUp_Ratio"
+    ],
+    "paramValueList": [
+      2,
+      0.6000000238418579
+    ]
+  },
+  {
+    "id": 101004,
+    "abilityName": "LevelBuff_LoopDungeon_ElemReactIce_7_0",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "BuffTime",
+        "paramValue": 10
+      },
+      {
+        "paramName": "ElemMasteryDelta",
+        "paramValue": 250
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "BuffTime",
+      "ElemMasteryDelta"
+    ],
+    "paramValueList": [
+      10,
+      250
+    ]
+  },
+  {
+    "id": 101005,
+    "abilityName": "ActivityAbility_RankedMatchSnowBall_Buff_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "DamageUpRatio",
+        "paramValue": 0.75
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "DamageUpRatio"
+    ],
+    "paramValueList": [
+      0.75
+    ]
+  },
+  {
+    "id": 101006,
+    "abilityName": "ActivityAbility_RankedMatchSnowBall_Buff_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "DamageUpRatio",
+        "paramValue": 0.75
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "DamageUpRatio"
+    ],
+    "paramValueList": [
+      0.75
+    ]
+  },
+  {
+    "id": 101007,
+    "abilityName": "ActivityAbility_RankedMatchSnowBall_Buff_3",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "DamageUpRatio",
+        "paramValue": 0.75
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "DamageUpRatio"
+    ],
+    "paramValueList": [
+      0.75
+    ]
+  },
+  {
+    "id": 101008,
+    "abilityName": "ActivityAbility_RankedMatchSnowBall_Buff_4",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "DamageUpRatio",
+        "paramValue": 0.75
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "DamageUpRatio"
+    ],
+    "paramValueList": [
+      0.75
+    ]
+  },
+  {
+    "id": 200713,
+    "abilityName": "Monster_Monitor_Heal",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HealInterVal",
+        "paramValue": 0.20000000298023224
+      },
+      {
+        "paramName": "HealValue",
+        "paramValue": 0.009999999776482582
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HealInterVal",
+      "HealValue"
+    ],
+    "paramValueList": [
+      0.20000000298023224,
+      0.009999999776482582
+    ]
+  },
+  {
+    "id": 200714,
+    "abilityName": "MonsterAffix_TPSMercenaries_HpUp",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio_Lv1"
+      },
+      {
+        "paramName": "HPRatio_Lv2",
+        "paramValue": 1
+      },
+      {
+        "paramName": "HPRatio_Lv3",
+        "paramValue": 2
+      },
+      {
+        "paramName": "HPRatio_Lv4",
+        "paramValue": 3.5
+      },
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio_Lv1",
+      "HPRatio_Lv2",
+      "HPRatio_Lv3",
+      "HPRatio_Lv4"
+    ],
+    "paramValueList": [
+      0,
+      1,
+      2,
+      3.5
+    ]
+  },
+  {
+    "id": 200715,
+    "abilityName": "MonsterAffix_TPSMercenaries_AttackUp",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "AttackRatio_Lv1",
+        "paramValue": 0.4000000059604645
+      },
+      {
+        "paramName": "AttackRatio_Lv2",
+        "paramValue": 0.800000011920929
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "AttackRatio_Lv1",
+      "AttackRatio_Lv2"
+    ],
+    "paramValueList": [
+      0.4000000059604645,
+      0.800000011920929
+    ]
+  },
+  {
+    "id": 200716,
+    "abilityName": "Activity_V7_0_TpsDefense_DamageBuff",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "DamageInterval",
+        "paramValue": 5
+      },
+      {
+        "paramName": "DamageValue",
+        "paramValue": 150
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "DamageInterval",
+      "DamageValue"
+    ],
+    "paramValueList": [
+      5,
+      150
+    ]
+  },
+  {
+    "id": 200717,
+    "abilityName": "Activity_V7_0_TpsDefense_HealBuff",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HealInterval",
+        "paramValue": 5
+      },
+      {
+        "paramName": "HealRatio",
+        "paramValue": 0.0625
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HealInterval",
+      "HealRatio"
+    ],
+    "paramValueList": [
+      5,
+      0.0625
+    ]
+  },
+  {
+    "id": 200718,
+    "abilityName": "Activity_V7_0_TpsDefense_LeadershipBuff",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "ResistanceUpRatio",
+        "paramValue": 0.5
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "ResistanceUpRatio"
+    ],
+    "paramValueList": [
+      0.5
+    ]
+  },
+  {
+    "id": 200719,
+    "abilityName": "Activity_V7_0_TpsDefense_FuryBuff",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "FuryHPRatio",
+        "paramValue": 0.75
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "FuryHPRatio"
+    ],
+    "paramValueList": [
+      0.75
+    ]
+  },
+  {
+    "id": 200720,
+    "abilityName": "MonsterAffix_Properties_Snowball_Stage1_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.699999988079071
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      0.699999988079071,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 200721,
+    "abilityName": "MonsterAffix_Properties_Snowball_Stage1_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 6.5
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      6.5,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 200722,
+    "abilityName": "MonsterAffix_Properties_Snowball_Stage2_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 1
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      1,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 200723,
+    "abilityName": "MonsterAffix_Properties_Snowball_Stage2_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 2.4000000953674316
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      2.4000000953674316,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 200724,
+    "abilityName": "MonsterAffix_Properties_Snowball_Stage3_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.5
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      0.5,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 200725,
+    "abilityName": "MonsterAffix_Properties_Snowball_Stage3_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 6.5
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      6.5,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 200726,
+    "abilityName": "MonsterAffix_Properties_Snowball_Stage4_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 1
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      1,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 200727,
+    "abilityName": "MonsterAffix_Properties_Snowball_Stage4_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 2.4000000953674316
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      2.4000000953674316,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 200728,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Tartaglia_HiliShooter",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": -0.8999999761581421
+      },
+      {
+        "paramName": "AtkRatio"
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      -0.8999999761581421,
+      0
+    ]
+  },
+  {
+    "id": 200729,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Tartaglia_Hili",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.30000001192092896
+      },
+      {
+        "paramName": "AtkRatio"
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      0.30000001192092896,
+      0
+    ]
+  },
+  {
+    "id": 200730,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Tartaglia_Hili02",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": -0.5
+      },
+      {
+        "paramName": "AtkRatio"
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      -0.5,
+      0
+    ]
+  },
+  {
+    "id": 200731,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Tartaglia_Elite",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.10000000149011612
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.5
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      0.10000000149011612,
+      -0.5
+    ]
+  },
+  {
+    "id": 200732,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Tartaglia_Invoker",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.699999988079071
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      -0.10000000149011612,
+      -0.699999988079071
+    ]
+  },
+  {
+    "id": 200733,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Tartaglia_Defender",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": -0.20000000298023224
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.5
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      -0.20000000298023224,
+      -0.5
+    ]
+  },
+  {
+    "id": 200734,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Xiao_Round1_Hili",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": -0.30000001192092896
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.30000001192092896
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      -0.30000001192092896,
+      -0.30000001192092896
+    ]
+  },
+  {
+    "id": 200735,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Xiao_Round1_Brute",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": -0.5
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.30000001192092896
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      -0.5,
+      -0.30000001192092896
+    ]
+  },
+  {
+    "id": 200736,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Xiao_Round2_Hili&Slime",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.25
+      },
+      {
+        "paramName": "AtkRatio"
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      0.25,
+      0
+    ]
+  },
+  {
+    "id": 200737,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Xiao_Round2_Abyss",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.5
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.5
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      0.5,
+      -0.5
+    ]
+  },
+  {
+    "id": 200738,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Xiao_Round2_Defender",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.5
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.5
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      0.5,
+      -0.5
+    ]
+  },
+  {
+    "id": 200739,
+    "abilityName": "Monsteraffix_Properties_ForCharMaster_Xiao_Round2_VolcanoWeasel",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 1
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.5
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      1,
+      -0.5
+    ]
+  },
+  {
+    "id": 200740,
+    "abilityName": "Activity_V7_0_TpsDefense_Level1_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.20000000298023224
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.20000000298023224
+    ]
+  },
+  {
+    "id": 200741,
+    "abilityName": "Activity_V7_0_TpsDefense_Level1_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.6000000238418579
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.6000000238418579
+    ]
+  },
+  {
+    "id": 200742,
+    "abilityName": "Activity_V7_0_TpsDefense_Level2_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.20000000298023224
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.20000000298023224
+    ]
+  },
+  {
+    "id": 200743,
+    "abilityName": "Activity_V7_0_TpsDefense_Level2_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.4000000059604645
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.4000000059604645
+    ]
+  },
+  {
+    "id": 200744,
+    "abilityName": "Activity_V7_0_TpsDefense_Level3_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.20000000298023224
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.20000000298023224
+    ]
+  },
+  {
+    "id": 200745,
+    "abilityName": "Activity_V7_0_TpsDefense_Level3_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.6000000238418579
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.6000000238418579
+    ]
+  },
+  {
+    "id": 200746,
+    "abilityName": "Activity_V7_0_TpsDefense_Level4_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.30000001192092896
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.30000001192092896
+    ]
+  },
+  {
+    "id": 200747,
+    "abilityName": "Activity_V7_0_TpsDefense_Level4_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.699999988079071
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.699999988079071
+    ]
+  },
+  {
+    "id": 200748,
+    "abilityName": "Activity_V7_0_TpsDefense_Level5_1",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.30000001192092896
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.30000001192092896
+    ]
+  },
+  {
+    "id": 200749,
+    "abilityName": "Activity_V7_0_TpsDefense_Level5_2",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.699999988079071
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio"
+    ],
+    "paramValueList": [
+      0.699999988079071
+    ]
+  },
+  {
+    "id": 200750,
+    "abilityName": "MonsterAffix_TPSMercenaries_ProtectLord_Slave",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "AttackRatio",
+        "paramValue": 0.15000000596046448
+      },
+      {
+        "paramName": "SubHurtDelta",
+        "paramValue": 0.15000000596046448
+      },
+      {
+        "paramName": "TriggerGap",
+        "paramValue": 10
+      },
+      {
+        "paramName": "HealRatio",
+        "paramValue": 0.05000000074505806
+      },
+      {}
+    ],
+    "paramNameList": [
+      "AttackRatio",
+      "SubHurtDelta",
+      "TriggerGap",
+      "HealRatio"
+    ],
+    "paramValueList": [
+      0.15000000596046448,
+      0.15000000596046448,
+      10,
+      0.05000000074505806
+    ]
+  },
+  {
+    "id": 700063,
+    "abilityName": "SceneObj_Activity_Aquarium_AbilityFishCannon_Bullet_Player",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Value_DamageRate",
+        "paramValue": 1
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Value_DamageRate"
+    ],
+    "paramValueList": [
+      1
+    ]
+  },
+  {
+    "id": 700064,
+    "abilityName": "SceneObj_Activity_Aquarium_FDBombbarrel_03",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Value_DamageRate",
+        "paramValue": 1
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Value_DamageRate"
+    ],
+    "paramValueList": [
+      1
+    ]
+  },
+  {
+    "id": 700065,
+    "abilityName": "SceneObj_Area_Dungeon_Property_Ani_Prop_MasteryAmplifyArtifact_01",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Value_DamageRate",
+        "paramValue": 1
+      },
+      {
+        "paramName": "Element_Durability",
+        "paramValue": 100
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "Value_DamageRate",
+      "Element_Durability"
+    ],
+    "paramValueList": [
+      1,
+      100
+    ]
+  },
+  {
+    "id": 700066,
+    "abilityName": "DynamicAbility_V7_0_Mastery_MasteryDamageBlock_Team",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HurtHP_Ratio",
+        "paramValue": 0.00800000037997961
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HurtHP_Ratio"
+    ],
+    "paramValueList": [
+      0.00800000037997961
+    ]
+  },
+  {
+    "id": 700067,
+    "abilityName": "SceneObj_Area_Dungeon_Property_Ani_Prop_AbyssDirtyPolymer_Bullet",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HurtHP_Ratio",
+        "paramValue": 0.03999999910593033
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HurtHP_Ratio"
+    ],
+    "paramValueList": [
+      0.03999999910593033
+    ]
+  },
+  {
+    "id": 700068,
+    "abilityName": "Team_Activity_MXJXH_Snowball_LevelUp",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Lv1_Energy"
+      },
+      {
+        "paramName": "Lv2_Energy",
+        "paramValue": 3000
+      },
+      {
+        "paramName": "Lv3_Energy",
+        "paramValue": 7500
+      },
+      {
+        "paramName": "Lv4_Energy",
+        "paramValue": 13500
+      },
+      {
+        "paramName": "Lv5_Energy",
+        "paramValue": 13501
+      }
+    ],
+    "paramNameList": [
+      "Lv1_Energy",
+      "Lv2_Energy",
+      "Lv3_Energy",
+      "Lv4_Energy",
+      "Lv5_Energy",
+      "Lv6_Energy"
+    ],
+    "paramValueList": [
+      0,
+      3000,
+      7500,
+      13500,
+      13501,
+      13502
+    ]
+  },
+  {
+    "id": 700069,
+    "abilityName": "SceneObj_Area_Zd_Property_Ani_Prop_Snowball_Activity_01",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "Lv1_DamageRatio",
+        "paramValue": 166.2767791748047
+      },
+      {
+        "paramName": "Lv2_DamageRatio",
+        "paramValue": 166.2767791748047
+      },
+      {
+        "paramName": "Lv3_DamageRatio",
+        "paramValue": 166.2767791748047
+      },
+      {
+        "paramName": "Lv4_DamageRatio",
+        "paramValue": 166.2767791748047
+      },
+      {
+        "paramName": "Lv5_DamageRatio",
+        "paramValue": 166.2767791748047
+      }
+    ],
+    "paramNameList": [
+      "Lv1_DamageRatio",
+      "Lv2_DamageRatio",
+      "Lv3_DamageRatio",
+      "Lv4_DamageRatio",
+      "Lv5_DamageRatio",
+      "Lv6_DamageRatio"
+    ],
+    "paramValueList": [
+      166.2767791748047,
+      166.2767791748047,
+      166.2767791748047,
+      166.2767791748047,
+      166.2767791748047,
+      166.2767791748047
+    ]
+  },
+  {
+    "id": 700070,
+    "abilityName": "Monster_7_1_SummonBattle_Mandragora_Elite",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "damageRatio_level_1",
+        "paramValue": 13.856398582458496
+      },
+      {
+        "paramName": "damageRatio_level_2",
+        "paramValue": 38.10509490966797
+      },
+      {
+        "paramName": "damageRatio_level_3",
+        "paramValue": 51.96149444580078
+      },
+      {
+        "paramName": "damageRatio_level_4",
+        "paramValue": 69.28199005126953
+      },
+      {
+        "paramName": "damageRatio_level_5",
+        "paramValue": 115.46998596191406
+      }
+    ],
+    "paramNameList": [
+      "damageRatio_level_1",
+      "damageRatio_level_2",
+      "damageRatio_level_3",
+      "damageRatio_level_4",
+      "damageRatio_level_5",
+      "damageRatio_level_6"
+    ],
+    "paramValueList": [
+      13.856398582458496,
+      38.10509490966797,
+      51.96149444580078,
+      69.28199005126953,
+      115.46998596191406,
+      207.84597778320312
+    ]
+  },
+  {
+    "id": 700071,
+    "abilityName": "Monster_7_1_SummonBattle_ToothTrap",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "damageRatio_level_1",
+        "paramValue": 18.706138610839844
+      },
+      {
+        "paramName": "damageRatio_level_2",
+        "paramValue": 51.44187927246094
+      },
+      {
+        "paramName": "damageRatio_level_3",
+        "paramValue": 77.94224548339844
+      },
+      {
+        "paramName": "damageRatio_level_4",
+        "paramValue": 103.92298889160156
+      },
+      {
+        "paramName": "damageRatio_level_5",
+        "paramValue": 138.56398010253906
+      }
+    ],
+    "paramNameList": [
+      "damageRatio_level_1",
+      "damageRatio_level_2",
+      "damageRatio_level_3",
+      "damageRatio_level_4",
+      "damageRatio_level_5",
+      "damageRatio_level_6"
+    ],
+    "paramValueList": [
+      18.706138610839844,
+      51.44187927246094,
+      77.94224548339844,
+      103.92298889160156,
+      138.56398010253906,
+      249.41517639160156
+    ]
+  },
+  {
+    "id": 700072,
+    "abilityName": "Monster_7_1_SummonBattle_Tribalwarrior_Female_Standard_Launcher_Shamansaurus",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "damageRatio_level_1",
+        "paramValue": 14.964911460876465
+      },
+      {
+        "paramName": "damageRatio_level_2",
+        "paramValue": 41.15350341796875
+      },
+      {
+        "paramName": "damageRatio_level_3",
+        "paramValue": 46.76534652709961
+      },
+      {
+        "paramName": "damageRatio_level_4",
+        "paramValue": 62.35379409790039
+      },
+      {
+        "paramName": "damageRatio_level_5",
+        "paramValue": 83.13838958740234
+      }
+    ],
+    "paramNameList": [
+      "damageRatio_level_1",
+      "damageRatio_level_2",
+      "damageRatio_level_3",
+      "damageRatio_level_4",
+      "damageRatio_level_5",
+      "damageRatio_level_6"
+    ],
+    "paramValueList": [
+      14.964910507202148,
+      41.15350341796875,
+      46.76534652709961,
+      62.35379409790039,
+      83.13838958740234,
+      149.64910888671875
+    ]
+  },
+  {
+    "id": 700073,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level1_Common",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 1
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      1,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 700074,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level1_Boss",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 841.227294921875
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.30000001192092896
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      841.227294921875,
+      -0.30000001192092896
+    ]
+  },
+  {
+    "id": 700075,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level2_Common",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 1
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      1,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 700076,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level2_Boss",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 689.402587890625
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.30000001192092896
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      689.402587890625,
+      -0.30000001192092896
+    ]
+  },
+  {
+    "id": 700077,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level3_Common",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.75
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      0.75,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 700078,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level3_Boss",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 759.71142578125
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.30000001192092896
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      759.71142578125,
+      -0.30000001192092896
+    ]
+  },
+  {
+    "id": 700079,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level4_Common",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 0.5
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      0.5,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 700080,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level4_Boss",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 764.6611328125
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.30000001192092896
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      764.6611328125,
+      -0.30000001192092896
+    ]
+  },
+  {
+    "id": 700081,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level5_Common",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 1
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.10000000149011612
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      1,
+      -0.10000000149011612
+    ]
+  },
+  {
+    "id": 700082,
+    "abilityName": "MonsterAffix_7_1_SummonBattle_Property_Modify_Level5_Boss",
+    "abilitySpecialParamConfig": [
+      {
+        "paramName": "HPRatio",
+        "paramValue": 708.2440185546875
+      },
+      {
+        "paramName": "AtkRatio",
+        "paramValue": -0.30000001192092896
+      },
+      {},
+      {},
+      {}
+    ],
+    "paramNameList": [
+      "HPRatio",
+      "AtkRatio"
+    ],
+    "paramValueList": [
+      708.2440185546875,
+      -0.30000001192092896
+    ]
   }
 ]

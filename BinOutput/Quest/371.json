@@ -4,8 +4,12 @@
   "titleTextMapHash": 500475441,
   "descTextMapHash": 3024589647,
   "luaPath": "Actor/Quest/MQ371",
-  "suggestTrackMainQuestList": [372],
-  "rewardIdList": [100371],
+  "suggestTrackMainQuestList": [
+    372
+  ],
+  "rewardIdList": [
+    100371
+  ],
   "chapterId": 1002,
   "subQuests": [
     {
@@ -16,14 +20,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37005, 3],
+          "param": [
+            37005,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ENTER_MY_WORLD",
-          "param": [3, 0],
+          "param": [
+            3,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -35,7 +45,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371PaimonTemp"],
+        "param": [
+          "Q371PaimonTemp"
+        ],
         "guideScene": 3
       },
       "isRewind": true,
@@ -66,14 +78,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37101, 3],
+          "param": [
+            37101,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [37101, 0],
+          "param": [
+            37101,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -85,7 +103,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1243"],
+        "param": [
+          "1243"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -118,14 +138,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37102, 3],
+          "param": [
+            37102,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37103, 0],
+          "param": [
+            37103,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -137,7 +163,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyFootPrint1"],
+        "param": [
+          "Q371WendyFootPrint1"
+        ],
         "guideScene": 3
       },
       "finishExec": [
@@ -167,14 +195,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37103, 3],
+          "param": [
+            37103,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [37109, 0],
+          "param": [
+            37109,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -186,7 +220,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1243"],
+        "param": [
+          "1243"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -219,14 +255,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37104, 3],
+          "param": [
+            37104,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37105, 0],
+          "param": [
+            37105,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -238,7 +280,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyFootPrint1", "30"],
+        "param": [
+          "Q371WendyFootPrint1",
+          "30"
+        ],
         "guideScene": 3
       },
       "finishExec": [
@@ -269,14 +314,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37105, 3],
+          "param": [
+            37105,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37106, 0],
+          "param": [
+            37106,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -288,7 +339,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyTrigger1", "30"],
+        "param": [
+          "Q371WendyTrigger1",
+          "30"
+        ],
         "guideScene": 3
       },
       "finishExec": [
@@ -319,14 +373,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37106, 3],
+          "param": [
+            37106,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37107, 0],
+          "param": [
+            37107,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -338,7 +398,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyTrigger2", "30"],
+        "param": [
+          "Q371WendyTrigger2",
+          "30"
+        ],
         "guideScene": 3
       },
       "finishExec": [
@@ -369,14 +432,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37107, 3],
+          "param": [
+            37107,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37108, 0],
+          "param": [
+            37108,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -388,7 +457,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyTrigger3", "30"],
+        "param": [
+          "Q371WendyTrigger3",
+          "30"
+        ],
         "guideScene": 3
       },
       "finishExec": [
@@ -419,14 +491,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37108, 3],
+          "param": [
+            37108,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37109, 0],
+          "param": [
+            37109,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -438,7 +516,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyTrigger4", "30"],
+        "param": [
+          "Q371WendyTrigger4",
+          "30"
+        ],
         "guideScene": 3
       },
       "finishExec": [
@@ -469,14 +550,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37109, 3],
+          "param": [
+            37109,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37110, 0],
+          "param": [
+            37110,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -488,7 +575,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyTrigger5", "30"],
+        "param": [
+          "Q371WendyTrigger5",
+          "30"
+        ],
         "guideScene": 3
       },
       "finishExec": [
@@ -519,14 +609,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37110, 3],
+          "param": [
+            37110,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37111, 0],
+          "param": [
+            37111,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -538,7 +634,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyTrigger6", "30"],
+        "param": [
+          "Q371WendyTrigger6",
+          "30"
+        ],
         "guideScene": 3
       },
       "finishExec": [
@@ -569,14 +668,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37111, 3],
+          "param": [
+            37111,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37112, 0],
+          "param": [
+            37112,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -588,7 +693,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyTrigger7", "30"],
+        "param": [
+          "Q371WendyTrigger7",
+          "30"
+        ],
         "guideScene": 3
       },
       "finishExec": [
@@ -619,14 +727,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37112, 3],
+          "param": [
+            37112,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [37113, 0],
+          "param": [
+            37113,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -638,7 +752,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q371WendyTrigger8", "30"],
+        "param": [
+          "Q371WendyTrigger8",
+          "30"
+        ],
         "guideScene": 3
       },
       "finishParent": true,
@@ -670,14 +787,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37108, 3],
+          "param": [
+            37108,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_TRIGGER_FIRE",
-          "param": [1094, 0],
+          "param": [
+            1094,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -717,19 +840,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [37114, 3],
+          "param": [
+            37114,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_NOT_EQUAL",
-          "param": [37109, 3],
+          "param": [
+            37109,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [37115, 0],
+          "param": [
+            37115,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -769,18 +901,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["37101", "3"],
+          "param": [
+            "37101",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["37102", "2"],
+          "param": [
+            "37102",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 1,
       "initDialog": 3710101,
-      "npcId": [1243],
+      "npcId": [
+        1243
+      ],
       "performCfg": "QuestDialogue/AQ/Mengde2_371/Q37101",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 371,
@@ -793,12 +933,17 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["37104", "2"],
+          "param": [
+            "37104",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 3710901,
-      "npcId": [1243],
+      "npcId": [
+        1243
+      ],
       "performCfg": "QuestDialogue/AQ/Mengde2_371/Q37109",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 371,
@@ -812,21 +957,44 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["37115", "2"],
+          "param": [
+            "37115",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["37109", "2"],
+          "param": [
+            "37109",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 3711501,
-      "npcId": [1243],
+      "npcId": [
+        1243
+      ],
       "performCfg": "QuestDialogue/AQ/Mengde2_371/Q37114",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 371,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "12578590938656763069"
+  ],
+  "preloadLuaList": [
+    "14457059026087496718",
+    "3088369788188086520",
+    "10587339486349636529",
+    "15560299607623809312",
+    "5532570263440286850",
+    "12635641093359255357",
+    "11704391601558843792",
+    "6790143153082649294"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 1002
 }

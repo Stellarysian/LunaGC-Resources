@@ -11,7 +11,9 @@
       "order": 1,
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30225"],
+        "param": [
+          "30225"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_UI"
@@ -24,7 +26,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -34,5 +39,7 @@
       "finishExec": [],
       "failExec": []
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

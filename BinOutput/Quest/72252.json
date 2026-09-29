@@ -16,7 +16,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7216701, 3],
+          "param": [
+            7216701,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -24,7 +27,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "HG_Fog_Trigger",
           "count": 1
         }
@@ -66,7 +72,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7225201, 3],
+          "param": [
+            7225201,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -74,7 +83,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7225201, 0],
+          "param": [
+            7225201,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -116,17 +128,25 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7225202", "2"],
+          "param": [
+            "7225202",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 722520101,
-      "npcId": [1005],
+      "npcId": [
+        1005
+      ],
       "performCfg": "QuestDialogue/WQ/Inazuma_72167/Q7225201",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72252,
       "prePerformCfg": "",
       "lockGameTime": true
     }
+  ],
+  "preloadLuaList": [
+    "14457059026087496718"
   ]
 }

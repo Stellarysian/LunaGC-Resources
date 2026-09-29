@@ -312,7 +312,8 @@
       "questId": 7016,
       "performCfg": "QuestDialogue/AQ/Snezhnaya_7016/Q701610",
       "isRewind": true,
-      "initDialog": 70161001
+      "initDialog": 70161001,
+      "beginWay": "TALK_BEGIN_MANUAL"
     },
     {
       "npcId": [
@@ -980,7 +981,8 @@
         37090927,
         37120916
       ],
-      "mainId": 7016
+      "mainId": 7016,
+      "guideTipsTextMapHash": 1586802302
     },
     {
       "finishCond": [
@@ -1055,7 +1057,8 @@
         37050920,
         37090927
       ],
-      "mainId": 7016
+      "mainId": 7016,
+      "isRewind": true
     },
     {
       "finishCond": [
@@ -1114,7 +1117,8 @@
       "exclusivePlaceList": [
         37090927
       ],
-      "mainId": 7016
+      "mainId": 7016,
+      "isRewind": true
     },
     {
       "finishCond": [

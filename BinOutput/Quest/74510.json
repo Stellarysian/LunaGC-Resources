@@ -4,24 +4,33 @@
   "titleTextMapHash": 3911235759,
   "descTextMapHash": 2152881558,
   "luaPath": "Actor/Quest/WQ74510",
-  "rewardIdList": [174510],
+  "rewardIdList": [
+    174510
+  ],
   "subQuests": [
     {
       "subId": 7451001,
       "mainId": 74510,
       "order": 2,
       "descTextMapHash": 3465898076,
-      "HIABBDKJOHM": [340111],
+      "HIABBDKJOHM": [
+        340111
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7451001, 0],
+          "param": [
+            7451001,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30419"],
+        "param": [
+          "30419"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -36,7 +45,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -53,7 +65,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [1, 0],
+          "param": [
+            1,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -67,7 +82,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -85,13 +103,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7451001", "2"],
+          "param": [
+            "7451001",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 745100101,
-      "npcId": [30419, 30416],
+      "npcId": [
+        30419,
+        30416
+      ],
       "performCfg": "QuestDialogue/WQ/V4.2FungusFighterV3/Q7451001",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74510,
@@ -99,5 +123,15 @@
       "lockGameTime": true,
       "forceNpcNotDestroy": true
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "11506496780924430149"
+  ],
+  "activityId": 5166,
+  "showRedPoint": true,
+  "preloadLuaList": [
+    "7640369303345605310"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

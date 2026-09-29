@@ -4,8 +4,13 @@
   "titleTextMapHash": 2026488279,
   "descTextMapHash": 4182890918,
   "luaPath": "Actor/Quest/WQ73253",
-  "suggestTrackMainQuestList": [73254, 73256],
-  "rewardIdList": [173253],
+  "suggestTrackMainQuestList": [
+    73254,
+    73256
+  ],
+  "rewardIdList": [
+    173253
+  ],
   "chapterId": 10121,
   "subQuests": [
     {
@@ -18,14 +23,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -45,14 +56,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -62,5 +79,12 @@
       "failExec": [],
       "guide": {}
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "7384951192891420664"
+  ],
+  "preloadLuaList": [
+    "7261877307330563991"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
 }

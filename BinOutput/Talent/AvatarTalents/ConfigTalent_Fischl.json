@@ -236,68 +236,78 @@
   "Fischl_Hexenzirkel_1": [
     {
       "$type": "AddAbility",
-      "abilityName": "Avatar_Fischl_HexenzirkelSkill"
+      "abilityName": "Avatar_Fischl_HexenzirkelSkill",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Fischl_HexenzirkelSkill",
       "paramSpecial": "Explode_Dura",
       "paramDelta": "%1",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Fischl_HexenzirkelSkill",
       "paramSpecial": "AttackRatio",
       "paramDelta": "%2",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Fischl_HexenzirkelSkill",
       "paramSpecial": "Shock_Dura",
       "paramDelta": "%3",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Fischl_HexenzirkelSkill",
       "paramSpecial": "Mastery",
       "paramDelta": "%4",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "UnlockTalentParam",
       "abilityName": "Avatar_Fischl_Skill_S_Crow_Handle",
-      "talentParam": "Fischl_Hexenzirkel"
+      "talentParam": "Fischl_Hexenzirkel",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Fischl_Skill_S_Crow_Handle",
       "paramSpecial": "AttackRatio",
       "paramDelta": "%2",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Fischl_Skill_S_Crow_Handle",
       "paramSpecial": "Mastery",
       "paramDelta": "%4",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Fischl_PressShoot",
       "paramSpecial": "AttackRatio",
       "paramDelta": "%2",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Fischl_PressShoot",
       "paramSpecial": "Mastery",
       "paramDelta": "%4",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true
     }
   ]
 }

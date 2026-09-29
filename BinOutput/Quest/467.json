@@ -4,7 +4,9 @@
   "titleTextMapHash": 2621545049,
   "descTextMapHash": 3459088143,
   "luaPath": "Actor/Quest/IQ467",
-  "rewardIdList": [100467],
+  "rewardIdList": [
+    100467
+  ],
   "subQuests": [
     {
       "subId": 46701,
@@ -15,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [36004, 3],
+          "param": [
+            36004,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_TRIGGER_FIRE",
-          "param": [1093, 0],
+          "param": [
+            1093,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -52,7 +60,9 @@
           "param_str": ""
         }
       ],
-      "sharedNpcList": [1479],
+      "sharedNpcList": [
+        1479
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -63,14 +73,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [46701, 3],
+          "param": [
+            46701,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [46701, 0],
+          "param": [
+            46701,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -82,7 +98,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1479"],
+        "param": [
+          "1479"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -106,7 +124,9 @@
           "param_str": ""
         }
       ],
-      "sharedNpcList": [1479],
+      "sharedNpcList": [
+        1479
+      ],
       "exclusiveNpcPriority": 1100,
       "gainItems": [
         {
@@ -123,14 +143,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [46702, 3],
+          "param": [
+            46702,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_ANY_TALK",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "46703,46711,46712,46713"
         }
       ],
@@ -142,7 +168,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1479"],
+        "param": [
+          "1479"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -167,7 +195,9 @@
           "param_str": ""
         }
       ],
-      "sharedNpcList": [1479],
+      "sharedNpcList": [
+        1479
+      ],
       "exclusiveNpcPriority": 1100
     }
   ],
@@ -179,13 +209,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["46702", "2"],
+          "param": [
+            "46702",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 4670101,
-      "npcId": [1479],
+      "npcId": [
+        1479
+      ],
       "performCfg": "QuestDialogue/WQ/Mengde_467/Q46701",
       "questId": 467,
       "prePerformCfg": ""
@@ -198,23 +233,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["46703", "2"],
+          "param": [
+            "46703",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PACK_HAVE_ITEM",
-          "param": ["100011", "1"],
+          "param": [
+            "100011",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PACK_HAVE_ITEM",
-          "param": ["100064", "1"],
+          "param": [
+            "100064",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 4,
       "initDialog": 4670201,
-      "npcId": [1479],
+      "npcId": [
+        1479
+      ],
       "performCfg": "",
       "questId": 467,
       "prePerformCfg": ""
@@ -227,18 +273,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["46703", "2"],
+          "param": [
+            "46703",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PACK_HAVE_ITEM",
-          "param": ["108011", "1"],
+          "param": [
+            "108011",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 4670301,
-      "npcId": [1479],
+      "npcId": [
+        1479
+      ],
       "performCfg": "QuestDialogue/WQ/Mengde_467/Q46703",
       "questId": 467,
       "prePerformCfg": ""
@@ -251,18 +305,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["46703", "2"],
+          "param": [
+            "46703",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PACK_HAVE_ITEM",
-          "param": ["108012", "1"],
+          "param": [
+            "108012",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 4671101,
-      "npcId": [1479],
+      "npcId": [
+        1479
+      ],
       "performCfg": "QuestDialogue/WQ/Mengde_467/Q46711",
       "questId": 467,
       "prePerformCfg": ""
@@ -275,18 +337,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["46703", "2"],
+          "param": [
+            "46703",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PACK_HAVE_ITEM",
-          "param": ["108013", "1"],
+          "param": [
+            "108013",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 4671201,
-      "npcId": [1479],
+      "npcId": [
+        1479
+      ],
       "performCfg": "QuestDialogue/WQ/Mengde_467/Q46712",
       "questId": 467,
       "prePerformCfg": ""
@@ -299,18 +369,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["46703", "2"],
+          "param": [
+            "46703",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PACK_HAVE_ITEM",
-          "param": ["108014", "1"],
+          "param": [
+            "108014",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 4671301,
-      "npcId": [1479],
+      "npcId": [
+        1479
+      ],
       "performCfg": "QuestDialogue/WQ/Mengde_467/Q46713",
       "questId": 467,
       "prePerformCfg": ""
@@ -321,13 +399,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["46703", "2"],
+          "param": [
+            "46703",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 3,
       "initDialog": 4670801,
-      "npcId": [1479],
+      "npcId": [
+        1479
+      ],
       "performCfg": "",
       "questId": 467,
       "prePerformCfg": ""
@@ -338,13 +421,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["46703", "2"],
+          "param": [
+            "46703",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 3,
       "initDialog": 4670901,
-      "npcId": [1479],
+      "npcId": [
+        1479
+      ],
       "performCfg": "",
       "questId": 467,
       "prePerformCfg": ""
@@ -355,16 +443,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["46703", "2"],
+          "param": [
+            "46703",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 3,
       "initDialog": 4671001,
-      "npcId": [1479],
+      "npcId": [
+        1479
+      ],
       "performCfg": "",
       "questId": 467,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "14457059026087496718",
+    "10841700135441927722"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

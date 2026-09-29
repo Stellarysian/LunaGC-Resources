@@ -19,14 +19,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -45,7 +51,10 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["99902", "3"],
+          "param": [
+            "99902",
+            "3"
+          ],
           "param_str": ""
         }
       ],
@@ -56,5 +65,12 @@
       "questId": 40105,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "1052": [
+      1120
+    ]
+  },
+  "activityId": 2020,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

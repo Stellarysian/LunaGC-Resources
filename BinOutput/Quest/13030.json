@@ -5,8 +5,12 @@
   "titleTextMapHash": 2787772271,
   "descTextMapHash": 1310414790,
   "luaPath": "Actor/Quest/LQ13030",
-  "suggestTrackMainQuestList": [13031],
-  "rewardIdList": [113030],
+  "suggestTrackMainQuestList": [
+    13031
+  ],
+  "rewardIdList": [
+    113030
+  ],
   "chapterId": 2038,
   "subQuests": [
     {
@@ -14,18 +18,28 @@
       "mainId": 13030,
       "order": 1,
       "descTextMapHash": 766629524,
-      "exclusivePlaceList": [322001, 322002, 320906, 330312],
+      "exclusivePlaceList": [
+        322001,
+        322002,
+        320906,
+        330312
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1303001, 0],
+          "param": [
+            1303001,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q1303001_xiaogong"],
+        "param": [
+          "Q1303001_xiaogong"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -37,7 +51,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -51,18 +68,27 @@
       "mainId": 13030,
       "order": 2,
       "descTextMapHash": 128842020,
-      "exclusivePlaceList": [322002, 320906, 330312],
+      "exclusivePlaceList": [
+        322002,
+        320906,
+        330312
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [1303002, 0],
+          "param": [
+            1303002,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["[3_320900499:-2520.067,202.021,-3645.274]"],
+        "param": [
+          "[3_320900499:-2520.067,202.021,-3645.274]"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -74,7 +100,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -88,18 +117,31 @@
       "mainId": 13030,
       "order": 4,
       "descTextMapHash": 974773148,
-      "exclusivePlaceList": [330312, 330220, 330209, 330208, 330236, 330235],
+      "exclusivePlaceList": [
+        330312,
+        330220,
+        330209,
+        330208,
+        330236,
+        330235
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1303003, 0],
+          "param": [
+            1303003,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q1303003_SHOP", "20"],
+        "param": [
+          "Q1303003_SHOP",
+          "20"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -111,7 +153,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -125,18 +170,30 @@
       "mainId": 13030,
       "order": 5,
       "descTextMapHash": 2494639260,
-      "exclusivePlaceList": [330312, 330220, 330209, 330208, 330236, 330235],
+      "exclusivePlaceList": [
+        330312,
+        330220,
+        330209,
+        330208,
+        330236,
+        330235
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1303004, 0],
+          "param": [
+            1303004,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q1303004_XIAOGONG"],
+        "param": [
+          "Q1303004_XIAOGONG"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -146,7 +203,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133304597", "0"],
+          "param": [
+            "133304597",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -155,7 +215,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -168,18 +231,30 @@
       "mainId": 13030,
       "order": 6,
       "descTextMapHash": 4235486380,
-      "exclusivePlaceList": [330209, 330208, 330236, 330220, 330235],
+      "exclusivePlaceList": [
+        330209,
+        330208,
+        330236,
+        330220,
+        330235
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1303006, 0],
+          "param": [
+            1303006,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q1303005_NXD", "20"],
+        "param": [
+          "Q1303005_NXD",
+          "20"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -191,7 +266,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -208,14 +286,19 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1303006, 0],
+          "param": [
+            1303006,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q1303006_PAIMON"],
+        "param": [
+          "Q1303006_PAIMON"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -228,7 +311,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -242,18 +328,28 @@
       "mainId": 13030,
       "order": 8,
       "descTextMapHash": 910181580,
-      "exclusivePlaceList": [330259, 330218, 330219],
+      "exclusivePlaceList": [
+        330259,
+        330218,
+        330219
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1303007, 0],
+          "param": [
+            1303007,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q1303007_XIAOGONG", "20"],
+        "param": [
+          "Q1303007_XIAOGONG",
+          "20"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -266,7 +362,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -280,18 +379,25 @@
       "mainId": 13030,
       "order": 3,
       "descTextMapHash": 3640412292,
-      "exclusivePlaceList": [330312],
+      "exclusivePlaceList": [
+        330312
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1303002, 0],
+          "param": [
+            1303002,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q1303002_XIAOGONG"],
+        "param": [
+          "Q1303002_XIAOGONG"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -303,7 +409,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -321,18 +430,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303001", "2"],
+          "param": [
+            "1303001",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130300101,
-      "npcId": [3035, 1035],
+      "npcId": [
+        3035,
+        1035
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303001",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
       "prePerformCfg": "",
-      "crowdLOD0List": [1]
+      "crowdLOD0List": [
+        1
+      ]
     },
     {
       "id": 1303002,
@@ -341,18 +458,25 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303009", "2"],
+          "param": [
+            "1303009",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130300201,
-      "npcId": [1035],
+      "npcId": [
+        1035
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303002",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
       "prePerformCfg": "",
-      "crowdLOD0List": [1]
+      "crowdLOD0List": [
+        1
+      ]
     },
     {
       "id": 1303003,
@@ -361,13 +485,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303003", "2"],
+          "param": [
+            "1303003",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130300301,
-      "npcId": [30213, 1035],
+      "npcId": [
+        30213,
+        1035
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303003",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -380,13 +510,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303004", "2"],
+          "param": [
+            "1303004",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130300401,
-      "npcId": [1035],
+      "npcId": [
+        1035
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303004",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -399,14 +534,22 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303005", "2"],
+          "param": [
+            "1303005",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 10,
-      "nextTalks": [1303081, 1303080],
+      "nextTalks": [
+        1303081,
+        1303080
+      ],
       "initDialog": 130300501,
-      "npcId": [1056],
+      "npcId": [
+        1056
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303005",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -418,13 +561,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303005", "2"],
+          "param": [
+            "1303005",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130300601,
-      "npcId": [1005],
+      "npcId": [
+        1005
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303006",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -437,13 +585,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303007", "2"],
+          "param": [
+            "1303007",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130300701,
-      "npcId": [1035, 13261],
+      "npcId": [
+        1035,
+        13261
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303007",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -456,13 +610,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303002", "2"],
+          "param": [
+            "1303002",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130300901,
-      "npcId": [3035],
+      "npcId": [
+        3035
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303009",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -475,13 +634,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303004", "2"],
+          "param": [
+            "1303004",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130301301,
-      "npcId": [30213],
+      "npcId": [
+        30213
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303013",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -494,13 +658,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303005", "2"],
+          "param": [
+            "1303005",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130301501,
-      "npcId": [1035],
+      "npcId": [
+        1035
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303015",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -514,29 +683,45 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303005", "2"],
+          "param": [
+            "1303005",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["4008110", "1"],
+          "param": [
+            "4008110",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["4010006", "1"],
+          "param": [
+            "4010006",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["1915001", "1"],
+          "param": [
+            "1915001",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [1303082],
+      "nextTalks": [
+        1303082
+      ],
       "initDialog": 130300503,
-      "npcId": [1056],
+      "npcId": [
+        1056
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303080",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -549,14 +734,21 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303005", "2"],
+          "param": [
+            "1303005",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [1303082],
+      "nextTalks": [
+        1303082
+      ],
       "initDialog": 130300502,
-      "npcId": [1056],
+      "npcId": [
+        1056
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303081",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
@@ -569,18 +761,90 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1303005", "2"],
+          "param": [
+            "1303005",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [1303006],
+      "nextTalks": [
+        1303006
+      ],
       "initDialog": 130300504,
-      "npcId": [1056],
+      "npcId": [
+        1056
+      ],
       "performCfg": "QuestDialogue/LQ/Yoimiya_13030/Q1303082",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13030,
       "prePerformCfg": ""
+    }
+  ],
+  "freeStyleDic": {
+    "1035": [
+      1190
+    ]
+  },
+  "forcePreloadLuaList": [
+    "11547184220931239077"
+  ],
+  "HGFFNBIGPJK": true,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "4035838849706616330"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 2039,
+  "dialogList": [
+    {
+      "id": 130300163,
+      "talkRole": {
+        "id": "3035",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 914591370
+    },
+    {
+      "id": 130300333,
+      "talkRole": {
+        "id": "30213",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 101270442
+    },
+    {
+      "id": 130300425,
+      "talkRole": {
+        "id": "1035",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3333365282
+    },
+    {
+      "id": 130309901,
+      "talkRole": {
+        "id": "30213",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 723994610
+    },
+    {
+      "id": 130309902,
+      "talkRole": {
+        "id": "30213",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2504620970
+    },
+    {
+      "id": 130309905,
+      "talkRole": {
+        "id": "1035",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1496532922
     }
   ]
 }

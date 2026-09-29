@@ -17,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -43,17 +49,23 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7334501", "2"],
+          "param": [
+            "7334501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 733450101,
-      "npcId": [20927],
+      "npcId": [
+        20927
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73345/Q7334501",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73345,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
 }

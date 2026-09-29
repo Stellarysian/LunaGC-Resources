@@ -5,7 +5,9 @@
   "descTextMapHash": 3645858790,
   "luaPath": "Actor/Quest/WQ40030",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [172002],
+  "rewardIdList": [
+    172002
+  ],
   "subQuests": [
     {
       "subId": 7200201,
@@ -16,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4003409, 3],
+          "param": [
+            4003409,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [4003410, 3],
+          "param": [
+            4003410,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -56,5 +64,7 @@
         }
       ]
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

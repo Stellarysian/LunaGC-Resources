@@ -5,7 +5,9 @@
   "descTextMapHash": 307697094,
   "luaPath": "Actor/Quest/WQ74214",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [174213],
+  "rewardIdList": [
+    174213
+  ],
   "subQuests": [
     {
       "subId": 7421401,
@@ -15,7 +17,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
@@ -31,7 +36,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -40,5 +48,6 @@
       "finishExec": [],
       "failExec": []
     }
-  ]
+  ],
+  "showRedPoint": true
 }

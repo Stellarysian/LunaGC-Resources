@@ -18,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -47,14 +53,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -76,14 +88,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -105,14 +123,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -134,14 +158,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -163,14 +193,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -192,14 +228,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -219,18 +261,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7333506", "2"],
+          "param": [
+            "7333506",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7323201", "0"],
+          "param": [
+            "7323201",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 733350701,
-      "npcId": [20987],
+      "npcId": [
+        20987
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73335/Q7333507",
       "questId": 73335,
       "prePerformCfg": ""
@@ -243,21 +293,109 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7333506", "2"],
+          "param": [
+            "7333506",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7323201", "1"],
+          "param": [
+            "7323201",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 733350801,
-      "npcId": [20987],
+      "npcId": [
+        20987
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73335/Q7333508",
       "questId": 73335,
       "prePerformCfg": ""
+    }
+  ],
+  "dialogList": [
+    {
+      "talkRoleNameTextMapHash": 217755459,
+      "nextDialogs": [
+        733350302
+      ],
+      "id": 733350301,
+      "talkRole": {
+        "id": "20969",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1775206202
+    },
+    {
+      "talkRoleNameTextMapHash": 4153227987,
+      "nextDialogs": [
+        733350303
+      ],
+      "id": 733350302,
+      "talkRole": {
+        "id": "1005",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1837711018
+    },
+    {
+      "talkRoleNameTextMapHash": 3480618987,
+      "id": 733350303,
+      "talkRole": {
+        "id": "20969",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2488143538
+    },
+    {
+      "talkRoleNameTextMapHash": 2464925563,
+      "nextDialogs": [
+        733350502
+      ],
+      "id": 733350501,
+      "talkRole": {
+        "id": "20969",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2034086642
+    },
+    {
+      "talkRoleNameTextMapHash": 1472013171,
+      "nextDialogs": [
+        733350503
+      ],
+      "id": 733350502,
+      "talkRole": {
+        "id": "20969",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3816306658
+    },
+    {
+      "talkRoleNameTextMapHash": 241318539,
+      "nextDialogs": [
+        733350504
+      ],
+      "id": 733350503,
+      "talkRole": {
+        "id": "20969",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1576256058
+    },
+    {
+      "talkRoleNameTextMapHash": 1844207307,
+      "id": 733350504,
+      "talkRole": {
+        "id": "1005",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1652520778
     }
   ]
 }

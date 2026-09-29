@@ -671,5 +671,15 @@
   "KJBJDKALING": "UI_QuestSign_ReputationSnez",
   "LCBNMMFPDFH": true,
   "descTextMapHash": 1730613782,
-  "mainQuestTag": "MAINQUEST_TAG_SNEZ_QUEEN"
+  "mainQuestTag": "MAINQUEST_TAG_SNEZ_QUEEN",
+  "dialogList": [
+    {
+      "id": 776660201,
+      "talkRole": {
+        "id": "1005",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1259470738
+    }
+  ]
 }

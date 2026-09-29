@@ -15,14 +15,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_MAIN_COOP_ENTER_SAVE_POINT",
-          "param": [102701, 10301],
+          "param": [
+            102701,
+            10301
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_MAIN_COOP_ENTER_SAVE_POINT",
-          "param": [102701, 501],
+          "param": [
+            102701,
+            501
+          ],
           "param_str": ""
         }
       ],
@@ -34,7 +40,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["2083"],
+        "param": [
+          "2083"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -55,11 +63,17 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
-          "param": ["1913101", "1"],
+          "param": [
+            "1913101",
+            "1"
+          ],
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [2083, 10211],
+      "exclusiveNpcList": [
+        2083,
+        10211
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -70,14 +84,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1913501, 3],
+          "param": [
+            1913501,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_MAIN_COOP_ENTER_SAVE_POINT",
-          "param": [102701, 502],
+          "param": [
+            102701,
+            502
+          ],
           "param_str": ""
         }
       ],
@@ -89,7 +109,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["2020"],
+        "param": [
+          "2020"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -113,7 +135,11 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [2083, 2020, 10211],
+      "exclusiveNpcList": [
+        2083,
+        2020,
+        10211
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -124,14 +150,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1913502, 3],
+          "param": [
+            1913502,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_MAIN_COOP_ENTER_SAVE_POINT",
-          "param": [102701, 3],
+          "param": [
+            102701,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -143,7 +175,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["507"],
+        "param": [
+          "507"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -153,7 +187,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
-          "param": ["1913101", "0"],
+          "param": [
+            "1913101",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -166,13 +203,21 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
-          "param": ["1913101", "1"],
+          "param": [
+            "1913101",
+            "1"
+          ],
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [2020, 10211],
+      "exclusiveNpcList": [
+        2020,
+        10211
+      ],
       "exclusiveNpcPriority": 1100,
-      "exclusivePlaceList": [40036]
+      "exclusivePlaceList": [
+        40036
+      ]
     }
   ],
   "talks": [
@@ -183,13 +228,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1913502", "2"],
+          "param": [
+            "1913502",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 191350401,
-      "npcId": [2083],
+      "npcId": [
+        2083
+      ],
       "performCfg": "QuestDialogue/COOP/CoopNingguang/Q1913504",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 19135,
@@ -202,17 +252,25 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1913503", "2"],
+          "param": [
+            "1913503",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 191350501,
-      "npcId": [2020],
+      "npcId": [
+        2020
+      ],
       "performCfg": "QuestDialogue/COOP/CoopNingguang/Q1913505",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 19135,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "HGFFNBIGPJK": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 3012
 }

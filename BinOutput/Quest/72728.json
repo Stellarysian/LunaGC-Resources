@@ -4,8 +4,12 @@
   "titleTextMapHash": 4242650287,
   "descTextMapHash": 2819034646,
   "luaPath": "Actor/Quest/WQ72728",
-  "suggestTrackMainQuestList": [40090],
-  "rewardIdList": [172728],
+  "suggestTrackMainQuestList": [
+    40090
+  ],
+  "rewardIdList": [
+    172728
+  ],
   "subQuests": [
     {
       "subId": 7272801,
@@ -17,14 +21,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -44,14 +54,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -71,14 +87,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -97,13 +119,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7272803", "2"],
+          "param": [
+            "7272803",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 727280101,
-      "npcId": [1005],
+      "npcId": [
+        1005
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72728,
@@ -116,17 +143,32 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7272802", "2"],
+          "param": [
+            "7272802",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 727280201,
-      "npcId": [1005],
+      "npcId": [
+        1005
+      ],
       "performCfg": "QuestDialogue/WQ/Brick_72728/Q7272802",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72728,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "2798368791814912434"
+  ],
+  "activityId": 2018,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "14457059026087496718",
+    "11093613987685198717"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

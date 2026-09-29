@@ -16,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4000205, 3],
+          "param": [
+            4000205,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4000703, 0],
+          "param": [
+            4000703,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -52,7 +58,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [10205],
+      "exclusiveNpcList": [
+        10205
+      ],
       "exclusiveNpcPriority": 1050
     },
     {
@@ -64,21 +72,30 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4000703, 3],
+          "param": [
+            4000703,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4000701, 0],
+          "param": [
+            4000701,
+            0
+          ],
           "param_str": ""
         }
       ],
       "failCond": [
         {
           "type": "QUEST_CONTENT_NOT_FINISH_PLOT",
-          "param": [4000701, 0],
+          "param": [
+            4000701,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -102,7 +119,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [10205],
+      "exclusiveNpcList": [
+        10205
+      ],
       "exclusiveNpcPriority": 1050
     },
     {
@@ -114,21 +133,30 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4000701, 3],
+          "param": [
+            4000701,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4000702, 0],
+          "param": [
+            4000702,
+            0
+          ],
           "param_str": ""
         }
       ],
       "failCond": [
         {
           "type": "QUEST_CONTENT_NOT_FINISH_PLOT",
-          "param": [4000702, 0],
+          "param": [
+            4000702,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -136,7 +164,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
-          "param": ["4000701", "0"],
+          "param": [
+            "4000701",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -152,7 +183,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [10205],
+      "exclusiveNpcList": [
+        10205
+      ],
       "exclusiveNpcPriority": 1050
     },
     {
@@ -164,21 +197,30 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4000703, 3],
+          "param": [
+            4000703,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4000704, 0],
+          "param": [
+            4000704,
+            0
+          ],
           "param_str": ""
         }
       ],
       "failCond": [
         {
           "type": "QUEST_CONTENT_NOT_FINISH_PLOT",
-          "param": [4000701, 0],
+          "param": [
+            4000701,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -213,21 +255,43 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4000701", "2"],
+          "param": [
+            "4000701",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4000702", "2"],
+          "param": [
+            "4000702",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400020801,
-      "npcId": [10205],
+      "npcId": [
+        10205
+      ],
       "performCfg": "QuestDialogue/EQ/Sealamp1_40002/Q4000208",
       "questId": 40007,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "10205": [
+      1280
+    ]
+  },
+  "forcePreloadLuaList": [
+    "6734397233118567582",
+    "1155864748680695470"
+  ],
+  "preloadLuaList": [
+    "10645300292928738537",
+    "1134720382046399899"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

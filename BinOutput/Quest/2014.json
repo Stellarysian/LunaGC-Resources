@@ -4,8 +4,12 @@
   "titleTextMapHash": 4016615943,
   "descTextMapHash": 960288382,
   "luaPath": "Actor/Quest/AQ2014",
-  "suggestTrackMainQuestList": [2015],
-  "rewardIdList": [102014],
+  "suggestTrackMainQuestList": [
+    2015
+  ],
+  "rewardIdList": [
+    102014
+  ],
   "chapterId": 1204,
   "subQuests": [
     {
@@ -16,7 +20,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [201009, 3],
+          "param": [
+            201009,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -24,12 +31,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [201401, 0],
+          "param": [
+            201401,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "1332110013",
           "count": 1
         }
@@ -42,7 +55,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q201401Target"],
+        "param": [
+          "Q201401Target"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -63,11 +78,16 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
-          "param": ["3", "133211001"],
+          "param": [
+            "3",
+            "133211001"
+          ],
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1037],
+      "exclusiveNpcList": [
+        1037
+      ],
       "exclusiveNpcPriority": 1000
     },
     {
@@ -79,14 +99,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [201402, 0],
+          "param": [
+            201402,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -98,7 +124,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1005"],
+        "param": [
+          "1005"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -121,7 +149,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1037],
+      "exclusiveNpcList": [
+        1037
+      ],
       "exclusiveNpcPriority": 1000
     },
     {
@@ -132,14 +162,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [201401, 3],
+          "param": [
+            201401,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "1332110011",
           "count": 1
         }
@@ -152,7 +188,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q201403Target", "50"],
+        "param": [
+          "Q201403Target",
+          "50"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -172,11 +211,16 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
-          "param": ["3", "133211001"],
+          "param": [
+            "3",
+            "133211001"
+          ],
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1037],
+      "exclusiveNpcList": [
+        1037
+      ],
       "exclusiveNpcPriority": 1000
     },
     {
@@ -187,14 +231,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [201403, 3],
+          "param": [
+            201403,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "1332110012",
           "count": 1
         }
@@ -207,7 +257,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q201403Target", "30"],
+        "param": [
+          "Q201403Target",
+          "30"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -230,7 +283,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1037],
+      "exclusiveNpcList": [
+        1037
+      ],
       "exclusiveNpcPriority": 1000
     },
     {
@@ -241,14 +296,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [201404, 3],
+          "param": [
+            201404,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [201405, 0],
+          "param": [
+            201405,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -260,7 +321,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q201403Target"],
+        "param": [
+          "Q201403Target"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -269,7 +332,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133211001", "1"],
+          "param": [
+            "133211001",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -282,11 +348,17 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
-          "param": ["133211001", "0"],
+          "param": [
+            "133211001",
+            "0"
+          ],
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [12013, 1037],
+      "exclusiveNpcList": [
+        12013,
+        1037
+      ],
       "exclusiveNpcPriority": 1000
     },
     {
@@ -297,14 +369,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [201405, 3],
+          "param": [
+            201405,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [201406, 0],
+          "param": [
+            201406,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -316,7 +394,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1037"],
+        "param": [
+          "1037"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -340,7 +420,11 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [12013, 1037, 1039],
+      "exclusiveNpcList": [
+        12013,
+        1037,
+        1039
+      ],
       "exclusiveNpcPriority": 1000
     },
     {
@@ -351,14 +435,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [201406, 3],
+          "param": [
+            201406,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [201407, 0],
+          "param": [
+            201407,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -370,7 +460,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q201407Target", "30"],
+        "param": [
+          "Q201407Target",
+          "30"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -394,7 +487,12 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1037, 12013, 1039, 3146],
+      "exclusiveNpcList": [
+        1037,
+        12013,
+        1039,
+        3146
+      ],
       "exclusiveNpcPriority": 1000
     },
     {
@@ -405,14 +503,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [201407, 3],
+          "param": [
+            201407,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [201408, 0],
+          "param": [
+            201408,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -424,7 +528,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["12072"],
+        "param": [
+          "12072"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -448,7 +554,11 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1037, 12013, 3146],
+      "exclusiveNpcList": [
+        1037,
+        12013,
+        3146
+      ],
       "exclusiveNpcPriority": 1000
     }
   ],
@@ -460,13 +570,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["201402", "2"],
+          "param": [
+            "201402",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 20140501,
-      "npcId": [1005],
+      "npcId": [
+        1005
+      ],
       "performCfg": "QuestDialogue/AQ/Inazuma2_2014/Q201402",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 2014,
@@ -479,13 +594,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["201405", "2"],
+          "param": [
+            "201405",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 20140501,
-      "npcId": [12071, 1005],
+      "npcId": [
+        12071,
+        1005
+      ],
       "performCfg": "QuestDialogue/AQ/Inazuma2_2014/Q201405",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 2014,
@@ -498,13 +619,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["201406", "2"],
+          "param": [
+            "201406",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 20140601,
-      "npcId": [1037],
+      "npcId": [
+        1037
+      ],
       "performCfg": "QuestDialogue/AQ/Inazuma2_2014/Q201406",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 2014,
@@ -517,13 +643,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["201408", "2"],
+          "param": [
+            "201408",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 20140801,
-      "npcId": [12072],
+      "npcId": [
+        12072
+      ],
       "performCfg": "QuestDialogue/AQ/Inazuma2_2014/Q201408",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 2014,
@@ -536,13 +667,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["201407", "2"],
+          "param": [
+            "201407",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 20145001,
-      "npcId": [1037, 1039],
+      "npcId": [
+        1037,
+        1039
+      ],
       "performCfg": "QuestDialogue/AQ/Inazuma2_2014/Q201450",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 2014,
@@ -555,13 +692,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014022", "1"],
+          "param": [
+            "2014",
+            "2014022",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 3,
       "initDialog": 400641101,
-      "npcId": [30203, 30204],
+      "npcId": [
+        30203,
+        30204
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40064/Q4006411",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -576,13 +720,21 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014022", "1"],
+          "param": [
+            "2014",
+            "2014022",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 3,
       "initDialog": 400641201,
-      "npcId": [30205, 30206, 30207],
+      "npcId": [
+        30205,
+        30206,
+        30207
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40064/Q4006412",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -597,13 +749,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014027", "1"],
+          "param": [
+            "2014",
+            "2014027",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 3,
       "initDialog": 400641301,
-      "npcId": [30208],
+      "npcId": [
+        30208
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40064/Q4006413",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -618,13 +776,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014023", "1"],
+          "param": [
+            "2014",
+            "2014023",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400670701,
-      "npcId": [30207],
+      "npcId": [
+        30207
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40067/Q4006707",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -639,13 +803,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014023", "1"],
+          "param": [
+            "2014",
+            "2014023",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400670801,
-      "npcId": [30204],
+      "npcId": [
+        30204
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40067/Q4006708",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -660,13 +830,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014023", "1"],
+          "param": [
+            "2014",
+            "2014023",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400670901,
-      "npcId": [30203],
+      "npcId": [
+        30203
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40067/Q4006709",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -681,13 +857,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014024", "1"],
+          "param": [
+            "2014",
+            "2014024",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400700101,
-      "npcId": [30207],
+      "npcId": [
+        30207
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40070/Q4007001",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -702,13 +884,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014024", "1"],
+          "param": [
+            "2014",
+            "2014024",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400700201,
-      "npcId": [30204],
+      "npcId": [
+        30204
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40070/Q4007002",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -723,13 +911,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014024", "1"],
+          "param": [
+            "2014",
+            "2014024",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400700301,
-      "npcId": [30203],
+      "npcId": [
+        30203
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40070/Q4007003",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -744,13 +938,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014024", "1"],
+          "param": [
+            "2014",
+            "2014024",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400700601,
-      "npcId": [12616],
+      "npcId": [
+        12616
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40070/Q4007006",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -765,13 +965,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014024", "1"],
+          "param": [
+            "2014",
+            "2014024",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400700701,
-      "npcId": [12623],
+      "npcId": [
+        12623
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40070/Q4007007",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -786,13 +992,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014025", "1"],
+          "param": [
+            "2014",
+            "2014025",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400730101,
-      "npcId": [30231, 30206],
+      "npcId": [
+        30231,
+        30206
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40073/Q4007301",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -807,13 +1020,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014025", "1"],
+          "param": [
+            "2014",
+            "2014025",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400730301,
-      "npcId": [30207],
+      "npcId": [
+        30207
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40073/Q4007303",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -828,13 +1047,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014025", "1"],
+          "param": [
+            "2014",
+            "2014025",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400730501,
-      "npcId": [30204],
+      "npcId": [
+        30204
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40073/Q4007305",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -849,13 +1074,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014025", "1"],
+          "param": [
+            "2014",
+            "2014025",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400730701,
-      "npcId": [30203],
+      "npcId": [
+        30203
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40073/Q4007307",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -870,13 +1101,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014026", "1"],
+          "param": [
+            "2014",
+            "2014026",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400770301,
-      "npcId": [30205, 30206],
+      "npcId": [
+        30205,
+        30206
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40077/Q4007703",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -891,13 +1129,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014026", "1"],
+          "param": [
+            "2014",
+            "2014026",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400770401,
-      "npcId": [30207],
+      "npcId": [
+        30207
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40077/Q4007704",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -912,13 +1156,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014026", "1"],
+          "param": [
+            "2014",
+            "2014026",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400770501,
-      "npcId": [30204],
+      "npcId": [
+        30204
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40077/Q4007705",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -933,13 +1183,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2014", "2014026", "1"],
+          "param": [
+            "2014",
+            "2014026",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400770601,
-      "npcId": [30203],
+      "npcId": [
+        30203
+      ],
       "performCfg": "QuestDialogue/EQ/DreamIsland_40077/Q4007706",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -947,5 +1203,29 @@
       "prePerformCfg": "",
       "lowPriority": true
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "1037": [
+      1190
+    ],
+    "1039": [
+      1170
+    ],
+    "12072": [
+      4110
+    ]
+  },
+  "forcePreloadLuaList": [
+    "8378323962123557667"
+  ],
+  "HGFFNBIGPJK": true,
+  "preloadLuaList": [
+    "14457059026087496718",
+    "6497829428904072563",
+    "16300149851001378366",
+    "4618079211607140886",
+    "191486901913561922"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 1011
 }

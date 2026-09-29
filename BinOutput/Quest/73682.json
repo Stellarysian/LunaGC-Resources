@@ -4,7 +4,9 @@
   "titleTextMapHash": 3748224599,
   "descTextMapHash": 2702372174,
   "luaPath": "Actor/Quest/WQ73682",
-  "rewardIdList": [173682],
+  "rewardIdList": [
+    173682
+  ],
   "subQuests": [
     {
       "subId": 7368201,
@@ -16,25 +18,36 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4007813, 3],
+          "param": [
+            4007813,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [2016020, 1],
+          "param": [
+            2016020,
+            1
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7368201, 0],
+          "param": [
+            7368201,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30249"],
+        "param": [
+          "30249"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -54,22 +67,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7368201", "2"],
+          "param": [
+            "7368201",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2016", "2016020", "1"],
+          "param": [
+            "2016",
+            "2016020",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 736820101,
-      "npcId": [30249],
+      "npcId": [
+        30249
+      ],
       "performCfg": "QuestDialogue/WQ/Mengde_73682/Q7368201",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73682,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activityId": 2016,
+  "HMJOIJHMGJD": true,
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

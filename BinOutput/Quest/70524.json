@@ -18,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -44,17 +50,38 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7052401", "2"],
+          "param": [
+            "7052401",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 705240101,
-      "npcId": [10011, 1019],
+      "npcId": [
+        10011,
+        1019
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70524,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "10011": [
+      0
+    ],
+    "1019": [
+      0
+    ]
+  },
+  "forcePreloadLuaList": [
+    "13145413501705122695"
+  ],
+  "preloadLuaList": [
+    "16884370460767590672"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

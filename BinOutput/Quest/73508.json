@@ -4,7 +4,9 @@
   "titleTextMapHash": 4115886423,
   "descTextMapHash": 2331045286,
   "luaPath": "Actor/Quest/WQ73508",
-  "rewardIdList": [173508],
+  "rewardIdList": [
+    173508
+  ],
   "subQuests": [
     {
       "subId": 7350801,
@@ -16,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -43,14 +51,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -69,18 +83,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7350801", "2"],
+          "param": [
+            "7350801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 735080101,
-      "npcId": [30319, 30318],
+      "npcId": [
+        30319,
+        30318
+      ],
       "performCfg": "QuestDialogue/WQ/V3.5FungusFighterV2_73507/Q7350801",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73508,
       "prePerformCfg": "",
       "forceNpcNotDestroy": true
     }
-  ]
+  ],
+  "activityId": 5120,
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

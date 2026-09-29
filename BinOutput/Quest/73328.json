@@ -17,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -43,13 +49,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7332801", "2"],
+          "param": [
+            "7332801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 733280101,
-      "npcId": [20723],
+      "npcId": [
+        20723
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73328/Q7332801",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73328,
@@ -62,18 +73,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7332801", "3"],
+          "param": [
+            "7332801",
+            "3"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 733280201,
-      "npcId": [20723],
+      "npcId": [
+        20723
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73328,
       "prePerformCfg": "",
       "questIdleTalk": true
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "20723": [
+      1230
+    ],
+    "20724": [
+      4
+    ]
+  }
 }

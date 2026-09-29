@@ -4,7 +4,9 @@
   "titleTextMapHash": 1856191783,
   "descTextMapHash": 2880960998,
   "luaPath": "Actor/Quest/WQ72697",
-  "rewardIdList": [172697],
+  "rewardIdList": [
+    172697
+  ],
   "subQuests": [
     {
       "subId": 7269701,
@@ -14,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [5080004, 1],
+          "param": [
+            5080004,
+            1
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7269701, 0],
+          "param": [
+            7269701,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -33,7 +41,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30187"],
+        "param": [
+          "30187"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_START",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -58,7 +68,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [12522],
+      "exclusiveNpcList": [
+        12522
+      ],
       "exclusiveNpcPriority": 1100
     }
   ],
@@ -70,17 +82,28 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7269701", "2"],
+          "param": [
+            "7269701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 726970101,
-      "npcId": [30187],
+      "npcId": [
+        30187
+      ],
       "performCfg": "QuestDialogue/WQ/Inazuma_72697/Q7269701",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72697,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activityId": 5080,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "14457059026087496718"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

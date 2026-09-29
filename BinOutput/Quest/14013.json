@@ -16,12 +16,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE",
-          "param": [1087, 0],
+          "param": [
+            1087,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_ANY_MANUAL_TRANSPORT",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -34,7 +40,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_LOCK_POINT",
-          "param": ["3", "1035"],
+          "param": [
+            "3",
+            "1035"
+          ],
           "param_str": ""
         }
       ],
@@ -43,7 +52,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -60,13 +72,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1401301", "2"],
+          "param": [
+            "1401301",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 140130101,
-      "npcId": [13579, 13578],
+      "npcId": [
+        13579,
+        13578
+      ],
       "performCfg": "QuestDialogue/LQ/FNN1_14013/Q1401301",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 14013,
@@ -79,13 +97,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1401301", "2"],
+          "param": [
+            "1401301",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 140130301,
-      "npcId": [13580],
+      "npcId": [
+        13580
+      ],
       "performCfg": "QuestDialogue/LQ/FNN1_14013/Q1401303",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 14013,
@@ -98,13 +121,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1401301", "2"],
+          "param": [
+            "1401301",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 140130401,
-      "npcId": [1073],
+      "npcId": [
+        1073
+      ],
       "performCfg": "QuestDialogue/LQ/FNN1_14013/Q1401304",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 14013,
@@ -117,13 +145,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1401301", "2"],
+          "param": [
+            "1401301",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 140130501,
-      "npcId": [13697],
+      "npcId": [
+        13697
+      ],
       "performCfg": "QuestDialogue/LQ/FNN1_14013/Q1401305",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 14013,
@@ -136,17 +169,41 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1401301", "2"],
+          "param": [
+            "1401301",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 140130601,
-      "npcId": [13698],
+      "npcId": [
+        13698
+      ],
       "performCfg": "QuestDialogue/LQ/FNN1_14013/Q1401306",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 14013,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "1073": [
+      1190
+    ],
+    "13579": [
+      0
+    ],
+    "13580": [
+      1120
+    ],
+    "13697": [
+      1230
+    ],
+    "13698": [
+      1120
+    ]
+  },
+  "showRedPoint": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

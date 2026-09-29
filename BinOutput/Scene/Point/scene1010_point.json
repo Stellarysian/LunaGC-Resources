@@ -68,7 +68,15 @@
         "x": 0,
         "y": 0,
         "z": 0
-      }
+      },
+      "FPBBOEDKMIE": 1,
+      "dungeonIds": [
+        1243
+      ],
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry",
+      "inteeIcon": "UI_Icon_Intee_Talk"
     },
     "2": {
       "$type": "EJKBNAAJDEP",
@@ -102,7 +110,9 @@
         "x": 0,
         "y": 180,
         "z": 0
-      }
+      },
+      "HMOHDOOAGOJ": 1,
+      "KBHKBGKIPII": true
     },
     "3": {
       "$type": "BIDKGIAOIJE",
@@ -172,7 +182,15 @@
         "x": 0,
         "y": 0,
         "z": 0
-      }
+      },
+      "FPBBOEDKMIE": 1,
+      "dungeonIds": [
+        1243
+      ],
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry",
+      "inteeIcon": "UI_Icon_Intee_Talk"
     },
     "4": {
       "$type": "EJKBNAAJDEP",
@@ -206,7 +224,9 @@
         "x": 0,
         "y": 134.8321,
         "z": 0
-      }
+      },
+      "HMOHDOOAGOJ": 3,
+      "KBHKBGKIPII": true
     },
     "5": {
       "$type": "HGEKJIDOFJN",
@@ -249,7 +269,16 @@
         "x": 0,
         "y": 0,
         "z": 0
-      }
+      },
+      "HJNIGDGMCCK": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "INIPMNIGDCG": 24,
+      "tranSceneId": 3,
+      "KBHKBGKIPII": true,
+      "OEKKLCFPCAO": "UI_SCENE_ENTRY_EXIT_KNIGHT"
     },
     "6": {
       "$type": "HGEKJIDOFJN",
@@ -292,7 +321,71 @@
         "x": 0,
         "y": 270,
         "z": 0
+      },
+      "HJNIGDGMCCK": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "INIPMNIGDCG": 24,
+      "tranSceneId": 20261,
+      "OEKKLCFPCAO": "UI_STC_Intee_RoleCombatEntry"
+    }
+  },
+  "DBOOFDCIIII": {
+    "1": {
+      "pos": {
+        "x": -10.388999938964844,
+        "z": -7.5370001792907715
+      },
+      "EJHFIJIEJFJ": 1,
+      "gadgetId": 40100201,
+      "IKJHNPKCJND": 100401,
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 90
+      }
+    },
+    "2": {
+      "pos": {
+        "x": -10.388999938964844,
+        "z": 7.501999855041504
+      },
+      "EJHFIJIEJFJ": 1,
+      "gadgetId": 40100201,
+      "IKJHNPKCJND": 100401,
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 90
+      }
+    },
+    "3": {
+      "pos": {
+        "x": 10.404999732971191,
+        "z": 7.501999855041504
+      },
+      "EJHFIJIEJFJ": 1,
+      "gadgetId": 40100201,
+      "IKJHNPKCJND": 100402,
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 90
+      }
+    },
+    "4": {
+      "pos": {
+        "x": -10.357359886169434,
+        "y": 9.025548934936523,
+        "z": -7.829288959503174
+      },
+      "EJHFIJIEJFJ": 1,
+      "gadgetId": 40100201,
+      "IKJHNPKCJND": 100403,
+      "KBHKBGKIPII": true,
+      "rot": {
+        "y": 90
       }
     }
-  }
+  },
+  "HINDGNIGCEO": 1500
 }

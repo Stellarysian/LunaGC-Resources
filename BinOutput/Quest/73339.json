@@ -5,7 +5,9 @@
   "descTextMapHash": 3949549190,
   "luaPath": "Actor/Quest/WQ73339",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [173339],
+  "rewardIdList": [
+    173339
+  ],
   "subQuests": [
     {
       "subId": 7333901,
@@ -18,14 +20,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -35,5 +43,6 @@
       "failExec": [],
       "guide": {}
     }
-  ]
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
 }

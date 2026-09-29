@@ -9,7 +9,9 @@
     "EALGMJIJFMB": [
       {
         "FLEMJDMGGHJ": "DynamicAbility_SideScrollerParkour_AvatarAbility",
-        "NCCKLDFFDOH": "DynamicAbility_SideScrollerParkour_AvatarAbility"
+        "NCCKLDFFDOH": "DynamicAbility_SideScrollerParkour_AvatarAbility",
+        "abilityID": "DynamicAbility_SideScrollerParkour_AvatarAbility",
+        "abilityName": "DynamicAbility_SideScrollerParkour_AvatarAbility"
       }
     ],
     "EILDNHKFDMI": {
@@ -73,6 +75,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "DynamicAbility_SideScrollerParkour_TeamAbility",
+        "abilityName": "DynamicAbility_SideScrollerParkour_TeamAbility"
+      }
+    ]
   }
 }

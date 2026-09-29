@@ -542,7 +542,16 @@
         37120915,
         37120916
       ],
-      "mainId": 7020
+      "mainId": 7020,
+      "finishExec": [
+        {
+          "param": [
+            "3",
+            "133708003"
+          ],
+          "type": "QUEST_EXEC_NOTIFY_GROUP_LUA"
+        }
+      ]
     },
     {
       "finishCond": [
@@ -576,7 +585,15 @@
         37120915,
         37120916
       ],
-      "mainId": 7020
+      "mainId": 7020,
+      "finishExec": [
+        {
+          "param": [
+            "133708003"
+          ],
+          "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP"
+        }
+      ]
     },
     {
       "finishCond": [
@@ -1294,14 +1311,16 @@
     {
       "id": 70209903,
       "talkRole": {
-        "type": "TALK_ROLE_CONSEQUENT_NEED_CLICK_BLACK_SCREEN"
+        "type": "TALK_ROLE_CONSEQUENT_NEED_CLICK_BLACK_SCREEN",
+        "id": "1005"
       },
       "talkContentTextMapHash": 2136882010
     },
     {
       "id": 70209904,
       "talkRole": {
-        "type": "TALK_ROLE_CONSEQUENT_NEED_CLICK_BLACK_SCREEN"
+        "type": "TALK_ROLE_CONSEQUENT_NEED_CLICK_BLACK_SCREEN",
+        "id": "1005"
       },
       "talkContentTextMapHash": 30687802
     }

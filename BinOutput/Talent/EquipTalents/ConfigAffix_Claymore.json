@@ -1251,5 +1251,236 @@
       "paramDelta": "%8",
       "paramRatio": 0.0
     }
+  ],
+  "Weapon_Claymore_CrystallineSword": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_CrystallineSword"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_CrystallineSword",
+      "paramDelta": "%1",
+      "paramSpecial": "AttackRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_CrystallineSword",
+      "paramDelta": "%2",
+      "paramSpecial": "ReactionUpRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_CrystallineSword",
+      "paramDelta": "%3",
+      "paramSpecial": "Duration"
+    }
+  ],
+  "Weapon_Claymore_EnsisAquilonis": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EnsisAquilonis"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramDelta": "%1",
+      "paramSpecial": "Speed"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramDelta": "%2",
+      "paramSpecial": "DamageRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramDelta": "%3",
+      "paramSpecial": "CritHurt"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramDelta": "%4",
+      "paramSpecial": "Dura"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramDelta": "%5",
+      "paramSpecial": "MaxStack"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramDelta": "%6",
+      "paramSpecial": "Trigger_CD"
+    }
+  ],
+  "Weapon_Claymore_EscapeWheel": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EscapeWheel"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramDelta": "%1",
+      "paramSpecial": "ATKRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramDelta": "%2",
+      "paramSpecial": "Mastery"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramDelta": "%3",
+      "paramSpecial": "StarRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramDelta": "%4",
+      "paramSpecial": "BuffDuration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramDelta": "%4",
+      "paramSpecial": "CycleInterval"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramDelta": "%5",
+      "paramSpecial": "SealDuration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramDelta": "%6",
+      "paramSpecial": "SealCD"
+    }
+  ],
+  "Weapon_Claymore_GlintstoneClaymore": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore",
+      "paramDelta": "%1",
+      "paramSpecial": "Mastery"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore",
+      "paramDelta": "%3",
+      "paramSpecial": "ATKRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore",
+      "paramDelta": "%4",
+      "paramSpecial": "Duration2"
+    }
+  ],
+  "Weapon_Claymore_Ilmarinen": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_Ilmarinen"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_Ilmarinen",
+      "paramDelta": "%1",
+      "paramSpecial": "Mastery"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_Ilmarinen",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_Ilmarinen",
+      "paramDelta": "%3",
+      "paramSpecial": "MasteryExtra"
+    }
+  ],
+  "Weapon_Claymore_Polilith": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_Polilith"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_Polilith",
+      "paramDelta": "%1",
+      "paramSpecial": "Energy"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_Polilith",
+      "paramDelta": "%2",
+      "paramSpecial": "Mastery"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_Polilith",
+      "paramDelta": "%3",
+      "paramSpecial": "Dura"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Claymore_Polilith",
+      "paramDelta": "%4",
+      "paramSpecial": "CD_Timer"
+    }
   ]
 }

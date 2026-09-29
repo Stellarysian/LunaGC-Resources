@@ -18,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -44,17 +50,24 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7273201", "2"],
+          "param": [
+            "7273201",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 727320101,
-      "npcId": [13087],
+      "npcId": [
+        13087
+      ],
       "performCfg": "QuestDialogue/WQ/Daoqi_72732/Q7273201",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72732,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activityId": 5118,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

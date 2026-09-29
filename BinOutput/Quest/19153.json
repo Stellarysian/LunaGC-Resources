@@ -17,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -46,14 +52,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -73,14 +85,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -98,13 +116,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1915302", "2"],
+          "param": [
+            "1915302",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 191530801,
-      "npcId": [512],
+      "npcId": [
+        512
+      ],
       "performCfg": "QuestDialogue/COOP/CoopLayla/Q1915308",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 19153,
@@ -116,17 +139,73 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1915304", "2"],
+          "param": [
+            "1915304",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 191530901,
-      "npcId": [512],
+      "npcId": [
+        512
+      ],
       "performCfg": "QuestDialogue/COOP/CoopLayla/Q1915309",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 19153,
       "prePerformCfg": ""
+    }
+  ],
+  "forcePreloadLuaList": [
+    "12516967469458677520"
+  ],
+  "HGFFNBIGPJK": true,
+  "preloadLuaList": [
+    "12105213658674333014"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 3015,
+  "suggestTrackOutOfOrder": true,
+  "dialogList": [
+    {
+      "nextDialogs": [
+        191530309
+      ],
+      "id": 191530308,
+      "talkRole": {
+        "type": "TALK_ROLE_BLACK_SCREEN"
+      },
+      "talkContentTextMapHash": 1817080578
+    },
+    {
+      "id": 191530397,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 1623675482
+    },
+    {
+      "id": 191530398,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 789710458
+    },
+    {
+      "id": 191530399,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 3437123322
+    },
+    {
+      "id": 191539901,
+      "talkRole": {
+        "id": "512",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1318488050
     }
   ]
 }

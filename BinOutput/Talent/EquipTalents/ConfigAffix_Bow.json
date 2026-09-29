@@ -1472,5 +1472,243 @@
       "paramDelta": "%6",
       "paramRatio": 0.0
     }
+  ],
+  "Weapon_Bow_Alkonost": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Alkonost"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Alkonost",
+      "paramDelta": "%1",
+      "paramSpecial": "BuffDuration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Alkonost",
+      "paramDelta": "%2",
+      "paramSpecial": "RockDamageUp"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Alkonost",
+      "paramDelta": "%3",
+      "paramSpecial": "MoonCrystallizeDamageUp"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Alkonost",
+      "paramDelta": "%4",
+      "paramSpecial": "TeammateDamageUpRatio"
+    }
+  ],
+  "Weapon_Bow_Arianna": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Arianna"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Arianna",
+      "paramDelta": "%1",
+      "paramSpecial": "ResetTime"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Arianna",
+      "paramDelta": "%2",
+      "paramSpecial": "Ratio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Arianna",
+      "paramDelta": "%3",
+      "paramSpecial": "DownRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Arianna",
+      "paramDelta": "%4",
+      "paramSpecial": "UpRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Arianna",
+      "paramDelta": "%5",
+      "paramSpecial": "UpCD"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Arianna",
+      "paramDelta": "%6",
+      "paramSpecial": "UpRatio_Hexenzirkel"
+    }
+  ],
+  "Weapon_Bow_ElegguaBow": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_ElegguaBow"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_ElegguaBow",
+      "paramDelta": "%1",
+      "paramSpecial": "Dura"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_ElegguaBow",
+      "paramDelta": "%2",
+      "paramSpecial": "Rate"
+    }
+  ],
+  "Weapon_Bow_GlintstoneBow": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_GlintstoneBow"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_GlintstoneBow",
+      "paramDelta": "%1",
+      "paramSpecial": "Mastery_Up"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_GlintstoneBow",
+      "paramDelta": "%2",
+      "paramSpecial": "Time"
+    }
+  ],
+  "Weapon_Bow_Ilmarinen": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Ilmarinen"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Ilmarinen",
+      "paramDelta": "%1",
+      "paramSpecial": "Mastery"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Ilmarinen",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Ilmarinen",
+      "paramDelta": "%3",
+      "paramSpecial": "MasteryExtra"
+    }
+  ],
+  "Weapon_Bow_ShatteredMirror": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_ShatteredMirror"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_ShatteredMirror",
+      "paramDelta": "%1",
+      "paramSpecial": "AttackRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_ShatteredMirror",
+      "paramDelta": "%2",
+      "paramSpecial": "MasteryUp"
+    }
+  ],
+  "Weapon_Bow_Stinger": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Stinger"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Stinger",
+      "paramDelta": "%1",
+      "paramSpecial": "Damage"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Stinger",
+      "paramDelta": "%2",
+      "paramSpecial": "CDTime"
+    }
+  ],
+  "Weapon_Bow_Windtalker": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Windtalker"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Windtalker",
+      "paramDelta": "%1",
+      "paramSpecial": "StarRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Windtalker",
+      "paramDelta": "%2",
+      "paramSpecial": "MaxStack"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Windtalker",
+      "paramDelta": "%3",
+      "paramSpecial": "StackICD"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Windtalker",
+      "paramDelta": "%4",
+      "paramSpecial": "BuffDuration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Bow_Windtalker",
+      "paramDelta": "%5",
+      "paramSpecial": "BuffICD"
+    }
   ]
 }

@@ -5,8 +5,12 @@
   "titleTextMapHash": 336621039,
   "descTextMapHash": 1525400158,
   "luaPath": "Actor/Quest/WQ40147",
-  "suggestTrackMainQuestList": [40148],
-  "rewardIdList": [140147],
+  "suggestTrackMainQuestList": [
+    40148
+  ],
+  "rewardIdList": [
+    140147
+  ],
   "subQuests": [
     {
       "subId": 4014701,
@@ -16,13 +20,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4014701, 0],
+          "param": [
+            4014701,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["2204"],
+        "param": [
+          "2204"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -34,7 +43,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_GAME_TIME",
-          "param": ["6", "0"],
+          "param": [
+            "6",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -43,7 +55,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -59,14 +74,19 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ACTIVITY_TRIGGER_UPDATE",
-          "param": [5178, 4014702],
+          "param": [
+            5178,
+            4014702
+          ],
           "param_str": "",
           "count": 1
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[3_310400554:895.916,255.563,330.665,0.000,46.100,0.000]"],
+        "param": [
+          "[3_310400554:895.916,255.563,330.665,0.000,46.100,0.000]"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_UI"
@@ -78,12 +98,18 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_GAME_TIME",
-          "param": ["6", "0"],
+          "param": [
+            "6",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133104833", "0"],
+          "param": [
+            "133104833",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -92,7 +118,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -108,13 +137,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4014702, 0],
+          "param": [
+            4014702,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1067"],
+        "param": [
+          "1067"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -126,7 +160,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_GAME_TIME",
-          "param": ["6", "0"],
+          "param": [
+            "6",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -135,7 +172,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -151,13 +191,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4014703, 0],
+          "param": [
+            4014703,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["2204"],
+        "param": [
+          "2204"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -170,17 +215,26 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_GAME_TIME",
-          "param": ["6", "0"],
+          "param": [
+            "6",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133104837", "1"],
+          "param": [
+            "133104837",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["2250", "0"],
+          "param": [
+            "2250",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -189,7 +243,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -205,7 +262,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [1, 0],
+          "param": [
+            1,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -217,7 +277,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["2250", "1"],
+          "param": [
+            "2250",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -226,7 +289,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -242,13 +308,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4014704, 0],
+          "param": [
+            4014704,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["2204"],
+        "param": [
+          "2204"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -260,7 +331,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_GAME_TIME",
-          "param": ["6", "0"],
+          "param": [
+            "6",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -269,7 +343,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -286,13 +363,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014701", "2"],
+          "param": [
+            "4014701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401470101,
-      "npcId": [2204],
+      "npcId": [
+        2204
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_40147/Q4014701",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40147,
@@ -306,13 +388,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014703", "2"],
+          "param": [
+            "4014703",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401470201,
-      "npcId": [1067],
+      "npcId": [
+        1067
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_40147/Q4014702",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40147,
@@ -326,13 +413,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014704", "2"],
+          "param": [
+            "4014704",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401470301,
-      "npcId": [2204],
+      "npcId": [
+        2204
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_40147/Q4014703",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40147,
@@ -345,13 +437,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014706", "2"],
+          "param": [
+            "4014706",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401470401,
-      "npcId": [2204],
+      "npcId": [
+        2204
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_40147/Q4014704",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40147,
@@ -364,13 +461,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014705", "2"],
+          "param": [
+            "4014705",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401479201,
-      "npcId": [2204],
+      "npcId": [
+        2204
+      ],
       "performCfg": "",
       "questId": 40147,
       "prePerformCfg": ""
@@ -383,38 +485,58 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014705", "2"],
+          "param": [
+            "4014705",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014701", "2"],
+          "param": [
+            "4014701",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014706", "2"],
+          "param": [
+            "4014706",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014702", "2"],
+          "param": [
+            "4014702",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014703", "2"],
+          "param": [
+            "4014703",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014704", "2"],
+          "param": [
+            "4014704",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401479301,
-      "npcId": [2202],
+      "npcId": [
+        2202
+      ],
       "performCfg": "",
       "questId": 40147,
       "prePerformCfg": ""
@@ -426,13 +548,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014704", "2"],
+          "param": [
+            "4014704",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401479401,
-      "npcId": [1067],
+      "npcId": [
+        1067
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_40147/Q4014794",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40147,
@@ -446,18 +573,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014702", "2"],
+          "param": [
+            "4014702",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014703", "2"],
+          "param": [
+            "4014703",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401479501,
-      "npcId": [2204],
+      "npcId": [
+        2204
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_40147/Q4014795",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40147,
@@ -471,18 +606,28 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014706", "2"],
+          "param": [
+            "4014706",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014702", "2"],
+          "param": [
+            "4014702",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401479601,
-      "npcId": [1067, 1063, 1055],
+      "npcId": [
+        1067,
+        1063,
+        1055
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_40147/Q4014796",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40147,
@@ -495,13 +640,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014704", "2"],
+          "param": [
+            "4014704",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401479701,
-      "npcId": [1055],
+      "npcId": [
+        1055
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_40147/Q4014797",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40147,
@@ -514,17 +664,48 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014704", "2"],
+          "param": [
+            "4014704",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401479801,
-      "npcId": [1063],
+      "npcId": [
+        1063
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_40147/Q4014798",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40147,
       "prePerformCfg": ""
     }
+  ],
+  "freeStyleDic": {
+    "1055": [
+      0,
+      1190
+    ],
+    "1063": [
+      0
+    ],
+    "1067": [
+      0
+    ]
+  },
+  "forcePreloadLuaList": [
+    "6628024980496095541"
+  ],
+  "activityId": 5178,
+  "HMJOIJHMGJD": true,
+  "showRedPoint": true,
+  "preloadLuaList": [
+    "4242049423293360487"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE",
+  "specialShowRewardId": [
+    33477
   ]
 }

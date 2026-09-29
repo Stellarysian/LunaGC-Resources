@@ -17,14 +17,20 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7319901, 0],
+          "param": [
+            7319901,
+            0
+          ],
           "param_str": ""
         }
       ],
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -43,16 +49,23 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7319901", "2"],
+          "param": [
+            "7319901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 3,
       "initDialog": 731990101,
-      "npcId": [12742],
+      "npcId": [
+        12742
+      ],
       "performCfg": "",
       "questId": 73199,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "repeatable": true
 }

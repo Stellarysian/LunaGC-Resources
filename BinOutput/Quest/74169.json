@@ -16,7 +16,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_GLOBAL_VAR_EQUAL",
-          "param": [7408201, 1],
+          "param": [
+            7408201,
+            1
+          ],
           "param_str": ""
         }
       ],
@@ -31,7 +34,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -49,7 +55,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7408519, 3],
+          "param": [
+            7408519,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -64,7 +73,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -73,5 +85,6 @@
       "finishExec": [],
       "failExec": []
     }
-  ]
+  ],
+  "showRedPoint": true
 }

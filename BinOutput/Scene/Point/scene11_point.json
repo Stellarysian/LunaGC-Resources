@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "TransPointNormal",
@@ -26,7 +25,9 @@
       },
       "specialTipsIconPath": "",
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60001
     },
     "10": {
       "$type": "TransPointNormal",
@@ -55,7 +56,10 @@
       "OIKGGFNNFMA": 116000301,
       "mapVisibility": "OnUnlocked",
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000301,
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60003
     },
     "11": {
       "$type": "TransPointNormal",
@@ -83,7 +87,10 @@
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000404,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000404,
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60006
     },
     "12": {
       "$type": "TransPointNormal",
@@ -108,7 +115,10 @@
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000404,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000404,
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60008
     },
     "13": {
       "$type": "TransPointNormal",
@@ -133,7 +143,9 @@
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000501,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000501,
+      "FPBBOEDKMIE": 10
     },
     "14": {
       "$type": "TransPointNormal",
@@ -163,7 +175,11 @@
       "isModelHidden": true,
       "OIKGGFNNFMA": 116000702,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000702,
+      "FPBBOEDKMIE": 10,
+      "GBPJFCLDKCA": true,
+      "MFICFEFEDAH": 60009
     },
     "15": {
       "$type": "TransPointNormal",
@@ -194,7 +210,11 @@
       "isModelHidden": true,
       "OIKGGFNNFMA": 116000701,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000701,
+      "FPBBOEDKMIE": 10,
+      "GBPJFCLDKCA": true,
+      "MFICFEFEDAH": 60005
     },
     "16": {
       "$type": "TransPointNormal",
@@ -224,7 +244,10 @@
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000601,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000601,
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60008
     },
     "17": {
       "$type": "TransPointNormal",
@@ -254,7 +277,10 @@
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000404,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000404,
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60006
     },
     "18": {
       "$type": "DungeonEntry",
@@ -279,7 +305,11 @@
       ],
       "dungeonQuestConditionList": {},
       "titleTextID": "UI_STC_Intee_DungeonEntry",
-      "inteeIcon": "UI_Icon_Intee_Talk"
+      "inteeIcon": "UI_Icon_Intee_Talk",
+      "FPBBOEDKMIE": 1,
+      "MFICFEFEDAH": 60004,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry"
     },
     "19": {
       "$type": "DungeonExit",
@@ -298,7 +328,10 @@
       },
       "unlocked": true,
       "specialTipsIconPath": "",
-      "entryPointId": 18
+      "entryPointId": 18,
+      "HMOHDOOAGOJ": 18,
+      "KBHKBGKIPII": true,
+      "MFICFEFEDAH": 60004
     },
     "2": {
       "$type": "TransPointNormal",
@@ -325,7 +358,9 @@
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000101,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000101,
+      "FPBBOEDKMIE": 10
     },
     "20": {
       "$type": "DungeonEntry",
@@ -363,7 +398,18 @@
       },
       "titleTextID": "UI_STC_Intee_DungeonEntry",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "FGLMMNAMFCJ": 116000404,
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "LDFIDPKDNKE": true,
+      "MFICFEFEDAH": 60008,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry"
     },
     "21": {
       "$type": "DungeonExit",
@@ -388,7 +434,11 @@
       "unlocked": true,
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000404,
-      "entryPointId": 20
+      "entryPointId": 20,
+      "FGLMMNAMFCJ": 116000404,
+      "HMOHDOOAGOJ": 20,
+      "KBHKBGKIPII": true,
+      "MFICFEFEDAH": 60008
     },
     "22": {
       "$type": "DungeonEntry",
@@ -426,7 +476,18 @@
       },
       "titleTextID": "UI_STC_Intee_DungeonEntry",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "FGLMMNAMFCJ": 116000404,
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "LDFIDPKDNKE": true,
+      "MFICFEFEDAH": 60006,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry"
     },
     "23": {
       "$type": "DungeonExit",
@@ -448,7 +509,11 @@
       "unlocked": true,
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000404,
-      "entryPointId": 22
+      "entryPointId": 22,
+      "FGLMMNAMFCJ": 116000404,
+      "HMOHDOOAGOJ": 22,
+      "KBHKBGKIPII": true,
+      "MFICFEFEDAH": 60006
     },
     "24": {
       "$type": "TransPointNormal",
@@ -477,7 +542,10 @@
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000404,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000404,
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60007
     },
     "26": {
       "$type": "TransPointNormal",
@@ -504,7 +572,11 @@
       "isForbidAvatarRevive": true,
       "isForbidAvatarAutoUseSpring": true,
       "mapVisibility": "Never",
-      "portalShape": ""
+      "portalShape": "",
+      "ALBFHGKNMLK": "TOWER",
+      "FPBBOEDKMIE": 1,
+      "GLEOEKPJBEG": true,
+      "KLFPJCNAEOE": true
     },
     "27": {
       "$type": "TransPointNormal",
@@ -532,7 +604,10 @@
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000404,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000404,
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60008
     },
     "28": {
       "$type": "TransPointNormal",
@@ -559,7 +634,9 @@
       "specialTipsIconPath": "",
       "OIKGGFNNFMA": 116000404,
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000404,
+      "FPBBOEDKMIE": 10
     },
     "3": {
       "$type": "TransPointNormal",
@@ -586,7 +663,9 @@
       },
       "specialTipsIconPath": "",
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60001
     },
     "5": {
       "$type": "TransPointNormal",
@@ -613,7 +692,9 @@
       },
       "specialTipsIconPath": "",
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60004
     },
     "7": {
       "$type": "TransPointNormal",
@@ -639,7 +720,8 @@
       },
       "specialTipsIconPath": "",
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 10
     },
     "9": {
       "$type": "TransPointNormal",
@@ -668,7 +750,10 @@
       "OIKGGFNNFMA": 116000201,
       "mapVisibility": "OnUnlocked",
       "exploreRatio": 10,
-      "portalShape": ""
+      "portalShape": "",
+      "FGLMMNAMFCJ": 116000201,
+      "FPBBOEDKMIE": 10,
+      "MFICFEFEDAH": 60002
     }
   },
   "entities": {
@@ -837,5 +922,323 @@
       }
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500,
+  "KJJENKICNLJ": {
+    "2": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 1304.3480224609375,
+        "y": 621.7987060546875,
+        "z": 4584.84423828125
+      },
+      "APFOMJCBKAN": {
+        "GJHCGMDKHLP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1
+        },
+        "HFOPOGIEAJD": {
+          "$type": "EIBDCHDHPMO",
+          "FCILJEIGCFJ": {
+            "x": 0.20000000298023224,
+            "y": 2.8499999046325684,
+            "z": 2.700000047683716
+          },
+          "GGOPDKHFPFO": true,
+          "KAPINHABGCA": 45,
+          "MPDFMKFOHCK": true,
+          "NEIIAPNMPNJ": {
+            "x": 7.639999866485596,
+            "y": 4.239999771118164,
+            "z": -2.369999885559082
+          },
+          "NFACLENAOJI": true
+        },
+        "NCDKCFCCDNP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1
+        }
+      },
+      "DDFAGPPNHBB": 100,
+      "FGLMMNAMFCJ": 116000202,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70290264,
+      "IBAIMPIGNCO": {
+        "APFOMJCBKAN": {
+          "GJHCGMDKHLP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1
+          },
+          "HFOPOGIEAJD": {
+            "$type": "EIBDCHDHPMO",
+            "FCILJEIGCFJ": {
+              "x": 0.20000000298023224,
+              "y": 2.8499999046325684,
+              "z": 2.700000047683716
+            },
+            "GGOPDKHFPFO": true,
+            "KAPINHABGCA": 45,
+            "MPDFMKFOHCK": true,
+            "NEIIAPNMPNJ": {
+              "x": 7.639999866485596,
+              "y": 4.239999771118164,
+              "z": -2.369999885559082
+            },
+            "NFACLENAOJI": true
+          },
+          "NCDKCFCCDNP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1
+          }
+        }
+      },
+      "tranPos": {
+        "x": 1303.7239990234375,
+        "y": 622.5319213867188,
+        "z": 4586.208984375
+      },
+      "IDGPBCDDNBC": {
+        "$type": "KPOBGELKMAN",
+        "CFLGDGLFMDO": "Center",
+        "IJLLBONJPNF": 12,
+        "NHLJAFFIMNM": 8,
+        "PCAFJMIOGDB": true
+      },
+      "PFCEHMCBGCO": 110002,
+      "PLBGEEEODKL": "LevelCamera"
+    },
+    "4": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 1649.6639404296875,
+        "y": 598.5352172851562,
+        "z": 4649.13623046875
+      },
+      "APFOMJCBKAN": {
+        "GJHCGMDKHLP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1
+        },
+        "HFOPOGIEAJD": {
+          "$type": "EIBDCHDHPMO",
+          "FCILJEIGCFJ": {
+            "x": -3.200000047683716,
+            "y": 3.2799999713897705,
+            "z": 1.5800000429153442
+          },
+          "GGOPDKHFPFO": true,
+          "KAPINHABGCA": 45,
+          "MPDFMKFOHCK": true,
+          "NEIIAPNMPNJ": {
+            "x": 3.740000009536743,
+            "y": 4.630000114440918,
+            "z": -6.289999961853027
+          },
+          "NFACLENAOJI": true
+        },
+        "NCDKCFCCDNP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1
+        }
+      },
+      "DDFAGPPNHBB": 100,
+      "FGLMMNAMFCJ": 116000301,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70290264,
+      "IBAIMPIGNCO": {
+        "APFOMJCBKAN": {
+          "GJHCGMDKHLP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1
+          },
+          "HFOPOGIEAJD": {
+            "$type": "EIBDCHDHPMO",
+            "FCILJEIGCFJ": {
+              "x": -3.200000047683716,
+              "y": 3.2799999713897705,
+              "z": 1.5800000429153442
+            },
+            "GGOPDKHFPFO": true,
+            "KAPINHABGCA": 45,
+            "MPDFMKFOHCK": true,
+            "NEIIAPNMPNJ": {
+              "x": 3.740000009536743,
+              "y": 4.630000114440918,
+              "z": -6.289999961853027
+            },
+            "NFACLENAOJI": true
+          },
+          "NCDKCFCCDNP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1
+          }
+        }
+      },
+      "IDGPBCDDNBC": {
+        "$type": "KPOBGELKMAN",
+        "CFLGDGLFMDO": "Center",
+        "IJLLBONJPNF": 9,
+        "NHLJAFFIMNM": 6
+      },
+      "PFCEHMCBGCO": 110004,
+      "PLBGEEEODKL": "LevelCamera"
+    },
+    "5": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 1558.613037109375,
+        "y": 568.3032836914062,
+        "z": 4331.15380859375
+      },
+      "APFOMJCBKAN": {
+        "GJHCGMDKHLP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1
+        },
+        "HFOPOGIEAJD": {
+          "$type": "EIBDCHDHPMO",
+          "FCILJEIGCFJ": {
+            "x": -0.5099999904632568,
+            "y": 6.349999904632568,
+            "z": -0.6200000047683716
+          },
+          "GGOPDKHFPFO": true,
+          "KAPINHABGCA": 45,
+          "MPDFMKFOHCK": true,
+          "NEIIAPNMPNJ": {
+            "x": -4.139999866485596,
+            "y": 3.359999895095825,
+            "z": 5.070000171661377
+          },
+          "NFACLENAOJI": true
+        },
+        "NCDKCFCCDNP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1
+        }
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70290264,
+      "IBAIMPIGNCO": {
+        "APFOMJCBKAN": {
+          "GJHCGMDKHLP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1
+          },
+          "HFOPOGIEAJD": {
+            "$type": "EIBDCHDHPMO",
+            "FCILJEIGCFJ": {
+              "x": -0.5099999904632568,
+              "y": 6.349999904632568,
+              "z": -0.6200000047683716
+            },
+            "GGOPDKHFPFO": true,
+            "KAPINHABGCA": 45,
+            "MPDFMKFOHCK": true,
+            "NEIIAPNMPNJ": {
+              "x": -4.139999866485596,
+              "y": 3.359999895095825,
+              "z": 5.070000171661377
+            },
+            "NFACLENAOJI": true
+          },
+          "NCDKCFCCDNP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1
+          }
+        }
+      },
+      "IDGPBCDDNBC": {
+        "$type": "KPOBGELKMAN",
+        "CFLGDGLFMDO": "Center",
+        "IJLLBONJPNF": 9,
+        "NHLJAFFIMNM": 8
+      },
+      "MFICFEFEDAH": 60004,
+      "PFCEHMCBGCO": 110005,
+      "PLBGEEEODKL": "LevelCamera"
+    },
+    "6": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 1464.0810546875,
+        "y": 167,
+        "z": 3953.4599609375
+      },
+      "APFOMJCBKAN": {
+        "GJHCGMDKHLP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1
+        },
+        "HFOPOGIEAJD": {
+          "$type": "EIBDCHDHPMO",
+          "FCILJEIGCFJ": {
+            "x": -0.8920000195503235,
+            "y": 4.806000232696533,
+            "z": 0.09000000357627869
+          },
+          "GGOPDKHFPFO": true,
+          "KAPINHABGCA": 45,
+          "NEIIAPNMPNJ": {
+            "x": -2.049999952316284,
+            "y": 6.510000228881836,
+            "z": 5.389999866485596
+          },
+          "NFACLENAOJI": true
+        },
+        "NCDKCFCCDNP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1
+        }
+      },
+      "DDFAGPPNHBB": 100,
+      "FGLMMNAMFCJ": 116000404,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IBAIMPIGNCO": {
+        "APFOMJCBKAN": {
+          "GJHCGMDKHLP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1
+          },
+          "HFOPOGIEAJD": {
+            "$type": "EIBDCHDHPMO",
+            "FCILJEIGCFJ": {
+              "x": -0.8920000195503235,
+              "y": 4.806000232696533,
+              "z": 0.09000000357627869
+            },
+            "GGOPDKHFPFO": true,
+            "KAPINHABGCA": 45,
+            "NEIIAPNMPNJ": {
+              "x": -2.049999952316284,
+              "y": 6.510000228881836,
+              "z": 5.389999866485596
+            },
+            "NFACLENAOJI": true
+          },
+          "NCDKCFCCDNP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1
+          }
+        }
+      },
+      "tranPos": {
+        "x": 1314.760009765625,
+        "y": 606,
+        "z": 4700.89599609375
+      },
+      "IDGPBCDDNBC": {
+        "$type": "KPOBGELKMAN",
+        "CFLGDGLFMDO": "Center",
+        "IJLLBONJPNF": 20,
+        "NHLJAFFIMNM": 15,
+        "PCAFJMIOGDB": true
+      },
+      "MFICFEFEDAH": 60006,
+      "PFCEHMCBGCO": 110006,
+      "PLBGEEEODKL": "LevelCamera"
+    }
+  }
 }

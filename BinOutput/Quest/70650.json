@@ -4,7 +4,9 @@
   "titleTextMapHash": 3409554583,
   "descTextMapHash": 114938430,
   "luaPath": "Actor/Quest/WQ70650",
-  "rewardIdList": [170650],
+  "rewardIdList": [
+    170650
+  ],
   "subQuests": [
     {
       "subId": 7065001,
@@ -15,12 +17,18 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_PLAYER_LEVEL_EQUAL_GREATER",
-          "param": [25, 0],
+          "param": [
+            25,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": [10001, 1],
+          "param": [
+            10001,
+            1
+          ],
           "param_str": ""
         }
       ],
@@ -28,12 +36,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7065001, 0],
+          "param": [
+            7065001,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7065003, 0],
+          "param": [
+            7065003,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -45,7 +59,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1663"],
+        "param": [
+          "1663"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_START"
       },
@@ -78,7 +94,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7065001, 3],
+          "param": [
+            7065001,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -86,12 +105,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7065002, 0],
+          "param": [
+            7065002,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7065004, 0],
+          "param": [
+            7065004,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -122,5 +147,10 @@
         }
       ]
     }
-  ]
+  ],
+  "AHBDGODKBDF": 3112106806,
+  "HGFFNBIGPJK": true,
+  "HMJOIJHMGJD": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

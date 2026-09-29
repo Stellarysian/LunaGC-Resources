@@ -17,21 +17,30 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [2016002, 1],
+          "param": [
+            2016002,
+            1
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "beginExec": [
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["1012", "1"],
+          "param": [
+            "1012",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -40,5 +49,6 @@
       "failExec": [],
       "guide": {}
     }
-  ]
+  ],
+  "activityId": 2016
 }

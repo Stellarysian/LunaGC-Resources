@@ -17,31 +17,46 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7012305, 3],
+          "param": [
+            7012305,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": [40029, 0],
+          "param": [
+            40029,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_ACTIVITY_END",
-          "param": [2009001, 0],
+          "param": [
+            2009001,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_INIT_TIME_VAR",
-          "param": ["0", "0"],
+          "param": [
+            "0",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -50,5 +65,6 @@
       "failExec": [],
       "guide": {}
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

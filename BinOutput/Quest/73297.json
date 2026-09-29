@@ -17,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -46,14 +52,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -74,14 +86,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -102,14 +120,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -127,13 +151,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7329701", "2"],
+          "param": [
+            "7329701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 732971501,
-      "npcId": [20930],
+      "npcId": [
+        20930
+      ],
       "performCfg": "",
       "questId": 73297,
       "prePerformCfg": ""
@@ -144,12 +173,17 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7329703", "2"],
+          "param": [
+            "7329703",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 732971601,
-      "npcId": [20993],
+      "npcId": [
+        20993
+      ],
       "performCfg": "",
       "questId": 73297,
       "prePerformCfg": ""
@@ -160,15 +194,23 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7329702", "2"],
+          "param": [
+            "7329702",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 732971701,
-      "npcId": [20994],
+      "npcId": [
+        20994
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73297/Q7329717",
       "questId": 73297,
       "prePerformCfg": ""
     }
+  ],
+  "preloadLuaList": [
+    "14457059026087496718"
   ]
 }

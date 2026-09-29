@@ -16,19 +16,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1110311, 3],
+          "param": [
+            1110311,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [1, 0],
+          "param": [
+            1,
+            0
+          ],
           "param_str": "18,6"
         },
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE_RANGE",
-          "param": [3, 30],
+          "param": [
+            3,
+            30
+          ],
           "param_str": "Q1110311Xiao"
         }
       ],
@@ -70,17 +79,32 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1110401", "2"],
+          "param": [
+            "1110401",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 111030810,
-      "npcId": [10210],
+      "npcId": [
+        10210
+      ],
       "performCfg": "QuestDialogue/LQ/Xiao1_11103/Q1110323",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11104,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "10210": [
+      8010
+    ]
+  },
+  "preloadLuaList": [
+    "14457059026087496718",
+    "5575916732172504491"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

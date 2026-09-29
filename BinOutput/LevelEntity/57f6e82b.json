@@ -3,7 +3,9 @@
     "AOCGPDLFEAB": [
       {
         "FLEMJDMGGHJ": "DynamicAbility_DisableQuickUseAndWidget",
-        "NCCKLDFFDOH": "DynamicAbility_DisableQuickUseAndWidget"
+        "NCCKLDFFDOH": "DynamicAbility_DisableQuickUseAndWidget",
+        "abilityID": "DynamicAbility_DisableQuickUseAndWidget",
+        "abilityName": "DynamicAbility_DisableQuickUseAndWidget"
       }
     ],
     "BBLCBKAFMMO": {
@@ -81,6 +83,20 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "DynamicAbility_Ban_Moon",
+        "abilityName": "DynamicAbility_Ban_Moon"
+      },
+      {
+        "abilityID": "Avatar_QuestAbility_ClearFollowPet02",
+        "abilityName": "Avatar_QuestAbility_ClearFollowPet02"
+      },
+      {
+        "abilityID": "ActivityAbility_BanShow_Team_LevelEntity",
+        "abilityName": "ActivityAbility_BanShow_Team_LevelEntity"
+      }
+    ]
   }
 }

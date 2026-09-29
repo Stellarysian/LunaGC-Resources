@@ -1529,5 +1529,453 @@
       "paramSpecial": "Crit",
       "paramDelta": "%2"
     }
+  ],
+  "Weapon_Sword_FaJian": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_FaJian"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_FaJian",
+      "paramDelta": "%1",
+      "paramSpecial": "MasteryUp"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_FaJian",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_FaJian",
+      "paramDelta": "%3",
+      "paramSpecial": "MaxStack"
+    }
+  ],
+  "Weapon_Sword_GlintstoneSword": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_GlintstoneSword"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_GlintstoneSword",
+      "paramDelta": "%1",
+      "paramSpecial": "ATKRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_GlintstoneSword",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_GlintstoneSword",
+      "paramDelta": "%3",
+      "paramSpecial": "StarRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_GlintstoneSword",
+      "paramDelta": "%4",
+      "paramSpecial": "Duration2"
+    }
+  ],
+  "Weapon_Sword_Ilmarinen": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Ilmarinen"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Ilmarinen",
+      "paramDelta": "%1",
+      "paramSpecial": "HPUp"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Ilmarinen",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Ilmarinen",
+      "paramDelta": "%3",
+      "paramSpecial": "HPUpExtra"
+    }
+  ],
+  "Weapon_Sword_Miekka": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Miekka"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Miekka",
+      "paramDelta": "%1",
+      "paramSpecial": "Rate"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Miekka",
+      "paramDelta": "%2",
+      "paramSpecial": "Rate1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Miekka",
+      "paramDelta": "%3",
+      "paramSpecial": "Rate2"
+    }
+  ],
+  "Weapon_Sword_Motsognir": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Motsognir"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramDelta": "%1",
+      "paramSpecial": "BurstUp_Ratio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramDelta": "%2",
+      "paramSpecial": "AttackUp_Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramDelta": "%3",
+      "paramSpecial": "AttackUp_Caster_Ratio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramDelta": "%4",
+      "paramSpecial": "AttackUp_LocalAvatar_Ratio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramDelta": "%5",
+      "paramSpecial": "AttackUp_Extra"
+    }
+  ],
+  "Weapon_Sword_OuterSword": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_OuterSword"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_OuterSword",
+      "paramDelta": "%1",
+      "paramSpecial": "AttackUp"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_OuterSword",
+      "paramDelta": "%2",
+      "paramSpecial": "Dura"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_OuterSword",
+      "paramDelta": "%3",
+      "paramSpecial": "AttackUp2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_OuterSword",
+      "paramDelta": "%4",
+      "paramSpecial": "CrithurtUp"
+    }
+  ],
+  "Weapon_Sword_SerpentTooth": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SerpentTooth"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramDelta": "%1",
+      "paramSpecial": "Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramDelta": "%2",
+      "paramSpecial": "TriggerCD"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramDelta": "%3",
+      "paramSpecial": "MinAttackRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramDelta": "%4",
+      "paramSpecial": "MaxAttackRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramDelta": "%5",
+      "paramSpecial": "SpeedForMax"
+    }
+  ],
+  "Weapon_Sword_SilverwareSaw": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SilverwareSaw"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SilverwareSaw",
+      "paramDelta": "%1",
+      "paramSpecial": "MoonCrystallizeUpRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SilverwareSaw",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration"
+    }
+  ],
+  "Weapon_Sword_SpikedStake": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SpikedStake"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramDelta": "%1",
+      "paramSpecial": "Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramDelta": "%3",
+      "paramSpecial": "MaxStack"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramDelta": "%4",
+      "paramSpecial": "ATKRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramDelta": "%5",
+      "paramSpecial": "ATKRatio2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramDelta": "%6",
+      "paramSpecial": "Mastery"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramDelta": "%7",
+      "paramSpecial": "Star_Ratio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramDelta": "%8",
+      "paramSpecial": "HitICD"
+    }
+  ],
+  "Weapon_Sword_Swanlake": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Odette"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Odette",
+      "paramDelta": "%1",
+      "paramSpecial": "Energy"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Odette",
+      "paramDelta": "%6",
+      "paramSpecial": "EnergyCD"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Odette",
+      "paramDelta": "%2",
+      "paramSpecial": "ATKRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Odette",
+      "paramDelta": "%3",
+      "paramSpecial": "Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Odette",
+      "paramDelta": "%4",
+      "paramSpecial": "MaxStack"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Odette",
+      "paramDelta": "%5",
+      "paramSpecial": "StarCriticalHurt"
+    }
+  ],
+  "Weapon_Sword_Vesna71Test": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Vesna71Test"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Vesna71Test",
+      "paramDelta": "%1",
+      "paramSpecial": "CritDmg_Rate"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Vesna71Test",
+      "paramDelta": "%2",
+      "paramSpecial": "StarSwirl_Rate"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Vesna71Test",
+      "paramDelta": "%3",
+      "paramSpecial": "Energy"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_Vesna71Test",
+      "paramDelta": "%4",
+      "paramSpecial": "Duration"
+    }
+  ],
+  "Weapon_Sword_WeaponQuestSnezhnaya": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramDelta": "%3",
+      "paramSpecial": "CritHurtDeltaPerElement"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramDelta": "%1",
+      "paramSpecial": "AttackUpRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramDelta": "%4",
+      "paramSpecial": "Energy"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramDelta": "%5",
+      "paramSpecial": "TriggerCD"
+    }
   ]
 }

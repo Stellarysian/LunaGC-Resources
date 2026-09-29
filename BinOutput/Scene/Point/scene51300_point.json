@@ -26,7 +26,14 @@
         "y": 88.9000015258789
       },
       "effectiveType": "Mirror",
-      "unlocked": true
+      "unlocked": true,
+      "BNDAHAAOAJD": "Mirror",
+      "KBHKBGKIPII": true,
+      "sizes": {
+        "x": 50,
+        "y": 50,
+        "z": 50
+      }
     },
     "2": {
       "$type": "DungeonWayPoint",
@@ -49,7 +56,8 @@
         "y": -0.1770000010728836,
         "z": 0.8240000009536743
       },
-      "effectiveType": "Mirror"
+      "effectiveType": "Mirror",
+      "BNDAHAAOAJD": "Mirror"
     },
     "3": {
       "$type": "DungeonWayPoint",
@@ -65,9 +73,17 @@
       },
       "gadgetId": 70010006,
       "tranRot": {
-        "y": 223.6999969482422
+        "y": 223.6999969482422,
+        "x": -0.257999986410141,
+        "z": -0.9649999737739563
       },
-      "effectiveType": "Mirror"
+      "effectiveType": "Mirror",
+      "BNDAHAAOAJD": "Mirror",
+      "rot": {
+        "x": 0.048719681799411774,
+        "y": 221.7899932861328,
+        "z": 0.20140770077705383
+      }
     },
     "4": {
       "$type": "DungeonWayPoint",
@@ -85,7 +101,12 @@
       "tranRot": {
         "y": 47.7400016784668
       },
-      "effectiveType": "Mirror"
+      "effectiveType": "Mirror",
+      "BNDAHAAOAJD": "Mirror",
+      "rot": {
+        "y": 245.44000244140625
+      }
     }
-  }
+  },
+  "HINDGNIGCEO": 1500
 }

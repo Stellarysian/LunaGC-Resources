@@ -16,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4000103, 3],
+          "param": [
+            4000103,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4000110, 0],
+          "param": [
+            4000110,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -55,5 +61,6 @@
         }
       ]
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

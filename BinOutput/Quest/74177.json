@@ -14,7 +14,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7417701, 0],
+          "param": [
+            7417701,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -28,7 +31,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -46,17 +52,41 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417701", "2"],
+          "param": [
+            "7417701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741770101,
-      "npcId": [5218, 5214, 5252],
+      "npcId": [
+        5218,
+        5214,
+        5252
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74177,
       "prePerformCfg": ""
     }
+  ],
+  "freeStyleDic": {
+    "5214": [
+      1240
+    ],
+    "5218": [
+      1160
+    ],
+    "5252": [
+      1180
+    ]
+  },
+  "forcePreloadLuaList": [
+    "15062461996733171195"
+  ],
+  "preloadLuaList": [
+    "9982154666714196364"
   ]
 }

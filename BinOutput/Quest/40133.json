@@ -5,8 +5,12 @@
   "titleTextMapHash": 1001923551,
   "descTextMapHash": 1581110558,
   "luaPath": "Actor/Quest/EQ40133",
-  "suggestTrackMainQuestList": [40134],
-  "rewardIdList": [140133],
+  "suggestTrackMainQuestList": [
+    40134
+  ],
+  "rewardIdList": [
+    140133
+  ],
   "chapterId": 10162,
   "subQuests": [
     {
@@ -14,11 +18,18 @@
       "mainId": 40133,
       "order": 2,
       "descTextMapHash": 3301781412,
-      "HIABBDKJOHM": [108401, 108402, 340114],
+      "HIABBDKJOHM": [
+        108401,
+        108402,
+        340114
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013301, 0],
+          "param": [
+            4013301,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -41,7 +52,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -56,11 +70,18 @@
       "order": 3,
       "isMpBlock": true,
       "descTextMapHash": 2118007532,
-      "HIABBDKJOHM": [108401, 108402, 340114],
+      "HIABBDKJOHM": [
+        108401,
+        108402,
+        340114
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013302, 0],
+          "param": [
+            4013302,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -82,7 +103,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -96,17 +120,26 @@
       "mainId": 40133,
       "order": 4,
       "descTextMapHash": 476826300,
-      "HIABBDKJOHM": [108401, 108402, 340114],
+      "HIABBDKJOHM": [
+        108401,
+        108402,
+        340114
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013303, 0],
+          "param": [
+            4013303,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[1084_27:-0.942,7.553,14.708]"],
+        "param": [
+          "[1084_27:-0.942,7.553,14.708]"
+        ],
         "guideScene": 1084,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -121,7 +154,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -135,17 +171,25 @@
       "mainId": 40133,
       "order": 13,
       "descTextMapHash": 3199547388,
-      "HIABBDKJOHM": [340134, 340111],
+      "HIABBDKJOHM": [
+        340134,
+        340111
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013304, 0],
+          "param": [
+            4013304,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["5029"],
+        "param": [
+          "5029"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -159,7 +203,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -173,17 +220,24 @@
       "mainId": 40133,
       "order": 14,
       "descTextMapHash": 1947936052,
-      "HIABBDKJOHM": [340106],
+      "HIABBDKJOHM": [
+        340106
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013305, 0],
+          "param": [
+            4013305,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["5033"],
+        "param": [
+          "5033"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -197,7 +251,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -212,17 +269,25 @@
       "order": 16,
       "subIdSet": 2,
       "descTextMapHash": 1098817212,
-      "HIABBDKJOHM": [340124, 340130],
+      "HIABBDKJOHM": [
+        340124,
+        340130
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013306, 0],
+          "param": [
+            4013306,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["5064"],
+        "param": [
+          "5064"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -236,7 +301,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -251,17 +319,25 @@
       "order": 17,
       "subIdSet": 2,
       "descTextMapHash": 938252692,
-      "HIABBDKJOHM": [340124, 340130],
+      "HIABBDKJOHM": [
+        340124,
+        340130
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013307, 0],
+          "param": [
+            4013307,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30444"],
+        "param": [
+          "30444"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -275,7 +351,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -290,17 +369,25 @@
       "order": 18,
       "subIdSet": 2,
       "descTextMapHash": 2729707244,
-      "HIABBDKJOHM": [340124, 340130],
+      "HIABBDKJOHM": [
+        340124,
+        340130
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013308, 0],
+          "param": [
+            4013308,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[3_340100438:3402.257,291.931,4481.466,0.000,58.187,0.000]"],
+        "param": [
+          "[3_340100438:3402.257,291.931,4481.466,0.000,58.187,0.000]"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -314,7 +401,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -328,11 +418,17 @@
       "mainId": 40133,
       "order": 20,
       "descTextMapHash": 2448785036,
-      "HIABBDKJOHM": [340124, 340130],
+      "HIABBDKJOHM": [
+        340124,
+        340130
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013309, 0],
+          "param": [
+            4013309,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -353,7 +449,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133401802", "0"],
+          "param": [
+            "133401802",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -362,7 +461,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -378,7 +480,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [1, 0],
+          "param": [
+            1,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -392,7 +497,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -407,17 +515,26 @@
       "order": 5,
       "subIdSet": 1,
       "descTextMapHash": 581210660,
-      "HIABBDKJOHM": [108401, 108402, 340114],
+      "HIABBDKJOHM": [
+        108401,
+        108402,
+        340114
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013312, 0],
+          "param": [
+            4013312,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1082"],
+        "param": [
+          "1082"
+        ],
         "guideScene": 1084,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -431,7 +548,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -446,17 +566,26 @@
       "order": 6,
       "subIdSet": 1,
       "descTextMapHash": 1537391180,
-      "HIABBDKJOHM": [108401, 108402, 340114],
+      "HIABBDKJOHM": [
+        108401,
+        108402,
+        340114
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013311, 0],
+          "param": [
+            4013311,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1035"],
+        "param": [
+          "1035"
+        ],
         "guideScene": 1084,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -470,7 +599,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -486,7 +618,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4013313, 0],
+          "param": [
+            4013313,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -500,7 +635,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -516,7 +654,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4013313, 0],
+          "param": [
+            4013313,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -530,7 +671,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -544,16 +688,26 @@
       "mainId": 40133,
       "order": 9,
       "showType": "QUEST_HIDDEN",
-      "HIABBDKJOHM": [108401, 108402, 340114],
+      "HIABBDKJOHM": [
+        108401,
+        108402,
+        340114
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [4013311, 3],
+          "param": [
+            4013311,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [4013312, 3],
+          "param": [
+            4013312,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -569,7 +723,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -583,17 +740,26 @@
       "mainId": 40133,
       "order": 10,
       "descTextMapHash": 4028463044,
-      "HIABBDKJOHM": [108401, 108402, 340114],
+      "HIABBDKJOHM": [
+        108401,
+        108402,
+        340114
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013316, 0],
+          "param": [
+            4013316,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1081"],
+        "param": [
+          "1081"
+        ],
         "guideScene": 1084,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -607,7 +773,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -621,17 +790,26 @@
       "mainId": 40133,
       "order": 11,
       "descTextMapHash": 1456012620,
-      "HIABBDKJOHM": [108401, 108402, 340114],
+      "HIABBDKJOHM": [
+        108401,
+        108402,
+        340114
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013317, 0],
+          "param": [
+            4013317,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[1084_47:8.299,7.518,14.397,0.000,166.955,0.000]"],
+        "param": [
+          "[1084_47:8.299,7.518,14.397,0.000,166.955,0.000]"
+        ],
         "guideScene": 1084,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -643,12 +821,18 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["201084006", "0"],
+          "param": [
+            "201084006",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["201084009", "0"],
+          "param": [
+            "201084009",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -657,7 +841,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -670,21 +857,33 @@
       "mainId": 40133,
       "order": 19,
       "showType": "QUEST_HIDDEN",
-      "HIABBDKJOHM": [340124, 340130],
+      "HIABBDKJOHM": [
+        340124,
+        340130
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [4013306, 3],
+          "param": [
+            4013306,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [4013307, 3],
+          "param": [
+            4013307,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [4013308, 3],
+          "param": [
+            4013308,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -700,7 +899,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -714,17 +916,24 @@
       "mainId": 40133,
       "order": 12,
       "descTextMapHash": 2584279580,
-      "HIABBDKJOHM": [340114],
+      "HIABBDKJOHM": [
+        340114
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4013319, 0],
+          "param": [
+            4013319,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[3_340100489:3455.169,454.922,4630.004]"],
+        "param": [
+          "[3_340100489:3455.169,454.922,4630.004]"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -738,7 +947,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -752,11 +964,17 @@
       "mainId": 40133,
       "order": 15,
       "descTextMapHash": 662720148,
-      "HIABBDKJOHM": [340124, 340130],
+      "HIABBDKJOHM": [
+        340124,
+        340130
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4013320, 0],
+          "param": [
+            4013320,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -779,7 +997,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -797,13 +1018,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013301", "2"],
+          "param": [
+            "4013301",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401330101,
-      "npcId": [2604, 1035],
+      "npcId": [
+        2604,
+        1035
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013301",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -818,13 +1045,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013302", "2"],
+          "param": [
+            "4013302",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401330201,
-      "npcId": [1035],
+      "npcId": [
+        1035
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013302",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -839,13 +1071,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013303", "2"],
+          "param": [
+            "4013303",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401330301,
-      "npcId": [2604],
+      "npcId": [
+        2604
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013303",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -860,13 +1097,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013304", "2"],
+          "param": [
+            "4013304",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401330401,
-      "npcId": [5029],
+      "npcId": [
+        5029
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013304",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -881,13 +1123,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013305", "2"],
+          "param": [
+            "4013305",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401330501,
-      "npcId": [5033],
+      "npcId": [
+        5033
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013305",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -902,13 +1149,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013306", "2"],
+          "param": [
+            "4013306",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401330601,
-      "npcId": [5064],
+      "npcId": [
+        5064
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013306",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -923,13 +1175,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013307", "2"],
+          "param": [
+            "4013307",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401330701,
-      "npcId": [30444],
+      "npcId": [
+        30444
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013307",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -944,13 +1201,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013308", "2"],
+          "param": [
+            "4013308",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401330801,
-      "npcId": [30451],
+      "npcId": [
+        30451
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013308",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -965,13 +1227,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013309", "2"],
+          "param": [
+            "4013309",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401330901,
-      "npcId": [1081],
+      "npcId": [
+        1081
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013309",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -986,13 +1253,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013312", "2"],
+          "param": [
+            "4013312",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401331101,
-      "npcId": [1035],
+      "npcId": [
+        1035
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013311",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -1007,13 +1279,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013311", "2"],
+          "param": [
+            "4013311",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401331201,
-      "npcId": [1082, 1047],
+      "npcId": [
+        1082,
+        1047
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013312",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -1028,13 +1306,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013316", "2"],
+          "param": [
+            "4013316",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401331601,
-      "npcId": [1081],
+      "npcId": [
+        1081
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013316",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -1049,13 +1332,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013317", "2"],
+          "param": [
+            "4013317",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401331701,
-      "npcId": [1073],
+      "npcId": [
+        1073
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013317",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -1070,13 +1358,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013319", "2"],
+          "param": [
+            "4013319",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401331901,
-      "npcId": [1081],
+      "npcId": [
+        1081
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013319",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -1092,23 +1385,35 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013311", "3"],
+          "param": [
+            "4013311",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013315", "2"],
+          "param": [
+            "4013315",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013316", "2"],
+          "param": [
+            "4013316",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401332201,
-      "npcId": [1047, 1082],
+      "npcId": [
+        1047,
+        1082
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013322",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -1124,23 +1429,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013303", "3"],
+          "param": [
+            "4013303",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013315", "2"],
+          "param": [
+            "4013315",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013316", "2"],
+          "param": [
+            "4013316",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401332301,
-      "npcId": [1073],
+      "npcId": [
+        1073
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013323",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -1156,18 +1472,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013303", "3"],
+          "param": [
+            "4013303",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013315", "2"],
+          "param": [
+            "4013315",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401332401,
-      "npcId": [2604, 1081],
+      "npcId": [
+        2604,
+        1081
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013324",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
@@ -1183,29 +1508,99 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013308", "3"],
+          "param": [
+            "4013308",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013309", "2"],
+          "param": [
+            "4013309",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4013318", "2"],
+          "param": [
+            "4013318",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401332901,
-      "npcId": [30451],
+      "npcId": [
+        30451
+      ],
       "performCfg": "QuestDialogue/EQ/Filmfest_40133/Q4013329",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40133,
       "prePerformCfg": "",
       "lowPriority": true,
       "forceNpcNotDestroy": true
+    }
+  ],
+  "freeStyleDic": {
+    "1035": [
+      1170,
+      1230
+    ],
+    "1047": [
+      0
+    ],
+    "1073": [
+      8080
+    ],
+    "1081": [
+      1120
+    ],
+    "1082": [
+      1190
+    ],
+    "2604": [
+      1130,
+      1190
+    ],
+    "30436": [
+      1170
+    ],
+    "30439": [
+      1190
+    ],
+    "30444": [
+      1190
+    ],
+    "5029": [
+      1120
+    ],
+    "5033": [
+      1190
+    ],
+    "5064": [
+      1120
+    ]
+  },
+  "forcePreloadLuaList": [
+    "7759686131686423429"
+  ],
+  "activityId": 2027,
+  "showRedPoint": true,
+  "preloadLuaList": [
+    "14366430857876176635",
+    "16208400561443401262",
+    "15619747377416382735"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "dialogList": [
+    {
+      "id": 401339905,
+      "talkRole": {
+        "type": "TALK_ROLE_BLACK_SCREEN"
+      }
     }
   ]
 }

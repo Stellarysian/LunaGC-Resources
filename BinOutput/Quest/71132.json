@@ -15,7 +15,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7113201, 0],
+          "param": [
+            7113201,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -30,7 +33,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -47,7 +53,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7113201, 0],
+          "param": [
+            7113201,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -58,7 +67,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
-          "param": ["7113201", "0"],
+          "param": [
+            "7113201",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -67,7 +79,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -84,16 +99,28 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7113202", "2"],
+          "param": [
+            "7113202",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 711320101,
-      "npcId": [2511],
+      "npcId": [
+        2511
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_71132/Q7113201",
       "questId": 71132,
       "prePerformCfg": ""
     }
+  ],
+  "forcePreloadLuaList": [
+    "11854584958837601538"
+  ],
+  "showRedPoint": true,
+  "preloadLuaList": [
+    "5754934310074614740"
   ]
 }

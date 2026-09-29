@@ -15,14 +15,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [2101400, 0],
+          "param": [
+            2101400,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -54,5 +60,12 @@
         }
       ]
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "888944029915749999"
+  ],
+  "preloadLuaList": [
+    "5450501281760875202"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

@@ -4,7 +4,8 @@
       "$type": "CMGFNDNMFFO",
       "AAAENHAPNLB": "Unlock_Accessory_Barrel&Muzzle",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager"
+      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager",
+      "abilityName": "TPS_ElectricGun_Accessory_Manager"
     }
   ],
   "TPS_Weapon_ElectricGun_Accessory_Magazine": [
@@ -12,7 +13,8 @@
       "$type": "CMGFNDNMFFO",
       "AAAENHAPNLB": "Unlock_Accessory_Magazine",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager"
+      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager",
+      "abilityName": "TPS_ElectricGun_Accessory_Manager"
     }
   ],
   "TPS_Weapon_ElectricGun_Accessory_Scope": [
@@ -20,7 +22,8 @@
       "$type": "CMGFNDNMFFO",
       "AAAENHAPNLB": "Unlock_Accessory_Scope",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager"
+      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager",
+      "abilityName": "TPS_ElectricGun_Accessory_Manager"
     }
   ],
   "TPS_Weapon_ElectricGun_Accessory_Stock": [
@@ -28,44 +31,52 @@
       "$type": "CMGFNDNMFFO",
       "AAAENHAPNLB": "Unlock_Accessory_Stock",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager"
+      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager",
+      "abilityName": "TPS_ElectricGun_Accessory_Manager"
     }
   ],
   "TPS_Weapon_ThunderGun": [
     {
       "$type": "PHNIGFHBFMD",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_PressAim"
+      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_PressAim",
+      "abilityName": "Avatar_TPS_ElectricGun_PressAim"
     },
     {
       "$type": "PHNIGFHBFMD",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_PressShoot"
+      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_PressShoot",
+      "abilityName": "Avatar_TPS_ElectricGun_PressShoot"
     },
     {
       "$type": "PHNIGFHBFMD",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_Switch_FireMode"
+      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_Switch_FireMode",
+      "abilityName": "Avatar_TPS_ElectricGun_Switch_FireMode"
     },
     {
       "$type": "PHNIGFHBFMD",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_Ammo_Reload"
+      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_Ammo_Reload",
+      "abilityName": "Avatar_TPS_ElectricGun_Ammo_Reload"
     },
     {
       "$type": "PHNIGFHBFMD",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_Normal_WeaponAdd_OnFire"
+      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_Normal_WeaponAdd_OnFire",
+      "abilityName": "Avatar_TPS_ElectricGun_Normal_WeaponAdd_OnFire"
     },
     {
       "$type": "PHNIGFHBFMD",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager"
+      "NCCKLDFFDOH": "TPS_ElectricGun_Accessory_Manager",
+      "abilityName": "TPS_ElectricGun_Accessory_Manager"
     },
     {
       "$type": "PHNIGFHBFMD",
       "LCNJMPKIAPA": true,
-      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_DamageHandler"
+      "NCCKLDFFDOH": "Avatar_TPS_ElectricGun_DamageHandler",
+      "abilityName": "Avatar_TPS_ElectricGun_DamageHandler"
     }
   ]
 }

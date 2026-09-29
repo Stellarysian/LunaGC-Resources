@@ -4,7 +4,9 @@
   "titleTextMapHash": 453605039,
   "descTextMapHash": 1882171958,
   "luaPath": "Actor/Quest/WQ72667",
-  "rewardIdList": [172667],
+  "rewardIdList": [
+    172667
+  ],
   "subQuests": [
     {
       "subId": 7266701,
@@ -16,19 +18,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [5041010, 1],
+          "param": [
+            5041010,
+            1
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7266304, 3],
+          "param": [
+            7266304,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ITEM_LESS_THAN",
-          "param": [111027, 1],
+          "param": [
+            111027,
+            1
+          ],
           "param_str": ""
         }
       ],
@@ -67,19 +78,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7266701, 3],
+          "param": [
+            7266701,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_ITEM_NUM_LESS_THAN",
-          "param": [111027, 1],
+          "param": [
+            111027,
+            1
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7266701, 0],
+          "param": [
+            7266701,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -91,7 +111,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["3200"],
+        "param": [
+          "3200"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET"
       },
@@ -123,14 +145,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7266702, 3],
+          "param": [
+            7266702,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_OBTAIN_ITEM",
-          "param": [111027, 0],
+          "param": [
+            111027,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
@@ -146,7 +174,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
-          "param": ["7266701", "0"],
+          "param": [
+            "7266701",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -172,21 +203,33 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7266702", "2"],
+          "param": [
+            "7266702",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_ITEM_NUM_LESS_THAN",
-          "param": ["111027", "1"],
+          "param": [
+            "111027",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 726670102,
-      "npcId": [3200],
+      "npcId": [
+        3200
+      ],
       "performCfg": "",
       "questId": 72667,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activityId": 5041,
+  "HMJOIJHMGJD": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

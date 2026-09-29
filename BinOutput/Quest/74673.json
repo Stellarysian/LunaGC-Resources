@@ -4,7 +4,9 @@
   "titleTextMapHash": 2023253583,
   "descTextMapHash": 1673988590,
   "luaPath": "Actor/Quest/WQ74673",
-  "rewardIdList": [174673],
+  "rewardIdList": [
+    174673
+  ],
   "subQuests": [
     {
       "subId": 7467301,
@@ -14,13 +16,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7467301, 0],
+          "param": [
+            7467301,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30456"],
+        "param": [
+          "30456"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -35,7 +42,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -53,17 +63,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7467301", "2"],
+          "param": [
+            "7467301",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 746730101,
-      "npcId": [30456],
+      "npcId": [
+        30456
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74673/Q7467301",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74673,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "30456": [
+      1110
+    ]
+  },
+  "activityId": 5174,
+  "HMJOIJHMGJD": true,
+  "showRedPoint": true,
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

@@ -5,7 +5,9 @@
   "titleTextMapHash": 3656533247,
   "descTextMapHash": 4119849102,
   "luaPath": "Actor/Quest/WQ73038",
-  "rewardIdList": [173038],
+  "rewardIdList": [
+    173038
+  ],
   "chapterId": 10082,
   "subQuests": [
     {
@@ -18,21 +20,29 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7303711, 3],
+          "param": [
+            7303711,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7303801, 0],
+          "param": [
+            7303801,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["20647"],
+        "param": [
+          "20647"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -52,21 +62,30 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7303801, 3],
+          "param": [
+            7303801,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7303802, 0],
+          "param": [
+            7303802,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q7303802_guide", "7"],
+        "param": [
+          "Q7303802_guide",
+          "7"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -74,7 +93,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_DEL_PACK_ITEM",
-          "param": ["101813", "1"],
+          "param": [
+            "101813",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -92,33 +114,48 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7303802, 3],
+          "param": [
+            7303802,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7303803, 0],
+          "param": [
+            7303803,
+            0
+          ],
           "param_str": ""
         }
       ],
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133301628,1"],
+          "param": [
+            "3",
+            "133301628,1"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133301592,2;133301593,2;133301594,2;133301595,2"],
+          "param": [
+            "3",
+            "133301592,2;133301593,2;133301594,2;133301595,2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_DEL_PACK_ITEM",
-          "param": ["101812", "1"],
+          "param": [
+            "101812",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -135,13 +172,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7303801", "2"],
+          "param": [
+            "7303801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 730380101,
-      "npcId": [20647, 1005],
+      "npcId": [
+        20647,
+        1005
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73038/Q7303801",
       "questId": 73038,
       "prePerformCfg": ""
@@ -153,13 +196,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7303802", "2"],
+          "param": [
+            "7303802",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 730380201,
-      "npcId": [20647, 1005, 20740],
+      "npcId": [
+        20647,
+        1005,
+        20740
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73038/Q7303802",
       "questId": 73038,
       "prePerformCfg": ""
@@ -171,16 +221,30 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7303803", "2"],
+          "param": [
+            "7303803",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 730380301,
-      "npcId": [4198, 1005, 20647],
+      "npcId": [
+        4198,
+        1005,
+        20647
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73038/Q7303803",
       "questId": 73038,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "DJADGDCICCB": [
+    {
+      "id": 220055,
+      "actionType": "DIRECT_USE"
+    }
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
 }

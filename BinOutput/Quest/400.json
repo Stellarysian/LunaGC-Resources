@@ -15,14 +15,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [39604, 3],
+          "param": [
+            39604,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [40001, 0],
+          "param": [
+            40001,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -64,17 +70,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["40001", "2"],
+          "param": [
+            "40001",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 3960701,
-      "npcId": [1001],
+      "npcId": [
+        1001
+      ],
       "performCfg": "QuestDialogue/AQ/Mengde3_396/Q39607",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 400,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "11473844118490799362"
+  ],
+  "preloadLuaList": [
+    "3088369788188086520",
+    "14457059026087496718",
+    "17458203300621847708"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

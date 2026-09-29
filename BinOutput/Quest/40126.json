@@ -4,7 +4,9 @@
   "titleTextMapHash": 1483262207,
   "descTextMapHash": 1309784990,
   "luaPath": "Actor/Quest/EQ40126",
-  "rewardIdList": [140126],
+  "rewardIdList": [
+    140126
+  ],
   "chapterId": 10129,
   "subQuests": [
     {
@@ -15,7 +17,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [1, 0],
+          "param": [
+            1,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -28,7 +33,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["3503", "1"],
+          "param": [
+            "3503",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -37,7 +45,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -53,13 +64,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012602, 0],
+          "param": [
+            4012602,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1023"],
+        "param": [
+          "1023"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -71,7 +87,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["3503", "0"],
+          "param": [
+            "3503",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -80,7 +99,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -96,13 +118,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012603, 0],
+          "param": [
+            4012603,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[3_310200641:1433.590,201.731,372.388,0.000,240.800,0.000]"],
+        "param": [
+          "[3_310200641:1433.590,201.731,372.388,0.000,240.800,0.000]"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -116,7 +143,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -133,19 +163,28 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4012605, 0],
+          "param": [
+            4012605,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Event_15400", "50"],
+        "param": [
+          "Event_15400",
+          "50"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -159,7 +198,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -176,13 +218,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012606, 0],
+          "param": [
+            4012606,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["13431"],
+        "param": [
+          "13431"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -194,12 +241,18 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133101065", "1"],
+          "param": [
+            "133101065",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["3506", "0"],
+          "param": [
+            "3506",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -208,7 +261,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -224,13 +280,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012607, 0],
+          "param": [
+            4012607,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[3_300201044:1806.046,234.767,-874.216]"],
+        "param": [
+          "[3_300201044:1806.046,234.767,-874.216]"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -244,7 +305,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -261,13 +325,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012608, 0],
+          "param": [
+            4012608,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1650"],
+        "param": [
+          "1650"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -281,7 +350,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -298,13 +370,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012609, 0],
+          "param": [
+            4012609,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["13431"],
+        "param": [
+          "13431"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -316,7 +393,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["3503", "1"],
+          "param": [
+            "3503",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -325,7 +405,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -341,7 +424,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012610, 0],
+          "param": [
+            4012610,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -363,22 +449,34 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["3503", "0"],
+          "param": [
+            "3503",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
-          "param": ["4012601", "1"],
+          "param": [
+            "4012601",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["3505", "0"],
+          "param": [
+            "3505",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
-          "param": ["4012602", "1"],
+          "param": [
+            "4012602",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -387,7 +485,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -403,12 +504,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012611, 0],
+          "param": [
+            4012611,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4012611, 0],
+          "param": [
+            4012611,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -429,7 +536,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133102276", "0"],
+          "param": [
+            "133102276",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -438,7 +548,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -454,12 +567,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012612, 0],
+          "param": [
+            4012612,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4012612, 0],
+          "param": [
+            4012612,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -482,7 +601,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -499,12 +621,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012613, 0],
+          "param": [
+            4012613,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4012613, 0],
+          "param": [
+            4012613,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -527,7 +655,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -544,13 +675,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4012614, 0],
+          "param": [
+            4012614,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[3_310200652:1153.109,200.400,239.293,0.000,166.370,0.000]"],
+        "param": [
+          "[3_310200652:1153.109,200.400,239.293,0.000,166.370,0.000]"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -562,12 +698,18 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["3506", "1"],
+          "param": [
+            "3506",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["3504", "0"],
+          "param": [
+            "3504",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -576,7 +718,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -592,19 +737,28 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4012615, 0],
+          "param": [
+            4012615,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Event_15400", "50"],
+        "param": [
+          "Event_15400",
+          "50"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -618,7 +772,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -635,14 +792,20 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[3_310100117:1589.786,200.704,1121.123]", "40"],
+        "param": [
+          "[3_310100117:1589.786,200.704,1121.123]",
+          "40"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -655,7 +818,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -673,13 +839,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012602", "2"],
+          "param": [
+            "4012602",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401260201,
-      "npcId": [1023, 1060, 1061],
+      "npcId": [
+        1023,
+        1060,
+        1061
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012602",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -693,13 +866,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012603", "2"],
+          "param": [
+            "4012603",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401260301,
-      "npcId": [1060, 1023, 1061],
+      "npcId": [
+        1060,
+        1023,
+        1061
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012603",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -713,18 +893,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012606", "2"],
+          "param": [
+            "4012606",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_VAR_EQUAL",
-          "param": ["0", "1", "40126"],
+          "param": [
+            "0",
+            "1",
+            "40126"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401260601,
-      "npcId": [1061, 1023, 13492, 1060, 13431],
+      "npcId": [
+        1061,
+        1023,
+        13492,
+        1060,
+        13431
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012606",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -737,13 +930,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012607", "2"],
+          "param": [
+            "4012607",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401260701,
-      "npcId": [13431, 1060, 1061],
+      "npcId": [
+        13431,
+        1060,
+        1061
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012607",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -757,13 +957,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012608", "2"],
+          "param": [
+            "4012608",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401260801,
-      "npcId": [1061, 1650],
+      "npcId": [
+        1061,
+        1650
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012608",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -777,13 +983,21 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012609", "2"],
+          "param": [
+            "4012609",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401260901,
-      "npcId": [13431, 1061, 1650, 1023],
+      "npcId": [
+        13431,
+        1061,
+        1650,
+        1023
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012609",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -796,13 +1010,22 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012610", "2"],
+          "param": [
+            "4012610",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401261001,
-      "npcId": [1001, 10045, 1061, 1023, 1060],
+      "npcId": [
+        1001,
+        10045,
+        1061,
+        1023,
+        1060
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012610",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -815,13 +1038,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012611", "2"],
+          "param": [
+            "4012611",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401261101,
-      "npcId": [13493],
+      "npcId": [
+        13493
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012611",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -834,13 +1062,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012612", "2"],
+          "param": [
+            "4012612",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401261201,
-      "npcId": [13493],
+      "npcId": [
+        13493
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012612",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -853,13 +1086,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012613", "2"],
+          "param": [
+            "4012613",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401261301,
-      "npcId": [13493],
+      "npcId": [
+        13493
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012613",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -872,13 +1110,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012614", "2"],
+          "param": [
+            "4012614",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401261401,
-      "npcId": [13604],
+      "npcId": [
+        13604
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012614",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
@@ -891,13 +1134,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012608", "2"],
+          "param": [
+            "4012608",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 4,
       "initDialog": 401261501,
-      "npcId": [13431, 1060, 1023],
+      "npcId": [
+        13431,
+        1060,
+        1023
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012615",
       "questId": 40126,
       "prePerformCfg": ""
@@ -909,17 +1159,58 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4012610", "2"],
+          "param": [
+            "4012610",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401261901,
-      "npcId": [1650],
+      "npcId": [
+        1650
+      ],
       "performCfg": "QuestDialogue/EQ/Poetry_40126/Q4012619",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40126,
       "prePerformCfg": ""
     }
+  ],
+  "freeStyleDic": {
+    "1023": [
+      1220
+    ],
+    "1060": [
+      1130
+    ],
+    "13431": [
+      4180,
+      1240
+    ]
+  },
+  "forcePreloadLuaList": [
+    "4804563971021373197"
+  ],
+  "activityId": 2025,
+  "preloadLuaList": [
+    "3088369788188086520",
+    "5548419282517004788",
+    "8282710676779574352",
+    "3076375927307496256"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "dialogList": [
+    {
+      "talkShowType": "TALK_SHOW_FORCE_SELECT",
+      "id": 401262301,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 3943876162
+    }
+  ],
+  "specialShowRewardId": [
+    33452
   ]
 }

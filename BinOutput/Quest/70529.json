@@ -4,7 +4,9 @@
   "titleTextMapHash": 4161752407,
   "descTextMapHash": 36490622,
   "luaPath": "Actor/Quest/WQ70529",
-  "rewardIdList": [170529],
+  "rewardIdList": [
+    170529
+  ],
   "subQuests": [
     {
       "subId": 7052901,
@@ -16,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -43,14 +51,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -69,18 +83,32 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7052902", "2"],
+          "param": [
+            "7052902",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 705290201,
-      "npcId": [30046],
+      "npcId": [
+        30046
+      ],
       "performCfg": "QuestDialogue/WQ/70529/Q7052902",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70529,
       "prePerformCfg": "",
       "forceNpcNotDestroy": true
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "2441002261847193376"
+  ],
+  "activityId": 2020,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "7438540366552354712"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

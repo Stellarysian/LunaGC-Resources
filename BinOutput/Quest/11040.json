@@ -5,8 +5,12 @@
   "titleTextMapHash": 2006835359,
   "descTextMapHash": 3860383334,
   "luaPath": "Actor/Quest/LQ11040",
-  "suggestTrackMainQuestList": [11041],
-  "rewardIdList": [111040],
+  "suggestTrackMainQuestList": [
+    11041
+  ],
+  "rewardIdList": [
+    111040
+  ],
   "chapterId": 2017,
   "subQuests": [
     {
@@ -18,19 +22,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": [10002, 1],
+          "param": [
+            10002,
+            1
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PERSONAL_LINE_UNLOCK",
-          "param": [9, 0],
+          "param": [
+            9,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [1104001, 0],
+          "param": [
+            1104001,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -42,7 +55,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q11040Shatang", "15"],
+        "param": [
+          "Q11040Shatang",
+          "15"
+        ],
         "guideScene": 3
       },
       "isRewind": true,
@@ -64,7 +80,10 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1019, 1587],
+      "exclusiveNpcList": [
+        1019,
+        1587
+      ],
       "exclusiveNpcPriority": 1010
     },
     {
@@ -75,14 +94,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1104001, 3],
+          "param": [
+            1104001,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1104002, 0],
+          "param": [
+            1104002,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -94,7 +119,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1019"],
+        "param": [
+          "1019"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_START",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -118,7 +145,10 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1019, 1587],
+      "exclusiveNpcList": [
+        1019,
+        1587
+      ],
       "exclusiveNpcPriority": 1010
     },
     {
@@ -129,14 +159,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1104002, 3],
+          "param": [
+            1104002,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [1104003, 0],
+          "param": [
+            1104003,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -148,7 +184,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q11040BBR", "25"],
+        "param": [
+          "Q11040BBR",
+          "25"
+        ],
         "guideScene": 3
       },
       "isRewind": true,
@@ -170,7 +209,11 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1019, 1587, 1020],
+      "exclusiveNpcList": [
+        1019,
+        1587,
+        1020
+      ],
       "exclusiveNpcPriority": 1010
     },
     {
@@ -181,14 +224,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1104003, 3],
+          "param": [
+            1104003,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1104004, 0],
+          "param": [
+            1104004,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -200,7 +249,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1008"],
+        "param": [
+          "1008"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_START",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -224,7 +275,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1020],
+      "exclusiveNpcList": [
+        1020
+      ],
       "exclusiveNpcPriority": 1010
     }
   ],
@@ -237,22 +290,33 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1104002", "2"],
+          "param": [
+            "1104002",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7066501", "0"],
+          "param": [
+            "7066501",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_NOT_EQUAL",
-          "param": ["7066501", "3"],
+          "param": [
+            "7066501",
+            "3"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 110400201,
-      "npcId": [1019],
+      "npcId": [
+        1019
+      ],
       "performCfg": "QuestDialogue/LQ/Albedo1_11040/Q1104002",
       "questId": 11040,
       "prePerformCfg": "",
@@ -260,7 +324,10 @@
       "finishExec": [
         {
           "type": "TALK_EXEC_SAVE_TALK_ID",
-          "param": ["1104002", "0"],
+          "param": [
+            "1104002",
+            "0"
+          ],
           "param_str": ""
         }
       ]
@@ -273,17 +340,25 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1104002", "3"],
+          "param": [
+            "1104002",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1104003", "2"],
+          "param": [
+            "1104003",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 110400301,
-      "npcId": [1019],
+      "npcId": [
+        1019
+      ],
       "performCfg": "QuestDialogue/LQ/Albedo1_11040/Q1104003",
       "questId": 11040,
       "prePerformCfg": "",
@@ -296,12 +371,17 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1104004", "2"],
+          "param": [
+            "1104004",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 110400401,
-      "npcId": [1020],
+      "npcId": [
+        1020
+      ],
       "performCfg": "QuestDialogue/LQ/Albedo1_11040/Q1104004",
       "questId": 11040,
       "prePerformCfg": "",
@@ -315,17 +395,25 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1104002", "2"],
+          "param": [
+            "1104002",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7066501", "3"],
+          "param": [
+            "7066501",
+            "3"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 110400501,
-      "npcId": [1019],
+      "npcId": [
+        1019
+      ],
       "performCfg": "QuestDialogue/LQ/Albedo1_11040/Q1104005",
       "questId": 11040,
       "prePerformCfg": "",
@@ -333,10 +421,29 @@
       "finishExec": [
         {
           "type": "TALK_EXEC_SAVE_TALK_ID",
-          "param": ["1104005", "0"],
+          "param": [
+            "1104005",
+            "0"
+          ],
           "param_str": ""
         }
       ]
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "1020": [
+      1120
+    ]
+  },
+  "forcePreloadLuaList": [
+    "17337268152785795820"
+  ],
+  "HGFFNBIGPJK": true,
+  "preloadLuaList": [
+    "17842302238695143736",
+    "8532456326652717227",
+    "9477075229700922518"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 2017
 }

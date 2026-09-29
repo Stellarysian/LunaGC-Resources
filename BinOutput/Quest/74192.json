@@ -15,12 +15,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7414209, 3],
+          "param": [
+            7414209,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7419201, 0],
+          "param": [
+            7419201,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -35,7 +41,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -53,12 +62,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7414209, 3],
+          "param": [
+            7414209,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7419202, 0],
+          "param": [
+            7419202,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -73,7 +88,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -91,12 +109,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7414209, 3],
+          "param": [
+            7414209,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7419203, 0],
+          "param": [
+            7419203,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -111,7 +135,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -129,12 +156,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7414209, 3],
+          "param": [
+            7414209,
+            3
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7419204, 0],
+          "param": [
+            7419204,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -149,7 +182,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -167,7 +203,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7414215, 3],
+          "param": [
+            7414215,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -183,7 +222,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -201,7 +243,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7414110, 3],
+          "param": [
+            7414110,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -215,7 +260,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -233,7 +281,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7414215, 3],
+          "param": [
+            7414215,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -247,7 +298,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -265,13 +319,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7419201", "2"],
+          "param": [
+            "7419201",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741920101,
-      "npcId": [21236],
+      "npcId": [
+        21236
+      ],
       "performCfg": "",
       "questId": 74192,
       "prePerformCfg": ""
@@ -283,13 +342,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7419202", "2"],
+          "param": [
+            "7419202",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741920201,
-      "npcId": [21237],
+      "npcId": [
+        21237
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74192/Q7419202",
       "questId": 74192,
       "prePerformCfg": ""
@@ -301,13 +365,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7419203", "2"],
+          "param": [
+            "7419203",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741920301,
-      "npcId": [21348],
+      "npcId": [
+        21348
+      ],
       "performCfg": "",
       "questId": 74192,
       "prePerformCfg": ""
@@ -319,16 +388,28 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7419204", "2"],
+          "param": [
+            "7419204",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741920401,
-      "npcId": [21349],
+      "npcId": [
+        21349
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74192/Q7419204",
       "questId": 74192,
       "prePerformCfg": ""
     }
+  ],
+  "forcePreloadLuaList": [
+    "16863301263552500134"
+  ],
+  "showRedPoint": true,
+  "preloadLuaList": [
+    "4772826799251395356"
   ]
 }

@@ -16,14 +16,20 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [1400808, 3],
+          "param": [
+            1400808,
+            3
+          ],
           "param_str": ""
         }
       ],
       "failCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
@@ -38,7 +44,10 @@
       "failExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
-          "param": ["1401401", "0"],
+          "param": [
+            "1401401",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -47,12 +56,16 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "beginExec": [],
       "finishExec": []
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

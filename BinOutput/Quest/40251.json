@@ -1936,7 +1936,15 @@
       "exclusivePlaceList": [
         308
       ],
-      "mainId": 40251
+      "mainId": 40251,
+      "guide": {
+        "param": [
+          "[3_310702072:-438.061,207.605,289.577,0.000,140.336,0.000]"
+        ],
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE",
+        "guideScene": 3,
+        "type": "QUEST_GUIDE_LOCATION"
+      }
     },
     {
       "failExec": [
@@ -1992,7 +2000,23 @@
       "exclusivePlaceList": [
         308
       ],
-      "mainId": 40251
+      "mainId": 40251,
+      "finishExec": [
+        {
+          "param": [
+            "133108264"
+          ],
+          "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP"
+        }
+      ],
+      "guide": {
+        "param": [
+          "[3_310702076:-259.111,266.835,-987.593]"
+        ],
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE",
+        "guideScene": 3,
+        "type": "QUEST_GUIDE_LOCATION"
+      }
     },
     {
       "failExec": [
@@ -2048,7 +2072,23 @@
       "exclusivePlaceList": [
         308
       ],
-      "mainId": 40251
+      "mainId": 40251,
+      "finishExec": [
+        {
+          "param": [
+            "133104856"
+          ],
+          "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP"
+        }
+      ],
+      "guide": {
+        "param": [
+          "[3_310702079:590.046,198.111,240.239]"
+        ],
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE",
+        "guideScene": 3,
+        "type": "QUEST_GUIDE_LOCATION"
+      }
     },
     {
       "failExec": [
@@ -2113,7 +2153,15 @@
       "exclusivePlaceList": [
         308
       ],
-      "mainId": 40251
+      "mainId": 40251,
+      "guide": {
+        "param": [
+          "[3_310702082:2250.447,353.523,1853.160]"
+        ],
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE",
+        "guideScene": 3,
+        "type": "QUEST_GUIDE_LOCATION"
+      }
     },
     {
       "finishCond": [
@@ -2290,7 +2338,8 @@
       ],
       "descTextMapHash": 1060622284,
       "subId": 4025125,
-      "mainId": 40251
+      "mainId": 40251,
+      "guideTipsTextMapHash": 2636150702
     },
     {
       "failExec": [

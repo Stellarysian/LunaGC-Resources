@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "DungeonEntry",
@@ -24,7 +23,11 @@
       "dungeonQuestConditionList": {},
       "titleTextID": "UI_STC_Intee_DungeonEntry",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "dungeonEntryType": "RoleCombat"
+      "dungeonEntryType": "RoleCombat",
+      "EHFJCACBBME": "RoleCombat",
+      "FPBBOEDKMIE": 1,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry"
     },
     "2": {
       "$type": "DungeonExit",
@@ -44,7 +47,9 @@
       },
       "unlocked": true,
       "specialTipsIconPath": "",
-      "entryPointId": 1
+      "entryPointId": 1,
+      "HMOHDOOAGOJ": 1,
+      "KBHKBGKIPII": true
     },
     "3": {
       "$type": "HMJDOCFJACC",
@@ -62,7 +67,10 @@
       "unlocked": true,
       "specialTipsIconPath": "",
       "buildingType": "RoleCombatBook",
-      "showOnLockedArea": true
+      "showOnLockedArea": true,
+      "ELHIJCKBKOJ": "RoleCombatBook",
+      "GHCGLHJFFFC": true,
+      "KBHKBGKIPII": true
     },
     "4": {
       "$type": "HMJDOCFJACC",
@@ -80,8 +88,12 @@
       "unlocked": true,
       "specialTipsIconPath": "",
       "buildingType": "CharMasterEntry",
-      "showOnLockedArea": true
+      "showOnLockedArea": true,
+      "ELHIJCKBKOJ": "CharMasterEntry",
+      "GHCGLHJFFFC": true,
+      "KBHKBGKIPII": true
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500
 }

@@ -15,17 +15,26 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ANY_MANUAL_TRANSPORT",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE_RANGE",
-          "param": [3, 100],
+          "param": [
+            3,
+            100
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [402701, 0],
+          "param": [
+            402701,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -41,7 +50,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -59,16 +71,23 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["402701", "2"],
+          "param": [
+            "402701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 40251323,
-      "npcId": [1076],
+      "npcId": [
+        1076
+      ],
       "performCfg": "QuestDialogue/AQ/Fontaine_4027/Q402701",
       "questId": 4027,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "HGFFNBIGPJK": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

@@ -4,7 +4,9 @@
   "titleTextMapHash": 3645207911,
   "descTextMapHash": 4053526518,
   "luaPath": "Actor/Quest/WQ71660",
-  "rewardIdList": [171660],
+  "rewardIdList": [
+    171660
+  ],
   "subQuests": [
     {
       "subId": 7166001,
@@ -14,7 +16,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [5058005, 1],
+          "param": [
+            5058005,
+            1
+          ],
           "param_str": ""
         }
       ],
@@ -22,22 +27,34 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE",
-          "param": [35820, 0],
+          "param": [
+            35820,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE",
-          "param": [35821, 0],
+          "param": [
+            35821,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE",
-          "param": [35822, 0],
+          "param": [
+            35822,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE",
-          "param": [35823, 0],
+          "param": [
+            35823,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -49,7 +66,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1587"],
+        "param": [
+          "1587"
+        ],
         "guideScene": 3
       },
       "isRewind": true,
@@ -71,7 +90,10 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1587, 2083],
+      "exclusiveNpcList": [
+        1587,
+        2083
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -82,14 +104,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7166001, 3],
+          "param": [
+            7166001,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7166001, 0],
+          "param": [
+            7166001,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -101,7 +129,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1587"],
+        "param": [
+          "1587"
+        ],
         "guideScene": 3
       },
       "finishParent": true,
@@ -124,7 +154,10 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [1587, 2083],
+      "exclusiveNpcList": [
+        1587,
+        2083
+      ],
       "exclusiveNpcPriority": 1100
     }
   ],
@@ -136,17 +169,39 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7166002", "2"],
+          "param": [
+            "7166002",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 716600101,
-      "npcId": [2083, 1587],
+      "npcId": [
+        2083,
+        1587
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_71660/Q7166001",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71660,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "1587": [
+      1190
+    ],
+    "2083": [
+      1170
+    ]
+  },
+  "forcePreloadLuaList": [
+    "2231746473014436875"
+  ],
+  "activityId": 5058,
+  "preloadLuaList": [
+    "14508182164073527186"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

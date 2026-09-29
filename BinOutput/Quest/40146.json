@@ -5,7 +5,9 @@
   "titleTextMapHash": 1297654023,
   "descTextMapHash": 2296089494,
   "luaPath": "Actor/Quest/EQ40146",
-  "rewardIdList": [140146],
+  "rewardIdList": [
+    140146
+  ],
   "chapterId": 10172,
   "subQuests": [
     {
@@ -16,13 +18,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4014608, 0],
+          "param": [
+            4014608,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[3_300300740:2515.331,202.810,-1136.838]"],
+        "param": [
+          "[3_300300740:2515.331,202.810,-1136.838]"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -34,7 +41,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["3", "133003077"],
+          "param": [
+            "3",
+            "133003077"
+          ],
           "param_str": ""
         }
       ],
@@ -43,7 +53,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -59,13 +72,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4014601, 0],
+          "param": [
+            4014601,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30501"],
+        "param": [
+          "30501"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -78,7 +96,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["3", "133003077"],
+          "param": [
+            "3",
+            "133003077"
+          ],
           "param_str": ""
         }
       ],
@@ -87,7 +108,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -103,7 +127,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [2, 0],
+          "param": [
+            2,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -118,7 +145,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -136,13 +166,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014602", "2"],
+          "param": [
+            "4014602",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401460101,
-      "npcId": [30501],
+      "npcId": [
+        30501
+      ],
       "performCfg": "QuestDialogue/EQ/V4.5AlchemySim_40146/Q4014601",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40146,
@@ -151,7 +186,10 @@
       "finishExec": [
         {
           "type": "TALK_EXEC_SAVE_TALK_ID",
-          "param": ["4014601", "0"],
+          "param": [
+            "4014601",
+            "0"
+          ],
           "param_str": ""
         }
       ]
@@ -163,18 +201,33 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4014601", "2"],
+          "param": [
+            "4014601",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401460801,
-      "npcId": [30501],
+      "npcId": [
+        30501
+      ],
       "performCfg": "QuestDialogue/EQ/V4.5AlchemySim_40146/Q4014608",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40146,
       "prePerformCfg": "",
       "forceNpcNotDestroy": true
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "16108165433932989326"
+  ],
+  "activityId": 2029,
+  "HMJOIJHMGJD": true,
+  "showRedPoint": true,
+  "preloadLuaList": [
+    "11411717605397690216"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

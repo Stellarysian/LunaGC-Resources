@@ -15,7 +15,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GADGET_STATE_CHANGE",
-          "param": [511010053, 53001],
+          "param": [
+            511010053,
+            53001
+          ],
           "param_str": ""
         }
       ],
@@ -29,7 +32,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -47,7 +53,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7423901, 0],
+          "param": [
+            7423901,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -62,7 +71,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -80,16 +92,22 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7423902", "2"],
+          "param": [
+            "7423902",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741900201,
-      "npcId": [21415],
+      "npcId": [
+        21415
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74239/Q7423901",
       "questId": 74239,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "showRedPoint": true
 }

@@ -4,7 +4,9 @@
   "titleTextMapHash": 701514479,
   "descTextMapHash": 2178423414,
   "luaPath": "Actor/Quest/WQ71663",
-  "rewardIdList": [171663],
+  "rewardIdList": [
+    171663
+  ],
   "subQuests": [
     {
       "subId": 7166301,
@@ -14,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [5066002, 1],
+          "param": [
+            5066002,
+            1
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7166301, 0],
+          "param": [
+            7166301,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -34,7 +42,10 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q7166301_guide", "30"],
+        "param": [
+          "Q7166301_guide",
+          "30"
+        ],
         "guideScene": 3,
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
       },
@@ -57,7 +68,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [30159],
+      "exclusiveNpcList": [
+        30159
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -68,14 +81,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7166301, 3],
+          "param": [
+            7166301,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7166301, 0],
+          "param": [
+            7166301,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -87,7 +106,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30159"],
+        "param": [
+          "30159"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_FINISH",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -111,7 +132,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [30159],
+      "exclusiveNpcList": [
+        30159
+      ],
       "exclusiveNpcPriority": 1100
     }
   ],
@@ -123,17 +146,37 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7166302", "2"],
+          "param": [
+            "7166302",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 8,
       "initDialog": 716630101,
-      "npcId": [30159],
+      "npcId": [
+        30159
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_71663/Q7166301",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71663,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "30159": [
+      1160
+    ]
+  },
+  "forcePreloadLuaList": [
+    "11303990307585344286"
+  ],
+  "activityId": 5066,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "14404412594018242942"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

@@ -5,6 +5,9 @@
     ],
     "7808": [
       1201
+    ],
+    "1341": [
+      1220
     ]
   },
   "forcePreloadLuaList": [
@@ -322,7 +325,10 @@
         "id": "1338",
         "type": "TALK_ROLE_NPC"
       },
-      "talkContentTextMapHash": 2785529498
+      "talkContentTextMapHash": 2785529498,
+      "nextDialogs": [
+        776640404
+      ]
     },
     {
       "nextDialogs": [
@@ -352,7 +358,10 @@
         "id": "1338",
         "type": "TALK_ROLE_NPC"
       },
-      "talkContentTextMapHash": 123809522
+      "talkContentTextMapHash": 123809522,
+      "nextDialogs": [
+        776640504
+      ]
     }
   ]
 }

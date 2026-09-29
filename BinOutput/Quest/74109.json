@@ -14,7 +14,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7410901, 0],
+          "param": [
+            7410901,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -27,7 +30,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -45,13 +51,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7410901", "2"],
+          "param": [
+            "7410901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741090101,
-      "npcId": [21082],
+      "npcId": [
+        21082
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74109/Q7410901",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74109,
@@ -64,18 +75,32 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7410901", "3"],
+          "param": [
+            "7410901",
+            "3"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741090202,
-      "npcId": [21082],
+      "npcId": [
+        21082
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74109/Q7410902",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74109,
       "prePerformCfg": "",
       "questIdleTalk": true
+    }
+  ],
+  "dialogList": [
+    {
+      "id": 741090109,
+      "talkRole": {
+        "id": "1400",
+        "type": "TALK_ROLE_NPC"
+      }
     }
   ]
 }

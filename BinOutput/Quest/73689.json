@@ -4,7 +4,9 @@
   "titleTextMapHash": 3784296343,
   "descTextMapHash": 3292390326,
   "luaPath": "Actor/Quest/WQ73689",
-  "rewardIdList": [173689],
+  "rewardIdList": [
+    173689
+  ],
   "subQuests": [
     {
       "subId": 7368901,
@@ -16,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -42,17 +50,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7368901", "2"],
+          "param": [
+            "7368901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 736890101,
-      "npcId": [30322],
+      "npcId": [
+        30322
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73689,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "30322": [
+      1160
+    ]
+  },
+  "activityId": 5123,
+  "HMJOIJHMGJD": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

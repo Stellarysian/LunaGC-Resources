@@ -14,14 +14,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ENTER_ROOM",
-          "param": [1016, 0],
+          "param": [
+            1016,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -59,14 +65,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [42801, 3],
+          "param": [
+            42801,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [42802, 0],
+          "param": [
+            42802,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -105,14 +117,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [42802, 3],
+          "param": [
+            42802,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [42803, 0],
+          "param": [
+            42803,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -144,5 +162,9 @@
         }
       ]
     }
-  ]
+  ],
+  "preloadLuaList": [
+    "5909385756826696338"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

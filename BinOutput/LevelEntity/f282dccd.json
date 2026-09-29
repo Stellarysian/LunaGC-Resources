@@ -64,7 +64,8 @@
     },
     "PMLHPPFKOBB": [
       {
-        "NCCKLDFFDOH": "LevelEntity_RoleCombat_Bonus_ArkheReaction"
+        "NCCKLDFFDOH": "LevelEntity_RoleCombat_Bonus_ArkheReaction",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_ArkheReaction"
       }
     ]
   },
@@ -136,7 +137,13 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_AvoidHurtedByMonsters",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_AvoidHurtedByMonsters"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_Bonus_Deathmatch_Team": {
     "BBLCBKAFMMO": {
@@ -205,7 +212,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "LevelEntity_RoleCombat_Bonus_Deathmatch_Team"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_Bonus_GetIntoAbilityState": {
     "BBLCBKAFMMO": {
@@ -275,7 +287,13 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_GetIntoAbilityState_Freeze",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_GetIntoAbilityState_Freeze"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_Bonus_KillingByAttackTags": {
     "BBLCBKAFMMO": {
@@ -361,7 +379,29 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_NormalAttack",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_NormalAttack"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_ExtraAttack",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_ExtraAttack"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_FallingAttack",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_FallingAttack"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_Elemental_Art",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_Elemental_Art"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_Elemental_Burst",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_KillingByAttackTags_Elemental_Burst"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_Bonus_KillingOnAbilityState": {
     "BBLCBKAFMMO": {
@@ -439,7 +479,21 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_KillingOnAbilityState_Freeze",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_KillingOnAbilityState_Freeze"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_KillingOnAbilityState_Shock",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_KillingOnAbilityState_Shock"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_KillingOnAbilityState_Overdose",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_KillingOnAbilityState_Overdose"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_Bonus_MonstserTag": {
     "BBLCBKAFMMO": {
@@ -506,7 +560,8 @@
     },
     "PMLHPPFKOBB": [
       {
-        "NCCKLDFFDOH": "LevelEntity_RoleCombat_Bonus_MonstserTag"
+        "NCCKLDFFDOH": "LevelEntity_RoleCombat_Bonus_MonstserTag",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_MonstserTag"
       }
     ]
   },
@@ -578,7 +633,13 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_SustainHP",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_SustainHP"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_Bonus_TriggerElementReaction": {
     "BBLCBKAFMMO": {
@@ -688,7 +749,53 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Swirl",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Swirl"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Crystallize",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Crystallize"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Explode",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Explode"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Stream",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Stream"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Melt",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Melt"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Burning",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Burning"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Shock",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Shock"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Superconductor",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Superconductor"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Overdose",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Overdose"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Freeze",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Freeze"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Overgrow",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_TriggerElementReaction_Overgrow"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_Bonus_UseSkill": {
     "BBLCBKAFMMO": {
@@ -762,7 +869,17 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_UseSkill_Elemental_Art",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_UseSkill_Elemental_Art"
+      },
+      {
+        "abilityID": "LevelEntity_RoleCombat_Bonus_UseSkill_Elemental_Burst",
+        "abilityName": "LevelEntity_RoleCombat_Bonus_UseSkill_Elemental_Burst"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_BuffSupport": {
     "BBLCBKAFMMO": {
@@ -829,7 +946,8 @@
     },
     "PMLHPPFKOBB": [
       {
-        "NCCKLDFFDOH": "LevelBuff_RoleCombat_Blessing_Burning_OnMonster"
+        "NCCKLDFFDOH": "LevelBuff_RoleCombat_Blessing_Burning_OnMonster",
+        "abilityName": "LevelBuff_RoleCombat_Blessing_Burning_OnMonster"
       }
     ]
   },
@@ -900,7 +1018,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "MonsterAffix_RoleCombat_LifeBalance_Manager"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_SurviveMode_Corruption_LoseHP": {
     "BBLCBKAFMMO": {
@@ -969,7 +1092,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "LevelEntity_RoleCombat_SurviveMode_Corruption_LoseHP"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_SurviveMode_ElecDamage": {
     "BBLCBKAFMMO": {
@@ -1038,7 +1166,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "LevelEntity_RoleCombat_SurviveMode_ElecDamage"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_SurviveMode_FireDamage": {
     "BBLCBKAFMMO": {
@@ -1107,7 +1240,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "LevelEntity_RoleCombat_SurviveMode_FireDamage"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_SurviveMode_GrassDamage": {
     "BBLCBKAFMMO": {
@@ -1176,7 +1314,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "LevelEntity_RoleCombat_SurviveMode_GrassDamage"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_SurviveMode_IceDamage": {
     "BBLCBKAFMMO": {
@@ -1245,7 +1388,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "LevelEntity_RoleCombat_SurviveMode_IceDamage"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_SurviveMode_RockDamage": {
     "BBLCBKAFMMO": {
@@ -1314,7 +1462,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "LevelEntity_RoleCombat_SurviveMode_RockDamage"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_SurviveMode_WaterDamage": {
     "BBLCBKAFMMO": {
@@ -1383,7 +1536,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "LevelEntity_RoleCombat_SurviveMode_WaterDamage"
+      }
+    ]
   },
   "LevelEntity_RoleCombat_SurviveMode_WindDamage": {
     "BBLCBKAFMMO": {
@@ -1452,6 +1610,11 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "LevelEntity_RoleCombat_SurviveMode_WindDamage"
+      }
+    ]
   }
 }

@@ -9,7 +9,9 @@
     "EALGMJIJFMB": [
       {
         "FLEMJDMGGHJ": "GrapplingHookSkill_Ability",
-        "NCCKLDFFDOH": "GrapplingHookSkill_Ability"
+        "NCCKLDFFDOH": "GrapplingHookSkill_Ability",
+        "abilityID": "GrapplingHookSkill_Ability",
+        "abilityName": "GrapplingHookSkill_Ability"
       }
     ],
     "EILDNHKFDMI": {
@@ -73,6 +75,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "TMHY_SpaceIntelligence_Controller",
+        "abilityName": "TMHY_SpaceIntelligence_Controller"
+      }
+    ]
   }
 }

@@ -5,7 +5,9 @@
   "titleTextMapHash": 2746427679,
   "descTextMapHash": 1102256302,
   "luaPath": "Actor/Quest/WQ72731",
-  "rewardIdList": [172731],
+  "rewardIdList": [
+    172731
+  ],
   "subQuests": [
     {
       "subId": 7273101,
@@ -17,14 +19,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -44,14 +52,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -71,14 +85,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -98,14 +118,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -124,13 +150,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7273102", "2"],
+          "param": [
+            "7273102",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 727310201,
-      "npcId": [13019, 1044],
+      "npcId": [
+        13019,
+        1044
+      ],
       "performCfg": "QuestDialogue/WQ/Daoqi_72731/Q7273102",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72731,
@@ -144,22 +176,55 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7273101", "2"],
+          "param": [
+            "7273101",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7273104", "2"],
+          "param": [
+            "7273104",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 727310701,
-      "npcId": [13019, 1044],
+      "npcId": [
+        13019,
+        1044
+      ],
       "performCfg": "QuestDialogue/WQ/Daoqi_72731/Q7273107",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72731,
       "prePerformCfg": ""
+    }
+  ],
+  "forcePreloadLuaList": [
+    "23947625718018386"
+  ],
+  "activityId": 5118,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "16304557847449791699",
+    "13065288292253536012"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE",
+  "dialogList": [
+    {
+      "nextDialogs": [
+        727319903
+      ],
+      "id": 727319902,
+      "talkRole": {
+        "id": "1005",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3178279578
     }
   ]
 }

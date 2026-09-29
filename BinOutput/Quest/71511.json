@@ -17,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -33,6 +39,22 @@
       "finishExec": [],
       "failExec": [],
       "guide": {}
+    }
+  ],
+  "activityId": 2019,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY",
+  "dialogList": [
+    {
+      "nextDialogs": [
+        715110407
+      ],
+      "id": 715110406,
+      "talkRole": {
+        "id": "30290",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1672637346
     }
   ]
 }

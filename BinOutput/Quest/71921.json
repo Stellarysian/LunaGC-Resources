@@ -5,7 +5,9 @@
   "descTextMapHash": 758046846,
   "luaPath": "",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [552004],
+  "rewardIdList": [
+    552004
+  ],
   "subQuests": [
     {
       "subId": 7192101,
@@ -17,17 +19,26 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_COMPLETE_TALK",
-          "param": [7192101, 0],
+          "param": [
+            7192101,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_COMPLETE_TALK",
-          "param": [7192102, 0],
+          "param": [
+            7192102,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_COMPLETE_TALK",
-          "param": [7192103, 0],
+          "param": [
+            7192103,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -35,17 +46,26 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7192101, 0],
+          "param": [
+            7192101,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7192102, 0],
+          "param": [
+            7192102,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7192103, 0],
+          "param": [
+            7192103,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -76,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

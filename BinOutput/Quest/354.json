@@ -4,8 +4,12 @@
   "titleTextMapHash": 641240337,
   "descTextMapHash": 3239802911,
   "luaPath": "Actor/Quest/AQ354",
-  "suggestTrackMainQuestList": [360],
-  "rewardIdList": [100354],
+  "suggestTrackMainQuestList": [
+    360
+  ],
+  "rewardIdList": [
+    100354
+  ],
   "chapterId": 1001,
   "subQuests": [
     {
@@ -16,14 +20,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35505, 3],
+          "param": [
+            35505,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_TRIGGER_FIRE",
-          "param": [1018, 0],
+          "param": [
+            1018,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -35,7 +45,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q354DummySafe"],
+        "param": [
+          "Q354DummySafe"
+        ],
         "guideScene": 3
       },
       "showGuide": "QUEST_GUIDE_ITEM_DISABLE",
@@ -66,14 +78,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35401, 3],
+          "param": [
+            35401,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [35404, 0],
+          "param": [
+            35404,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -85,7 +103,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1002"],
+        "param": [
+          "1002"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -124,14 +144,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35402, 3],
+          "param": [
+            35402,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "133003079",
           "count": 1
         }
@@ -144,7 +170,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q354Center"],
+        "param": [
+          "Q354Center"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_UI"
@@ -165,7 +193,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["3", "133003439"],
+          "param": [
+            "3",
+            "133003439"
+          ],
           "param_str": ""
         }
       ]
@@ -179,14 +210,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35404, 3],
+          "param": [
+            35404,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [35405, 0],
+          "param": [
+            35405,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -224,14 +261,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35404, 3],
+          "param": [
+            35404,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_TRIGGER_FIRE",
-          "param": [1103, 0],
+          "param": [
+            1103,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -243,7 +286,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q360qq1"],
+        "param": [
+          "Q360qq1"
+        ],
         "guideScene": 3
       },
       "showGuide": "QUEST_GUIDE_ITEM_DISABLE",
@@ -277,17 +322,32 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["35402", "2"],
+          "param": [
+            "35402",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 3540401,
-      "npcId": [1002],
+      "npcId": [
+        1002
+      ],
       "performCfg": "QuestDialogue/AQ/Mengde1_354/Q35404",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 354,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "9519285251334256757"
+  ],
+  "preloadLuaList": [
+    "5909385756826696338",
+    "14457059026087496718",
+    "8548566839064938973"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 1001
 }

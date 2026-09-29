@@ -17,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": [10001, 1],
+          "param": [
+            10001,
+            1
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_OBTAIN_ITEM",
-          "param": [101989, 0],
+          "param": [
+            101989,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
@@ -32,7 +38,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_INC_QUEST_GLOBAL_VAR",
-          "param": ["73110", "1"],
+          "param": [
+            "73110",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -41,5 +50,11 @@
       "failExec": [],
       "guide": {}
     }
+  ],
+  "forcePreloadLuaList": [
+    "13749644923498328759"
+  ],
+  "preloadLuaList": [
+    "6225340239952963383"
   ]
 }

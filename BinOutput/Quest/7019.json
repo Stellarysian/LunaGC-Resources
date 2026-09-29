@@ -1264,7 +1264,16 @@
         37120863
       ],
       "mainId": 7019,
-      "showType": "QUEST_HIDDEN"
+      "showType": "QUEST_HIDDEN",
+      "finishExec": [
+        {
+          "param": [
+            "701901",
+            "4"
+          ],
+          "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR"
+        }
+      ]
     },
     {
       "DABNIJGHAPJ": 1335,

@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "TransPointNormal",
@@ -23,7 +22,11 @@
       "isForbidAvatarRevive": true,
       "isForbidAvatarAutoUseSpring": true,
       "mapVisibility": "Never",
-      "portalShape": ""
+      "portalShape": "",
+      "ALBFHGKNMLK": "TOWER",
+      "FPBBOEDKMIE": 1,
+      "GLEOEKPJBEG": true,
+      "KLFPJCNAEOE": true
     },
     "10": {
       "$type": "SceneVehicleSummonPoint",
@@ -85,7 +88,48 @@
         }
       ],
       "vehicleRadius": 10.0,
-      "titleTextID": "UI_STC_INTEE_VEHICLESUMMON"
+      "titleTextID": "UI_STC_INTEE_VEHICLESUMMON",
+      "CIEJLAGEFKI": [
+        {
+          "x": 197.3013458251953,
+          "y": 168.72467041015625,
+          "z": -93.52118682861328
+        },
+        {
+          "x": 199,
+          "y": 168.72467041015625,
+          "z": -99
+        },
+        {
+          "x": 204,
+          "y": 168.72467041015625,
+          "z": -91
+        },
+        {
+          "x": 206,
+          "y": 168.72467041015625,
+          "z": -97
+        }
+      ],
+      "CLBLICFIAGA": "Skiff",
+      "GBPJFCLDKCA": true,
+      "JJIIPAFFNIC": [
+        {
+          "y": 81.09222412109375
+        },
+        {
+          "y": 81.09222412109375
+        },
+        {
+          "y": 81.09222412109375
+        },
+        {
+          "y": 81.09222412109375
+        }
+      ],
+      "JNOBAFIPBIJ": 45001001,
+      "KMJAOONJLDN": 10,
+      "OEKKLCFPCAO": "UI_STC_INTEE_VEHICLESUMMON"
     },
     "12": {
       "$type": "SceneVehicleSummonPoint",
@@ -142,7 +186,48 @@
         }
       ],
       "vehicleRadius": 6.0,
-      "titleTextID": "UI_STC_INTEE_VEHICLESUMMON"
+      "titleTextID": "UI_STC_INTEE_VEHICLESUMMON",
+      "CIEJLAGEFKI": [
+        {
+          "x": 479.2454833984375,
+          "y": 224.69943237304688,
+          "z": -38.07933044433594
+        },
+        {
+          "x": 477,
+          "y": 224.69943237304688,
+          "z": -33
+        },
+        {
+          "x": 472,
+          "y": 224.69943237304688,
+          "z": -35
+        },
+        {
+          "x": 467,
+          "y": 224.69943237304688,
+          "z": -31
+        }
+      ],
+      "CLBLICFIAGA": "Skiff",
+      "GBPJFCLDKCA": true,
+      "JJIIPAFFNIC": [
+        {
+          "y": 307.3235168457031
+        },
+        {
+          "y": 307.3235168457031
+        },
+        {
+          "y": 307.3235168457031
+        },
+        {
+          "y": 307.3235168457031
+        }
+      ],
+      "JNOBAFIPBIJ": 45001001,
+      "KMJAOONJLDN": 6,
+      "OEKKLCFPCAO": "UI_STC_INTEE_VEHICLESUMMON"
     },
     "13": {
       "$type": "TransPointNormal",
@@ -163,7 +248,9 @@
       },
       "specialTipsIconPath": "",
       "isModelHidden": true,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 1,
+      "GBPJFCLDKCA": true
     },
     "14": {
       "$type": "DungeonEntry",
@@ -200,7 +287,17 @@
       },
       "titleTextID": "UI_STC_Intee_DungeonEntry",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "forbidSimpleUnlock": true
+      "forbidSimpleUnlock": true,
+      "BOMIAKHPJJI": true,
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 10,
+        "y": 10,
+        "z": 10
+      },
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry",
+      "PFGLDOIBICE": true
     },
     "15": {
       "$type": "DungeonExit",
@@ -218,7 +315,9 @@
       },
       "unlocked": true,
       "specialTipsIconPath": "",
-      "entryPointId": 14
+      "entryPointId": 14,
+      "HMOHDOOAGOJ": 14,
+      "KBHKBGKIPII": true
     },
     "16": {
       "$type": "DungeonEntry",
@@ -261,7 +360,18 @@
       "dungeonEntryType": "ActivityPenAdvBladeDance",
       "forbidSimpleUnlock": true,
       "fireFieldEvent": true,
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "EHFJCACBBME": "ActivityPenAdvBladeDance",
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "LDFIDPKDNKE": true,
+      "OEKKLCFPCAO": "UI_ACTIVITY_PENADV_BATTLE_TITLE",
+      "PFGLDOIBICE": true,
+      "PMLNAOENIIL": true
     },
     "17": {
       "$type": "DungeonExit",
@@ -279,7 +389,9 @@
       },
       "unlocked": true,
       "specialTipsIconPath": "",
-      "entryPointId": 16
+      "entryPointId": 16,
+      "HMOHDOOAGOJ": 16,
+      "KBHKBGKIPII": true
     },
     "18": {
       "$type": "HMJDOCFJACC",
@@ -299,7 +411,8 @@
         "z": 446.5
       },
       "specialTipsIconPath": "",
-      "buildingType": "PenAdvTargetShootingNPC"
+      "buildingType": "PenAdvTargetShootingNPC",
+      "ELHIJCKBKOJ": "PenAdvTargetShootingNPC"
     },
     "19": {
       "$type": "HMJDOCFJACC",
@@ -319,7 +432,8 @@
         "z": 353.1396789550781
       },
       "specialTipsIconPath": "",
-      "buildingType": "PenAdvShuffleBoardNPC"
+      "buildingType": "PenAdvShuffleBoardNPC",
+      "ELHIJCKBKOJ": "PenAdvShuffleBoardNPC"
     },
     "2": {
       "$type": "TransPointNormal",
@@ -339,7 +453,8 @@
         "y": 69.60908508300781
       },
       "specialTipsIconPath": "",
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 1
     },
     "20": {
       "$type": "TransPointNormal",
@@ -363,7 +478,9 @@
       },
       "specialTipsIconPath": "",
       "isModelHidden": true,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 1,
+      "GBPJFCLDKCA": true
     },
     "3": {
       "$type": "TransPointNormal",
@@ -383,7 +500,8 @@
         "y": 320.0
       },
       "specialTipsIconPath": "",
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 1
     },
     "4": {
       "$type": "TransPointNormal",
@@ -401,7 +519,9 @@
       },
       "specialTipsIconPath": "",
       "isModelHidden": true,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 1,
+      "GBPJFCLDKCA": true
     },
     "5": {
       "$type": "TransPointNormal",
@@ -425,7 +545,9 @@
       },
       "specialTipsIconPath": "",
       "isModelHidden": true,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 1,
+      "GBPJFCLDKCA": true
     },
     "6": {
       "$type": "TransPointNormal",
@@ -453,7 +575,9 @@
       },
       "specialTipsIconPath": "",
       "isModelHidden": true,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 1,
+      "GBPJFCLDKCA": true
     },
     "7": {
       "$type": "SceneVehicleSummonPoint",
@@ -514,7 +638,47 @@
         }
       ],
       "vehicleRadius": 6.0,
-      "titleTextID": "UI_STC_INTEE_VEHICLESUMMON"
+      "titleTextID": "UI_STC_INTEE_VEHICLESUMMON",
+      "CIEJLAGEFKI": [
+        {
+          "x": 585.7288818359375,
+          "y": 84.4000015258789,
+          "z": 650.8516235351562
+        },
+        {
+          "x": 584,
+          "y": 84.4000015258789,
+          "z": 645.5499877929688
+        },
+        {
+          "x": 589,
+          "y": 84.4000015258789,
+          "z": 643.4000244140625
+        },
+        {
+          "x": 591,
+          "y": 84.4000015258789,
+          "z": 647
+        }
+      ],
+      "CLBLICFIAGA": "Skiff",
+      "JJIIPAFFNIC": [
+        {
+          "y": 111.43423461914062
+        },
+        {
+          "y": 111.43423461914062
+        },
+        {
+          "y": 111.43423461914062
+        },
+        {
+          "y": 111.43423461914062
+        }
+      ],
+      "JNOBAFIPBIJ": 45001001,
+      "KMJAOONJLDN": 6,
+      "OEKKLCFPCAO": "UI_STC_INTEE_VEHICLESUMMON"
     },
     "8": {
       "$type": "TransPointNormal",
@@ -534,7 +698,8 @@
         "y": 172.56753540039062
       },
       "specialTipsIconPath": "",
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 1
     },
     "9": {
       "$type": "TransPointNormal",
@@ -558,8 +723,11 @@
       },
       "specialTipsIconPath": "",
       "isModelHidden": true,
-      "portalShape": ""
+      "portalShape": "",
+      "FPBBOEDKMIE": 1,
+      "GBPJFCLDKCA": true
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500
 }

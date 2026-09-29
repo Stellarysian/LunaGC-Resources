@@ -21,7 +21,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [2200901, 0],
+          "param": [
+            2200901,
+            0
+          ],
           "param_str": "13311300201",
           "count": 1
         }
@@ -38,7 +41,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133113002,1"],
+          "param": [
+            "3",
+            "133113002,1"
+          ],
           "param_str": ""
         }
       ],
@@ -51,7 +57,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133113002,2"],
+          "param": [
+            "3",
+            "133113002,2"
+          ],
           "param_str": ""
         }
       ]
@@ -65,14 +74,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7101701, 3],
+          "param": [
+            7101701,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7101702, 0],
+          "param": [
+            7101702,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -105,5 +120,6 @@
         }
       ]
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

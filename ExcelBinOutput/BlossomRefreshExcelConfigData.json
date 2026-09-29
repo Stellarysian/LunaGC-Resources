@@ -80,7 +80,58 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_SCOIN",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 1,
+    "refreshCondVec": [
+      {
+        "param": [
+          12
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4101,
+        "drop_id": 207000400
+      },
+      {
+        "preview_reward": 4103,
+        "drop_id": 207000800
+      },
+      {
+        "preview_reward": 4104,
+        "drop_id": 207000900
+      },
+      {
+        "preview_reward": 4105,
+        "drop_id": 207001000
+      },
+      {
+        "preview_reward": 4106,
+        "drop_id": 207001100
+      },
+      {
+        "preview_reward": 4107,
+        "drop_id": 207001200
+      },
+      {
+        "preview_reward": 4108,
+        "drop_id": 207001300
+      },
+      {
+        "preview_reward": 4109,
+        "drop_id": 207001400
+      },
+      {
+        "preview_reward": 4110,
+        "drop_id": 207001500
+      }
+    ]
   },
   {
     "blossomChestId": 2,
@@ -163,7 +214,58 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_EXP",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 2,
+    "refreshCondVec": [
+      {
+        "param": [
+          8
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4001,
+        "drop_id": 206000400
+      },
+      {
+        "preview_reward": 4003,
+        "drop_id": 206000800
+      },
+      {
+        "preview_reward": 4004,
+        "drop_id": 206000900
+      },
+      {
+        "preview_reward": 4005,
+        "drop_id": 206001000
+      },
+      {
+        "preview_reward": 4006,
+        "drop_id": 206001100
+      },
+      {
+        "preview_reward": 4007,
+        "drop_id": 206001200
+      },
+      {
+        "preview_reward": 4008,
+        "drop_id": 206001300
+      },
+      {
+        "preview_reward": 4009,
+        "drop_id": 206001400
+      },
+      {
+        "preview_reward": 4010,
+        "drop_id": 206001500
+      }
+    ]
   },
   {
     "blossomChestId": 1,
@@ -246,7 +348,58 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_SCOIN",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 1,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4101,
+        "drop_id": 207000400
+      },
+      {
+        "preview_reward": 4103,
+        "drop_id": 207000800
+      },
+      {
+        "preview_reward": 4104,
+        "drop_id": 207000900
+      },
+      {
+        "preview_reward": 4105,
+        "drop_id": 207001000
+      },
+      {
+        "preview_reward": 4106,
+        "drop_id": 207001100
+      },
+      {
+        "preview_reward": 4107,
+        "drop_id": 207001200
+      },
+      {
+        "preview_reward": 4108,
+        "drop_id": 207001300
+      },
+      {
+        "preview_reward": 4109,
+        "drop_id": 207001400
+      },
+      {
+        "preview_reward": 4110,
+        "drop_id": 207001500
+      }
+    ]
   },
   {
     "blossomChestId": 2,
@@ -329,7 +482,58 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_EXP",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 2,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4001,
+        "drop_id": 206000400
+      },
+      {
+        "preview_reward": 4003,
+        "drop_id": 206000800
+      },
+      {
+        "preview_reward": 4004,
+        "drop_id": 206000900
+      },
+      {
+        "preview_reward": 4005,
+        "drop_id": 206001000
+      },
+      {
+        "preview_reward": 4006,
+        "drop_id": 206001100
+      },
+      {
+        "preview_reward": 4007,
+        "drop_id": 206001200
+      },
+      {
+        "preview_reward": 4008,
+        "drop_id": 206001300
+      },
+      {
+        "preview_reward": 4009,
+        "drop_id": 206001400
+      },
+      {
+        "preview_reward": 4010,
+        "drop_id": 206001500
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -416,7 +620,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          1404
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -503,7 +758,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          1404
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -590,7 +896,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          1405
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -677,7 +1034,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          1405
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -762,7 +1170,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {},
+      {
+        "param": [
+          1404
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -847,7 +1301,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {},
+      {
+        "param": [
+          1404
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -932,7 +1432,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {},
+      {
+        "param": [
+          1405
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -1017,7 +1563,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {},
+      {
+        "param": [
+          1405
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 3,
@@ -1101,7 +1693,59 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_DRAGON_SPINE_A",
     "reviseLevel": 6,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 3,
+    "refreshCondVec": [
+      {
+        "param": [
+          3001,
+          3001201
+        ],
+        "type": "BLOSSOM_REFRESH_COND_ACTIVITY_COND"
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 30311,
+        "drop_id": 211000101
+      },
+      {
+        "preview_reward": 30312,
+        "drop_id": 211000102
+      },
+      {
+        "preview_reward": 30313,
+        "drop_id": 211000103
+      },
+      {
+        "preview_reward": 30314,
+        "drop_id": 211000104
+      },
+      {
+        "preview_reward": 30315,
+        "drop_id": 211000105
+      },
+      {
+        "preview_reward": 30316,
+        "drop_id": 211000106
+      },
+      {
+        "preview_reward": 30317,
+        "drop_id": 211000107
+      },
+      {
+        "preview_reward": 30318,
+        "drop_id": 211000108
+      },
+      {
+        "preview_reward": 30319,
+        "drop_id": 211000109
+      }
+    ]
   },
   {
     "blossomChestId": 4,
@@ -1185,7 +1829,59 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_DRAGON_SPINE_B",
     "reviseLevel": 7,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 4,
+    "refreshCondVec": [
+      {
+        "param": [
+          3001,
+          3001202
+        ],
+        "type": "BLOSSOM_REFRESH_COND_ACTIVITY_COND"
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 30321,
+        "drop_id": 211000201
+      },
+      {
+        "preview_reward": 30322,
+        "drop_id": 211000202
+      },
+      {
+        "preview_reward": 30323,
+        "drop_id": 211000203
+      },
+      {
+        "preview_reward": 30324,
+        "drop_id": 211000204
+      },
+      {
+        "preview_reward": 30325,
+        "drop_id": 211000205
+      },
+      {
+        "preview_reward": 30326,
+        "drop_id": 211000206
+      },
+      {
+        "preview_reward": 30327,
+        "drop_id": 211000207
+      },
+      {
+        "preview_reward": 30328,
+        "drop_id": 211000208
+      },
+      {
+        "preview_reward": 30329,
+        "drop_id": 211000209
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -1271,7 +1967,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_ISLAND_SENTRY_TOWER_A",
     "reviseLevel": 13,
-    "rewardType": "BLOSSOM_REWARD_TYPE_TO_BAG"
+    "rewardType": "BLOSSOM_REWARD_TYPE_TO_BAG",
+    "refreshCondVec": [
+      {
+        "param": [
+          2005,
+          2005011
+        ],
+        "type": "BLOSSOM_REFRESH_COND_ACTIVITY_COND"
+      },
+      {
+        "param": [
+          108
+        ],
+        "type": "BLOSSOM_REFRESH_COND_SCENE_TAG_ADDED"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -1357,7 +2109,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_ISLAND_SENTRY_TOWER_B",
     "reviseLevel": 14,
-    "rewardType": "BLOSSOM_REWARD_TYPE_TO_BAG"
+    "rewardType": "BLOSSOM_REWARD_TYPE_TO_BAG",
+    "refreshCondVec": [
+      {
+        "param": [
+          2005,
+          2005011
+        ],
+        "type": "BLOSSOM_REFRESH_COND_ACTIVITY_COND"
+      },
+      {
+        "param": [
+          109
+        ],
+        "type": "BLOSSOM_REFRESH_COND_SCENE_TAG_ADDED"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      },
+      {
+        "preview_reward": 31701,
+        "drop_id": 21400001
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -1441,7 +2249,58 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_ISLAND_BOMB",
     "reviseLevel": 15,
-    "rewardType": "BLOSSOM_REWARD_TYPE_TO_BAG"
+    "rewardType": "BLOSSOM_REWARD_TYPE_TO_BAG",
+    "refreshCondVec": [
+      {
+        "param": [
+          2005,
+          2005041
+        ],
+        "type": "BLOSSOM_REFRESH_COND_ACTIVITY_COND"
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 31702,
+        "drop_id": 21400002
+      },
+      {
+        "preview_reward": 31702,
+        "drop_id": 21400002
+      },
+      {
+        "preview_reward": 31702,
+        "drop_id": 21400002
+      },
+      {
+        "preview_reward": 31702,
+        "drop_id": 21400002
+      },
+      {
+        "preview_reward": 31702,
+        "drop_id": 21400002
+      },
+      {
+        "preview_reward": 31702,
+        "drop_id": 21400002
+      },
+      {
+        "preview_reward": 31702,
+        "drop_id": 21400002
+      },
+      {
+        "preview_reward": 31702,
+        "drop_id": 21400002
+      },
+      {
+        "preview_reward": 31702,
+        "drop_id": 21400002
+      }
+    ]
   },
   {
     "blossomChestId": 5,
@@ -1527,7 +2386,55 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_BLITZ_RUSH_A",
     "reviseLevel": 16,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 5,
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          2006,
+          2006108
+        ],
+        "type": "BLOSSOM_REFRESH_COND_ACTIVITY_COND"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 6,
@@ -1613,7 +2520,55 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_BLITZ_RUSH_B",
     "reviseLevel": 16,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 6,
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          2006,
+          2006109
+        ],
+        "type": "BLOSSOM_REFRESH_COND_ACTIVITY_COND"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -1700,7 +2655,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          1409
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -1787,7 +2793,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          1409
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -1872,7 +2929,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          1409
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -1957,7 +3060,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          1409
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2044,7 +3193,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          3002
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2131,7 +3331,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          3002
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2216,7 +3467,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          3002
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2301,7 +3598,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          3002
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2388,7 +3731,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          4001
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2475,7 +3869,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          4001
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2560,7 +4005,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          4001
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2645,7 +4136,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          4001
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2732,7 +4269,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          5016
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2819,7 +4407,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          5016
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2904,7 +4543,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          5016
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -2989,7 +4674,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          5016
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 1,
@@ -3074,7 +4805,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_SCOIN",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 1,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          3
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4101,
+        "drop_id": 207000400
+      },
+      {
+        "preview_reward": 4103,
+        "drop_id": 207000800
+      },
+      {
+        "preview_reward": 4104,
+        "drop_id": 207000900
+      },
+      {
+        "preview_reward": 4105,
+        "drop_id": 207001000
+      },
+      {
+        "preview_reward": 4106,
+        "drop_id": 207001100
+      },
+      {
+        "preview_reward": 4107,
+        "drop_id": 207001200
+      },
+      {
+        "preview_reward": 4108,
+        "drop_id": 207001300
+      },
+      {
+        "preview_reward": 4109,
+        "drop_id": 207001400
+      },
+      {
+        "preview_reward": 4110,
+        "drop_id": 207001500
+      }
+    ]
   },
   {
     "blossomChestId": 2,
@@ -3159,7 +4946,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_EXP",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 2,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          3
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4001,
+        "drop_id": 206000400
+      },
+      {
+        "preview_reward": 4003,
+        "drop_id": 206000800
+      },
+      {
+        "preview_reward": 4004,
+        "drop_id": 206000900
+      },
+      {
+        "preview_reward": 4005,
+        "drop_id": 206001000
+      },
+      {
+        "preview_reward": 4006,
+        "drop_id": 206001100
+      },
+      {
+        "preview_reward": 4007,
+        "drop_id": 206001200
+      },
+      {
+        "preview_reward": 4008,
+        "drop_id": 206001300
+      },
+      {
+        "preview_reward": 4009,
+        "drop_id": 206001400
+      },
+      {
+        "preview_reward": 4010,
+        "drop_id": 206001500
+      }
+    ]
   },
   {
     "blossomChestId": 1,
@@ -3244,7 +5087,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_SCOIN",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 1,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          4
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4101,
+        "drop_id": 207000400
+      },
+      {
+        "preview_reward": 4103,
+        "drop_id": 207000800
+      },
+      {
+        "preview_reward": 4104,
+        "drop_id": 207000900
+      },
+      {
+        "preview_reward": 4105,
+        "drop_id": 207001000
+      },
+      {
+        "preview_reward": 4106,
+        "drop_id": 207001100
+      },
+      {
+        "preview_reward": 4107,
+        "drop_id": 207001200
+      },
+      {
+        "preview_reward": 4108,
+        "drop_id": 207001300
+      },
+      {
+        "preview_reward": 4109,
+        "drop_id": 207001400
+      },
+      {
+        "preview_reward": 4110,
+        "drop_id": 207001500
+      }
+    ]
   },
   {
     "blossomChestId": 2,
@@ -3329,7 +5228,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_EXP",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 2,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          4
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4001,
+        "drop_id": 206000400
+      },
+      {
+        "preview_reward": 4003,
+        "drop_id": 206000800
+      },
+      {
+        "preview_reward": 4004,
+        "drop_id": 206000900
+      },
+      {
+        "preview_reward": 4005,
+        "drop_id": 206001000
+      },
+      {
+        "preview_reward": 4006,
+        "drop_id": 206001100
+      },
+      {
+        "preview_reward": 4007,
+        "drop_id": 206001200
+      },
+      {
+        "preview_reward": 4008,
+        "drop_id": 206001300
+      },
+      {
+        "preview_reward": 4009,
+        "drop_id": 206001400
+      },
+      {
+        "preview_reward": 4010,
+        "drop_id": 206001500
+      }
+    ]
   },
   {
     "blossomChestId": 1,
@@ -3414,7 +5369,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_SCOIN",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 1,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          5
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4101,
+        "drop_id": 207000400
+      },
+      {
+        "preview_reward": 4103,
+        "drop_id": 207000800
+      },
+      {
+        "preview_reward": 4104,
+        "drop_id": 207000900
+      },
+      {
+        "preview_reward": 4105,
+        "drop_id": 207001000
+      },
+      {
+        "preview_reward": 4106,
+        "drop_id": 207001100
+      },
+      {
+        "preview_reward": 4107,
+        "drop_id": 207001200
+      },
+      {
+        "preview_reward": 4108,
+        "drop_id": 207001300
+      },
+      {
+        "preview_reward": 4109,
+        "drop_id": 207001400
+      },
+      {
+        "preview_reward": 4110,
+        "drop_id": 207001500
+      }
+    ]
   },
   {
     "blossomChestId": 2,
@@ -3499,7 +5510,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_EXP",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 2,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          5
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4001,
+        "drop_id": 206000400
+      },
+      {
+        "preview_reward": 4003,
+        "drop_id": 206000800
+      },
+      {
+        "preview_reward": 4004,
+        "drop_id": 206000900
+      },
+      {
+        "preview_reward": 4005,
+        "drop_id": 206001000
+      },
+      {
+        "preview_reward": 4006,
+        "drop_id": 206001100
+      },
+      {
+        "preview_reward": 4007,
+        "drop_id": 206001200
+      },
+      {
+        "preview_reward": 4008,
+        "drop_id": 206001300
+      },
+      {
+        "preview_reward": 4009,
+        "drop_id": 206001400
+      },
+      {
+        "preview_reward": 4010,
+        "drop_id": 206001500
+      }
+    ]
   },
   {
     "blossomChestId": 1,
@@ -3584,7 +5651,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_SCOIN",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 1,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          6
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4101,
+        "drop_id": 207000400
+      },
+      {
+        "preview_reward": 4103,
+        "drop_id": 207000800
+      },
+      {
+        "preview_reward": 4104,
+        "drop_id": 207000900
+      },
+      {
+        "preview_reward": 4105,
+        "drop_id": 207001000
+      },
+      {
+        "preview_reward": 4106,
+        "drop_id": 207001100
+      },
+      {
+        "preview_reward": 4107,
+        "drop_id": 207001200
+      },
+      {
+        "preview_reward": 4108,
+        "drop_id": 207001300
+      },
+      {
+        "preview_reward": 4109,
+        "drop_id": 207001400
+      },
+      {
+        "preview_reward": 4110,
+        "drop_id": 207001500
+      }
+    ]
   },
   {
     "blossomChestId": 2,
@@ -3669,7 +5792,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_EXP",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 2,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          6
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4001,
+        "drop_id": 206000400
+      },
+      {
+        "preview_reward": 4003,
+        "drop_id": 206000800
+      },
+      {
+        "preview_reward": 4004,
+        "drop_id": 206000900
+      },
+      {
+        "preview_reward": 4005,
+        "drop_id": 206001000
+      },
+      {
+        "preview_reward": 4006,
+        "drop_id": 206001100
+      },
+      {
+        "preview_reward": 4007,
+        "drop_id": 206001200
+      },
+      {
+        "preview_reward": 4008,
+        "drop_id": 206001300
+      },
+      {
+        "preview_reward": 4009,
+        "drop_id": 206001400
+      },
+      {
+        "preview_reward": 4010,
+        "drop_id": 206001500
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -3756,7 +5935,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          6025
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -3843,7 +6073,58 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          2
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_LESS_THAN"
+      },
+      {
+        "param": [
+          6025
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -3928,7 +6209,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          6025
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 0,
@@ -4013,7 +6340,53 @@
     "refreshTime": "06:00:00",
     "refreshType": "BLOSSOM_REFRESH_INFUSED_CRYSTAL",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "refreshCondVec": [
+      {
+        "param": [
+          30
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          6025
+        ],
+        "type": "BLOSSOM_REFRESH_COND_OPEN_STATE"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      },
+      {
+        "drop_id": 7000000
+      }
+    ]
   },
   {
     "blossomChestId": 1,
@@ -4098,7 +6471,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_SCOIN",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 1,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          7
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4101,
+        "drop_id": 207000400
+      },
+      {
+        "preview_reward": 4103,
+        "drop_id": 207000800
+      },
+      {
+        "preview_reward": 4104,
+        "drop_id": 207000900
+      },
+      {
+        "preview_reward": 4105,
+        "drop_id": 207001000
+      },
+      {
+        "preview_reward": 4106,
+        "drop_id": 207001100
+      },
+      {
+        "preview_reward": 4107,
+        "drop_id": 207001200
+      },
+      {
+        "preview_reward": 4108,
+        "drop_id": 207001300
+      },
+      {
+        "preview_reward": 4109,
+        "drop_id": 207001400
+      },
+      {
+        "preview_reward": 4110,
+        "drop_id": 207001500
+      }
+    ]
   },
   {
     "blossomChestId": 2,
@@ -4183,7 +6612,63 @@
     "refreshTime": "04:00:00",
     "refreshType": "BLOSSOM_REFRESH_EXP",
     "reviseLevel": 3,
-    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT"
+    "rewardType": "BLOSSOM_REWARD_TYPE_DEFAULT",
+    "blossom_chest_id": 2,
+    "refreshCondVec": [
+      {
+        "param": [
+          18
+        ],
+        "type": "BLOSSOM_REFRESH_COND_PLAYER_LEVEL_EQUAL_GREATER"
+      },
+      {
+        "param": [
+          7
+        ],
+        "type": "BLOSSOM_REFRESH_COND_UNLOCK_ANY_AREA_IN_CITY"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dropVec": [
+      {
+        "preview_reward": 4001,
+        "drop_id": 206000400
+      },
+      {
+        "preview_reward": 4003,
+        "drop_id": 206000800
+      },
+      {
+        "preview_reward": 4004,
+        "drop_id": 206000900
+      },
+      {
+        "preview_reward": 4005,
+        "drop_id": 206001000
+      },
+      {
+        "preview_reward": 4006,
+        "drop_id": 206001100
+      },
+      {
+        "preview_reward": 4007,
+        "drop_id": 206001200
+      },
+      {
+        "preview_reward": 4008,
+        "drop_id": 206001300
+      },
+      {
+        "preview_reward": 4009,
+        "drop_id": 206001400
+      },
+      {
+        "preview_reward": 4010,
+        "drop_id": 206001500
+      }
+    ]
   },
   {
     "clientShowType": "BLOSSOM_SHOWTYPE_CHALLENGE",
@@ -4252,7 +6737,8 @@
         "drop_id": 207001500
       }
     ],
-    "id": 50
+    "id": 50,
+    "blossomChestId": 1
   },
   {
     "clientShowType": "BLOSSOM_SHOWTYPE_CHALLENGE",
@@ -4321,7 +6807,8 @@
         "drop_id": 206001500
       }
     ],
-    "id": 51
+    "id": 51,
+    "blossomChestId": 1
   },
   {
     "clientShowType": "BLOSSOM_SHOWTYPE_NPCTALK",

@@ -68,7 +68,17 @@
         "x": 0,
         "y": 101.2355,
         "z": 0
-      }
+      },
+      "EHFJCACBBME": "DirectEnter",
+      "FPBBOEDKMIE": 1,
+      "dungeonIds": [
+        1310
+      ],
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry",
+      "inteeIcon": "UI_Icon_Intee_Talk",
+      "PFGLDOIBICE": true
     },
     "2": {
       "$type": "LPLKNPCPGGA",
@@ -112,6 +122,11 @@
         "x": 0,
         "y": 90,
         "z": 0
+      },
+      "sizes": {
+        "x": 20,
+        "y": 20,
+        "z": 6
       }
     },
     "3": {
@@ -156,6 +171,11 @@
         "x": 0,
         "y": 90,
         "z": 0
+      },
+      "sizes": {
+        "x": 20,
+        "y": 20,
+        "z": 10
       }
     },
     "4": {
@@ -200,7 +220,191 @@
         "x": 0,
         "y": 331.4698,
         "z": 0
+      },
+      "sizes": {
+        "x": 20,
+        "y": 20,
+        "z": 20
       }
+    }
+  },
+  "HINDGNIGCEO": 1500,
+  "KJJENKICNLJ": {
+    "1": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 542.64501953125,
+        "y": 50.811771392822266,
+        "z": 634.026123046875
+      },
+      "APFOMJCBKAN": {
+        "GJHCGMDKHLP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 2,
+          "PNAEFINHLIO": 1
+        },
+        "HFOPOGIEAJD": {
+          "$type": "EIBDCHDHPMO",
+          "FCILJEIGCFJ": {
+            "x": -78.08000183105469,
+            "y": 13.869999885559082,
+            "z": -6.579999923706055
+          },
+          "KAPINHABGCA": 45,
+          "MDBMPADKCCA": true,
+          "NEIIAPNMPNJ": {
+            "x": -0.4090576171875,
+            "y": 2.0645751953125,
+            "z": -0.0582275390625
+          },
+          "NFACLENAOJI": true,
+          "PDJIGKHKGNL": "FollowToTarget"
+        },
+        "NCDKCFCCDNP": {
+          "FJHOIMAIODI": 4,
+          "LMBEJPGJGGC": 21,
+          "MJIEGAPCFHD": 2,
+          "PNAEFINHLIO": 2
+        }
+      },
+      "DDFAGPPNHBB": 150,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IBAIMPIGNCO": {
+        "APFOMJCBKAN": {
+          "GJHCGMDKHLP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 2,
+            "PNAEFINHLIO": 1
+          },
+          "HFOPOGIEAJD": {
+            "$type": "EIBDCHDHPMO",
+            "FCILJEIGCFJ": {
+              "x": -78.08000183105469,
+              "y": 13.869999885559082,
+              "z": -6.579999923706055
+            },
+            "KAPINHABGCA": 45,
+            "MDBMPADKCCA": true,
+            "NEIIAPNMPNJ": {
+              "x": -0.4090576171875,
+              "y": 2.0645751953125,
+              "z": -0.0582275390625
+            },
+            "NFACLENAOJI": true,
+            "PDJIGKHKGNL": "FollowToTarget"
+          },
+          "NCDKCFCCDNP": {
+            "FJHOIMAIODI": 4,
+            "LMBEJPGJGGC": 21,
+            "MJIEGAPCFHD": 2,
+            "PNAEFINHLIO": 2
+          }
+        }
+      },
+      "tranPos": {
+        "x": 764.228271484375,
+        "y": 40.221656799316406,
+        "z": 623.32373046875
+      },
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 270,
+        "IJLLBONJPNF": 30,
+        "INCDOIJKDNH": 100,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "PFCEHMCBGCO": 203390001,
+      "PLBGEEEODKL": "LevelCamera"
+    },
+    "2": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 777.19189453125,
+        "y": 41.067108154296875,
+        "z": 622.0167846679688
+      },
+      "APFOMJCBKAN": {
+        "GJHCGMDKHLP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 2,
+          "PNAEFINHLIO": 1
+        },
+        "HFOPOGIEAJD": {
+          "$type": "EIBDCHDHPMO",
+          "FCILJEIGCFJ": {
+            "x": 7.369999885559082,
+            "y": 1.899999976158142,
+            "z": 12.899999618530273
+          },
+          "KAPINHABGCA": 45,
+          "MDBMPADKCCA": true,
+          "NEIIAPNMPNJ": {
+            "x": 0.096435546875,
+            "y": 1.9622383117675781,
+            "z": 0.28704833984375
+          },
+          "NFACLENAOJI": true,
+          "PDJIGKHKGNL": "FollowToTarget"
+        },
+        "NCDKCFCCDNP": {
+          "LMBEJPGJGGC": 4,
+          "MJIEGAPCFHD": 1,
+          "PNAEFINHLIO": 1
+        }
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IBAIMPIGNCO": {
+        "APFOMJCBKAN": {
+          "GJHCGMDKHLP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 2,
+            "PNAEFINHLIO": 1
+          },
+          "HFOPOGIEAJD": {
+            "$type": "EIBDCHDHPMO",
+            "FCILJEIGCFJ": {
+              "x": 7.369999885559082,
+              "y": 1.899999976158142,
+              "z": 12.899999618530273
+            },
+            "KAPINHABGCA": 45,
+            "MDBMPADKCCA": true,
+            "NEIIAPNMPNJ": {
+              "x": 0.096435546875,
+              "y": 1.9622383117675781,
+              "z": 0.28704833984375
+            },
+            "NFACLENAOJI": true,
+            "PDJIGKHKGNL": "FollowToTarget"
+          },
+          "NCDKCFCCDNP": {
+            "LMBEJPGJGGC": 4,
+            "MJIEGAPCFHD": 1,
+            "PNAEFINHLIO": 1
+          }
+        }
+      },
+      "tranPos": {
+        "x": 777.19189453125,
+        "y": 40.00244140625,
+        "z": 622.016845703125
+      },
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 30,
+        "IJLLBONJPNF": 10,
+        "INCDOIJKDNH": 20,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "PFCEHMCBGCO": 203390002,
+      "PLBGEEEODKL": "LevelCamera"
     }
   }
 }

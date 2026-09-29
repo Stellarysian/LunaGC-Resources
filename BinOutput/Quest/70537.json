@@ -5,7 +5,9 @@
   "descTextMapHash": 1615764102,
   "luaPath": "Actor/Quest/WQ70537",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [170537],
+  "rewardIdList": [
+    170537
+  ],
   "subQuests": [
     {
       "subId": 7053701,
@@ -16,14 +18,20 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7053712, 0],
+          "param": [
+            7053712,
+            0
+          ],
           "param_str": ""
         }
       ],
       "failCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7053601, 0],
+          "param": [
+            7053601,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -39,7 +47,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -57,19 +68,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["5160", "5160001", "1"],
+          "param": [
+            "5160",
+            "5160001",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7053701", "2"],
+          "param": [
+            "7053701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [7053711, 7053714],
+      "nextTalks": [
+        7053711,
+        7053714
+      ],
       "initDialog": 705370101,
-      "npcId": [30415],
+      "npcId": [
+        30415
+      ],
       "performCfg": "QuestDialogue/WQ/Fishblaster_70537/Q7053701",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70537,
@@ -82,19 +105,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["5160", "5160001", "1"],
+          "param": [
+            "5160",
+            "5160001",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7053701", "2"],
+          "param": [
+            "7053701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [7053712, 7053713],
+      "nextTalks": [
+        7053712,
+        7053713
+      ],
       "initDialog": 705371101,
-      "npcId": [30415],
+      "npcId": [
+        30415
+      ],
       "performCfg": "QuestDialogue/WQ/Fishblaster_70537/Q7053711",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70537,
@@ -107,18 +142,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["5160", "5160001", "1"],
+          "param": [
+            "5160",
+            "5160001",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7053701", "2"],
+          "param": [
+            "7053701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 705371201,
-      "npcId": [30415],
+      "npcId": [
+        30415
+      ],
       "performCfg": "QuestDialogue/WQ/Fishblaster_70537/Q7053712",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70537,
@@ -131,18 +175,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["5160", "5160001", "1"],
+          "param": [
+            "5160",
+            "5160001",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7053701", "2"],
+          "param": [
+            "7053701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 705371301,
-      "npcId": [30415],
+      "npcId": [
+        30415
+      ],
       "performCfg": "QuestDialogue/WQ/Fishblaster_70537/Q7053713",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70537,
@@ -155,22 +208,33 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["5160", "5160001", "1"],
+          "param": [
+            "5160",
+            "5160001",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7053701", "2"],
+          "param": [
+            "7053701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 705371401,
-      "npcId": [30415],
+      "npcId": [
+        30415
+      ],
       "performCfg": "QuestDialogue/WQ/Fishblaster_70537/Q7053714",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70537,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activityId": 5160,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

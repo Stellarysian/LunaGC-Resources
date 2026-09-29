@@ -12,17 +12,25 @@
       "mainId": 19184,
       "order": 1,
       "descTextMapHash": 2564648052,
-      "HIABBDKJOHM": [108501, 108502],
+      "HIABBDKJOHM": [
+        108501,
+        108502
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_MAIN_COOP_ENTER_SAVE_POINT",
-          "param": [108301, 191840101],
+          "param": [
+            108301,
+            191840101
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[1085_404:33.586,16.239,75.758]"],
+        "param": [
+          "[1085_404:33.586,16.239,75.758]"
+        ],
         "guideScene": 1085,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -37,7 +45,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -46,5 +57,15 @@
       "finishExec": [],
       "failExec": []
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "1711686768989368150"
+  ],
+  "HGFFNBIGPJK": true,
+  "showRedPoint": true,
+  "preloadLuaList": [
+    "9403223809310363966"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 3019
 }

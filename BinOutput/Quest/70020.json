@@ -4,7 +4,9 @@
   "titleTextMapHash": 362468487,
   "descTextMapHash": 1505147574,
   "luaPath": "Actor/Quest/WQ70020",
-  "rewardIdList": [170020],
+  "rewardIdList": [
+    170020
+  ],
   "subQuests": [
     {
       "subId": 7002001,
@@ -14,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [5024005, 1],
+          "param": [
+            5024005,
+            1
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7002001, 0],
+          "param": [
+            7002001,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -34,7 +42,10 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q70020guild", "55"],
+        "param": [
+          "Q70020guild",
+          "55"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -55,11 +66,18 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
-          "param": ["3", "133104170"],
+          "param": [
+            "3",
+            "133104170"
+          ],
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [11007, 11008, 1565],
+      "exclusiveNpcList": [
+        11007,
+        11008,
+        1565
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -70,14 +88,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7002001, 3],
+          "param": [
+            7002001,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "133104174"
         }
       ],
@@ -90,7 +114,10 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q7001901guild", "30"],
+        "param": [
+          "Q7001901guild",
+          "30"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -111,11 +138,18 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
-          "param": ["3", "133104174"],
+          "param": [
+            "3",
+            "133104174"
+          ],
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [11007, 11008, 1565],
+      "exclusiveNpcList": [
+        11007,
+        11008,
+        1565
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -126,14 +160,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7002002, 3],
+          "param": [
+            7002002,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7002002, 0],
+          "param": [
+            7002002,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -146,7 +186,10 @@
       "guide": {
         "type": "QUEST_GUIDE_NPC",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["11008", "SELECT_NPC_NONE"],
+        "param": [
+          "11008",
+          "SELECT_NPC_NONE"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -156,12 +199,18 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133104170", "0"],
+          "param": [
+            "133104170",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133104174", "0"],
+          "param": [
+            "133104174",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -177,7 +226,11 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [11007, 11008, 1565],
+      "exclusiveNpcList": [
+        11007,
+        11008,
+        1565
+      ],
       "exclusiveNpcPriority": 1100
     }
   ],
@@ -189,13 +242,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7002001", "2"],
+          "param": [
+            "7002001",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 700200102,
-      "npcId": [1005, 11008, 156501],
+      "npcId": [
+        1005,
+        11008,
+        156501
+      ],
       "performCfg": "QuestDialogue/WQ/MimiTomo_70024/Q7002001",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70020,
@@ -208,13 +268,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7002003", "2"],
+          "param": [
+            "7002003",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 700200201,
-      "npcId": [11008, 1005],
+      "npcId": [
+        11008,
+        1005
+      ],
       "performCfg": "QuestDialogue/WQ/MimiTomo_70024/Q7002002",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70020,
@@ -227,17 +293,36 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7002002", "2"],
+          "param": [
+            "7002002",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 700200301,
-      "npcId": [11008],
+      "npcId": [
+        11008
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 70020,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "11008": [
+      11
+    ]
+  },
+  "forcePreloadLuaList": [
+    "102689435692473545"
+  ],
+  "activityId": 5024,
+  "preloadLuaList": [
+    "14457059026087496718",
+    "5125087449374837847"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

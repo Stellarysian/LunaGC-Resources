@@ -17,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -44,14 +50,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -71,14 +83,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -98,14 +116,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -126,14 +150,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -153,14 +183,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -181,14 +217,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -208,14 +250,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -237,14 +285,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -264,18 +318,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1917201", "2"],
+          "param": [
+            "1917201",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1917202", "2"],
+          "param": [
+            "1917202",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 191725101,
-      "npcId": [12922],
+      "npcId": [
+        12922
+      ],
       "performCfg": "QuestDialogue/COOP/CoopFaruzan/Q1917251",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 19172,
@@ -288,13 +350,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1917204", "2"],
+          "param": [
+            "1917204",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 191725201,
-      "npcId": [12925],
+      "npcId": [
+        12925
+      ],
       "performCfg": "QuestDialogue/COOP/CoopFaruzan/Q1917252",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 19172,
@@ -307,13 +374,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1917204", "2"],
+          "param": [
+            "1917204",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 191725301,
-      "npcId": [30212],
+      "npcId": [
+        30212
+      ],
       "performCfg": "QuestDialogue/COOP/CoopFaruzan/Q1917253",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 19172,
@@ -326,13 +398,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1917204", "2"],
+          "param": [
+            "1917204",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 191725401,
-      "npcId": [30216, 30214, 30215],
+      "npcId": [
+        30216,
+        30214,
+        30215
+      ],
       "performCfg": "QuestDialogue/COOP/CoopFaruzan/Q1917254",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 19172,
@@ -346,22 +425,109 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1917205", "2"],
+          "param": [
+            "1917205",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1917207", "2"],
+          "param": [
+            "1917207",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 191725501,
-      "npcId": [1050],
+      "npcId": [
+        1050
+      ],
       "performCfg": "QuestDialogue/COOP/CoopFaruzan/Q1917255",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 19172,
       "prePerformCfg": ""
+    }
+  ],
+  "freeStyleDic": {
+    "1050": [
+      1190
+    ]
+  },
+  "forcePreloadLuaList": [
+    "1374944432847258500"
+  ],
+  "HGFFNBIGPJK": true,
+  "preloadLuaList": [
+    "7394657046356178423"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 3016,
+  "dialogList": [
+    {
+      "id": 191720398,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 3563968290
+    },
+    {
+      "id": 191720399,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 1927784250
+    },
+    {
+      "nextDialogs": [
+        191720802
+      ],
+      "id": 191720801,
+      "talkRole": {
+        "id": "12925",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 516279818
+    },
+    {
+      "nextDialogs": [
+        191720803
+      ],
+      "id": 191720802,
+      "talkRole": {
+        "id": "30212",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3789405922
+    },
+    {
+      "id": 191720803,
+      "talkRole": {
+        "id": "513",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3151162970
+    },
+    {
+      "nextDialogs": [
+        191720902
+      ],
+      "id": 191720901,
+      "talkRole": {
+        "id": "30212",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3300195970
+    },
+    {
+      "talkShowType": "TALK_SHOW_FORCE_SELECT",
+      "id": 191720902,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 3051093954
     }
   ]
 }

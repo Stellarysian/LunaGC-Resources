@@ -15,13 +15,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_TIME_VAR_PASS_DAY",
-          "param": [71114, 1],
+          "param": [
+            71114,
+            1
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["13489"],
+        "param": [
+          "13489"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -34,12 +39,18 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133114013", "0"],
+          "param": [
+            "133114013",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_CLEAR_TIME_VAR",
-          "param": ["71114", "1"],
+          "param": [
+            "71114",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -48,7 +59,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -65,17 +79,36 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7111801", "2"],
+          "param": [
+            "7111801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 711180101,
-      "npcId": [13489, 13490, 13491],
+      "npcId": [
+        13489,
+        13490,
+        13491
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_71118/Q7111801",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71118,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "13489": [
+      1230
+    ],
+    "13490": [
+      1240
+    ],
+    "13491": [
+      1230
+    ]
+  },
+  "activeMode": "PLAY_MODE_SINGLE"
 }

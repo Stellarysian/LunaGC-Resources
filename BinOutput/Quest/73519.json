@@ -4,7 +4,9 @@
   "titleTextMapHash": 2483822703,
   "descTextMapHash": 211792862,
   "luaPath": "Actor/Quest/WQ73519",
-  "rewardIdList": [173519],
+  "rewardIdList": [
+    173519
+  ],
   "subQuests": [
     {
       "subId": 7351901,
@@ -16,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -43,14 +51,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -69,18 +83,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7351901", "2"],
+          "param": [
+            "7351901",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 735190101,
-      "npcId": [30342],
+      "npcId": [
+        30342
+      ],
       "performCfg": "QuestDialogue/WQ/V3.6SandSworm/Q7351901",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73519,
       "prePerformCfg": "",
       "forceNpcNotDestroy": true
     }
-  ]
+  ],
+  "activityId": 5128,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

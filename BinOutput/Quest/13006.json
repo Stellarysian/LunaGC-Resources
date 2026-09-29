@@ -5,8 +5,12 @@
   "titleTextMapHash": 117736583,
   "descTextMapHash": 2846078414,
   "luaPath": "Actor/Quest/LQ13006",
-  "suggestTrackMainQuestList": [13007],
-  "rewardIdList": [113006],
+  "suggestTrackMainQuestList": [
+    13007
+  ],
+  "rewardIdList": [
+    113006
+  ],
   "chapterId": 2033,
   "subQuests": [
     {
@@ -19,20 +23,29 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_PERSONAL_LINE_UNLOCK",
-          "param": [24, 0],
+          "param": [
+            24,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [1300601, 0],
+          "param": [
+            1300601,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q1300601_N1054", "20"],
+        "param": [
+          "Q1300601_N1054",
+          "20"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -40,7 +53,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
-          "param": ["3", "133302612"],
+          "param": [
+            "3",
+            "133302612"
+          ],
           "param_str": ""
         }
       ],
@@ -58,25 +74,36 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300601, 3],
+          "param": [
+            1300601,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300603, 0],
+          "param": [
+            1300603,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300632, 0],
+          "param": [
+            1300632,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1054"],
+        "param": [
+          "1054"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -84,19 +111,28 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
-          "param": ["120043", "0"],
+          "param": [
+            "120043",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
-          "param": ["133302612", "0"],
+          "param": [
+            "133302612",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133302612", "0"],
+          "param": [
+            "133302612",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -115,7 +151,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -123,7 +162,10 @@
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -142,20 +184,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300602, 3],
+          "param": [
+            1300602,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300604, 0],
+          "param": [
+            1300604,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["4055"],
+        "param": [
+          "4055"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -163,14 +213,20 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
-          "param": ["120044", "0"],
+          "param": [
+            "120044",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
-          "param": ["120043", "0"],
+          "param": [
+            "120043",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -187,25 +243,36 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300606, 3],
+          "param": [
+            1300606,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300608, 0],
+          "param": [
+            1300608,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300630, 0],
+          "param": [
+            1300630,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["4057"],
+        "param": [
+          "4057"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -213,14 +280,20 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
-          "param": ["120046", "0"],
+          "param": [
+            "120046",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
-          "param": ["120045", "0"],
+          "param": [
+            "120045",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -237,20 +310,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300604, 3],
+          "param": [
+            1300604,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300606, 0],
+          "param": [
+            1300606,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["4058"],
+        "param": [
+          "4058"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -258,14 +339,20 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
-          "param": ["120045", "0"],
+          "param": [
+            "120045",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
-          "param": ["120044", "0"],
+          "param": [
+            "120044",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -282,20 +369,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300605, 3],
+          "param": [
+            1300605,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300610, 0],
+          "param": [
+            1300610,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q1300802_N12771"],
+        "param": [
+          "Q1300802_N12771"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -303,14 +398,20 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
-          "param": ["3", "133302635"],
+          "param": [
+            "3",
+            "133302635"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
-          "param": ["120046", "0"],
+          "param": [
+            "120046",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -328,20 +429,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300607, 3],
+          "param": [
+            1300607,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300611, 0],
+          "param": [
+            1300611,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["12711"],
+        "param": [
+          "12711"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -349,14 +458,20 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
-          "param": ["133302635", "0"],
+          "param": [
+            "133302635",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_ADD_QUEST_PROGRESS",
-          "param": ["1300611", "1"],
+          "param": [
+            "1300611",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -374,20 +489,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300607, 3],
+          "param": [
+            1300607,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300613, 0],
+          "param": [
+            1300613,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["12712"],
+        "param": [
+          "12712"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -395,14 +518,20 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
-          "param": ["133302635", "0"],
+          "param": [
+            "133302635",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_ADD_QUEST_PROGRESS",
-          "param": ["1300611", "1"],
+          "param": [
+            "1300611",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -420,20 +549,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300607, 3],
+          "param": [
+            1300607,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300615, 0],
+          "param": [
+            1300615,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["12713"],
+        "param": [
+          "12713"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -441,14 +578,20 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
-          "param": ["133302635", "0"],
+          "param": [
+            "133302635",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_ADD_QUEST_PROGRESS",
-          "param": ["1300611", "1"],
+          "param": [
+            "1300611",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -467,14 +610,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300607, 3],
+          "param": [
+            1300607,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ADD_QUEST_PROGRESS",
-          "param": [1300611, 0],
+          "param": [
+            1300611,
+            0
+          ],
           "param_str": "",
           "count": 3
         }
@@ -482,7 +631,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_ADD_QUEST_PROGRESS",
-          "param": ["1300612", "1"],
+          "param": [
+            "1300612",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -503,14 +655,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300607, 3],
+          "param": [
+            1300607,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ADD_QUEST_PROGRESS",
-          "param": [1300612, 0],
+          "param": [
+            1300612,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
@@ -518,7 +676,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
-          "param": ["133302635", "0"],
+          "param": [
+            "133302635",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -537,25 +698,36 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300612, 3],
+          "param": [
+            1300612,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300620, 0],
+          "param": [
+            1300620,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300631, 0],
+          "param": [
+            1300631,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1054"],
+        "param": [
+          "1054"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -563,12 +735,18 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
-          "param": ["133302635", "0"],
+          "param": [
+            "133302635",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
-          "param": ["3", "133302646"],
+          "param": [
+            "3",
+            "133302646"
+          ],
           "param_str": ""
         }
       ],
@@ -586,25 +764,36 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1300613, 3],
+          "param": [
+            1300613,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300627, 0],
+          "param": [
+            1300627,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [1300633, 0],
+          "param": [
+            1300633,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1054"],
+        "param": [
+          "1054"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -612,24 +801,36 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
-          "param": ["133302635", "0"],
+          "param": [
+            "133302635",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP_ONLY",
-          "param": ["133302646", "0"],
+          "param": [
+            "133302646",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133302635", "0"],
+          "param": [
+            "133302635",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133302646", "0"],
+          "param": [
+            "133302646",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -645,14 +846,22 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300602", "2"],
+          "param": [
+            "1300602",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [1300603, 1300632],
+      "nextTalks": [
+        1300603,
+        1300632
+      ],
       "initDialog": 130060101,
-      "npcId": [1054],
+      "npcId": [
+        1054
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300601",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -665,18 +874,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300602", "2"],
+          "param": [
+            "1300602",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["302821", "0"],
+          "param": [
+            "302821",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130060201,
-      "npcId": [1054],
+      "npcId": [
+        1054
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300603",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -684,7 +901,10 @@
       "finishExec": [
         {
           "type": "TALK_EXEC_SAVE_TALK_ID",
-          "param": ["1300603", "0"],
+          "param": [
+            "1300603",
+            "0"
+          ],
           "param_str": ""
         }
       ]
@@ -696,13 +916,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300604", "2"],
+          "param": [
+            "1300604",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130060401,
-      "npcId": [4055],
+      "npcId": [
+        4055
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300604",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -716,23 +941,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300606", "2"],
+          "param": [
+            "1300606",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300605", "2"],
+          "param": [
+            "1300605",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300607", "2"],
+          "param": [
+            "1300607",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130060501,
-      "npcId": [4055],
+      "npcId": [
+        4055
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300605",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -745,13 +981,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300606", "2"],
+          "param": [
+            "1300606",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130060601,
-      "npcId": [4058],
+      "npcId": [
+        4058
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300606",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -765,18 +1006,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300605", "2"],
+          "param": [
+            "1300605",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300607", "2"],
+          "param": [
+            "1300607",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130060701,
-      "npcId": [4058],
+      "npcId": [
+        4058
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300607",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -790,18 +1039,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300605", "2"],
+          "param": [
+            "1300605",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PLAYER_CHOOSE_MALE",
-          "param": ["1", "0"],
+          "param": [
+            "1",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130060801,
-      "npcId": [4057, 4059],
+      "npcId": [
+        4057,
+        4059
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300608",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -814,13 +1072,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300607", "2"],
+          "param": [
+            "1300607",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130060901,
-      "npcId": [12889],
+      "npcId": [
+        12889
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300609",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -833,13 +1096,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300607", "2"],
+          "param": [
+            "1300607",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061001,
-      "npcId": [1054],
+      "npcId": [
+        1054
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300610",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -852,13 +1120,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300608", "2"],
+          "param": [
+            "1300608",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061101,
-      "npcId": [12711],
+      "npcId": [
+        12711
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300611",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -872,23 +1145,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300608", "3"],
+          "param": [
+            "1300608",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300612", "2"],
+          "param": [
+            "1300612",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300613", "2"],
+          "param": [
+            "1300613",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061201,
-      "npcId": [12711],
+      "npcId": [
+        12711
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300612",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -901,13 +1185,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300609", "2"],
+          "param": [
+            "1300609",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061301,
-      "npcId": [12712],
+      "npcId": [
+        12712
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300613",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -921,23 +1210,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300609", "3"],
+          "param": [
+            "1300609",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300612", "2"],
+          "param": [
+            "1300612",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300613", "2"],
+          "param": [
+            "1300613",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061401,
-      "npcId": [12712],
+      "npcId": [
+        12712
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300614",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -950,13 +1250,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300610", "2"],
+          "param": [
+            "1300610",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061501,
-      "npcId": [12713],
+      "npcId": [
+        12713
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300615",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -970,23 +1275,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300610", "3"],
+          "param": [
+            "1300610",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300612", "2"],
+          "param": [
+            "1300612",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300613", "2"],
+          "param": [
+            "1300613",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061601,
-      "npcId": [12713],
+      "npcId": [
+        12713
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300616",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1000,23 +1316,35 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300607", "2"],
+          "param": [
+            "1300607",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300612", "2"],
+          "param": [
+            "1300612",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300613", "2"],
+          "param": [
+            "1300613",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061701,
-      "npcId": [12769, 12770],
+      "npcId": [
+        12769,
+        12770
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300617",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1030,23 +1358,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300607", "2"],
+          "param": [
+            "1300607",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300612", "2"],
+          "param": [
+            "1300612",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300613", "2"],
+          "param": [
+            "1300613",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061801,
-      "npcId": [4062],
+      "npcId": [
+        4062
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300618",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1060,23 +1399,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300607", "2"],
+          "param": [
+            "1300607",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300612", "2"],
+          "param": [
+            "1300612",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300613", "2"],
+          "param": [
+            "1300613",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130061901,
-      "npcId": [4061],
+      "npcId": [
+        4061
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300619",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1090,18 +1440,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300613", "2"],
+          "param": [
+            "1300613",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PLAYER_CHOOSE_MALE",
-          "param": ["1", "0"],
+          "param": [
+            "1",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062072,
-      "npcId": [1054, 4060],
+      "npcId": [
+        1054,
+        4060
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300620",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1114,13 +1473,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300614", "2"],
+          "param": [
+            "1300614",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062101,
-      "npcId": [4060],
+      "npcId": [
+        4060
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300621",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1133,13 +1497,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300614", "2"],
+          "param": [
+            "1300614",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062201,
-      "npcId": [12769, 12770, 12711],
+      "npcId": [
+        12769,
+        12770,
+        12711
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300622",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1152,13 +1523,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300614", "2"],
+          "param": [
+            "1300614",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062301,
-      "npcId": [4061, 4062],
+      "npcId": [
+        4061,
+        4062
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300623",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1171,13 +1548,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300614", "2"],
+          "param": [
+            "1300614",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062401,
-      "npcId": [12712],
+      "npcId": [
+        12712
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300624",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1190,13 +1572,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300614", "2"],
+          "param": [
+            "1300614",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062501,
-      "npcId": [12713],
+      "npcId": [
+        12713
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300625",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1209,14 +1596,22 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300614", "2"],
+          "param": [
+            "1300614",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [1300627, 1300633],
+      "nextTalks": [
+        1300627,
+        1300633
+      ],
       "initDialog": 130062601,
-      "npcId": [1054],
+      "npcId": [
+        1054
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300626",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1229,18 +1624,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300614", "2"],
+          "param": [
+            "1300614",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["302821", "0"],
+          "param": [
+            "302821",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062701,
-      "npcId": [1054],
+      "npcId": [
+        1054
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300627",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1248,7 +1651,10 @@
       "finishExec": [
         {
           "type": "TALK_EXEC_SAVE_TALK_ID",
-          "param": ["1300627", "0"],
+          "param": [
+            "1300627",
+            "0"
+          ],
           "param_str": ""
         }
       ]
@@ -1260,13 +1666,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300614", "2"],
+          "param": [
+            "1300614",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062801,
-      "npcId": [4059, 4057],
+      "npcId": [
+        4059,
+        4057
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300628",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1279,13 +1691,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["99902", "3"],
+          "param": [
+            "99902",
+            "3"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062901,
-      "npcId": [12880],
+      "npcId": [
+        12880
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1299,18 +1716,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300605", "2"],
+          "param": [
+            "1300605",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PLAYER_CHOOSE_MALE",
-          "param": ["0", "0"],
+          "param": [
+            "0",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130060801,
-      "npcId": [4057, 4059],
+      "npcId": [
+        4057,
+        4059
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300630",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1324,18 +1750,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300613", "2"],
+          "param": [
+            "1300613",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_PLAYER_CHOOSE_MALE",
-          "param": ["0", "0"],
+          "param": [
+            "0",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130062072,
-      "npcId": [1054, 4060],
+      "npcId": [
+        1054,
+        4060
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300631",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1348,18 +1783,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300602", "2"],
+          "param": [
+            "1300602",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["302821", "1"],
+          "param": [
+            "302821",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130063201,
-      "npcId": [1054],
+      "npcId": [
+        1054
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300632",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1367,7 +1810,10 @@
       "finishExec": [
         {
           "type": "TALK_EXEC_SAVE_TALK_ID",
-          "param": ["1300632", "0"],
+          "param": [
+            "1300632",
+            "0"
+          ],
           "param_str": ""
         }
       ]
@@ -1379,18 +1825,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1300614", "2"],
+          "param": [
+            "1300614",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["302821", "1"],
+          "param": [
+            "302821",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 130063301,
-      "npcId": [1054],
+      "npcId": [
+        1054
+      ],
       "performCfg": "QuestDialogue/LQ/Nilou1_13006/Q1300633",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 13006,
@@ -1398,10 +1852,71 @@
       "finishExec": [
         {
           "type": "TALK_EXEC_SAVE_TALK_ID",
-          "param": ["1300633", "0"],
+          "param": [
+            "1300633",
+            "0"
+          ],
           "param_str": ""
         }
       ]
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "1054": [
+      1190,
+      1170
+    ],
+    "12711": [
+      1190
+    ],
+    "12712": [
+      1190
+    ],
+    "12713": [
+      0
+    ],
+    "12770": [
+      5010,
+      1090
+    ],
+    "4055": [
+      4010
+    ],
+    "4057": [
+      1170,
+      1120
+    ],
+    "4058": [
+      4010
+    ],
+    "4059": [
+      1120,
+      1240
+    ],
+    "4060": [
+      1190,
+      1120
+    ],
+    "4061": [
+      1160,
+      1170
+    ],
+    "4062": [
+      1190,
+      1120
+    ]
+  },
+  "forcePreloadLuaList": [
+    "17206051934163470349"
+  ],
+  "HGFFNBIGPJK": true,
+  "preloadLuaList": [
+    "695029393995289408",
+    "12699854332171693654",
+    "7585204940708322066",
+    "5236886796957214733",
+    "15286031938060860629"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 2033
 }

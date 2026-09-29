@@ -15,7 +15,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GADGET_STATE_CHANGE",
-          "param": [511010035, 35001],
+          "param": [
+            511010035,
+            35001
+          ],
           "param_str": ""
         }
       ],
@@ -29,7 +32,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -47,7 +53,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7423801, 0],
+          "param": [
+            7423801,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -62,7 +71,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -79,16 +91,32 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7423802", "2"],
+          "param": [
+            "7423802",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 742380101,
-      "npcId": [21415],
+      "npcId": [
+        21415
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74238/Q7423801",
       "questId": 74238,
       "prePerformCfg": ""
+    }
+  ],
+  "showRedPoint": true,
+  "dialogList": [
+    {
+      "id": 742380101,
+      "talkRole": {
+        "id": "1005",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 139065258
     }
   ]
 }

@@ -4,7 +4,9 @@
   "titleTextMapHash": 2425651319,
   "descTextMapHash": 2586894918,
   "luaPath": "Actor/Quest/WQ70669",
-  "rewardIdList": [170669],
+  "rewardIdList": [
+    170669
+  ],
   "subQuests": [
     {
       "subId": 7066901,
@@ -18,14 +20,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -45,14 +53,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -72,14 +86,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -99,14 +119,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -128,14 +154,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -154,19 +186,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7066902", "2"],
+          "param": [
+            "7066902",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7066903", "2"],
+          "param": [
+            "7066903",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 706660101,
       "decoratorID": 3,
-      "npcId": [1713],
+      "npcId": [
+        1713
+      ],
       "performCfg": "",
       "questId": 70669,
       "prePerformCfg": ""
@@ -178,13 +218,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7066904", "2"],
+          "param": [
+            "7066904",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 706690201,
-      "npcId": [1713],
+      "npcId": [
+        1713
+      ],
       "performCfg": "",
       "questId": 70669,
       "prePerformCfg": ""
@@ -197,21 +242,38 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7066904", "0"],
+          "param": [
+            "7066904",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_GCG_WORLD_CHALLENGE_RESULT",
-          "param": ["-1", "0"],
+          "param": [
+            "-1",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 706660301,
-      "npcId": [1713],
+      "npcId": [
+        1713
+      ],
       "performCfg": "",
       "questId": 70669,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "AHBDGODKBDF": 3884079902,
+  "forcePreloadLuaList": [
+    "10852970329134487064"
+  ],
+  "preloadLuaList": [
+    "1576439787441289",
+    "9192387700594374215"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

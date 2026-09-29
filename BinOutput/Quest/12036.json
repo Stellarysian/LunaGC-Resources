@@ -16,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [1203510, 3],
+          "param": [
+            1203510,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_VAR_EQUAL",
-          "param": [1, 0],
+          "param": [
+            1,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -40,22 +46,34 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["1061", "201061002,1"],
+          "param": [
+            "1061",
+            "201061002,1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133221002,1"],
+          "param": [
+            "3",
+            "133221002,1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133221003,1"],
+          "param": [
+            "3",
+            "133221003,1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133209015,1"],
+          "param": [
+            "3",
+            "133209015,1"
+          ],
           "param_str": ""
         }
       ],
@@ -68,7 +86,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["1061", "201061002,2"],
+          "param": [
+            "1061",
+            "201061002,2"
+          ],
           "param_str": ""
         }
       ]
@@ -82,13 +103,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1203601", "2"],
+          "param": [
+            "1203601",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 120360101,
-      "npcId": [1047, 1033],
+      "npcId": [
+        1047,
+        1033
+      ],
       "performCfg": "QuestDialogue/LQ/Ayato1_12035/Q1203601",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 12036,
@@ -101,17 +128,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1203601", "2"],
+          "param": [
+            "1203601",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 120360201,
-      "npcId": [12451, 12523, 12528, 12529],
+      "npcId": [
+        12451,
+        12523,
+        12528,
+        12529
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 12036,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "HGFFNBIGPJK": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

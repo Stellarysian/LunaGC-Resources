@@ -15,7 +15,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7417201, 0],
+          "param": [
+            7417201,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -31,7 +34,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -49,13 +55,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417201", "2"],
+          "param": [
+            "7417201",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 740538901,
-      "npcId": [5257],
+      "npcId": [
+        5257
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74053/Q7405389",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74172,
@@ -69,18 +80,29 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417201", "2"],
+          "param": [
+            "7417201",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 3,
       "initDialog": 740539101,
-      "npcId": [5258],
+      "npcId": [
+        5258
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74172,
       "prePerformCfg": "",
       "questIdleTalk": true
     }
+  ],
+  "forcePreloadLuaList": [
+    "5381813616158503341"
+  ],
+  "preloadLuaList": [
+    "12970646856207121595"
   ]
 }

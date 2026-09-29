@@ -15,14 +15,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7221602, 3],
+          "param": [
+            7221602,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7223101, 0],
+          "param": [
+            7223101,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -54,7 +60,11 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [3182, 3180, 3181],
+      "exclusiveNpcList": [
+        3182,
+        3180,
+        3181
+      ],
       "exclusiveNpcPriority": 1100
     }
   ],
@@ -65,13 +75,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7223101", "2"],
+          "param": [
+            "7223101",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 722310101,
-      "npcId": [3182],
+      "npcId": [
+        3182
+      ],
       "performCfg": "",
       "questId": 72231,
       "prePerformCfg": ""
@@ -82,16 +97,29 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7223101", "2"],
+          "param": [
+            "7223101",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 722310201,
-      "npcId": [3180, 3181],
+      "npcId": [
+        3180,
+        3181
+      ],
       "performCfg": "",
       "questId": 72231,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "8204468642320822210"
+  ],
+  "preloadLuaList": [
+    "5496389546610354249"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

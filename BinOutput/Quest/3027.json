@@ -16,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [302703, 3],
+          "param": [
+            302703,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE",
-          "param": [1075, 0],
+          "param": [
+            1075,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -44,28 +50,40 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [302110, 3],
+          "param": [
+            302110,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [302812, 3],
+          "param": [
+            302812,
+            3
+          ],
           "param_str": ""
         }
       ],
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133303661,2"],
+          "param": [
+            "3",
+            "133303661,2"
+          ],
           "param_str": ""
         }
       ],
       "finishExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133303661,1"],
+          "param": [
+            "3",
+            "133303661,1"
+          ],
           "param_str": ""
         }
       ],
@@ -84,14 +102,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [302702, 3],
+          "param": [
+            302702,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [302617, 3],
+          "param": [
+            302617,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -110,16 +134,28 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["302701", "2"],
+          "param": [
+            "302701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 30261705,
-      "npcId": [1056],
+      "npcId": [
+        1056
+      ],
       "performCfg": "QuestDialogue/AQ/Sumeru3_3027/Q302701",
       "questId": 3027,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "12952": [
+      4121
+    ]
+  },
+  "HGFFNBIGPJK": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

@@ -66,7 +66,12 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "Monster_Rerir_Control_LohenQuest_QTE"
+      }
+    ]
   },
   "Level_Monster_Rerir_Quest": {
     "BBLCBKAFMMO": {
@@ -156,6 +161,32 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityName": "Monster_Rerir_AvatarSkillControl"
+      },
+      {
+        "abilityName": "Monster_Rerir_AvatarSkill_Break"
+      },
+      {
+        "abilityName": "Monster_Rerir_AvatarSkill_Light"
+      },
+      {
+        "abilityName": "Monster_Rerir_AvatarSkill_Aino"
+      },
+      {
+        "abilityName": "Monster_Rerir_AvatarRevive"
+      },
+      {
+        "abilityName": "TeamAbility_Task_6_1_Boss_CharacterManager"
+      },
+      {
+        "abilityName": "TeamAbility_Task_6_1_BossFight_Team_QTESuccess"
+      },
+      {
+        "abilityName": "TeamAbility_Task_6_1_BossFight_Team_QTEFail"
+      }
+    ]
   }
 }

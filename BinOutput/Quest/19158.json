@@ -5,7 +5,10 @@
   "titleTextMapHash": 3709374343,
   "descTextMapHash": 2049534254,
   "luaPath": "Actor/Quest/LQ19158",
-  "suggestTrackMainQuestList": [19159, 19160],
+  "suggestTrackMainQuestList": [
+    19159,
+    19160
+  ],
   "chapterId": 107401,
   "subQuests": [
     {
@@ -18,14 +21,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -45,14 +54,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -74,14 +89,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -90,6 +111,62 @@
       "finishExec": [],
       "failExec": [],
       "guide": {}
+    }
+  ],
+  "freeStyleDic": {
+    "12910": [
+      1190
+    ]
+  },
+  "HGFFNBIGPJK": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 3015,
+  "suggestTrackOutOfOrder": true,
+  "dialogList": [
+    {
+      "id": 191580297,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 2567047754
+    },
+    {
+      "id": 191580298,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 3964600098
+    },
+    {
+      "id": 191580299,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 2388606594
+    },
+    {
+      "id": 191589901,
+      "talkRole": {
+        "id": "12910",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3645814466
+    },
+    {
+      "id": 191589902,
+      "talkRole": {
+        "id": "12910",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3897767474
+    },
+    {
+      "id": 191589903,
+      "talkRole": {
+        "id": "12910",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 604576674
     }
   ]
 }

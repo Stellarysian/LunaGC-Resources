@@ -15,7 +15,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7416601, 0],
+          "param": [
+            7416601,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -30,7 +33,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -48,7 +54,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7416602, 0],
+          "param": [
+            7416602,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -63,7 +72,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -80,13 +92,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7416603, 0],
+          "param": [
+            7416603,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["13791"],
+        "param": [
+          "13791"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -100,7 +117,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -117,7 +137,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7416604, 0],
+          "param": [
+            7416604,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -139,7 +162,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -156,7 +182,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7416605, 0],
+          "param": [
+            7416605,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -178,7 +207,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -195,7 +227,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7416606, 0],
+          "param": [
+            7416606,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -217,7 +252,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -234,7 +272,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7416607, 0],
+          "param": [
+            7416607,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -257,7 +298,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -275,13 +319,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7416602", "2"],
+          "param": [
+            "7416602",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741660201,
-      "npcId": [13791],
+      "npcId": [
+        13791
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74166/Q7416602",
       "questId": 74166,
       "prePerformCfg": "",
@@ -294,13 +343,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7416603", "2"],
+          "param": [
+            "7416603",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741660301,
-      "npcId": [13791],
+      "npcId": [
+        13791
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74166/Q7416603",
       "questId": 74166,
       "prePerformCfg": ""
@@ -312,13 +366,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7416604", "2"],
+          "param": [
+            "7416604",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741660401,
-      "npcId": [13650],
+      "npcId": [
+        13650
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74166/Q7416604",
       "questId": 74166,
       "prePerformCfg": ""
@@ -330,13 +389,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7416605", "2"],
+          "param": [
+            "7416605",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741660501,
-      "npcId": [13650],
+      "npcId": [
+        13650
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74166/Q7416605",
       "questId": 74166,
       "prePerformCfg": ""
@@ -348,13 +412,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7416606", "2"],
+          "param": [
+            "7416606",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741660601,
-      "npcId": [13650],
+      "npcId": [
+        13650
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74166/Q7416606",
       "questId": 74166,
       "prePerformCfg": ""
@@ -366,16 +435,30 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7416607", "2"],
+          "param": [
+            "7416607",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741660701,
-      "npcId": [13650],
+      "npcId": [
+        13650
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74166/Q7416607",
       "questId": 74166,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "4894631183511735413"
+  ],
+  "preloadLuaList": [
+    "17130195903302788101",
+    "15535831638734930039"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

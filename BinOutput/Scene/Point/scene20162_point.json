@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "DungeonEntry",
@@ -23,7 +22,11 @@
       "dungeonQuestConditionList": {},
       "titleTextID": "UI_STC_Intee_DungeonEntry",
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "removeEntityIfLocked": true
+      "removeEntityIfLocked": true,
+      "FPBBOEDKMIE": 1,
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry"
     },
     "2": {
       "$type": "LJLGJMBBHMK",
@@ -40,8 +43,16 @@
         "y": 30.0,
         "z": 30.0
       },
-      "effectiveType": "Mirror"
+      "effectiveType": "Mirror",
+      "BNDAHAAOAJD": "Mirror",
+      "KBHKBGKIPII": true,
+      "sizes": {
+        "x": 30,
+        "y": 30,
+        "z": 30
+      }
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500
 }

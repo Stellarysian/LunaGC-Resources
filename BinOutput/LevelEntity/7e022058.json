@@ -9,7 +9,9 @@
     "EALGMJIJFMB": [
       {
         "FLEMJDMGGHJ": "Ability_KeepAvatarBattleState",
-        "NCCKLDFFDOH": "Ability_KeepAvatarBattleState"
+        "NCCKLDFFDOH": "Ability_KeepAvatarBattleState",
+        "abilityID": "Ability_KeepAvatarBattleState",
+        "abilityName": "Ability_KeepAvatarBattleState"
       }
     ],
     "EILDNHKFDMI": {
@@ -77,6 +79,16 @@
       "NEFPIFJAEHJ": {
         "EMOHICOKANN": 3
       }
-    }
+    },
+    "teamAbilities": [
+      {
+        "abilityID": "SceneObj_Activity_NatlanArena_ScreenFlame_01",
+        "abilityName": "SceneObj_Activity_NatlanArena_ScreenFlame_01"
+      },
+      {
+        "abilityID": "LevelEntity_ClearLocalGadgets_WithOutWhiteList",
+        "abilityName": "LevelEntity_ClearLocalGadgets_WithOutWhiteList"
+      }
+    ]
   }
 }

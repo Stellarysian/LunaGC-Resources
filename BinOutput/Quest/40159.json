@@ -15,7 +15,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4015901, 0],
+          "param": [
+            4015901,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -30,7 +33,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -39,5 +45,8 @@
       "finishExec": [],
       "failExec": []
     }
-  ]
+  ],
+  "activityId": 2030,
+  "showRedPoint": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

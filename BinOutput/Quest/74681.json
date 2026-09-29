@@ -4,7 +4,9 @@
   "titleTextMapHash": 548981743,
   "descTextMapHash": 2096236702,
   "luaPath": "Actor/Quest/WQ74681",
-  "rewardIdList": [174681],
+  "rewardIdList": [
+    174681
+  ],
   "subQuests": [
     {
       "subId": 7468101,
@@ -14,13 +16,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7468101, 0],
+          "param": [
+            7468101,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30487"],
+        "param": [
+          "30487"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -35,7 +42,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -53,17 +63,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7468101", "2"],
+          "param": [
+            "7468101",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 746810101,
-      "npcId": [30487],
+      "npcId": [
+        30487
+      ],
       "performCfg": "QuestDialogue/WQ/Filmfest_74681/Q7468101",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74681,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "30487": [
+      1120
+    ]
+  },
+  "activityId": 2027,
+  "HMJOIJHMGJD": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

@@ -4,7 +4,9 @@
   "titleTextMapHash": 3930545279,
   "descTextMapHash": 2218832454,
   "luaPath": "Actor/Quest/WQ74512",
-  "rewardIdList": [174512],
+  "rewardIdList": [
+    174512
+  ],
   "subQuests": [
     {
       "subId": 7451201,
@@ -14,18 +16,26 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7451201, 0],
+          "param": [
+            7451201,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7451202, 0],
+          "param": [
+            7451202,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30509"],
+        "param": [
+          "30509"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -40,7 +50,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -59,18 +72,28 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7451201", "2"],
+          "param": [
+            "7451201",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["5184", "5184022", "1"],
+          "param": [
+            "5184",
+            "5184022",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 745120101,
-      "npcId": [30509, 30534],
+      "npcId": [
+        30509,
+        30534
+      ],
       "performCfg": "QuestDialogue/WQ/SlimeCannon_74512/Q7451201",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74512,
@@ -84,18 +107,42 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7451201", "2"],
+          "param": [
+            "7451201",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 4,
       "initDialog": 745120201,
-      "npcId": [30509, 30534],
+      "npcId": [
+        30509,
+        30534
+      ],
       "performCfg": "QuestDialogue/WQ/SlimeCannon_74512/Q7451202",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74512,
       "prePerformCfg": "",
       "forceNpcNotDestroy": true
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "30509": [
+      1190
+    ],
+    "30534": [
+      1120
+    ]
+  },
+  "forcePreloadLuaList": [
+    "5553772277886162877"
+  ],
+  "activityId": 5184,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "2963273271116490968"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

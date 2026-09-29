@@ -41,7 +41,15 @@
         "x": 0,
         "y": 0,
         "z": 0
-      }
+      },
+      "HJNIGDGMCCK": {
+        "x": 4,
+        "y": 4,
+        "z": 4
+      },
+      "tranSceneId": 3,
+      "KBHKBGKIPII": true,
+      "OEKKLCFPCAO": "UI_SCENE_ENTRY_EXIT_Wsw"
     },
     "10": {
       "$type": "BIDKGIAOIJE",
@@ -111,7 +119,24 @@
         "x": 0,
         "y": 0,
         "z": 0
-      }
+      },
+      "CHCAGLAPJGP": true,
+      "EHFJCACBBME": "DirectEnter",
+      "FPBBOEDKMIE": 1,
+      "dungeonIds": [
+        1281
+      ],
+      "mapVisibility": "Never",
+      "sizes": {
+        "x": 6,
+        "y": 6,
+        "z": 6
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_QUEST_NEFER_DungeonEntry",
+      "inteeIcon": "UI_Icon_Intee_Talk",
+      "PFGLDOIBICE": true
     },
     "11": {
       "$type": "EJKBNAAJDEP",
@@ -145,7 +170,9 @@
         "x": 0,
         "y": 90,
         "z": 0
-      }
+      },
+      "HMOHDOOAGOJ": 10,
+      "KBHKBGKIPII": true
     },
     "2": {
       "$type": "BIDKGIAOIJE",
@@ -215,7 +242,24 @@
         "x": 0,
         "y": 97.81026,
         "z": 0
-      }
+      },
+      "CHCAGLAPJGP": true,
+      "EHFJCACBBME": "DirectEnter",
+      "FPBBOEDKMIE": 1,
+      "dungeonIds": [
+        1261
+      ],
+      "mapVisibility": "Never",
+      "sizes": {
+        "x": 6,
+        "y": 6,
+        "z": 6
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_QUEST_RERIR_DungeonEntry",
+      "inteeIcon": "UI_Icon_Intee_Talk",
+      "PFGLDOIBICE": true
     },
     "3": {
       "$type": "EJKBNAAJDEP",
@@ -249,7 +293,9 @@
         "x": 0,
         "y": 90,
         "z": 0
-      }
+      },
+      "HMOHDOOAGOJ": 2,
+      "KBHKBGKIPII": true
     },
     "12": {
       "$type": "DungeonEntry",
@@ -283,7 +329,19 @@
         "z": -51.9323
       },
       "portalShape": "",
-      "specialTipsIconPath": ""
+      "specialTipsIconPath": "",
+      "CHCAGLAPJGP": true,
+      "EHFJCACBBME": "DirectEnter",
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 6,
+        "y": 6,
+        "z": 6
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_QUEST_NEFER_DungeonEntry",
+      "PFGLDOIBICE": true
     },
     "13": {
       "$type": "DungeonExit",
@@ -299,7 +357,14 @@
         "z": -51.93609
       },
       "specialTipsIconPath": "",
-      "unlocked": true
+      "unlocked": true,
+      "HMOHDOOAGOJ": 12,
+      "tranPos": {
+        "x": 15.415401458740234,
+        "y": 0.5928366184234619,
+        "z": -51.93608856201172
+      },
+      "KBHKBGKIPII": true
     },
     "4": {
       "$type": "DungeonEntry",
@@ -333,7 +398,19 @@
         "z": -51.9323
       },
       "portalShape": "",
-      "specialTipsIconPath": ""
+      "specialTipsIconPath": "",
+      "CHCAGLAPJGP": true,
+      "EHFJCACBBME": "DirectEnter",
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 6,
+        "y": 6,
+        "z": 6
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_QUEST_RERIR_DungeonEntry",
+      "PFGLDOIBICE": true
     },
     "5": {
       "$type": "DungeonExit",
@@ -349,7 +426,14 @@
         "z": -51.93609
       },
       "specialTipsIconPath": "",
-      "unlocked": true
+      "unlocked": true,
+      "HMOHDOOAGOJ": 4,
+      "tranPos": {
+        "x": 15.415401458740234,
+        "y": 0.5928366184234619,
+        "z": -51.93608856201172
+      },
+      "KBHKBGKIPII": true
     },
     "6": {
       "$type": "DungeonEntry",
@@ -382,7 +466,18 @@
         "z": -51.9323
       },
       "portalShape": "",
-      "specialTipsIconPath": ""
+      "specialTipsIconPath": "",
+      "CHCAGLAPJGP": true,
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 6,
+        "y": 6,
+        "z": 6
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_QUEST_RERIR_DungeonEntry",
+      "PFGLDOIBICE": true
     },
     "7": {
       "$type": "DungeonExit",
@@ -398,7 +493,14 @@
         "z": -51.93609
       },
       "specialTipsIconPath": "",
-      "unlocked": true
+      "unlocked": true,
+      "HMOHDOOAGOJ": 2,
+      "tranPos": {
+        "x": 15.415401458740234,
+        "y": 0.5928366184234619,
+        "z": -51.93608856201172
+      },
+      "KBHKBGKIPII": true
     },
     "8": {
       "$type": "DungeonEntry",
@@ -432,7 +534,22 @@
         "z": -51.9323
       },
       "portalShape": "",
-      "specialTipsIconPath": ""
+      "specialTipsIconPath": "",
+      "CHCAGLAPJGP": true,
+      "EAAKMBAMNIA": [
+        6019
+      ],
+      "EHFJCACBBME": "DirectEnter",
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 6,
+        "y": 6,
+        "z": 6
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_QUEST_NEFER_DungeonEntry",
+      "PFGLDOIBICE": true
     },
     "9": {
       "$type": "DungeonExit",
@@ -448,7 +565,15 @@
         "z": -51.93609
       },
       "specialTipsIconPath": "",
-      "unlocked": true
+      "unlocked": true,
+      "HMOHDOOAGOJ": 8,
+      "tranPos": {
+        "x": 15.415401458740234,
+        "y": 0.5928366184234619,
+        "z": -51.93608856201172
+      },
+      "KBHKBGKIPII": true
     }
-  }
+  },
+  "HINDGNIGCEO": 1500
 }

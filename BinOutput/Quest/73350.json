@@ -4,7 +4,9 @@
   "titleTextMapHash": 4236405839,
   "descTextMapHash": 3454689670,
   "luaPath": "Actor/Quest/WQ73350",
-  "rewardIdList": [173350],
+  "rewardIdList": [
+    173350
+  ],
   "subQuests": [
     {
       "subId": 7335001,
@@ -14,18 +16,26 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7335001, 0],
+          "param": [
+            7335001,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7335005, 0],
+          "param": [
+            7335005,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["4456"],
+        "param": [
+          "4456"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -37,7 +47,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -54,13 +67,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7335002, 0],
+          "param": [
+            7335002,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["[3_330400494:-543.097,201.552,2798.333,0.000,1.600,0.000]"],
+        "param": [
+          "[3_330400494:-543.097,201.552,2798.333,0.000,1.600,0.000]"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -72,7 +90,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -89,13 +110,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7335003, 0],
+          "param": [
+            7335003,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["4456"],
+        "param": [
+          "4456"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -108,7 +134,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -127,18 +156,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7335001", "2"],
+          "param": [
+            "7335001",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7228724", "0"],
+          "param": [
+            "7228724",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 733500101,
-      "npcId": [4456],
+      "npcId": [
+        4456
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73350,
@@ -151,13 +188,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7335002", "2"],
+          "param": [
+            "7335002",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 733500201,
-      "npcId": [4456],
+      "npcId": [
+        4456
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73350,
@@ -170,13 +212,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7335003", "2"],
+          "param": [
+            "7335003",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 733500301,
-      "npcId": [4456],
+      "npcId": [
+        4456
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73350,
@@ -189,12 +236,17 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7335002", "2"],
+          "param": [
+            "7335002",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "npcId": [21080],
+      "npcId": [
+        21080
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73350/Q7335004",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73350,
@@ -208,22 +260,86 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7335001", "2"],
+          "param": [
+            "7335001",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7228724", "1"],
+          "param": [
+            "7228724",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 733500401,
-      "npcId": [4456],
+      "npcId": [
+        4456
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73350,
       "prePerformCfg": ""
+    }
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "dialogList": [
+    {
+      "id": 733500107,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 3658861210
+    },
+    {
+      "id": 733500108,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 4217049634
+    },
+    {
+      "nextDialogs": [
+        733500409
+      ],
+      "id": 733500407,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 2181084786
+    },
+    {
+      "nextDialogs": [
+        733500409
+      ],
+      "id": 733500408,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 387740354
+    },
+    {
+      "nextDialogs": [
+        733509902
+      ],
+      "id": 733509901,
+      "talkRole": {
+        "id": "4456",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2180356794
+    },
+    {
+      "id": 733509902,
+      "talkRole": {
+        "id": "4456",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1171023698
     }
   ]
 }

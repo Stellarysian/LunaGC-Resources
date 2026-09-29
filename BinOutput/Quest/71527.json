@@ -15,7 +15,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7166640, 0],
+          "param": [
+            7166640,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -29,7 +32,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -47,7 +53,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [7152703, 2],
+          "param": [
+            7152703,
+            2
+          ],
           "param_str": ""
         }
       ],
@@ -61,7 +70,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -79,7 +91,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7166641, 0],
+          "param": [
+            7166641,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -94,7 +109,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -113,18 +131,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["5173", "5173005", "1"],
+          "param": [
+            "5173",
+            "5173005",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7152701", "2"],
+          "param": [
+            "7152701",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 716664001,
-      "npcId": [30467],
+      "npcId": [
+        30467
+      ],
       "performCfg": "QuestDialogue/WQ/ElectroherculesBattleV2_71666/Q7166640",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71527,
@@ -138,13 +165,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7152703", "2"],
+          "param": [
+            "7152703",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 8,
       "initDialog": 716664101,
-      "npcId": [30467],
+      "npcId": [
+        30467
+      ],
       "performCfg": "QuestDialogue/WQ/ElectroherculesBattleV2_71666/Q7166641",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71527,
@@ -157,17 +189,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7152702", "2"],
+          "param": [
+            "7152702",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 716664301,
-      "npcId": [13953],
+      "npcId": [
+        13953
+      ],
       "performCfg": "UI/open_actvity_ElectroherculesBattleV2_level3_page",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71527,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activityId": 5173,
+  "showRedPoint": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

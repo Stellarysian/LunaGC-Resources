@@ -28,7 +28,15 @@
       "tranSceneId": 3,
       "KFKEKAJMGFD": 24,
       "unlocked": true,
-      "titleTextID": "UI_SCENE_ENTRY_EXIT_Xjc"
+      "titleTextID": "UI_SCENE_ENTRY_EXIT_Xjc",
+      "HJNIGDGMCCK": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "INIPMNIGDCG": 24,
+      "KBHKBGKIPII": true,
+      "OEKKLCFPCAO": "UI_SCENE_ENTRY_EXIT_Xjc"
     },
     "2": {
       "$type": "DungeonEntry",
@@ -62,7 +70,17 @@
       "showLevel": 1,
       "exploreRatio": 1,
       "inteeIcon": "UI_Icon_Intee_Talk",
-      "titleTextID": "UI_STC_Intee_DungeonEntry"
+      "titleTextID": "UI_STC_Intee_DungeonEntry",
+      "FPBBOEDKMIE": 1,
+      "sizes": {
+        "x": 2,
+        "y": 5,
+        "z": 2
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry",
+      "PFGLDOIBICE": true
     },
     "3": {
       "$type": "DungeonExit",
@@ -84,7 +102,10 @@
       "tranRot": {
         "y": 184.60389709472656
       },
-      "unlocked": true
+      "unlocked": true,
+      "HMOHDOOAGOJ": 2,
+      "KBHKBGKIPII": true
     }
-  }
+  },
+  "HINDGNIGCEO": 1500
 }

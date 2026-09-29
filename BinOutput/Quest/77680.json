@@ -47,7 +47,22 @@
       "descTextMapHash": 1713179564,
       "subId": 7768002,
       "mainId": 77680,
-      "showType": "QUEST_HIDDEN"
+      "showType": "QUEST_HIDDEN",
+      "finishExec": [
+        {
+          "param": [
+            "7768001",
+            "1"
+          ],
+          "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR"
+        },
+        {
+          "param": [
+            "7768001"
+          ],
+          "type": "QUEST_EXEC_ROLLBACK_QUEST"
+        }
+      ]
     },
     {
       "finishCond": [

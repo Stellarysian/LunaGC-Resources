@@ -13,7 +13,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [402901, 0],
+          "param": [
+            402901,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -26,7 +29,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_WEATHER_GADGET",
-          "param": ["5054", "0"],
+          "param": [
+            "5054",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -35,7 +41,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -43,5 +52,7 @@
       "beginExec": [],
       "failExec": []
     }
-  ]
+  ],
+  "showRedPoint": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

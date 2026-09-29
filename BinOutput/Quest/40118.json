@@ -16,7 +16,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
-          "param": [4011601, 3],
+          "param": [
+            4011601,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -29,7 +32,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -47,13 +53,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4011801", "2"],
+          "param": [
+            "4011801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401180901,
-      "npcId": [13253, 1029],
+      "npcId": [
+        13253,
+        1029
+      ],
       "performCfg": "QuestDialogue/EQ/Penumbra_40118/Q4011809",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40118,
@@ -67,13 +79,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4011801", "2"],
+          "param": [
+            "4011801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401181001,
-      "npcId": [10090, 1004],
+      "npcId": [
+        10090,
+        1004
+      ],
       "performCfg": "QuestDialogue/EQ/Penumbra_40118/Q4011810",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40118,
@@ -87,13 +105,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4011801", "2"],
+          "param": [
+            "4011801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401181101,
-      "npcId": [1051, 1037],
+      "npcId": [
+        1051,
+        1037
+      ],
       "performCfg": "QuestDialogue/EQ/Penumbra_40118/Q4011811",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40118,
@@ -107,18 +131,48 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4011801", "2"],
+          "param": [
+            "4011801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 401181201,
-      "npcId": [13247],
+      "npcId": [
+        13247
+      ],
       "performCfg": "QuestDialogue/EQ/Penumbra_40118/Q4011812",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 40118,
       "prePerformCfg": "",
       "forceNpcNotDestroy": true
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "1004": [
+      1110
+    ],
+    "10090": [
+      1120
+    ],
+    "1029": [
+      1120
+    ],
+    "1037": [
+      1190
+    ],
+    "1051": [
+      1130
+    ],
+    "13253": [
+      1280
+    ]
+  },
+  "activityId": 2023,
+  "preloadLuaList": [
+    "5575916732172504491"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

@@ -15,12 +15,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LEAVE_SCENE_RANGE",
-          "param": [3, 80],
+          "param": [
+            3,
+            80
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [1401801, 0],
+          "param": [
+            1401801,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -35,7 +41,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -53,17 +62,24 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1401801", "2"],
+          "param": [
+            "1401801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 140180901,
-      "npcId": [1075],
+      "npcId": [
+        1075
+      ],
       "performCfg": "QuestDialogue/LQ/Navia_14018/Q1401809",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 14018,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "showRedPoint": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

@@ -347,49 +347,62 @@
   "Mona_Hexenzirkel_1": [
     {
       "$type": "AddAbility",
-      "abilityName": "Avatar_Mona_HexenzirkelSkill"
+      "abilityName": "Avatar_Mona_HexenzirkelSkill",
+      "CLGIKOPIKBC": true
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Mona_HexenzirkelSkill",
       "paramSpecial": "BuffDuration",
       "paramDelta": "%1",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true,
+      "CMLJMLJBBKI": "Hexenzirkel"
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Mona_HexenzirkelSkill",
       "paramSpecial": "MaxBuffCount",
       "paramDelta": "%2",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true,
+      "CMLJMLJBBKI": "Hexenzirkel"
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Mona_HexenzirkelSkill",
       "paramSpecial": "BuffDamageUp",
       "paramDelta": "%3",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true,
+      "CMLJMLJBBKI": "Hexenzirkel"
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Mona_StarChart",
       "paramSpecial": "DebuffExtend",
       "paramDelta": "%4",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true,
+      "CMLJMLJBBKI": "Hexenzirkel"
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Mona_StarChart",
       "paramSpecial": "Max_DebuffExtend_Count",
       "paramDelta": "%5",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true,
+      "CMLJMLJBBKI": "Hexenzirkel"
     },
     {
       "$type": "ModifyAbility",
       "abilityName": "Avatar_Mona_StarChart",
       "paramSpecial": "DebuffExtend_CD",
       "paramDelta": "%6",
-      "paramRatio": 0.0
+      "paramRatio": 0.0,
+      "CLGIKOPIKBC": true,
+      "CMLJMLJBBKI": "Hexenzirkel"
     }
   ],
   "Mona_HexenzirkelSkill": []

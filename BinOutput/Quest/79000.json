@@ -4,7 +4,9 @@
   "titleTextMapHash": 2064619007,
   "descTextMapHash": 2702980878,
   "luaPath": "Actor/Quest/WQ79000",
-  "rewardIdList": [179000],
+  "rewardIdList": [
+    179000
+  ],
   "subQuests": [
     {
       "subId": 7900001,
@@ -14,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7900010, 3],
+          "param": [
+            7900010,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "7900001finish",
           "count": 1
         }
@@ -35,7 +43,10 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["DUMMY_POS7900001", "20"],
+        "param": [
+          "DUMMY_POS7900001",
+          "20"
+        ],
         "guideScene": 4,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -56,12 +67,18 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["4", "144002012,1"],
+          "param": [
+            "4",
+            "144002012,1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["4", "144002012"],
+          "param": [
+            "4",
+            "144002012"
+          ],
           "param_str": ""
         }
       ]
@@ -74,14 +91,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "7900002finish",
           "count": 1
         }
@@ -95,7 +118,10 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["DUMMY_POS7900001", "20"],
+        "param": [
+          "DUMMY_POS7900001",
+          "20"
+        ],
         "guideScene": 4,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -117,7 +143,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["4", "144002012"],
+          "param": [
+            "4",
+            "144002012"
+          ],
           "param_str": ""
         }
       ]
@@ -130,14 +159,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7900001, 3],
+          "param": [
+            7900001,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7900002, 0],
+          "param": [
+            7900002,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -150,7 +185,10 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["DUMMY_POS7900001", "1"],
+        "param": [
+          "DUMMY_POS7900001",
+          "1"
+        ],
         "guideScene": 4,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -172,7 +210,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_SET_QUEST_VAR",
-          "param": ["0", "0"],
+          "param": [
+            "0",
+            "0"
+          ],
           "param_str": ""
         }
       ]
@@ -186,14 +227,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "7900004finfish",
           "count": 1
         }
@@ -233,14 +280,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "7900005finfish",
           "count": 1
         }
@@ -280,14 +333,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7900001, 3],
+          "param": [
+            7900001,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7900004, 0],
+          "param": [
+            7900004,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -326,14 +385,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7900003, 2],
+          "param": [
+            7900003,
+            2
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7900002, 0],
+          "param": [
+            7900002,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -373,14 +438,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7900003, 2],
+          "param": [
+            7900003,
+            2
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7900002, 0],
+          "param": [
+            7900002,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -394,7 +465,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["4", "144002012"],
+          "param": [
+            "4",
+            "144002012"
+          ],
           "param_str": ""
         }
       ],
@@ -420,14 +494,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7900003, 2],
+          "param": [
+            7900003,
+            2
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "7900003",
           "count": 1
         }
@@ -435,7 +515,10 @@
       "failCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7900003, 0],
+          "param": [
+            7900003,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -449,7 +532,10 @@
       "failExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
-          "param": ["7900003", "0"],
+          "param": [
+            "7900003",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -469,7 +555,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [5033006, 1],
+          "param": [
+            5033006,
+            1
+          ],
           "param_str": ""
         }
       ],
@@ -477,13 +566,19 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "7900010finish",
           "count": 1
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [6800205, 0],
+          "param": [
+            6800205,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -522,14 +617,22 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7900008", "2"],
+          "param": [
+            "7900008",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 6,
-      "nextTalks": [7900002, 7900003],
+      "nextTalks": [
+        7900002,
+        7900003
+      ],
       "initDialog": 790000101,
-      "npcId": [2003052],
+      "npcId": [
+        2003052
+      ],
       "performCfg": "QuestDialogue/WQ/Island_79000/Q7900001",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 79000,
@@ -543,18 +646,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_QUEST_VAR_EQUAL",
-          "param": ["0", "1", "79000"],
+          "param": [
+            "0",
+            "1",
+            "79000"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7900008", "2"],
+          "param": [
+            "7900008",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 790000201,
-      "npcId": [2003052],
+      "npcId": [
+        2003052
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 79000,
@@ -567,13 +679,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_QUEST_VAR_EQUAL",
-          "param": ["0", "2", "79000"],
+          "param": [
+            "0",
+            "2",
+            "79000"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 790000301,
-      "npcId": [2003052],
+      "npcId": [
+        2003052
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 79000,
@@ -586,17 +704,23 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7900006", "2"],
+          "param": [
+            "7900006",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 7,
       "initDialog": 790000401,
-      "npcId": [2003052],
+      "npcId": [
+        2003052
+      ],
       "performCfg": "QuestDialogue/WQ/Island_79000/Q7900004",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 79000,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_ACTIVITY"
 }

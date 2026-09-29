@@ -4,7 +4,9 @@
   "titleTextMapHash": 2689617631,
   "descTextMapHash": 912702366,
   "luaPath": "Actor/Quest/WQ71530",
-  "rewardIdList": [171530],
+  "rewardIdList": [
+    171530
+  ],
   "subQuests": [
     {
       "subId": 7153001,
@@ -14,13 +16,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7153001, 0],
+          "param": [
+            7153001,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30457"],
+        "param": [
+          "30457"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -35,7 +42,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -53,17 +63,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7153001", "2"],
+          "param": [
+            "7153001",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 715300101,
-      "npcId": [30457],
+      "npcId": [
+        30457
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_71530/Q7153001",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71530,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "30457": [
+      4010
+    ]
+  },
+  "activityId": 2028,
+  "HMJOIJHMGJD": true,
+  "showRedPoint": true,
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

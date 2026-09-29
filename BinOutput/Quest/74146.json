@@ -14,7 +14,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_QUEST_GLOBAL_VAR_EQUAL",
-          "param": [7414601, 1],
+          "param": [
+            7414601,
+            1
+          ],
           "param_str": ""
         }
       ],
@@ -29,7 +32,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -47,13 +53,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7414601", "2"],
+          "param": [
+            "7414601",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741460101,
-      "npcId": [20995],
+      "npcId": [
+        20995
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74146,
@@ -66,13 +77,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7414601", "2"],
+          "param": [
+            "7414601",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741460201,
-      "npcId": [5303],
+      "npcId": [
+        5303
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74146/Q7414602",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74146,
@@ -85,17 +101,27 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7414601", "2"],
+          "param": [
+            "7414601",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741460301,
-      "npcId": [21048],
+      "npcId": [
+        21048
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74146,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "21048": [
+      0
+    ]
+  }
 }

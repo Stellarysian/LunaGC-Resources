@@ -4,7 +4,9 @@
   "titleTextMapHash": 3318292351,
   "descTextMapHash": 3954802782,
   "luaPath": "Actor/Quest/WQ71125",
-  "rewardIdList": [171125],
+  "rewardIdList": [
+    171125
+  ],
   "subQuests": [
     {
       "subId": 7112501,
@@ -14,13 +16,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7112505, 0],
+          "param": [
+            7112505,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30152"],
+        "param": [
+          "30152"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -35,7 +42,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -53,14 +63,23 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7112501", "2"],
+          "param": [
+            "7112501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 6,
-      "nextTalks": [7112503, 7112504],
+      "nextTalks": [
+        7112503,
+        7112504
+      ],
       "initDialog": 711250101,
-      "npcId": [30152, 30322],
+      "npcId": [
+        30152,
+        30322
+      ],
       "performCfg": "QuestDialogue/WQ/CrystalLink3_71125/Q7112501",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71125,
@@ -73,19 +92,30 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7405379", "3"],
+          "param": [
+            "7405379",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7112501", "2"],
+          "param": [
+            "7112501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [7112505],
+      "nextTalks": [
+        7112505
+      ],
       "initDialog": 711250301,
-      "npcId": [30152, 30322],
+      "npcId": [
+        30152,
+        30322
+      ],
       "performCfg": "QuestDialogue/WQ/CrystalLink3_71125/Q7112503",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71125,
@@ -98,14 +128,22 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7112501", "2"],
+          "param": [
+            "7112501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [7112505],
+      "nextTalks": [
+        7112505
+      ],
       "initDialog": 711250401,
-      "npcId": [30152, 30322],
+      "npcId": [
+        30152,
+        30322
+      ],
       "performCfg": "QuestDialogue/WQ/CrystalLink3_71125/Q7112504",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71125,
@@ -117,17 +155,42 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7112501", "2"],
+          "param": [
+            "7112501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 711250501,
-      "npcId": [30152, 30322],
+      "npcId": [
+        30152,
+        30322
+      ],
       "performCfg": "QuestDialogue/WQ/CrystalLink3_71125/Q7112505",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 71125,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "30152": [
+      1190
+    ],
+    "30322": [
+      1180
+    ]
+  },
+  "forcePreloadLuaList": [
+    "4623820115371757809"
+  ],
+  "activityId": 5189,
+  "HMJOIJHMGJD": true,
+  "showRedPoint": true,
+  "preloadLuaList": [
+    "15826282033615117558"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

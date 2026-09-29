@@ -4,8 +4,12 @@
   "titleTextMapHash": 4246098801,
   "descTextMapHash": 863921743,
   "luaPath": "Actor/Quest/AQ357",
-  "suggestTrackMainQuestList": [358],
-  "rewardIdList": [100357],
+  "suggestTrackMainQuestList": [
+    358
+  ],
+  "rewardIdList": [
+    100357
+  ],
   "chapterId": 1001,
   "subQuests": [
     {
@@ -17,14 +21,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35606, 3],
+          "param": [
+            35606,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ENTER_DUNGEON",
-          "param": [2004, 67],
+          "param": [
+            2004,
+            67
+          ],
           "param_str": ""
         }
       ],
@@ -64,14 +74,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35721, 3],
+          "param": [
+            35721,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "220020001",
           "count": 1
         }
@@ -79,7 +95,10 @@
       "failCond": [
         {
           "type": "QUEST_CONTENT_ENTER_MY_WORLD",
-          "param": [3, 0],
+          "param": [
+            3,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -88,14 +107,20 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_IS_GAME_TIME_LOCKED",
-          "param": ["0", "0"],
+          "param": [
+            "0",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "failExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
-          "param": ["35721", "0"],
+          "param": [
+            "35721",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -115,14 +140,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35722, 3],
+          "param": [
+            35722,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ENTER_MY_WORLD",
-          "param": [3, 0],
+          "param": [
+            3,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -162,14 +193,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35725, 3],
+          "param": [
+            35725,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [35723, 0],
+          "param": [
+            35723,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -208,14 +245,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35723, 3],
+          "param": [
+            35723,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_TRIGGER_FIRE",
-          "param": [1039, 0],
+          "param": [
+            1039,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -227,7 +270,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["QuestKnighthood"],
+        "param": [
+          "QuestKnighthood"
+        ],
         "guideScene": 3
       },
       "finishParent": true,
@@ -260,17 +305,35 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["35723", "2"],
+          "param": [
+            "35723",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 3572301,
-      "npcId": [1002],
+      "npcId": [
+        1002
+      ],
       "performCfg": "QuestDialogue/AQ/Mengde1_357/Q35723",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 357,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "3787792072377985100"
+  ],
+  "preloadLuaList": [
+    "5909385756826696338",
+    "5575916732172504491",
+    "14457059026087496718",
+    "10841700135441927722",
+    "16436881223552743647",
+    "5153416905901921301"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 1001
 }

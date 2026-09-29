@@ -16,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [35311, 3],
+          "param": [
+            35311,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [36100, 0],
+          "param": [
+            36100,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -50,7 +56,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133003436,1"],
+          "param": [
+            "3",
+            "133003436,1"
+          ],
           "param_str": ""
         }
       ]
@@ -64,14 +73,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [36100, 3],
+          "param": [
+            36100,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [36101, 0],
+          "param": [
+            36101,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -103,5 +118,12 @@
         }
       ]
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "3787792072377985100"
+  ],
+  "preloadLuaList": [
+    "10302773834848432837"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

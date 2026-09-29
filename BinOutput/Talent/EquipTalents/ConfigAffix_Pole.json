@@ -1056,5 +1056,306 @@
       "paramSpecial": "dura",
       "paramDelta": "%3"
     }
+  ],
+  "Weapon_Pole_Carbine": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Carbine"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramDelta": "%1",
+      "paramSpecial": "HandlerDuration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramDelta": "%2",
+      "paramSpecial": "BuffDuration_Start"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramDelta": "%3",
+      "paramSpecial": "NormalExtraRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramDelta": "%4",
+      "paramSpecial": "ArtBurstRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramDelta": "%5",
+      "paramSpecial": "BuffDuration_Base"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramDelta": "%6",
+      "paramSpecial": "HexenzirkelExtraRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramDelta": "%7",
+      "paramSpecial": "HandlerCD"
+    }
+  ],
+  "Weapon_Pole_FaesCrystalle": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_FaesCrystalle"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_FaesCrystalle",
+      "paramDelta": "%1",
+      "paramSpecial": "ATKRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_FaesCrystalle",
+      "paramDelta": "%2",
+      "paramSpecial": "Duration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_FaesCrystalle",
+      "paramDelta": "%3",
+      "paramSpecial": "Energy"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_FaesCrystalle",
+      "paramDelta": "%4",
+      "paramSpecial": "CDTime"
+    }
+  ],
+  "Weapon_Pole_GlintstonePolearm": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_GlintstonePolearm"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_GlintstonePolearm",
+      "paramDelta": "%1",
+      "paramSpecial": "Energy"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_GlintstonePolearm",
+      "paramDelta": "%2",
+      "paramSpecial": "ATKRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_GlintstonePolearm",
+      "paramDelta": "%3",
+      "paramSpecial": "CDTime"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_GlintstonePolearm",
+      "paramDelta": "%4",
+      "paramSpecial": "Duration"
+    }
+  ],
+  "Weapon_Pole_Ilmarinen": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Ilmarinen"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Ilmarinen",
+      "paramDelta": "%1",
+      "paramSpecial": "ShockUpRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Ilmarinen",
+      "paramDelta": "%2",
+      "paramSpecial": "MoonShockUPRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Ilmarinen",
+      "paramDelta": "%3",
+      "paramSpecial": "MoonShockUPRatioExtra"
+    }
+  ],
+  "Weapon_Pole_Krivule": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Krivule"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Krivule",
+      "paramDelta": "%1",
+      "paramSpecial": "Dura"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Krivule",
+      "paramDelta": "%2",
+      "paramSpecial": "Attack"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Krivule",
+      "paramDelta": "%3",
+      "paramSpecial": "Charge"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Krivule",
+      "paramDelta": "%4",
+      "paramSpecial": "Stack"
+    }
+  ],
+  "Weapon_Pole_Perdix": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Perdix"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Perdix",
+      "paramDelta": "%1",
+      "paramSpecial": "AttackUpRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Perdix",
+      "paramDelta": "%2",
+      "paramSpecial": "AttackUpDuration"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Perdix",
+      "paramDelta": "%3",
+      "paramSpecial": "MoonShockDamageUpR"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Perdix",
+      "paramDelta": "%4",
+      "paramSpecial": "MoonShockUpDuration"
+    }
+  ],
+  "Weapon_Pole_Trident": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Trident"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Trident",
+      "paramDelta": "%2",
+      "paramSpecial": "AttackUp"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Trident",
+      "paramDelta": "%3",
+      "paramSpecial": "BuffRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_Trident",
+      "paramDelta": "%4",
+      "paramSpecial": "Dura"
+    }
+  ],
+  "Weapon_Pole_TummaLyhty": [
+    {
+      "$type": "AddAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_TummaLyhty"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramDelta": "%1",
+      "paramSpecial": "Timer1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramDelta": "%2",
+      "paramSpecial": "ShockRatio"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramDelta": "%3",
+      "paramSpecial": "Timer2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramDelta": "%4",
+      "paramSpecial": "CritHurt"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramDelta": "%5",
+      "paramSpecial": "Energy"
+    },
+    {
+      "$type": "ModifyAbility",
+      "CLGIKOPIKBC": true,
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramDelta": "%6",
+      "paramSpecial": "CDTime"
+    }
   ]
 }

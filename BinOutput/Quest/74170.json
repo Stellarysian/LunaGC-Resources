@@ -5,7 +5,9 @@
   "descTextMapHash": 704128782,
   "luaPath": "Actor/Quest/WQ74170",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [174170],
+  "rewardIdList": [
+    174170
+  ],
   "subQuests": [
     {
       "subId": 7417001,
@@ -16,7 +18,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7417001, 0],
+          "param": [
+            7417001,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -28,7 +33,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_INIT_TIME_VAR",
-          "param": ["1", "0"],
+          "param": [
+            "1",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -37,7 +45,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -54,13 +65,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7417006, 0],
+          "param": [
+            7417006,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["5225"],
+        "param": [
+          "5225"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -74,7 +90,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -92,26 +111,38 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "",
           "count": 1
         },
         {
           "type": "QUEST_CONTENT_GADGET_STATE_CHANGE",
-          "param": [133408530, 530005],
+          "param": [
+            133408530,
+            530005
+          ],
           "param_str": ""
         }
       ],
       "failCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "",
           "count": 1
         },
         {
           "type": "QUEST_CONTENT_GADGET_STATE_CHANGE",
-          "param": [133408530, 530006],
+          "param": [
+            133408530,
+            530006
+          ],
           "param_str": ""
         }
       ],
@@ -123,7 +154,10 @@
       "failExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
-          "param": ["3", "133408633,1;133408629,1;133408624,1;133408532,1"],
+          "param": [
+            "3",
+            "133408633,1;133408629,1;133408624,1;133408532,1"
+          ],
           "param_str": ""
         }
       ],
@@ -132,7 +166,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -148,13 +185,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7417004, 0],
+          "param": [
+            7417004,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["5225"],
+        "param": [
+          "5225"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -167,7 +209,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
-          "param": ["7410402", "1"],
+          "param": [
+            "7410402",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -176,7 +221,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -193,7 +241,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7417005, 0],
+          "param": [
+            7417005,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -208,7 +259,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -226,7 +280,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7417008, 0],
+          "param": [
+            7417008,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -238,7 +295,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
-          "param": ["7417005", "0"],
+          "param": [
+            "7417005",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -247,7 +307,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -264,7 +327,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_TIME_VAR_PASS_DAY",
-          "param": [74170, 1],
+          "param": [
+            74170,
+            1
+          ],
           "param_str": ""
         }
       ],
@@ -278,7 +344,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -297,14 +366,25 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417002", "2"],
+          "param": [
+            "7417002",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 6,
-      "nextTalks": [7417006, 7417009, 7417010, 7417011, 7417012],
+      "nextTalks": [
+        7417006,
+        7417009,
+        7417010,
+        7417011,
+        7417012
+      ],
       "initDialog": 741701701,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
@@ -317,13 +397,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417004", "2"],
+          "param": [
+            "7417004",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741700401,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
@@ -336,13 +421,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417003", "2"],
+          "param": [
+            "7417003",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741700501,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
@@ -355,13 +445,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417002", "2"],
+          "param": [
+            "7417002",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741700208,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
@@ -374,14 +469,25 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417006", "2"],
+          "param": [
+            "7417006",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 6,
-      "nextTalks": [7417008, 7417009, 7417010, 7417011, 7417012],
+      "nextTalks": [
+        7417008,
+        7417009,
+        7417010,
+        7417011,
+        7417012
+      ],
       "initDialog": 741701801,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
@@ -394,13 +500,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417006", "2"],
+          "param": [
+            "7417006",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741700703,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
@@ -414,18 +525,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417002", "2"],
+          "param": [
+            "7417002",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417006", "2"],
+          "param": [
+            "7417006",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741700210,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
@@ -439,18 +558,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417002", "2"],
+          "param": [
+            "7417002",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417006", "2"],
+          "param": [
+            "7417006",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741700213,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
@@ -464,18 +591,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417002", "2"],
+          "param": [
+            "7417002",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417006", "2"],
+          "param": [
+            "7417006",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741700217,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
@@ -489,22 +624,281 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417002", "2"],
+          "param": [
+            "7417002",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417006", "2"],
+          "param": [
+            "7417006",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741700221,
-      "npcId": [5225],
+      "npcId": [
+        5225
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74170,
       "prePerformCfg": ""
+    }
+  ],
+  "dialogList": [
+    {
+      "nextDialogs": [
+        741700202
+      ],
+      "id": 741700201,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2886198066
+    },
+    {
+      "nextDialogs": [
+        741700203
+      ],
+      "id": 741700202,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1742827514
+    },
+    {
+      "nextDialogs": [
+        741700204
+      ],
+      "id": 741700203,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3920672434
+    },
+    {
+      "nextDialogs": [
+        741700205
+      ],
+      "id": 741700204,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2417536562
+    },
+    {
+      "nextDialogs": [
+        741700206
+      ],
+      "id": 741700205,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3696585554
+    },
+    {
+      "nextDialogs": [
+        741700207
+      ],
+      "id": 741700206,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1633845858
+    },
+    {
+      "nextDialogs": [
+        741700208,
+        741700210,
+        741700213,
+        741700217,
+        741700221
+      ],
+      "id": 741700207,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2723794682
+    },
+    {
+      "nextDialogs": [
+        741700702
+      ],
+      "id": 741700701,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2130323306
+    },
+    {
+      "nextDialogs": [
+        741700703,
+        741700705,
+        741700708,
+        741700712,
+        741700716
+      ],
+      "id": 741700702,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2094583386
+    },
+    {
+      "talkShowType": "TALK_SHOW_FORCE_SELECT",
+      "nextDialogs": [
+        741700706
+      ],
+      "id": 741700705,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 1695288258
+    },
+    {
+      "nextDialogs": [
+        741700707
+      ],
+      "id": 741700706,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3993291554
+    },
+    {
+      "id": 741700707,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 539971370
+    },
+    {
+      "talkShowType": "TALK_SHOW_FORCE_SELECT",
+      "nextDialogs": [
+        741700709
+      ],
+      "id": 741700708,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 1628193410
+    },
+    {
+      "nextDialogs": [
+        741700710
+      ],
+      "id": 741700709,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1726867138
+    },
+    {
+      "nextDialogs": [
+        741700711
+      ],
+      "id": 741700710,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 3888467626
+    },
+    {
+      "id": 741700711,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1425129042
+    },
+    {
+      "talkShowType": "TALK_SHOW_FORCE_SELECT",
+      "nextDialogs": [
+        741700713
+      ],
+      "id": 741700712,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 3147623026
+    },
+    {
+      "nextDialogs": [
+        741700714
+      ],
+      "id": 741700713,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1441234562
+    },
+    {
+      "nextDialogs": [
+        741700715
+      ],
+      "id": 741700714,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 2969093994
+    },
+    {
+      "id": 741700715,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1916356306
+    },
+    {
+      "talkShowType": "TALK_SHOW_FORCE_SELECT",
+      "nextDialogs": [
+        741700717
+      ],
+      "id": 741700716,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 759701202
+    },
+    {
+      "nextDialogs": [
+        741700718
+      ],
+      "id": 741700717,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 1390581578
+    },
+    {
+      "id": 741700718,
+      "talkRole": {
+        "id": "5225",
+        "type": "TALK_ROLE_NPC"
+      },
+      "talkContentTextMapHash": 555812858
     }
   ]
 }

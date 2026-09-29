@@ -17,19 +17,28 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [2005004, 1],
+          "param": [
+            2005004,
+            1
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "0,24"
         }
       ],
@@ -61,5 +70,7 @@
         }
       ]
     }
-  ]
+  ],
+  "HMJOIJHMGJD": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

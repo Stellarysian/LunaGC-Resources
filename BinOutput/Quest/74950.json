@@ -5,7 +5,9 @@
   "descTextMapHash": 155094670,
   "luaPath": "Actor/Quest/WQ74950",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [174950],
+  "rewardIdList": [
+    174950
+  ],
   "subQuests": [
     {
       "subId": 7495001,
@@ -15,7 +17,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7495001, 0],
+          "param": [
+            7495001,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -31,7 +36,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
-          "param": ["7422301", "1"],
+          "param": [
+            "7422301",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -40,7 +48,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -48,5 +59,7 @@
       "beginExec": [],
       "failExec": []
     }
-  ]
+  ],
+  "showRedPoint": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

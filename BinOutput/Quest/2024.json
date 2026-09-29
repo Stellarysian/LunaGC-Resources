@@ -16,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [202102, 3],
+          "param": [
+            202102,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [202401, 0],
+          "param": [
+            202401,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -64,12 +70,17 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["202401", "2"],
+          "param": [
+            "202401",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "initDialog": 20240101,
-      "npcId": [1034],
+      "npcId": [
+        1034
+      ],
       "performCfg": "QuestDialogue/AQ/Inazuma2_2024/Q202401",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 2024,
@@ -83,13 +94,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2024", "2024006", "1"],
+          "param": [
+            "2024",
+            "2024006",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 3,
       "initDialog": 745040201,
-      "npcId": [30412, 30411],
+      "npcId": [
+        30412,
+        30411
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74504/Q7450402",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -104,18 +122,28 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2024", "2024002", "1"],
+          "param": [
+            "2024",
+            "2024002",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7450103", "3"],
+          "param": [
+            "7450103",
+            "3"
+          ],
           "param_str": ""
         }
       ],
       "priority": 4,
       "initDialog": 745040301,
-      "npcId": [30412, 30411],
+      "npcId": [
+        30412,
+        30411
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74504/Q7450403",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -130,28 +158,43 @@
       "beginCond": [
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2024", "2024017", "1"],
+          "param": [
+            "2024",
+            "2024017",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7450301", "3"],
+          "param": [
+            "7450301",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7450301", "0"],
+          "param": [
+            "7450301",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7450301", "1"],
+          "param": [
+            "7450301",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 4,
       "initDialog": 745040401,
-      "npcId": [5029],
+      "npcId": [
+        5029
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74504/Q7450404",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
@@ -166,23 +209,43 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7450501", "3"],
+          "param": [
+            "7450501",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_ACTIVITY_CLIENT_COND",
-          "param": ["2024", "2024004", "1"],
+          "param": [
+            "2024",
+            "2024004",
+            "1"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 745050201,
-      "npcId": [30413],
+      "npcId": [
+        30413
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74505/Q7450502",
       "heroTalk": "TALK_HERO_MAIN",
       "loadType": "TALK_ACTIVITY",
       "questId": 2024,
       "prePerformCfg": ""
     }
+  ],
+  "freeStyleDic": {
+    "1034": [
+      1120
+    ]
+  },
+  "forcePreloadLuaList": [
+    "13558382639400308793"
+  ],
+  "preloadLuaList": [
+    "7640426261142028769"
   ]
 }

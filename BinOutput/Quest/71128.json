@@ -15,7 +15,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GADGET_STATE_CHANGE",
-          "param": [133101337, 337005],
+          "param": [
+            133101337,
+            337005
+          ],
           "param_str": ""
         }
       ],
@@ -30,7 +33,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -48,7 +54,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7112802, 0],
+          "param": [
+            7112802,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -64,7 +73,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -81,10 +93,13 @@
       "activeMode": "PLAY_MODE_HOST",
       "priority": 5,
       "initDialog": 711280201,
-      "npcId": [21414],
+      "npcId": [
+        21414
+      ],
       "performCfg": "QuestDialogue/WQ/Liyue_71128/Q7112802",
       "questId": 71128,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "showRedPoint": true
 }

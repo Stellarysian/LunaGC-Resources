@@ -15,14 +15,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [99902, 0],
+          "param": [
+            99902,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
@@ -53,5 +59,17 @@
         }
       ]
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "30002": [
+      4000
+    ],
+    "30005": [
+      4130
+    ],
+    "30006": [
+      4130
+    ]
+  },
+  "activeMode": "PLAY_MODE_SINGLE"
 }

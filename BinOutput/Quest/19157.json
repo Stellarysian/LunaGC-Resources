@@ -5,7 +5,10 @@
   "titleTextMapHash": 1194507903,
   "descTextMapHash": 922656998,
   "luaPath": "Actor/Quest/LQ19157",
-  "suggestTrackMainQuestList": [19158, 19161],
+  "suggestTrackMainQuestList": [
+    19158,
+    19161
+  ],
   "chapterId": 107401,
   "subQuests": [
     {
@@ -18,14 +21,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -45,14 +54,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -61,6 +76,33 @@
       "finishExec": [],
       "failExec": [],
       "guide": {}
+    }
+  ],
+  "forcePreloadLuaList": [
+    "2532040302271027818"
+  ],
+  "HGFFNBIGPJK": true,
+  "preloadLuaList": [
+    "6090778467567833782",
+    "14481960995524272743"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 3015,
+  "suggestTrackOutOfOrder": true,
+  "dialogList": [
+    {
+      "id": 191570198,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 1118363634
+    },
+    {
+      "id": 191570199,
+      "talkRole": {
+        "type": "TALK_ROLE_PLAYER"
+      },
+      "talkContentTextMapHash": 1448803874
     }
   ]
 }

@@ -4,7 +4,9 @@
   "titleTextMapHash": 1449647015,
   "descTextMapHash": 1808605214,
   "luaPath": "Actor/Quest/WQ73695",
-  "rewardIdList": [173695],
+  "rewardIdList": [
+    173695
+  ],
   "subQuests": [
     {
       "subId": 7369501,
@@ -16,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -43,14 +51,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -69,13 +83,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7369502", "2"],
+          "param": [
+            "7369502",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 736950201,
-      "npcId": [30351],
+      "npcId": [
+        30351
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73695/Q7369502",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73695,
@@ -89,22 +108,39 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7369501", "2"],
+          "param": [
+            "7369501",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_ITEM_GIVING_ACTIVED",
-          "param": ["7369503", "0"],
+          "param": [
+            "7369503",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 736950201,
-      "npcId": [30351],
+      "npcId": [
+        30351
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73695/Q7369503",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73695,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "4916611175973518940"
+  ],
+  "activityId": 2021,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "8776530070740543295"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

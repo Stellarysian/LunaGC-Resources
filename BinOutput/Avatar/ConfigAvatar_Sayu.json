@@ -8,7 +8,16 @@
     "height": 1.3397400379180908,
     "modelHeight": 1.3300000429153442,
     "affectedByWorld": true,
-    "checkInSurface": true
+    "checkInSurface": true,
+    "shadowViewSizeRatio": 1,
+    "DHLDEEJDJGM": true,
+    "FNFEHOCHIEP": -1,
+    "value": 1,
+    "clearAIOnSetLightDeactive": true,
+    "reconnectSupport": true,
+    "viewSize": 1,
+    "OIBKIKLIDDL": true,
+    "PHFGIMJPLOC": -1
   },
   "headControl": {
     "$type": "KPIPDEBDPIH",
@@ -36,18 +45,28 @@
       "NormalMoveWeapon/RunToIdleWeapon",
       "NormalMoveWeapon/WalkToIdleWeapon",
       "NormalMoveWeapon/RunningTurnWeapon"
-    ]
+    ],
+    "DPMMJNDONLO": "Stay",
+    "affectedByWorld": true,
+    "checkInSurface": true
   },
   "specialPoint": {
     "elementAbsorb": "PRIVATE_Pendant",
     "elementPendant": "PRIVATE_Pendant",
     "elementDrop": "RootNode",
-    "bulletAim": "RootNode"
+    "bulletAim": "RootNode",
+    "FJJBKBOJPNJ": "NyxValueMin",
+    "KHJAKMKDLND": "NyxValueMax",
+    "NIGIPNNJAPI": "NyxValue"
   },
   "combat": {
     "property": {
       "endureType": "Avatar_Claymore",
-      "weight": 75.0
+      "weight": 75.0,
+      "ABIBLHPFIDN": true,
+      "isInvincible": true,
+      "bonusRange": 75,
+      "useCreatorProperty": true
     },
     "beHit": {
       "hitBloodEffect": ""
@@ -56,7 +75,12 @@
       "lockShape": "CircleLockEnemyClose",
       "lockWeightYaxisParam": 0.20000000298023224,
       "lockWeightYaxisThreshold": 4.0,
-      "lockType": "Avatar&Monster_Lv4"
+      "lockType": "Avatar&Monster_Lv4",
+      "DHBLMAABPFN": -1,
+      "overrideRange": -1,
+      "KMCJPLNFCOD": 0.20000000298023224,
+      "LNGMNOFCBII": 4,
+      "MPNEFIAAKHC": -1
     },
     "die": {
       "hasAnimatorDie": true,
@@ -65,7 +89,13 @@
       "dieDisappearEffect": "Eff_Death_Avatar_Common",
       "dieShaderData": "AvatarDie",
       "useRagDoll": true,
-      "ragDollDieEndTimeDelay": 0.4000000059604645
+      "ragDollDieEndTimeDelay": 0.4000000059604645,
+      "dieShaderDisableDurationTime": -1,
+      "dieIsGhostToEnemy": true,
+      "dieIgnoreTriggerBullet": true,
+      "dieShaderEnableDurationTime": -1,
+      "muteBillboard": true,
+      "NINELBLOAHG": true
     },
     "animEvents": {
       "ATK01": {
@@ -78,13 +108,28 @@
               "x": 0.0,
               "y": 1.0,
               "z": -0.699999988079071
-            }
+            },
+            "APKLAIJMEIL": {
+              "HHNLJKNBKPP": 180
+            },
+            "value": 10,
+            "direction": {
+              "maxAngle": 180
+            },
+            "onGroundRaycastUpDist": 2
           },
           "size": {
             "x": 2.5,
             "y": 2.0,
             "z": 3.200000047683716
-          }
+          },
+          "MPNIJNGFBIH": {
+            "INOCAOHPEBB": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
+          },
+          "massiveAttackRatio": 1
         },
         "attackInfo": {
           "attackTag": "NormalAttack_01",
@@ -98,7 +143,9 @@
             "strikeType": "Blunt",
             "enBreak": 80.5,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "GLKMCMDJBIK": 0.0,
+            "elementRank": 1,
+            "damagePercentage": 0.7799999713897705
           },
           "hitPattern": {
             "onHitEffectName": "default",
@@ -106,7 +153,11 @@
             "hitImpulseType": "LV3",
             "hitHaltTime": 0.10000000149011612,
             "hitHaltTimeScale": 0.009999999776482582,
-            "canBeDefenceHalt": true
+            "canBeDefenceHalt": true,
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
           },
           "cameraShake": {
             "shakeType": "CustomVector",
@@ -116,7 +167,23 @@
             "shakeDir": {
               "x": 1.0,
               "y": -1.0
+            },
+            "extension": {
+              "rangeAttenuation": 0.5,
+              "baseOnCamera": true,
+              "baseCycle": 0.11999999731779099,
+              "cycleDamping": 0.11999999731779099
             }
+          },
+          "HBOOKFMCODC": {
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            },
+            "onHitEffectName": "default"
+          },
+          "INKGMIHAPMA": {
+            "NDIBGPPKGJP": "Shake"
           }
         }
       },
@@ -130,11 +197,27 @@
               "x": 0.0,
               "y": -0.5,
               "z": 0.5
-            }
+            },
+            "APKLAIJMEIL": {
+              "HHNLJKNBKPP": 180
+            },
+            "value": 10,
+            "direction": {
+              "maxAngle": 180
+            },
+            "onGroundRaycastUpDist": 2
           },
           "height": 1.7999999523162842,
           "radius": 2.0,
-          "detectDirection": "Counterclockwise"
+          "detectDirection": "Counterclockwise",
+          "fanAngle": 360,
+          "MPNIJNGFBIH": {
+            "INOCAOHPEBB": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
+          },
+          "massiveAttackRatio": 1
         },
         "attackInfo": {
           "attackTag": "NormalAttack_02",
@@ -148,7 +231,9 @@
             "strikeType": "Blunt",
             "enBreak": 79.3499984741211,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "GLKMCMDJBIK": 0.0,
+            "elementRank": 1,
+            "damagePercentage": 0.75
           },
           "hitPattern": {
             "onHitEffectName": "default",
@@ -156,7 +241,11 @@
             "hitImpulseType": "LV3",
             "hitHaltTime": 0.10000000149011612,
             "hitHaltTimeScale": 0.009999999776482582,
-            "canBeDefenceHalt": true
+            "canBeDefenceHalt": true,
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
           },
           "cameraShake": {
             "shakeType": "CustomVector",
@@ -165,7 +254,23 @@
             "shakeDistance": 30.0,
             "shakeDir": {
               "y": 1.0
+            },
+            "extension": {
+              "rangeAttenuation": 0.5,
+              "baseOnCamera": true,
+              "baseCycle": 0.11999999731779099,
+              "cycleDamping": 0.11999999731779099
             }
+          },
+          "HBOOKFMCODC": {
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            },
+            "onHitEffectName": "default"
+          },
+          "INKGMIHAPMA": {
+            "NDIBGPPKGJP": "Shake"
           }
         }
       },
@@ -179,13 +284,28 @@
               "x": 0.0,
               "y": 1.0,
               "z": -1.0
-            }
+            },
+            "APKLAIJMEIL": {
+              "HHNLJKNBKPP": 180
+            },
+            "value": 10,
+            "direction": {
+              "maxAngle": 180
+            },
+            "onGroundRaycastUpDist": 2
           },
           "size": {
             "x": 2.5,
             "y": 2.5,
             "z": 3.5
-          }
+          },
+          "MPNIJNGFBIH": {
+            "INOCAOHPEBB": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
+          },
+          "massiveAttackRatio": 1
         },
         "attackInfo": {
           "attackTag": "NormalAttack_03",
@@ -199,13 +319,19 @@
             "strikeType": "Blunt",
             "enBreak": 48.29999923706055,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "GLKMCMDJBIK": 0.0,
+            "elementRank": 1,
+            "damagePercentage": 1.1799999475479126
           },
           "hitPattern": {
             "onHitEffectName": "default",
             "hitImpulseY": "",
             "hitImpulseType": "LV3",
-            "hitHaltTimeScale": 0.009999999776482582
+            "hitHaltTimeScale": 0.009999999776482582,
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
           },
           "cameraShake": {
             "shakeType": "CustomVector",
@@ -215,7 +341,23 @@
             "shakeDir": {
               "x": 1.0,
               "y": -1.0
+            },
+            "extension": {
+              "rangeAttenuation": 0.5,
+              "baseOnCamera": true,
+              "baseCycle": 0.11999999731779099,
+              "cycleDamping": 0.11999999731779099
             }
+          },
+          "HBOOKFMCODC": {
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            },
+            "onHitEffectName": "default"
+          },
+          "INKGMIHAPMA": {
+            "NDIBGPPKGJP": "Shake"
           }
         }
       },
@@ -229,11 +371,27 @@
               "x": 0.0,
               "y": -0.30000001192092896,
               "z": 0.5
-            }
+            },
+            "APKLAIJMEIL": {
+              "HHNLJKNBKPP": 180
+            },
+            "value": 10,
+            "direction": {
+              "maxAngle": 180
+            },
+            "onGroundRaycastUpDist": 2
           },
           "height": 1.7999999523162842,
           "radius": 2.0,
-          "detectDirection": "Counterclockwise"
+          "detectDirection": "Counterclockwise",
+          "fanAngle": 360,
+          "MPNIJNGFBIH": {
+            "INOCAOHPEBB": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
+          },
+          "massiveAttackRatio": 1
         },
         "attackInfo": {
           "attackTag": "NormalAttack_03",
@@ -247,7 +405,9 @@
             "strikeType": "Blunt",
             "enBreak": 48.29999923706055,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "GLKMCMDJBIK": 0.0,
+            "elementRank": 1,
+            "damagePercentage": 1.1799999475479126
           },
           "hitPattern": {
             "onHitEffectName": "default",
@@ -256,11 +416,16 @@
             "overrideHitImpulse": {
               "hitLevel": "Heavy",
               "IMIJMPGJOGG": 500.0,
-              "BPCDKKBKOBM": 0.0
+              "BPCDKKBKOBM": 0.0,
+              "hitImpulseX": 500
             },
             "hitHaltTime": 0.07999999821186066,
             "hitHaltTimeScale": 0.009999999776482582,
-            "canBeDefenceHalt": true
+            "canBeDefenceHalt": true,
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
           },
           "cameraShake": {
             "shakeType": "CustomVector",
@@ -270,7 +435,23 @@
             "shakeDir": {
               "x": 1.0,
               "z": 1.0
+            },
+            "extension": {
+              "rangeAttenuation": 0.5,
+              "baseOnCamera": true,
+              "baseCycle": 0.11999999731779099,
+              "cycleDamping": 0.11999999731779099
             }
+          },
+          "HBOOKFMCODC": {
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            },
+            "onHitEffectName": "default"
+          },
+          "INKGMIHAPMA": {
+            "NDIBGPPKGJP": "Shake"
           }
         }
       },
@@ -284,13 +465,28 @@
               "x": 0.0,
               "y": 1.5,
               "z": -2.0
-            }
+            },
+            "APKLAIJMEIL": {
+              "HHNLJKNBKPP": 180
+            },
+            "value": 10,
+            "direction": {
+              "maxAngle": 180
+            },
+            "onGroundRaycastUpDist": 2
           },
           "size": {
             "x": 2.799999952316284,
             "y": 3.200000047683716,
             "z": 4.5
-          }
+          },
+          "MPNIJNGFBIH": {
+            "INOCAOHPEBB": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
+          },
+          "massiveAttackRatio": 1
         },
         "attackInfo": {
           "attackTag": "NormalAttack_04",
@@ -304,7 +500,9 @@
             "strikeType": "Blunt",
             "enBreak": 109.70999908447266,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "GLKMCMDJBIK": 0.0,
+            "elementRank": 1,
+            "damagePercentage": 2
           },
           "hitPattern": {
             "onHitEffectName": "default",
@@ -312,7 +510,11 @@
             "hitImpulseType": "LV5",
             "hitHaltTime": 0.07999999821186066,
             "hitHaltTimeScale": 0.009999999776482582,
-            "canBeDefenceHalt": true
+            "canBeDefenceHalt": true,
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
           },
           "cameraShake": {
             "shakeType": "CustomVector",
@@ -321,7 +523,23 @@
             "shakeDistance": 30.0,
             "shakeDir": {
               "x": 1.0
+            },
+            "extension": {
+              "rangeAttenuation": 0.5,
+              "baseOnCamera": true,
+              "baseCycle": 0.11999999731779099,
+              "cycleDamping": 0.11999999731779099
             }
+          },
+          "HBOOKFMCODC": {
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            },
+            "onHitEffectName": "default"
+          },
+          "INKGMIHAPMA": {
+            "NDIBGPPKGJP": "Shake"
           }
         }
       },
@@ -335,11 +553,27 @@
               "x": 0.0,
               "y": 0.0,
               "z": 0.30000001192092896
-            }
+            },
+            "APKLAIJMEIL": {
+              "HHNLJKNBKPP": 180
+            },
+            "value": 10,
+            "direction": {
+              "maxAngle": 180
+            },
+            "onGroundRaycastUpDist": 2
           },
           "height": 1.5,
           "radius": 2.799999952316284,
-          "detectDirection": "Clockwise"
+          "detectDirection": "Clockwise",
+          "fanAngle": 360,
+          "MPNIJNGFBIH": {
+            "INOCAOHPEBB": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
+          },
+          "massiveAttackRatio": 1
         },
         "attackInfo": {
           "attackTag": "ExtraAttack",
@@ -353,7 +587,9 @@
             "strikeType": "Blunt",
             "enBreak": 60.0,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "GLKMCMDJBIK": 0.0,
+            "elementRank": 1,
+            "damagePercentage": 0.800000011920929
           },
           "hitPattern": {
             "onHitEffectName": "default",
@@ -361,7 +597,11 @@
             "hitImpulseType": "LV3",
             "hitHaltTime": 0.029999999329447746,
             "hitHaltTimeScale": 0.009999999776482582,
-            "canBeDefenceHalt": true
+            "canBeDefenceHalt": true,
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
           },
           "cameraShake": {
             "shakeType": "CustomVector",
@@ -370,7 +610,23 @@
             "shakeDistance": 30.0,
             "shakeDir": {
               "x": 1.0
+            },
+            "extension": {
+              "rangeAttenuation": 0.5,
+              "baseOnCamera": true,
+              "baseCycle": 0.11999999731779099,
+              "cycleDamping": 0.11999999731779099
             }
+          },
+          "HBOOKFMCODC": {
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            },
+            "onHitEffectName": "default"
+          },
+          "INKGMIHAPMA": {
+            "NDIBGPPKGJP": "Shake"
           }
         }
       },
@@ -384,11 +640,27 @@
               "x": 0.0,
               "y": 0.0,
               "z": 0.0
-            }
+            },
+            "APKLAIJMEIL": {
+              "HHNLJKNBKPP": 180
+            },
+            "value": 10,
+            "direction": {
+              "maxAngle": 180
+            },
+            "onGroundRaycastUpDist": 2
           },
           "height": 1.5,
           "radius": 3.299999952316284,
-          "detectDirection": "Clockwise"
+          "detectDirection": "Clockwise",
+          "fanAngle": 360,
+          "MPNIJNGFBIH": {
+            "INOCAOHPEBB": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
+          },
+          "massiveAttackRatio": 1
         },
         "attackInfo": {
           "attackTag": "ExtraAttack",
@@ -402,7 +674,9 @@
             "strikeType": "Blunt",
             "enBreak": 120.0,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "GLKMCMDJBIK": 0.0,
+            "elementRank": 1,
+            "damagePercentage": 1.649999976158142
           },
           "hitPattern": {
             "onHitEffectName": "default",
@@ -410,7 +684,11 @@
             "hitImpulseType": "LV5",
             "hitHaltTime": 0.15000000596046448,
             "hitHaltTimeScale": 0.009999999776482582,
-            "canBeDefenceHalt": true
+            "canBeDefenceHalt": true,
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            }
           },
           "cameraShake": {
             "shakeType": "CustomVector",
@@ -419,10 +697,32 @@
             "shakeDistance": 30.0,
             "shakeDir": {
               "x": 1.0
+            },
+            "extension": {
+              "rangeAttenuation": 0.5,
+              "baseOnCamera": true,
+              "baseCycle": 0.11999999731779099,
+              "cycleDamping": 0.11999999731779099
             }
+          },
+          "HBOOKFMCODC": {
+            "BPIJOAMNKIH": {
+              "GGOHGMFHHEC": true,
+              "value": 1
+            },
+            "onHitEffectName": "default"
+          },
+          "INKGMIHAPMA": {
+            "NDIBGPPKGJP": "Shake"
           }
         }
       }
+    },
+    "box": {
+      "enable": true,
+      "IOEOJHPCMIB": 15,
+      "NJOENJEENGG": -45,
+      "PALMCGDLKCD": 45
     }
   },
   "equipController": {
@@ -433,6 +733,3830 @@
       "equip01": "WeaponR",
       "equip02": "WeaponL",
       "equip03": "WeaponL"
+    },
+    "defaultLayer": {
+      "$type": "DKOLPAMCGLP",
+      "stateIDs": {
+        "ActivitySkill_CommonMove": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 100,
+          "animatorStates": {
+            "ActivitySkill_CommonMove": []
+          },
+          "FBBGNNJDJAI": -1,
+          "IEHNIDKFPID": -1,
+          "JAMKBDBKNLO": true,
+          "JBNEGFHBOJD": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_CustomSkill01": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump",
+            "CustomSkill_End_Fly",
+            "CustomSkill_End_Drop"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": 100,
+          "animatorStates": {
+            "ActivitySkill_CustomSkill01": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "CustomSkill_End_Fly",
+            "CustomSkill_End_Drop"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_CustomSkill02": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump",
+            "CustomSkill_End_Fly",
+            "CustomSkill_End_Drop"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": 100,
+          "animatorStates": {
+            "ActivitySkill_CustomSkill02": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "CustomSkill_End_Fly",
+            "CustomSkill_End_Drop"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_ElectricCoreFly": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump",
+            "ElectricCoreFly_End"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": 100,
+          "animatorStates": {
+            "ActivitySkill_ElectricCoreFly": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "ElectricCoreFly_End"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_GrapplingHook": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump",
+            "GrapplingHook_Drop"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": 100,
+          "animatorStates": {
+            "ActivitySkill_GrapplingHook": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "GrapplingHook_Drop"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_MagnetRush_DropDown": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": -1,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_DropDown": [
+              "Audio_Char_MoonSpirit_ActivitySkill_MagnetRush_DropDown"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": 1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_MagnetRush_Fly_Idle": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": -1,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Fly_Idle": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": 1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_MagnetRush_Fly_Move": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": -1,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Fly_Move": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": 1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_MagnetRush_Ground_Idle": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Ground_Idle": []
+          },
+          "GNPGADEECOM": true,
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_MagnetRush_Ground_Move": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Ground_Move": []
+          },
+          "GNPGADEECOM": true,
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_MagnetRush_Jump": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": -1,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Jump": [
+              "Audio_Char_MoonSpirit_ActivitySkill_MagnetRush_Jump",
+              "MagnetRush_NoFallOnGround"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": 1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ActivitySkill_MagnetRush_SkillState": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": 100,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_SkillState": [
+              "Audio_Char_MoonSpirit_ActivitySkill_MagnetRush_SkillState",
+              "MagnetRush_NoFallOnGround"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": 1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Attack01": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            },
+            {
+              "name": "&CanUseExtra",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Attack01": [
+              "Sayu_Attack01",
+              "Interaction_Bad",
+              "Audio_Loli_Claymore_Sayu_Attack01",
+              "SetComboCount1",
+              "Emo_Loli_Claymore_Sayu_NormalAttack01"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Attack01_BS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            },
+            {
+              "name": "&CanUseExtra",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Attack01_BS": [
+              "Sayu_Attack01_BS",
+              "Interaction_Bad",
+              "Emo_Loli_Claymore_Sayu_NormalAttack01_BS"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Attack02": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            },
+            {
+              "name": "&CanUseExtra",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Attack02": [
+              "Sayu_Attack02",
+              "Interaction_Bad",
+              "Audio_Loli_Claymore_Sayu_Attack02",
+              "SetComboCount2",
+              "Emo_Loli_Claymore_Sayu_NormalAttack02"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Attack03": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            },
+            {
+              "name": "&CanUseExtra",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Attack03": [
+              "Sayu_Attack03",
+              "Interaction_Bad",
+              "Audio_Loli_Claymore_Sayu_Attack03",
+              "SetComboCount3",
+              "Emo_Loli_Claymore_Sayu_NormalAttack03"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Attack04": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            },
+            {
+              "name": "&CanUseExtra",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Attack04": [
+              "Sayu_Attack04",
+              "Interaction_Bad",
+              "Audio_Loli_Claymore_Sayu_Attack04",
+              "SetComboCount4",
+              "Emo_Loli_Claymore_Sayu_NormalAttack04"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "LJNKGNBLMBJ": true,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "BeHit": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Hit_H": [
+              "Audio_Loli_Hit_H",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "Hit_L": [
+              "Audio_Loli_Hit_L",
+              "Audio_Loli_Foley_Once_Sayu"
+            ]
+          },
+          "EHOKPOEAEHL": "combatBeHit",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NIBKNFGIDFA": [
+            "BeHit",
+            "HitAir2HitDrop"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "BeHitAir": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "actionPanelState": "CombatAir",
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": 1,
+          "animatorStates": {
+            "Hit_Throw": [
+              "Audio_Loli_Hit_Throw",
+              "BeHitAir_Weapon",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "Hit_ThrowAir": [
+              "Audio_Loli_Hit_ThrowAir",
+              "BeHitAir_Weapon"
+            ],
+            "Struggle": [
+              "BeHitAir_Weapon",
+              "Audio_Loli_Foley_ThreeTimes_Sayu"
+            ]
+          },
+          "EHOKPOEAEHL": "combatBeHit",
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "BeHit"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "BeHitDive": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "actionPanelState": "Dive",
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatDive",
+          "massRatio": 1,
+          "animatorStates": {
+            "BeHitDive": [
+              "Audio_Loli_Dive_beHit"
+            ],
+            "DiveStruggle": []
+          },
+          "EHOKPOEAEHL": "combatBeHit",
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "BeHit"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Channel_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "ChannelAS": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Channel_BS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "ChannelBS": [
+              "Emo_Avatar_Common_Manekin_Default"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Channel_Loop": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "ChannelLoop": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Climb": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "actionPanelState": "Climb",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "ClimbIdle": [],
+            "ClimbJump": [
+              "Audio_Loli_ClimbDash",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "ClimbMove0": [
+              "ClimbStep",
+              "Audio_Loli_Climb",
+              "Audio_Loli_Foley_ClimbMove_Sayu"
+            ],
+            "ClimbMove1": [
+              "ClimbStep",
+              "Audio_Loli_Climb",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "JumpUpWallForStandby": [
+              "Audio_Loli_JumpUpWallStandby",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "Standby2ClimbB": [
+              "Audio_Loli_Standby2ClimbB",
+              "Audio_Loli_Foley_Once_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ClimbTransient": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "JumpWallReady": [],
+            "Standby2ClimbA": [
+              "Audio_Loli_Standby2ClimbA",
+              "Audio_Loli_Foley_Once_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Die": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "DiveDie": [
+              "Die",
+              "Audio_Loli_Dive_Die"
+            ],
+            "FallDie": [
+              "Audio_Loli_Death"
+            ],
+            "HitGroundDie": [
+              "Die",
+              "Audio_Loli_Death"
+            ],
+            "NormalDie": [
+              "Die",
+              "Audio_Loli_Death",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "SwimDie": [
+              "Swim_Die",
+              "Audio_Loli_SwimDie"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Die_RagDoll": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "FallDie_AS": []
+          },
+          "GINMJJCLJEI": true,
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Dive": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Dive",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "DiveDash": [],
+            "DiveDashAS": [
+              "Audio_Loli_Dive_Dash_AS"
+            ],
+            "DiveDashB": [
+              "Audio_Loli_Dive_Out_DashB"
+            ],
+            "DiveDashBS": [
+              "Audio_Loli_Dive_Dash_BS"
+            ],
+            "DiveIdle": [],
+            "DiveMoveAS": [
+              "Audio_Loli_Dive_MoveAS"
+            ],
+            "DiveMoveBS": [
+              "Audio_Loli_Dive_MoveBS"
+            ],
+            "DiveMoveD_A": [
+              "Audio_Loli_Dive_MoveD_A"
+            ],
+            "DiveMoveD_B": [
+              "Audio_Loli_Dive_MoveD_B"
+            ],
+            "DiveMoveF_A": [],
+            "DiveMoveF_B": [
+              "Audio_Loli_Dive_MoveF_B"
+            ],
+            "DiveMoveU_A": [
+              "Audio_Loli_Dive_MoveU_A"
+            ],
+            "DiveMoveU_B": [
+              "Audio_Loli_Dive_MoveU_B"
+            ],
+            "DiveSuperDash": [
+              "Audio_Loli_Dive_SuperDash"
+            ],
+            "DiveSuperDash2": [
+              "Audio_Loli_Dive_SuperDash2"
+            ],
+            "DiveTurn": [
+              "Audio_Loli_Dive_Turn"
+            ],
+            "DiveTurn2": [
+              "Audio_Loli_Dive_Turn"
+            ],
+            "DiveTurnAS": [
+              "Audio_Loli_Dive_Turn_AS"
+            ],
+            "DiveTurnAS2": [
+              "Audio_Loli_Dive_Turn_AS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "DiveCast_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Dive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatDive",
+          "massRatio": 100,
+          "animatorStates": {
+            "DiveCast_AS": [
+              "Audio_Loli_DiveCast_AS"
+            ]
+          },
+          "FBBGNNJDJAI": 0.09000000357627869,
+          "HAEGMJDHDLB": 0.10000000149011612,
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "DiveCast_BS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Dive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BKGCOEEODCI": "combatDive",
+          "massRatio": 100,
+          "animatorStates": {
+            "DiveCast_BS": [
+              "Emo_Avatar_Common_Manekin_Default",
+              "Audio_Loli_DiveCast_BS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "DiveCast_Loop": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Dive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BKGCOEEODCI": "combatDive",
+          "massRatio": 100,
+          "animatorStates": {
+            "DiveCast_Loop": []
+          },
+          "HAEGMJDHDLB": 0.30000001192092896,
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "DiveChannel_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Dive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatDive",
+          "massRatio": 100,
+          "animatorStates": {
+            "DiveChannelAS": [
+              "Audio_Loli_DiveChannel_AS"
+            ]
+          },
+          "FBBGNNJDJAI": 0.11999999731779099,
+          "HAEGMJDHDLB": 0.30000001192092896,
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "DiveChannel_BS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Dive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BKGCOEEODCI": "combatDive",
+          "massRatio": 100,
+          "animatorStates": {
+            "DiveChannelBS": [
+              "Emo_Avatar_Common_Manekin_Default",
+              "Audio_Loli_DiveChannel_BS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "DiveChannel_Loop": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Dive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BKGCOEEODCI": "combatDive",
+          "massRatio": 100,
+          "animatorStates": {
+            "DiveChannelLoop": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "DiveJump": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Jump",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "Dive_Out_DashD": [
+              "Audio_Loli_Dive_Out_DashD"
+            ],
+            "Dive_Out_DashFAS": [
+              "Audio_Loli_Dive_Out_DashFAS"
+            ],
+            "Dive_Out_DashFBS": [
+              "Audio_Loli_Dive_Out_DashFBS"
+            ],
+            "Dive_Out_DashFLoop": [],
+            "Dive_Out_DashU": [
+              "Audio_Loli_Dive_Out_DashU"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill",
+            "AimEnd"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "DiveStream": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Dive",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "DiveStream": [],
+            "DiveStreamIn": [
+              "Audio_Loli_Dive_Stream_In"
+            ],
+            "DiveStreamOut": [
+              "Audio_Loli_Dive_Stream_Out"
+            ],
+            "DiveStreamRoll_L": [
+              "Audio_Loli_Dive_Stream_Roll_L"
+            ],
+            "DiveStreamRoll_R": [
+              "Audio_Loli_Dive_Stream_Roll_R"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Dive_In_Out": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Dive",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "Dive_In_Bottom": [
+              "Audio_Loli_Dive_In_Bottom"
+            ],
+            "Dive_In_Side": [
+              "Audio_Loli_Dive_In_Side"
+            ],
+            "Dive_In_Up": [
+              "Audio_Loli_Dive_In_Up"
+            ],
+            "Dive_Out_Bottom": [
+              "Audio_Loli_Dive_Out_Bottom"
+            ],
+            "Dive_Out_Side": [
+              "Audio_Loli_Dive_Out_Side"
+            ],
+            "Dive_Out_Up": [
+              "Audio_Loli_Dive_Out_Up"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ExtraAttack": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "ExtraAttack": [
+              "Sayu_ExtraAttack",
+              "Audio_Loli_Claymore_Sayu_ExtraAtk",
+              "Interaction_Bad",
+              "Emo_Loli_Claymore_Sayu_ExtraAttack_BS"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ExtraAttack1": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "ExtraAttack1": [
+              "Sayu_ExtraAttack1",
+              "Interaction_Bad",
+              "Emo_Loli_Claymore_Sayu_ExtraAttack_1"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ExtraAttack2": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "ExtraAttack2": [
+              "Sayu_ExtraAttack2",
+              "Audio_Loli_Claymore_Sayu_ExtraAtk2",
+              "Interaction_Bad",
+              "Emo_Loli_Claymore_Sayu_ExtraAttack_2"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "ExtraAttack3": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "ExtraAttack3": [
+              "Audio_Loli_Claymore_Sayu_ExtraAtk3",
+              "Interaction_Bad",
+              "Emo_Loli_Claymore_Sayu_ExtraAttack_AS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Fall": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "DropDown": [
+              "Audio_Loli_DropDown",
+              "Audio_Loli_Foley_ThreeTimes_Sayu"
+            ],
+            "DropDownLit": [],
+            "JumpOffWall": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "SwimJump": [
+              "Audio_Loli_SwimJump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "SwimJumpDrop": [
+              "Audio_Loli_Foley_ThreeTimes_Sayu"
+            ],
+            "WalkDropDownLit": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "FallWeapon": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "DropDownLitWeapon": [],
+            "DropDownWeapon": [
+              "Audio_Loli_DropDown",
+              "Audio_Loli_Foley_ThreeTimes_Sayu"
+            ],
+            "WalkDropDownLitWeapon": []
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "FallingAnthem_AS_1": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeStart": 0.550000011920929,
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "FallingAnthem_AS_1": [
+              "Sayu_FallingAnthem_Strike",
+              "Interaction_Bad",
+              "Audio_Loli_Claymore_Sayu_FallingAnthem_AS_1",
+              "Emo_Loli_Claymore_FallingAttack_AS_01"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "MNBINMBEIEB": [
+            {
+              "targetPoint": "WeaponR",
+              "GCCHFKEOCFF": "equip01",
+              "normalizeEnd": 1
+            }
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "FallingAnthem_AS_2": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "FallingAnthem_AS_2": [
+              "Audio_Loli_Claymore_Sayu_FallingAnthem_AS_2",
+              "Emo_Loli_Claymore_FallingAttack_AS_02"
+            ]
+          },
+          "IEHNIDKFPID": 0.10000000149011612,
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "MNBINMBEIEB": [
+            {
+              "targetPoint": "WeaponR",
+              "GCCHFKEOCFF": "equip01",
+              "normalizeEnd": 1
+            }
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "FallingAnthem_BS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "actionPanelState": "Fly",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": 1,
+          "animatorStates": {
+            "FallingAnthem_BS_1": [
+              "Audio_Loli_Claymore_Sayu_FallingAnthem_BS_1",
+              "Emo_Loli_Claymore_FallingAttack_BS_01"
+            ],
+            "FallingAnthem_BS_2": [
+              "Emo_Loli_Claymore_FallingAttack_BS_02"
+            ]
+          },
+          "DNCKGCONIHB": "HitAir2HitDrop",
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "MNBINMBEIEB": [
+            {
+              "targetPoint": "WeaponR",
+              "GCCHFKEOCFF": "equip01",
+              "normalizeEnd": 1
+            }
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "FallingAnthem_Loop": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "actionPanelState": "Fly",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatAir",
+          "massRatio": 1,
+          "animatorStates": {
+            "FallingAnthem_Loop": [],
+            "FallingAnthem_Loop_Low": []
+          },
+          "DNCKGCONIHB": "HitAir2HitDrop",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "MNBINMBEIEB": [
+            {
+              "targetPoint": "WeaponR",
+              "GCCHFKEOCFF": "equip01",
+              "normalizeEnd": 1
+            }
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Fly": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Fly",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "Fly": [
+              "Audio_Loli_Fly"
+            ],
+            "FlyStart": [
+              "Audio_Loli_FlyStart",
+              "FlyStart_Weapon",
+              "Audio_Loli_Foley_FlyStart_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "HitThrow": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Hit_Throw_Ground": [
+              "BeHitAir_Weapon",
+              "Audio_Loli_HitThrowGround",
+              "Audio_Loli_Foley_HitThrowGround_Sayu"
+            ]
+          },
+          "EHOKPOEAEHL": "combatBeHit",
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "BeHit",
+            "HitAir2HitDrop"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Jump": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Jump",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "Jump": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Jump_Sayu"
+            ],
+            "JumpForRun": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "JumpForSprint": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "JumpForWalk": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill",
+            "AimEnd"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "JumpWeapon": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "actionPanelState": "Jump",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "JumpForRunWeapon": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "JumpForWalkWeapon": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "JumpWeapon": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "MultiOverride": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "JAMKBDBKNLO": true,
+          "LFMCPCLBNPC": {
+            "Ani_Avatar_Loli_Claymore_Sayu_Photo01AS": [
+              "PhotographPose_Photo01AS_Loli_Claymore_Sayu"
+            ],
+            "Ani_Avatar_Loli_Claymore_Sayu_Photo01BS": [
+              "PhotographPose_Photo01BS_Loli_Claymore_Sayu"
+            ],
+            "Ani_Avatar_Loli_Claymore_Sayu_Photo01Loop": [
+              "PhotographPose_Photo01Loop_Loli_Claymore_Sayu"
+            ],
+            "Ani_Avatar_Loli_Claymore_Sayu_Photo02AS": [],
+            "Ani_Avatar_Loli_Claymore_Sayu_Photo02BS": [],
+            "Ani_Avatar_Loli_Claymore_Sayu_Photo02Loop": []
+          },
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "MultiOverride2": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "MultiOverrideAS_02": [],
+            "MultiOverrideBS_02": [],
+            "MultiOverrideLoop_02": []
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "MultiOverride3": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "MultiOverrideAS_03": [],
+            "MultiOverrideBS_03": [],
+            "MultiOverrideLoop_03": []
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "MultiOverride_01": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "MultiOverrideAS_01": [],
+            "MultiOverrideBS_01": [],
+            "MultiOverrideLoop_01": []
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "NormalMove": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "FallOnGround": [
+              "Audio_Loli_FallOnGround",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "FallOnGroundLit": [
+              "Audio_Loli_FallOnGroundLit",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "FallToGroundRun": [
+              "Audio_Loli_FallToGroundRun",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "FallToGroundRunHard": [
+              "Audio_Loli_FallToGroundRunHard",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "FallToGroundSprint": [
+              "Audio_Loli_FallToGroundSprint",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "Run": [
+              "Ani_Run01",
+              "Audio_Loli_Run",
+              "Audio_Loli_Foley_Run_Sayu"
+            ],
+            "RunToIdle": [
+              "Audio_Loli_RunToIdle",
+              "Audio_Loli_Foley_RunToIdle_Sayu"
+            ],
+            "RunToWalk": [
+              "Audio_Loli_RunToWalk",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "RunningTurn": [],
+            "ShowUp": [
+              "Audio_Loli_Showup"
+            ],
+            "SprintToIdle": [
+              "Audio_Loli_SprintToIdle",
+              "Emo_Loli_Sprint_AS",
+              "Audio_Loli_Foley_SprintToIdle_Sayu"
+            ],
+            "SprintToRun": [
+              "Audio_Loli_SprintToRun",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "Walk": [
+              "Ani_WalkSprint01",
+              "Audio_Loli_Walk",
+              "WalkStepOnWater",
+              "Audio_Loli_Foley_Walk_Sayu"
+            ],
+            "WalkToIdle": [
+              "Audio_Loli_WalkToIdle"
+            ],
+            "WalkToRun": [
+              "Audio_Loli_WalkToRun",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "NormalMoveWeapon": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 2,
+          "animatorStates": {
+            "FallOnGroundLitWeapon": [
+              "Audio_Loli_FallOnGroundLit"
+            ],
+            "FallOnGroundMiddleWeapon": [
+              "Audio_Loli_FallOnGroundMiddle"
+            ],
+            "FallOnGroundWeapon": [
+              "Audio_Loli_FallOnGround"
+            ],
+            "FallToGroundRunHardWeapon": [
+              "Audio_Loli_FallToGroundRunHard"
+            ],
+            "FallToGroundRunWeapon": [
+              "Audio_Loli_FallToGroundRun"
+            ],
+            "RunToIdleWeapon": [
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "RunToWalkWeapon": [
+              "Audio_Loli_RunToWalk"
+            ],
+            "RunWeapon": [
+              "Audio_Loli_Run",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "RunningTurnWeapon": [],
+            "WalkToIdleWeapon": [
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "WalkToRunWeapon": [
+              "Loli_Sword_Putaway_RunBS",
+              "Audio_Loli_WalkToRun"
+            ],
+            "WalkWeapon": [
+              "Audio_Loli_Walk",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "NormalMoveWeaponOver": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 2,
+          "animatorStates": {
+            "RunPutawayOver": [
+              "Audio_Loli_Sword_RunPutAwayOver"
+            ],
+            "RunToSprintWeaponOver": [
+              "Audio_Loli_Sword_RunToSprintWeaponOver"
+            ],
+            "StandbyPutawayOver": [],
+            "WalkPutawayOver": [
+              "Audio_Loli_Sword_WalkPutAwayOver"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "NormalMoveWeaponPutaway": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 2,
+          "animatorStates": {
+            "RunPutaway": [
+              "Loli_Sword_Putaway_Run",
+              "Audio_Loli_Sword_RunPutAway",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "RunToSprintWeapon": [
+              "Loli_Sword_Putaway_Sprint",
+              "Audio_Loli_Sword_RunToSprintWeapon"
+            ],
+            "StandbyPutaway": [
+              "Loli_Claymore_Putaway_Standby",
+              "Audio_Loli_Claymore_StandbyPutAway",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "WalkPutaway": [
+              "Loli_Sword_Putaway_Walk",
+              "Audio_Loli_Sword_WalkPutAway",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "NormalStandby": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 100,
+          "animatorStates": {
+            "Standby": [
+              "Avatar_ResetFreeStyle"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "NormalStandbyWeapon": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 100,
+          "animatorStates": {
+            "StandbyWeapon": []
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "MHODDHGGFKJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_Drum": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_Drum_BS": [
+              "PlayMusic_Drum_Loli"
+            ],
+            "PlayMusic_Drum_Loop": [
+              "PlayMusic_Drum_Loli_Loop"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_Drum_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_Drum_AS": [
+              "PlayMusic_Drum_Loli_AS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_FrenchHorn": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_FrenchHorn_BS": [
+              "PlayMusic_Frenchhorn_Loli"
+            ],
+            "PlayMusic_FrenchHorn_Loop": [
+              "PlayMusic_Frenchhorn_Loli_Loop"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_FrenchHorn_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_FrenchHorn_AS": [
+              "PlayMusic_Frenchhorn_Loli_AS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_Lyre": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_Lyre_BS": [
+              "PlayMusic_Lyre_Loli"
+            ],
+            "PlayMusic_Lyre_Loop": [
+              "PlayMusic_Lyre_Loli_Loop"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_Lyre_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_Lyre_AS": [
+              "PlayMusic_Lyre_Loli_AS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_NatlanKeyBoard": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_NatlanKeyBoard_BS": [
+              "PlayMusic_NatlanKeyBoard_Loli"
+            ],
+            "PlayMusic_NatlanKeyBoard_Loop": [
+              "PlayMusic_NatlanKeyBoard_Loli_Loop"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_NatlanKeyBoard_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_NatlanKeyBoard_AS": [
+              "PlayMusic_NatlanKeyBoard_Loli_AS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_Qin": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_Qin_BS": [
+              "PlayMusic_Qin_Loli"
+            ],
+            "PlayMusic_Qin_Loop": [
+              "PlayMusic_Qin_Loli_Loop"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "PlayMusic_Qin_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "PlayMusic_Qin_AS": [
+              "PlayMusic_Qin_Loli_AS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalArt_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            },
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Sayu_ElementalArt_AS": [
+              "Sayu_ElementalArt_AS",
+              "Audio_Loli_Claymore_Sayu_ElementalArt_AS",
+              "Emo_Loli_Claymore_Sayu_ElementalArt_Click_AS"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalArt_BS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": -1,
+          "animatorStates": {
+            "Sayu_ElementalArt_BS": [
+              "Sayu_ElementalArt_BS",
+              "Interaction_Bad",
+              "Audio_Loli_Claymore_Sayu_ElementalArt_BS",
+              "Emo_Loli_Claymore_Sayu_ElementalArt_BS"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalArt_Charge": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": -1,
+          "animatorStates": {
+            "Sayu_ElementalArt_Charge": [
+              "Sayu_ElementalArt_Charge",
+              "Interaction_Bad",
+              "Emo_Loli_Claymore_Sayu_ElementalArt_Charge"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalArt_Hold_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            },
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Sayu_ElementalArt_Hold_AS": [
+              "Sayu_ElementalArt_Hold_AS",
+              "Audio_Loli_Claymore_Sayu_ElementalArt_Hold_AS",
+              "Emo_Loli_Claymore_Sayu_ElementalArt_Hold_AS"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalArt_Hold_Roll": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Sayu_ElementalArt_Hold_Roll": [
+              "Sayu_ElementalArt_Hold_Roll",
+              "Interaction_Bad",
+              "Emo_Loli_Claymore_Sayu_ElementalArt_Hold_01_Loop"
+            ]
+          },
+          "GNPGADEECOM": true,
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalArt_Hold_Strike": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": -1,
+          "animatorStates": {
+            "Sayu_ElementalArt_Hold_Strike": [
+              "Sayu_ElementalArt_Hold_Strike",
+              "Interaction_Bad",
+              "Audio_Loli_Claymore_Sayu_ElementalArt_Hold_Strike",
+              "Emo_Loli_Claymore_Sayu_ElementalArt_Hold_02"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalArt_Roll": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": -1,
+          "animatorStates": {
+            "Sayu_ElementalArt_Roll": [
+              "Sayu_ElementalArt_Roll",
+              "Interaction_Bad",
+              "Emo_Loli_Claymore_Sayu_ElementalArt_Click_01"
+            ]
+          },
+          "GNPGADEECOM": true,
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalArt_Strike": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatSkillMove",
+          "massRatio": -1,
+          "animatorStates": {
+            "Sayu_ElementalArt_Strike": [
+              "Sayu_ElementalArt_Strike",
+              "Interaction_Bad",
+              "Audio_Loli_Claymore_Sayu_ElementalArt_Strike",
+              "Emo_Loli_Claymore_Sayu_ElementalArt_Click_02"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalBurst": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": -1,
+          "animatorStates": {
+            "Sayu_ElementalBurst": [
+              "Sayu_ElementalBurst",
+              "Interaction_Bad",
+              "Audio_Loli_Claymore_Sayu_ElementalBurst",
+              "Emo_Loli_Claymore_Sayu_ElementalBurst"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sayu_ElementalBurst_AS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill",
+              "normalizeEnd": 1
+            },
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "combatMove",
+          "massRatio": 1,
+          "animatorStates": {
+            "Sayu_ElementalBurst_AS": [
+              "Sayu_ElementalBurst_AS",
+              "Audio_Loli_Claymore_Sayu_ElementalBurst_AS",
+              "Emo_Loli_Claymore_Sayu_ElementalBurst_AS"
+            ]
+          },
+          "EHOKPOEAEHL": "combatNormal",
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "LJNKGNBLMBJ": true,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sit": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "actionPanelState": "Perform",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "performMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "SitDown": [
+              "Audio_Loli_SitDown",
+              "Audio_Loli_Sit_Sayu"
+            ],
+            "SitLoop": [],
+            "SitUp": [
+              "Audio_Loli_SitUp",
+              "Audio_Loli_Sit_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "SitB": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "actionPanelState": "Perform",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "BKGCOEEODCI": "performMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "SitBDown": [
+              "Audio_Loli_Sit_Sayu"
+            ],
+            "SitBLoop": [],
+            "SitBUp": [
+              "Audio_Loli_Sit_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "SkiffNormal": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 100,
+          "animatorStates": {
+            "SkiffNormal": []
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Slip": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "SlipBackWall": [
+              "Audio_Loli_SlipFaceWall"
+            ],
+            "SlipFaceWall": [
+              "Audio_Loli_SlipFaceWall"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Sprint": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "Sprint": [
+              "Ani_WalkSprint01",
+              "Audio_Loli_Sprint",
+              "Emo_Loli_Sprint_Loop",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "SprintBS": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeStart": 0.25999999046325684,
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeStart": 0.25999999046325684,
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "massRatio": 1,
+          "animatorStates": {
+            "SprintBS": [
+              "Audio_Loli_RunToSprint",
+              "SprintBS_Invincible",
+              "Emo_Loli_Sprint_BS",
+              "Audio_Loli_Foley_SprintBS_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill",
+            "AimEnd"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "StandbyShow": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "canChangeAvatar": [
+            {
+              "normalizeEnd": 1
+            }
+          ],
+          "BFFCHJAEAGD": true,
+          "BKGCOEEODCI": "performMove",
+          "massRatio": 100,
+          "animatorStates": {
+            "StandbyShow_01": [
+              "Audio_Loli_Claymore_Sayu_StandbyShow_01",
+              "Manekin_Sayu_Show01_Combat"
+            ],
+            "StandbyShow_02": [
+              "Audio_Loli_Claymore_Sayu_StandbyShow_02",
+              "Manekin_Sayu_Show02"
+            ],
+            "StandbyVoice": [
+              "Audio_Loli_StandbyVoice"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Swim": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "actionPanelState": "Swim",
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "SwimDash": [
+              "Audio_Loli_SwimDash",
+              "Avatar_Loli_SwimDash_Hand_Effect"
+            ],
+            "SwimIdle": [
+              "Audio_Loli_SwimIdle"
+            ],
+            "SwimJumpToWater": [
+              "Audio_Loli_SwimJumpToWater"
+            ],
+            "SwimMove": [
+              "Ani_Walk01",
+              "SwimStep",
+              "Audio_Loli_SwimMove",
+              "Avatar_Loli_SwimDash_Hand_Effect"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "TakePhotos": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "Akimbo02AS": [],
+            "Akimbo02BS": [],
+            "Akimbo02Loop": [],
+            "Think01AS": [],
+            "Think01BS": [],
+            "Think01Loop": []
+          },
+          "JAMKBDBKNLO": true,
+          "LJKICIJKDPA": -1,
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        },
+        "Upstairs": {
+          "$type": "ConfigAvatarStateIDInfo",
+          "AFIDIPNOINN": -1,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeEnd": 1
+            }
+          ],
+          "APEOJEJJLAI": {
+            "BDNBJIAJGCK": 0.5,
+            "FDDJNDONEMF": 3,
+            "JHPJBCGCIJG": 0.5,
+            "KDNBDNPGBJB": 0.75,
+            "LEKENNEFLHG": 10
+          },
+          "massRatio": 1,
+          "animatorStates": {
+            "Upstairs": [
+              "Audio_Loli_Upstairs",
+              "Audio_Loli_Foley_Once_Sayu"
+            ]
+          },
+          "JAMKBDBKNLO": true,
+          "JMLIAIKFDHH": true,
+          "LJKICIJKDPA": -1,
+          "NIBKNFGIDFA": [
+            "DoSkill"
+          ],
+          "NPCFPOCDFHH": -1,
+          "cameraParam": {
+            "ELHHLIGJFDD": 1,
+            "forceRadiusDuration": 0.5,
+            "OJENIIDAGKM": 1
+          }
+        }
+      }
+    },
+    "diveLayer": {
+      "$type": "DKOLPAMCGLP",
+      "layerIndex": 5,
+      "layerIndexName": "DiveLayer"
     }
   },
   "abilities": [
@@ -511,7 +4635,9 @@
         "NormalStandby": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Standby": ["Avatar_ResetFreeStyle"]
+            "Standby": [
+              "Avatar_ResetFreeStyle"
+            ]
           },
           "canDoSkill": true,
           "massRatio": 100.0,
@@ -520,14 +4646,18 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "NormalMove": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ShowUp": ["Audio_Loli_Showup"],
+            "ShowUp": [
+              "Audio_Loli_Showup"
+            ],
             "WalkToRun": [
               "Audio_Loli_WalkToRun",
               "Audio_Loli_Foley_Twice_Sayu"
@@ -542,12 +4672,18 @@
               "Audio_Loli_RunToWalk",
               "Audio_Loli_Foley_Twice_Sayu"
             ],
-            "Run": ["Ani_Run01", "Audio_Loli_Run", "Audio_Loli_Foley_Run_Sayu"],
+            "Run": [
+              "Ani_Run01",
+              "Audio_Loli_Run",
+              "Audio_Loli_Foley_Run_Sayu"
+            ],
             "RunToIdle": [
               "Audio_Loli_RunToIdle",
               "Audio_Loli_Foley_RunToIdle_Sayu"
             ],
-            "WalkToIdle": ["Audio_Loli_WalkToIdle"],
+            "WalkToIdle": [
+              "Audio_Loli_WalkToIdle"
+            ],
             "RunningTurn": [],
             "SprintToRun": [
               "Audio_Loli_SprintToRun",
@@ -586,7 +4722,9 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -601,7 +4739,10 @@
             ]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DoSkill", "AimEnd"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "AimEnd"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill",
@@ -633,7 +4774,9 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -643,7 +4786,11 @@
             "SkiffNormal": []
           },
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -661,7 +4808,10 @@
               "Audio_Loli_Foley_Twice_Sayu"
             ],
             "ClimbIdle": [],
-            "ClimbJump": ["Audio_Loli_ClimbDash", "Audio_Loli_Foley_Once_Sayu"],
+            "ClimbJump": [
+              "Audio_Loli_ClimbDash",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
             "JumpUpWallForStandby": [
               "Audio_Loli_JumpUpWallStandby",
               "Audio_Loli_Foley_Once_Sayu"
@@ -671,7 +4821,9 @@
               "Audio_Loli_Foley_Once_Sayu"
             ]
           },
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "actionPanelState": "Climb",
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
@@ -685,16 +4837,23 @@
               "Audio_Loli_Foley_Once_Sayu"
             ]
           },
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "Upstairs": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Upstairs": ["Audio_Loli_Upstairs", "Audio_Loli_Foley_Once_Sayu"]
+            "Upstairs": [
+              "Audio_Loli_Upstairs",
+              "Audio_Loli_Foley_Once_Sayu"
+            ]
           },
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -706,17 +4865,25 @@
         "Slip": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SlipFaceWall": ["Audio_Loli_SlipFaceWall"],
-            "SlipBackWall": ["Audio_Loli_SlipFaceWall"]
+            "SlipFaceWall": [
+              "Audio_Loli_SlipFaceWall"
+            ],
+            "SlipBackWall": [
+              "Audio_Loli_SlipFaceWall"
+            ]
           },
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "Swim": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SwimIdle": ["Audio_Loli_SwimIdle"],
+            "SwimIdle": [
+              "Audio_Loli_SwimIdle"
+            ],
             "SwimMove": [
               "Ani_Walk01",
               "SwimStep",
@@ -727,9 +4894,13 @@
               "Audio_Loli_SwimDash",
               "Avatar_Loli_SwimDash_Hand_Effect"
             ],
-            "SwimJumpToWater": ["Audio_Loli_SwimJumpToWater"]
+            "SwimJumpToWater": [
+              "Audio_Loli_SwimJumpToWater"
+            ]
           },
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "actionPanelState": "Swim",
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
@@ -737,7 +4908,9 @@
         "Fly": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Fly": ["Audio_Loli_Fly"],
+            "Fly": [
+              "Audio_Loli_Fly"
+            ],
             "FlyStart": [
               "Audio_Loli_FlyStart",
               "FlyStart_Weapon",
@@ -745,7 +4918,9 @@
             ]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -758,13 +4933,28 @@
         "Jump": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Jump": ["Audio_Loli_Jump", "Audio_Loli_Foley_Jump_Sayu"],
-            "JumpForRun": ["Audio_Loli_Jump", "Audio_Loli_Foley_Once_Sayu"],
-            "JumpForWalk": ["Audio_Loli_Jump", "Audio_Loli_Foley_Once_Sayu"],
-            "JumpForSprint": ["Audio_Loli_Jump", "Audio_Loli_Foley_Once_Sayu"]
+            "Jump": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Jump_Sayu"
+            ],
+            "JumpForRun": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "JumpForWalk": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "JumpForSprint": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DoSkill", "AimEnd"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "AimEnd"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -777,9 +4967,17 @@
         "Fall": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "JumpOffWall": ["Audio_Loli_Jump", "Audio_Loli_Foley_Once_Sayu"],
-            "SwimJump": ["Audio_Loli_SwimJump", "Audio_Loli_Foley_Once_Sayu"],
-            "SwimJumpDrop": ["Audio_Loli_Foley_ThreeTimes_Sayu"],
+            "JumpOffWall": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "SwimJump": [
+              "Audio_Loli_SwimJump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "SwimJumpDrop": [
+              "Audio_Loli_Foley_ThreeTimes_Sayu"
+            ],
             "DropDown": [
               "Audio_Loli_DropDown",
               "Audio_Loli_Foley_ThreeTimes_Sayu"
@@ -788,7 +4986,9 @@
             "WalkDropDownLit": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -809,7 +5009,9 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -820,17 +5022,39 @@
               "Loli_Sword_Putaway_RunBS",
               "Audio_Loli_WalkToRun"
             ],
-            "WalkWeapon": ["Audio_Loli_Walk", "Audio_Loli_Foley_Twice_Sayu"],
-            "RunToWalkWeapon": ["Audio_Loli_RunToWalk"],
-            "RunWeapon": ["Audio_Loli_Run", "Audio_Loli_Foley_Twice_Sayu"],
-            "RunToIdleWeapon": ["Audio_Loli_Foley_Twice_Sayu"],
-            "WalkToIdleWeapon": ["Audio_Loli_Foley_Twice_Sayu"],
+            "WalkWeapon": [
+              "Audio_Loli_Walk",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "RunToWalkWeapon": [
+              "Audio_Loli_RunToWalk"
+            ],
+            "RunWeapon": [
+              "Audio_Loli_Run",
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "RunToIdleWeapon": [
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
+            "WalkToIdleWeapon": [
+              "Audio_Loli_Foley_Twice_Sayu"
+            ],
             "RunningTurnWeapon": [],
-            "FallOnGroundWeapon": ["Audio_Loli_FallOnGround"],
-            "FallOnGroundLitWeapon": ["Audio_Loli_FallOnGroundLit"],
-            "FallOnGroundMiddleWeapon": ["Audio_Loli_FallOnGroundMiddle"],
-            "FallToGroundRunWeapon": ["Audio_Loli_FallToGroundRun"],
-            "FallToGroundRunHardWeapon": ["Audio_Loli_FallToGroundRunHard"]
+            "FallOnGroundWeapon": [
+              "Audio_Loli_FallOnGround"
+            ],
+            "FallOnGroundLitWeapon": [
+              "Audio_Loli_FallOnGroundLit"
+            ],
+            "FallOnGroundMiddleWeapon": [
+              "Audio_Loli_FallOnGroundMiddle"
+            ],
+            "FallToGroundRunWeapon": [
+              "Audio_Loli_FallToGroundRun"
+            ],
+            "FallToGroundRunHardWeapon": [
+              "Audio_Loli_FallToGroundRunHard"
+            ]
           },
           "canDoSkill": true,
           "massRatio": 2.0,
@@ -839,7 +5063,9 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -873,7 +5099,9 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -881,9 +5109,15 @@
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
             "StandbyPutawayOver": [],
-            "WalkPutawayOver": ["Audio_Loli_Sword_WalkPutAwayOver"],
-            "RunPutawayOver": ["Audio_Loli_Sword_RunPutAwayOver"],
-            "RunToSprintWeaponOver": ["Audio_Loli_Sword_RunToSprintWeaponOver"]
+            "WalkPutawayOver": [
+              "Audio_Loli_Sword_WalkPutAwayOver"
+            ],
+            "RunPutawayOver": [
+              "Audio_Loli_Sword_RunPutAwayOver"
+            ],
+            "RunToSprintWeaponOver": [
+              "Audio_Loli_Sword_RunToSprintWeaponOver"
+            ]
           },
           "canDoSkill": true,
           "massRatio": 2.0,
@@ -892,14 +5126,19 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "JumpWeapon": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "JumpWeapon": ["Audio_Loli_Jump", "Audio_Loli_Foley_Once_Sayu"],
+            "JumpWeapon": [
+              "Audio_Loli_Jump",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
             "JumpForRunWeapon": [
               "Audio_Loli_Jump",
               "Audio_Loli_Foley_Once_Sayu"
@@ -910,13 +5149,17 @@
             ]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "actionPanelState": "Jump",
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
@@ -932,7 +5175,9 @@
             "WalkDropDownLitWeapon": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -944,12 +5189,23 @@
         "BeHit": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Hit_L": ["Audio_Loli_Hit_L", "Audio_Loli_Foley_Once_Sayu"],
-            "Hit_H": ["Audio_Loli_Hit_H", "Audio_Loli_Foley_Once_Sayu"]
+            "Hit_L": [
+              "Audio_Loli_Hit_L",
+              "Audio_Loli_Foley_Once_Sayu"
+            ],
+            "Hit_H": [
+              "Audio_Loli_Hit_H",
+              "Audio_Loli_Foley_Once_Sayu"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnEnter": ["BeHit", "HitAir2HitDrop"],
-          "resetAnimatorTriggerOnExit": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "HitAir2HitDrop"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
           "cameraType": "combatBeHit",
           "jumpCancelEnd": 0.0,
           "animatorTriggerOnLanded": "",
@@ -965,8 +5221,13 @@
             ]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnEnter": ["BeHit", "HitAir2HitDrop"],
-          "resetAnimatorTriggerOnExit": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "HitAir2HitDrop"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
           "cameraType": "combatBeHit",
           "jumpCancelEnd": 0.0,
           "animatorTriggerOnLanded": "",
@@ -980,12 +5241,22 @@
               "BeHitAir_Weapon",
               "Audio_Loli_Foley_Once_Sayu"
             ],
-            "Hit_ThrowAir": ["Audio_Loli_Hit_ThrowAir", "BeHitAir_Weapon"],
-            "Struggle": ["BeHitAir_Weapon", "Audio_Loli_Foley_ThreeTimes_Sayu"]
+            "Hit_ThrowAir": [
+              "Audio_Loli_Hit_ThrowAir",
+              "BeHitAir_Weapon"
+            ],
+            "Struggle": [
+              "BeHitAir_Weapon",
+              "Audio_Loli_Foley_ThreeTimes_Sayu"
+            ]
           },
           "MOKBIKEEHMJ": "combatAir",
-          "resetAnimatorTriggerOnEnter": ["BeHit"],
-          "resetAnimatorTriggerOnExit": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
           "cameraType": "combatBeHit",
           "actionPanelState": "CombatAir",
           "jumpCancelEnd": 0.0,
@@ -995,15 +5266,26 @@
         "Die": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "DiveDie": ["Die", "Audio_Loli_Dive_Die"],
-            "FallDie": ["Audio_Loli_Death"],
+            "DiveDie": [
+              "Die",
+              "Audio_Loli_Dive_Die"
+            ],
+            "FallDie": [
+              "Audio_Loli_Death"
+            ],
             "NormalDie": [
               "Die",
               "Audio_Loli_Death",
               "Audio_Loli_Foley_Once_Sayu"
             ],
-            "SwimDie": ["Swim_Die", "Audio_Loli_SwimDie"],
-            "HitGroundDie": ["Die", "Audio_Loli_Death"]
+            "SwimDie": [
+              "Swim_Die",
+              "Audio_Loli_SwimDie"
+            ],
+            "HitGroundDie": [
+              "Die",
+              "Audio_Loli_Death"
+            ]
           },
           "animatorTriggerOnLanded": ""
         },
@@ -1026,7 +5308,9 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1036,7 +5320,9 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -1053,7 +5339,9 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1063,7 +5351,9 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -1080,7 +5370,9 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1090,7 +5382,9 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -1107,7 +5401,9 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1117,7 +5413,9 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -1134,7 +5432,9 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1144,7 +5444,9 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true,
           "sheatheOnEnd": true
@@ -1160,9 +5462,13 @@
             ]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -1176,8 +5482,12 @@
             ]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnExit": ["BeHit"],
-          "canChangeAvatar": [{}],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -1192,8 +5502,12 @@
             ]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnExit": ["BeHit"],
-          "canChangeAvatar": [{}],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -1208,13 +5522,17 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -1231,7 +5549,9 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "addEndure": 0.30000001192092896,
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -1249,7 +5569,9 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "addEndure": 0.30000001192092896,
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -1267,7 +5589,11 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "addEndure": 0.30000001192092896,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "enableCCD": true,
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
@@ -1287,7 +5613,11 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "addEndure": 0.6000000238418579,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "cameraType": "combatNormal",
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
@@ -1306,7 +5636,11 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "addEndure": 0.6000000238418579,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1316,7 +5650,9 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1332,14 +5668,20 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "addEndure": 0.30000001192092896,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1356,7 +5698,11 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "addEndure": 0.6000000238418579,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "cameraType": "combatNormal",
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
@@ -1375,7 +5721,11 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "addEndure": 0.6000000238418579,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1385,7 +5735,9 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1401,7 +5753,9 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "addEndure": 0.0,
-          "resetAnimatorTriggerOnExit": ["BeHit"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
           "cameraType": "combatNormal",
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
@@ -1419,7 +5773,11 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1429,7 +5787,9 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnEnd": true
         },
@@ -1440,11 +5800,17 @@
               "Audio_Loli_Claymore_Sayu_FallingAnthem_BS_1",
               "Emo_Loli_Claymore_FallingAttack_BS_01"
             ],
-            "FallingAnthem_BS_2": ["Emo_Loli_Claymore_FallingAttack_BS_02"]
+            "FallingAnthem_BS_2": [
+              "Emo_Loli_Claymore_FallingAttack_BS_02"
+            ]
           },
           "MOKBIKEEHMJ": "combatAir",
           "addEndure": 0.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "cameraType": "combatNormal",
           "actionPanelState": "Fly",
           "equipReattach": [
@@ -1465,7 +5831,11 @@
           },
           "MOKBIKEEHMJ": "combatAir",
           "addEndure": 0.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "actionPanelState": "Fly",
           "equipReattach": [
             {
@@ -1488,7 +5858,11 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill",
@@ -1515,13 +5889,19 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "equipReattach": [
             {
               "equip": "equip01",
@@ -1535,9 +5915,15 @@
         "Sit": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SitDown": ["Audio_Loli_SitDown", "Audio_Loli_Sit_Sayu"],
+            "SitDown": [
+              "Audio_Loli_SitDown",
+              "Audio_Loli_Sit_Sayu"
+            ],
             "SitLoop": [],
-            "SitUp": ["Audio_Loli_SitUp", "Audio_Loli_Sit_Sayu"]
+            "SitUp": [
+              "Audio_Loli_SitUp",
+              "Audio_Loli_Sit_Sayu"
+            ]
           },
           "MOKBIKEEHMJ": "performMove",
           "massRatio": 100.0,
@@ -1548,9 +5934,13 @@
         "SitB": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SitBDown": ["Audio_Loli_Sit_Sayu"],
+            "SitBDown": [
+              "Audio_Loli_Sit_Sayu"
+            ],
             "SitBLoop": [],
-            "SitBUp": ["Audio_Loli_Sit_Sayu"]
+            "SitBUp": [
+              "Audio_Loli_Sit_Sayu"
+            ]
           },
           "MOKBIKEEHMJ": "performMove",
           "massRatio": 100.0,
@@ -1561,7 +5951,9 @@
         "StandbyShow": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "StandbyVoice": ["Audio_Loli_StandbyVoice"],
+            "StandbyVoice": [
+              "Audio_Loli_StandbyVoice"
+            ],
             "StandbyShow_01": [
               "Audio_Loli_Claymore_Sayu_StandbyShow_01",
               "Manekin_Sayu_Show01_Combat"
@@ -1579,7 +5971,9 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1598,18 +5992,26 @@
         "Channel_BS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ChannelBS": ["Emo_Avatar_Common_Manekin_Default"]
+            "ChannelBS": [
+              "Emo_Avatar_Common_Manekin_Default"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1621,13 +6023,19 @@
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1639,133 +6047,203 @@
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Lyre": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Lyre_BS": ["PlayMusic_Lyre_Loli"],
-            "PlayMusic_Lyre_Loop": ["PlayMusic_Lyre_Loli_Loop"]
+            "PlayMusic_Lyre_BS": [
+              "PlayMusic_Lyre_Loli"
+            ],
+            "PlayMusic_Lyre_Loop": [
+              "PlayMusic_Lyre_Loli_Loop"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Lyre_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Lyre_AS": ["PlayMusic_Lyre_Loli_AS"]
+            "PlayMusic_Lyre_AS": [
+              "PlayMusic_Lyre_Loli_AS"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Qin": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Qin_BS": ["PlayMusic_Qin_Loli"],
-            "PlayMusic_Qin_Loop": ["PlayMusic_Qin_Loli_Loop"]
+            "PlayMusic_Qin_BS": [
+              "PlayMusic_Qin_Loli"
+            ],
+            "PlayMusic_Qin_Loop": [
+              "PlayMusic_Qin_Loli_Loop"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Qin_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Qin_AS": ["PlayMusic_Qin_Loli_AS"]
+            "PlayMusic_Qin_AS": [
+              "PlayMusic_Qin_Loli_AS"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Drum": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Drum_BS": ["PlayMusic_Drum_Loli"],
-            "PlayMusic_Drum_Loop": ["PlayMusic_Drum_Loli_Loop"]
+            "PlayMusic_Drum_BS": [
+              "PlayMusic_Drum_Loli"
+            ],
+            "PlayMusic_Drum_Loop": [
+              "PlayMusic_Drum_Loli_Loop"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Drum_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Drum_AS": ["PlayMusic_Drum_Loli_AS"]
+            "PlayMusic_Drum_AS": [
+              "PlayMusic_Drum_Loli_AS"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_FrenchHorn": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_FrenchHorn_BS": ["PlayMusic_Frenchhorn_Loli"],
-            "PlayMusic_FrenchHorn_Loop": ["PlayMusic_Frenchhorn_Loli_Loop"]
+            "PlayMusic_FrenchHorn_BS": [
+              "PlayMusic_Frenchhorn_Loli"
+            ],
+            "PlayMusic_FrenchHorn_Loop": [
+              "PlayMusic_Frenchhorn_Loli_Loop"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_FrenchHorn_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_FrenchHorn_AS": ["PlayMusic_Frenchhorn_Loli_AS"]
+            "PlayMusic_FrenchHorn_AS": [
+              "PlayMusic_Frenchhorn_Loli_AS"
+            ]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1776,7 +6254,9 @@
           },
           "MOKBIKEEHMJ": "combatAir",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnEnter": ["ElectricCoreFly_End"],
+          "resetAnimatorTriggerOnEnter": [
+            "ElectricCoreFly_End"
+          ],
           "resetAnimatorTriggerOnExit": [
             "BeHit",
             "DoSkill",
@@ -1793,7 +6273,9 @@
           },
           "MOKBIKEEHMJ": "combatAir",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnEnter": ["GrapplingHook_Drop"],
+          "resetAnimatorTriggerOnEnter": [
+            "GrapplingHook_Drop"
+          ],
           "resetAnimatorTriggerOnExit": [
             "BeHit",
             "DoSkill",
@@ -1854,7 +6336,11 @@
           },
           "addEndure": 0.0,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "enableBoneFollowMove": true,
           "jumpCancelStart": -1.0,
           "sprintCancelStart": -1.0,
@@ -1871,13 +6357,19 @@
           },
           "MOKBIKEEHMJ": "combatDive",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "actionPanelState": "Dive",
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -1890,13 +6382,19 @@
           },
           "MOKBIKEEHMJ": "combatDive",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "actionPanelState": "Dive",
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -1905,19 +6403,27 @@
         "DiveChannel_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "DiveChannelAS": ["Audio_Loli_DiveChannel_AS"]
+            "DiveChannelAS": [
+              "Audio_Loli_DiveChannel_AS"
+            ]
           },
           "MOKBIKEEHMJ": "combatDive",
           "canDoSkill": true,
           "canDoSkillStart": 0.30000001192092896,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "actionPanelState": "Dive",
           "sprintCancelStart": 0.11999999731779099,
           "animatorTriggerOnLanded": "",
@@ -1933,13 +6439,19 @@
           },
           "MOKBIKEEHMJ": "combatDive",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "actionPanelState": "Dive",
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -1953,13 +6465,19 @@
           "MOKBIKEEHMJ": "combatDive",
           "canDoSkillStart": 0.30000001192092896,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "actionPanelState": "Dive",
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -1968,19 +6486,27 @@
         "DiveCast_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "DiveCast_AS": ["Audio_Loli_DiveCast_AS"]
+            "DiveCast_AS": [
+              "Audio_Loli_DiveCast_AS"
+            ]
           },
           "MOKBIKEEHMJ": "combatDive",
           "canDoSkill": true,
           "canDoSkillStart": 0.10000000149011612,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "actionPanelState": "Dive",
           "sprintCancelStart": 0.09000000357627869,
           "animatorTriggerOnLanded": "",
@@ -1990,33 +6516,69 @@
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
             "DiveIdle": [],
-            "DiveMoveBS": ["Audio_Loli_Dive_MoveBS"],
-            "DiveMoveAS": ["Audio_Loli_Dive_MoveAS"],
-            "DiveMoveU_A": ["Audio_Loli_Dive_MoveU_A"],
-            "DiveMoveU_B": ["Audio_Loli_Dive_MoveU_B"],
+            "DiveMoveBS": [
+              "Audio_Loli_Dive_MoveBS"
+            ],
+            "DiveMoveAS": [
+              "Audio_Loli_Dive_MoveAS"
+            ],
+            "DiveMoveU_A": [
+              "Audio_Loli_Dive_MoveU_A"
+            ],
+            "DiveMoveU_B": [
+              "Audio_Loli_Dive_MoveU_B"
+            ],
             "DiveMoveF_A": [],
-            "DiveMoveF_B": ["Audio_Loli_Dive_MoveF_B"],
-            "DiveMoveD_A": ["Audio_Loli_Dive_MoveD_A"],
-            "DiveMoveD_B": ["Audio_Loli_Dive_MoveD_B"],
-            "DiveTurn": ["Audio_Loli_Dive_Turn"],
-            "DiveTurnAS": ["Audio_Loli_Dive_Turn_AS"],
-            "DiveTurn2": ["Audio_Loli_Dive_Turn"],
-            "DiveTurnAS2": ["Audio_Loli_Dive_Turn_AS"],
-            "DiveDashBS": ["Audio_Loli_Dive_Dash_BS"],
-            "DiveDashAS": ["Audio_Loli_Dive_Dash_AS"],
+            "DiveMoveF_B": [
+              "Audio_Loli_Dive_MoveF_B"
+            ],
+            "DiveMoveD_A": [
+              "Audio_Loli_Dive_MoveD_A"
+            ],
+            "DiveMoveD_B": [
+              "Audio_Loli_Dive_MoveD_B"
+            ],
+            "DiveTurn": [
+              "Audio_Loli_Dive_Turn"
+            ],
+            "DiveTurnAS": [
+              "Audio_Loli_Dive_Turn_AS"
+            ],
+            "DiveTurn2": [
+              "Audio_Loli_Dive_Turn"
+            ],
+            "DiveTurnAS2": [
+              "Audio_Loli_Dive_Turn_AS"
+            ],
+            "DiveDashBS": [
+              "Audio_Loli_Dive_Dash_BS"
+            ],
+            "DiveDashAS": [
+              "Audio_Loli_Dive_Dash_AS"
+            ],
             "DiveDash": [],
-            "DiveDashB": ["Audio_Loli_Dive_Out_DashB"],
-            "DiveSuperDash": ["Audio_Loli_Dive_SuperDash"],
-            "DiveSuperDash2": ["Audio_Loli_Dive_SuperDash2"]
+            "DiveDashB": [
+              "Audio_Loli_Dive_Out_DashB"
+            ],
+            "DiveSuperDash": [
+              "Audio_Loli_Dive_SuperDash"
+            ],
+            "DiveSuperDash2": [
+              "Audio_Loli_Dive_SuperDash2"
+            ]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [{}],
+          "canChangeAvatar": [
+            {}
+          ],
           "actionPanelState": "Dive",
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
@@ -2024,14 +6586,28 @@
         "Dive_In_Out": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Dive_In_Up": ["Audio_Loli_Dive_In_Up"],
-            "Dive_In_Side": ["Audio_Loli_Dive_In_Side"],
-            "Dive_In_Bottom": ["Audio_Loli_Dive_In_Bottom"],
-            "Dive_Out_Side": ["Audio_Loli_Dive_Out_Side"],
-            "Dive_Out_Bottom": ["Audio_Loli_Dive_Out_Bottom"],
-            "Dive_Out_Up": ["Audio_Loli_Dive_Out_Up"]
+            "Dive_In_Up": [
+              "Audio_Loli_Dive_In_Up"
+            ],
+            "Dive_In_Side": [
+              "Audio_Loli_Dive_In_Side"
+            ],
+            "Dive_In_Bottom": [
+              "Audio_Loli_Dive_In_Bottom"
+            ],
+            "Dive_Out_Side": [
+              "Audio_Loli_Dive_Out_Side"
+            ],
+            "Dive_Out_Bottom": [
+              "Audio_Loli_Dive_Out_Bottom"
+            ],
+            "Dive_Out_Up": [
+              "Audio_Loli_Dive_Out_Up"
+            ]
           },
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2044,14 +6620,24 @@
         "DiveStream": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "DiveStreamIn": ["Audio_Loli_Dive_Stream_In"],
-            "DiveStreamOut": ["Audio_Loli_Dive_Stream_Out"],
+            "DiveStreamIn": [
+              "Audio_Loli_Dive_Stream_In"
+            ],
+            "DiveStreamOut": [
+              "Audio_Loli_Dive_Stream_Out"
+            ],
             "DiveStream": [],
-            "DiveStreamRoll_L": ["Audio_Loli_Dive_Stream_Roll_L"],
-            "DiveStreamRoll_R": ["Audio_Loli_Dive_Stream_Roll_R"]
+            "DiveStreamRoll_L": [
+              "Audio_Loli_Dive_Stream_Roll_L"
+            ],
+            "DiveStreamRoll_R": [
+              "Audio_Loli_Dive_Stream_Roll_R"
+            ]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2064,14 +6650,25 @@
         "DiveJump": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Dive_Out_DashU": ["Audio_Loli_Dive_Out_DashU"],
-            "Dive_Out_DashD": ["Audio_Loli_Dive_Out_DashD"],
-            "Dive_Out_DashFBS": ["Audio_Loli_Dive_Out_DashFBS"],
-            "Dive_Out_DashFAS": ["Audio_Loli_Dive_Out_DashFAS"],
+            "Dive_Out_DashU": [
+              "Audio_Loli_Dive_Out_DashU"
+            ],
+            "Dive_Out_DashD": [
+              "Audio_Loli_Dive_Out_DashD"
+            ],
+            "Dive_Out_DashFBS": [
+              "Audio_Loli_Dive_Out_DashFBS"
+            ],
+            "Dive_Out_DashFAS": [
+              "Audio_Loli_Dive_Out_DashFAS"
+            ],
             "Dive_Out_DashFLoop": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DoSkill", "AimEnd"],
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "AimEnd"
+          ],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -2084,12 +6681,18 @@
         "BeHitDive": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "BeHitDive": ["Audio_Loli_Dive_beHit"],
+            "BeHitDive": [
+              "Audio_Loli_Dive_beHit"
+            ],
             "DiveStruggle": []
           },
           "MOKBIKEEHMJ": "combatDive",
-          "resetAnimatorTriggerOnEnter": ["BeHit"],
-          "resetAnimatorTriggerOnExit": ["DoSkill"],
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
           "cameraType": "combatBeHit",
           "actionPanelState": "Dive",
           "jumpCancelEnd": 0.0,
@@ -2142,6 +6745,9 @@
       "layerIndex": 5,
       "layerIndexName": "DiveLayer",
       "CPAANEIJCGD": ""
+    },
+    "normalBetweenCamera": {
+      "detectDitherRange": 3
     }
   },
   "DADEGCDMOBD": false,
@@ -2184,7 +6790,9 @@
           "audioEvent": {
             "text": "Play_sfx_char_land"
           },
-          "otherStateNames": ["FallOnGround"],
+          "otherStateNames": [
+            "FallOnGround"
+          ],
           "usage": "InSet"
         },
         {
@@ -2216,7 +6824,9 @@
           "audioEvent": {
             "text": "Play_sfx_char_dive_dash_lp"
           },
-          "otherStateNames": ["DiveDashBS"],
+          "otherStateNames": [
+            "DiveDashBS"
+          ],
           "usage": "InSet"
         },
         {
@@ -2256,7 +6866,10 @@
           "audioEvent": {
             "text": "Stop_sfx_char_sayu_claymore_extraAtk2"
           },
-          "otherStateNames": ["ExtraAttack1", "ExtraAttack3"],
+          "otherStateNames": [
+            "ExtraAttack1",
+            "ExtraAttack3"
+          ],
           "usage": "Except"
         },
         {
@@ -2282,7 +6895,9 @@
           "audioEvent": {
             "text": "Stop_sfx_char_sayu_elementalArt_hold_roll_lp"
           },
-          "otherStateNames": ["Sayu_ElementalArt_Roll"],
+          "otherStateNames": [
+            "Sayu_ElementalArt_Roll"
+          ],
           "usage": "Except"
         },
         {
@@ -2290,7 +6905,9 @@
           "audioEvent": {
             "text": "Stop_sfx_char_sayu_elementalArt_hold_roll_lp"
           },
-          "otherStateNames": ["Sayu_ElementalArt_Hold_Roll"],
+          "otherStateNames": [
+            "Sayu_ElementalArt_Hold_Roll"
+          ],
           "usage": "Except"
         },
         {
@@ -2358,7 +6975,9 @@
           "audioEvent": {
             "text": "Stop_sfx_char_swim_drop"
           },
-          "otherStateNames": ["SwimJumpDrop"],
+          "otherStateNames": [
+            "SwimJumpDrop"
+          ],
           "usage": "Except"
         },
         {
@@ -2566,7 +7185,11 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_dash_lp"
           },
-          "otherStateNames": ["DiveDashB", "DiveTurn", "DiveTurn2"],
+          "otherStateNames": [
+            "DiveDashB",
+            "DiveTurn",
+            "DiveTurn2"
+          ],
           "usage": "Except"
         },
         {
@@ -2574,7 +7197,10 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_stream_lp"
           },
-          "otherStateNames": ["DiveStreamRoll_L", "DiveStreamRoll_R"],
+          "otherStateNames": [
+            "DiveStreamRoll_L",
+            "DiveStreamRoll_R"
+          ],
           "usage": "Except"
         },
         {
@@ -2594,7 +7220,9 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_dash_lp"
           },
-          "otherStateNames": ["Dive_Out_Up"],
+          "otherStateNames": [
+            "Dive_Out_Up"
+          ],
           "usage": "InSet"
         },
         {
@@ -2620,7 +7248,9 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_moveF_A"
           },
-          "otherStateNames": ["DiveMoveF_B"],
+          "otherStateNames": [
+            "DiveMoveF_B"
+          ],
           "usage": "Except"
         }
       ],
@@ -2692,7 +7322,9 @@
           "audioEvent": {
             "text": "Play_sfx_char_drop"
           },
-          "otherStateNames": ["Fly"],
+          "otherStateNames": [
+            "Fly"
+          ],
           "usage": "InSet"
         },
         {
@@ -2700,7 +7332,9 @@
           "audioEvent": {
             "text": "Play_sfx_char_dive_move_swim_idle"
           },
-          "otherStateNames": ["Dive"],
+          "otherStateNames": [
+            "Dive"
+          ],
           "usage": "Except"
         },
         {
@@ -2708,7 +7342,9 @@
           "audioEvent": {
             "text": "Play_sfx_char_dive_move_swim_idle"
           },
-          "otherStateNames": ["CombatDive"],
+          "otherStateNames": [
+            "CombatDive"
+          ],
           "usage": "Except"
         }
       ],
@@ -2730,7 +7366,9 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_move_swim_idle"
           },
-          "otherStateNames": ["CombatDive"],
+          "otherStateNames": [
+            "CombatDive"
+          ],
           "usage": "Except"
         },
         {
@@ -2738,7 +7376,9 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_move_swim_idle"
           },
-          "otherStateNames": ["Dive"],
+          "otherStateNames": [
+            "Dive"
+          ],
           "usage": "Except"
         }
       ]
@@ -2757,7 +7397,143 @@
     "standby": {
       "minTime": 10.0,
       "maxTime": 20.0,
-      "performIDs": [201, 202, 200, 200]
+      "performIDs": [
+        201,
+        202,
+        200,
+        200
+      ]
     }
+  },
+  "AAEKHMHPNGN": {
+    "GLOPBDEPDBB": 40,
+    "MHMFONAGNIH": -40
+  },
+  "AHPNGGHNMLH": {
+    "CLHMFPBKKLI": "Head",
+    "maxPitchDegree": 15,
+    "FEIHMAEHIML": 6,
+    "affectedByWorld": true,
+    "destroyRockWhenInit": true,
+    "maxYawDegree": 50,
+    "animStates": [
+      "NormalStandby",
+      "NormalMove/WalkToRun",
+      "NormalMove/Walk",
+      "NormalMove/RunToWalk",
+      "NormalMove/Run",
+      "NormalMove/RunToIdle",
+      "NormalMove/WalkToIdle",
+      "NormalMove/RunningTurn",
+      "NormalMove/SprintToRun",
+      "NormalMove/SprintToIdle",
+      "Sprint",
+      "Climb/ClimbIdle",
+      "Ladder/LadderIdle",
+      "Swim/SwimIdle",
+      "NormalStandbyWeapon",
+      "NormalMoveWeapon/WalkToRunWeapon",
+      "NormalMoveWeapon/WalkWeapon",
+      "NormalMoveWeapon/RunToWalkWeapon",
+      "NormalMoveWeapon/RunWeapon",
+      "NormalMoveWeapon/RunToIdleWeapon",
+      "NormalMoveWeapon/WalkToIdleWeapon",
+      "NormalMoveWeapon/RunningTurnWeapon"
+    ],
+    "LPLPBBCHJFO": "Body",
+    "MABIBPCMNHF": "Neck",
+    "NIFJPDLMDNN": 2
+  },
+  "AKBJEFEJFBH": {
+    "takeOutSize": -1,
+    "attachPoints": {
+      "equip01": "WeaponR",
+      "equip02": "WeaponL",
+      "equip03": "WeaponL"
+    },
+    "putAwaySize": -1,
+    "dissolveSheathFadeTime": 2.0999999046325684,
+    "sheathPoint": "WeaponBackPut",
+    "dissolveSheathFadeDelay": 0.07500000298023224
+  },
+  "BDCBPBCONAE": {
+    "enable": true,
+    "GGBEPMDFMKO": -1
+  },
+  "forceDontUseUpdateRigidbody": true,
+  "DCNIECIDGMJ": {
+    "BFFMELFOGJP": "_TPS_Is_Strafe",
+    "ODLBCHDLBIB": "_TPS_Is_Aiming"
+  },
+  "GBCOBKGCNDH": 1,
+  "model": {
+    "elementAbsorb": "PRIVATE_Pendant",
+    "bulletAim": "RootNode",
+    "elementDrop": "RootNode",
+    "elementPendant": "PRIVATE_Pendant"
+  },
+  "captureGroup": {
+    "FMEEEHPMHDB": {
+      "DGBLGBHELLG": {
+        "GPJBCHKCIJO": true,
+        "KOKGCKKGGDN": {
+          "OGBIDMEDGGD": 4
+        },
+        "LJEDMJFCHMK": 1
+      },
+      "IBKFOAEFCHJ": {
+        "value": 1
+      },
+      "INJHBCKFHJP": {
+        "showDistance": 20,
+        "FCNBOCKFDBG": true,
+        "attachPointName": "BillboardAttach"
+      },
+      "IPFABCFDBGG": {
+        "CHBMKLMPFNC": {
+          "showDistance": 20,
+          "GPJBCHKCIJO": true,
+          "OGBIDMEDGGD": 4
+        }
+      },
+      "JEJAGCKKJAA": {
+        "CPLHKIEMGAD": 20,
+        "GPJBCHKCIJO": true
+      },
+      "KNNCEDMKCOK": {
+        "prefabName": "FirmamentCarBoard",
+        "value": 1
+      },
+      "LGBAPCGFFAK": {
+        "ECBEEKENBCN": 20,
+        "GPJBCHKCIJO": true
+      }
+    }
+  },
+  "NEGIFCMEBDM": {
+    "beHit": {
+      "CIHCLMOPEND": 1,
+      "KNGCHEJFDMA": 1,
+      "KPCCNMBFEBA": 1
+    },
+    "Default": {
+      "initialPoseID": 1
+    },
+    "MHPPACBNCHA": {
+      "KGKDPPFINBG": 1
+    }
+  },
+  "NGAKKPGOAAC": {
+    "squad": {
+      "EAGNPIKDHND": "G_LevelDefault"
+    }
+  },
+  "OFIKKACCDJD": "AvatarLoli",
+  "billboard": {
+    "forceShowDistance": 15,
+    "showDistance": 24,
+    "attachPoint": "BillboardAttach",
+    "value": 1,
+    "PMNMLIPNKIG": 35
   }
 }

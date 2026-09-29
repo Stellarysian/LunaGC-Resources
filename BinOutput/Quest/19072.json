@@ -5,7 +5,9 @@
   "titleTextMapHash": 2879612991,
   "descTextMapHash": 3296933878,
   "luaPath": "Actor/Quest/LQ19072",
-  "suggestTrackMainQuestList": [19074],
+  "suggestTrackMainQuestList": [
+    19074
+  ],
   "chapterId": 108101,
   "subQuests": [
     {
@@ -13,17 +15,24 @@
       "mainId": 19072,
       "order": 1,
       "descTextMapHash": 1474290852,
-      "exclusivePlaceList": [331503],
+      "exclusivePlaceList": [
+        331503
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_MAIN_COOP_ENTER_SAVE_POINT",
-          "param": [108101, 190720101],
+          "param": [
+            108101,
+            190720101
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1055"],
+        "param": [
+          "1055"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -35,7 +44,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -49,18 +61,25 @@
       "mainId": 19072,
       "order": 2,
       "descTextMapHash": 2696390764,
-      "exclusivePlaceList": [331503],
+      "exclusivePlaceList": [
+        331503
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_MAIN_COOP_ENTER_SAVE_POINT",
-          "param": [108101, 190720201],
+          "param": [
+            108101,
+            190720201
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["13236"],
+        "param": [
+          "13236"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -73,7 +92,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -82,5 +104,23 @@
       "finishExec": [],
       "failExec": []
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "1055": [
+      1190
+    ],
+    "13236": [
+      1190
+    ],
+    "13237": [
+      1230
+    ],
+    "13238": [
+      1120
+    ]
+  },
+  "HGFFNBIGPJK": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 3018,
+  "suggestTrackOutOfOrder": true
 }

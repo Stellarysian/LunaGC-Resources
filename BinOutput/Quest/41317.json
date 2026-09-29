@@ -5,7 +5,9 @@
   "descTextMapHash": 4181275862,
   "luaPath": "Actor/Quest/EQ41317",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [141317],
+  "rewardIdList": [
+    141317
+  ],
   "subQuests": [
     {
       "subId": 4131701,
@@ -16,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4131108, 3],
+          "param": [
+            4131108,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [4131111, 0],
+          "param": [
+            4131111,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -56,5 +64,6 @@
         }
       ]
     }
-  ]
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

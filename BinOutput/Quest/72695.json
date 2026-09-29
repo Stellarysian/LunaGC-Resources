@@ -4,7 +4,9 @@
   "titleTextMapHash": 3225421439,
   "descTextMapHash": 456556694,
   "luaPath": "Actor/Quest/WQ72695",
-  "rewardIdList": [172695],
+  "rewardIdList": [
+    172695
+  ],
   "subQuests": [
     {
       "subId": 7269501,
@@ -14,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_ACTIVITY_COND",
-          "param": [5080002, 1],
+          "param": [
+            5080002,
+            1
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7269501, 0],
+          "param": [
+            7269501,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -33,7 +41,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30187"],
+        "param": [
+          "30187"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -57,7 +67,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [12522],
+      "exclusiveNpcList": [
+        12522
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -68,14 +80,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7269501, 3],
+          "param": [
+            7269501,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ACTIVITY_TRIGGER_UPDATE",
-          "param": [5080, 201],
+          "param": [
+            5080,
+            201
+          ],
           "param_str": "",
           "count": 1
         }
@@ -88,7 +106,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q7269502_guide"],
+        "param": [
+          "Q7269502_guide"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -113,7 +133,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [12522],
+      "exclusiveNpcList": [
+        12522
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -124,14 +146,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7269505, 3],
+          "param": [
+            7269505,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7269503, 0],
+          "param": [
+            7269503,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -143,7 +171,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30187"],
+        "param": [
+          "30187"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -168,7 +198,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [12522],
+      "exclusiveNpcList": [
+        12522
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -179,14 +211,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7269502, 3],
+          "param": [
+            7269502,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ACTIVITY_TRIGGER_UPDATE",
-          "param": [5080, 202],
+          "param": [
+            5080,
+            202
+          ],
           "param_str": "",
           "count": 1
         }
@@ -199,7 +237,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q7269504_guide"],
+        "param": [
+          "Q7269504_guide"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -224,7 +264,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [12522],
+      "exclusiveNpcList": [
+        12522
+      ],
       "exclusiveNpcPriority": 1100
     },
     {
@@ -235,14 +277,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7269504, 3],
+          "param": [
+            7269504,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_ACTIVITY_TRIGGER_UPDATE",
-          "param": [5080, 203],
+          "param": [
+            5080,
+            203
+          ],
           "param_str": "",
           "count": 1
         }
@@ -255,7 +303,9 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q7269505_guide"],
+        "param": [
+          "Q7269505_guide"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_POINT",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -280,7 +330,9 @@
           "param_str": ""
         }
       ],
-      "exclusiveNpcList": [12522],
+      "exclusiveNpcList": [
+        12522
+      ],
       "exclusiveNpcPriority": 1100
     }
   ],
@@ -292,13 +344,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7269501", "2"],
+          "param": [
+            "7269501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 726950101,
-      "npcId": [30187],
+      "npcId": [
+        30187
+      ],
       "performCfg": "QuestDialogue/WQ/Inazuma_72695/Q7269501",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72695,
@@ -312,23 +369,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7269502", "2"],
+          "param": [
+            "7269502",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7269504", "2"],
+          "param": [
+            "7269504",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7269505", "2"],
+          "param": [
+            "7269505",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 726950201,
-      "npcId": [30187],
+      "npcId": [
+        30187
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72695,
@@ -341,17 +409,28 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7269503", "2"],
+          "param": [
+            "7269503",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 726950301,
-      "npcId": [30187],
+      "npcId": [
+        30187
+      ],
       "performCfg": "QuestDialogue/WQ/Inazuma_72695/Q7269503",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 72695,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activityId": 5080,
+  "HMJOIJHMGJD": true,
+  "preloadLuaList": [
+    "14457059026087496718"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

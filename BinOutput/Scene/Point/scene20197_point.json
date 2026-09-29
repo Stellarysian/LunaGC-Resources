@@ -1,5 +1,4 @@
 {
-   
   "points": {
     "1": {
       "$type": "ACECPLPLHPL",
@@ -13,7 +12,8 @@
         "y": 225.0
       },
       "specialTipsIconPath": "",
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true
     },
     "2": {
       "$type": "LJLGJMBBHMK",
@@ -27,7 +27,8 @@
         "y": 90.0
       },
       "specialTipsIconPath": "",
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true
     },
     "3": {
       "$type": "LJLGJMBBHMK",
@@ -41,7 +42,8 @@
         "y": 270.0
       },
       "specialTipsIconPath": "",
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true
     },
     "4": {
       "$type": "LJLGJMBBHMK",
@@ -55,7 +57,8 @@
         "y": 90.0
       },
       "specialTipsIconPath": "",
-      "disableClientTrigger": true
+      "disableClientTrigger": true,
+      "DJDNCBAKOPN": true
     }
   },
   "entities": {
@@ -102,5 +105,50 @@
       "BFKCMEDCIIM": {}
     }
   },
-  "GDFJNNEIFCF": {}
+  "GDFJNNEIFCF": {},
+  "HINDGNIGCEO": 1500,
+  "KJJENKICNLJ": {
+    "1": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 151.75999450683594,
+        "y": 14.5,
+        "z": 205.89999389648438
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 70,
+        "IJLLBONJPNF": 80,
+        "INCDOIJKDNH": 70,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "PLBGEEEODKL": "DeadRegion"
+    },
+    "2": {
+      "$type": "OEIPGHKKFIL",
+      "pos": {
+        "x": 151.75999450683594,
+        "y": 14.5,
+        "z": 205.89999389648438
+      },
+      "DDFAGPPNHBB": 100,
+      "GBLODDFPBJJ": 0.10000000149011612,
+      "gadgetId": 70010006,
+      "IDGPBCDDNBC": {
+        "$type": "KOBMNPHDKJK",
+        "CFLGDGLFMDO": "Center",
+        "EEGHLLBNNKM": 70,
+        "IJLLBONJPNF": 90,
+        "INCDOIJKDNH": 70,
+        "LNEEBNDGDOB": "Center",
+        "PCAFJMIOGDB": true
+      },
+      "PLBGEEEODKL": "NoReviveRegion"
+    }
+  }
 }

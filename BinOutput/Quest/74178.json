@@ -4,7 +4,9 @@
   "titleTextMapHash": 2554240527,
   "descTextMapHash": 4014931614,
   "luaPath": "Actor/Quest/WQ74178",
-  "rewardIdList": [174178],
+  "rewardIdList": [
+    174178
+  ],
   "subQuests": [
     {
       "subId": 7417801,
@@ -15,7 +17,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7417801, 0],
+          "param": [
+            7417801,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -33,7 +38,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -51,7 +59,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7417802, 0],
+          "param": [
+            7417802,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -68,7 +79,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["3", "133412061"],
+          "param": [
+            "3",
+            "133412061"
+          ],
           "param_str": ""
         }
       ],
@@ -77,7 +91,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -93,14 +110,20 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7417803, 0],
+          "param": [
+            7417803,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["[3_6879:3846.290,467.447,2857.250]", "30"],
+        "param": [
+          "[3_6879:3846.290,467.447,2857.250]",
+          "30"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -114,7 +137,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -132,13 +158,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7417804, 0],
+          "param": [
+            7417804,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["21273"],
+        "param": [
+          "21273"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -151,7 +182,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -168,7 +202,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
@@ -176,7 +213,10 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["[3_6880:3857.710,450.597,2836.280]", "30"],
+        "param": [
+          "[3_6880:3857.710,450.597,2836.280]",
+          "30"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -189,12 +229,18 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133412073", "0"],
+          "param": [
+            "133412073",
+            "0"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133412076", "0"],
+          "param": [
+            "133412076",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -203,7 +249,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -219,18 +268,26 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7417806, 0],
+          "param": [
+            7417806,
+            0
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7417811, 0],
+          "param": [
+            7417811,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["21274"],
+        "param": [
+          "21274"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -244,7 +301,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -261,14 +321,20 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [1, 0],
+          "param": [
+            1,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["[3_6880:3857.710,450.597,2836.280]", "30"],
+        "param": [
+          "[3_6880:3857.710,450.597,2836.280]",
+          "30"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -282,7 +348,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -299,14 +368,20 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7417808, 0],
+          "param": [
+            7417808,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["[3_6881:3454.693,458.997,3089.193]", "50"],
+        "param": [
+          "[3_6881:3454.693,458.997,3089.193]",
+          "50"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -321,7 +396,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -338,7 +416,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "",
           "count": 1
         }
@@ -346,7 +427,10 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["[3_6881:3454.693,458.997,3089.193]", "50"],
+        "param": [
+          "[3_6881:3454.693,458.997,3089.193]",
+          "50"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -359,7 +443,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133402156", "0"],
+          "param": [
+            "133402156",
+            "0"
+          ],
           "param_str": ""
         }
       ],
@@ -368,7 +455,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -384,13 +474,18 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7417810, 0],
+          "param": [
+            7417810,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["21274"],
+        "param": [
+          "21274"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -403,12 +498,18 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133402686", "1"],
+          "param": [
+            "133402686",
+            "1"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-          "param": ["133402136", "1"],
+          "param": [
+            "133402136",
+            "1"
+          ],
           "param_str": ""
         }
       ],
@@ -417,7 +518,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -434,13 +538,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417802", "2"],
+          "param": [
+            "7417802",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741780201,
-      "npcId": [21273],
+      "npcId": [
+        21273
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74178/Q7417802",
       "questId": 74178,
       "prePerformCfg": "",
@@ -453,13 +562,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417804", "2"],
+          "param": [
+            "7417804",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741780401,
-      "npcId": [21273],
+      "npcId": [
+        21273
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74178/Q7417804",
       "questId": 74178,
       "prePerformCfg": ""
@@ -472,18 +586,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417806", "2"],
+          "param": [
+            "7417806",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7414417", "3"],
+          "param": [
+            "7414417",
+            "3"
+          ],
           "param_str": ""
         }
       ],
       "priority": 6,
       "initDialog": 741780601,
-      "npcId": [21274],
+      "npcId": [
+        21274
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74178/Q7417806",
       "questId": 74178,
       "prePerformCfg": ""
@@ -495,13 +617,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417810", "2"],
+          "param": [
+            "7417810",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741781001,
-      "npcId": [21274],
+      "npcId": [
+        21274
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74178/Q7417810",
       "questId": 74178,
       "prePerformCfg": ""
@@ -513,16 +640,31 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7417806", "2"],
+          "param": [
+            "7417806",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741781101,
-      "npcId": [21274],
+      "npcId": [
+        21274
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74178/Q7417811",
       "questId": 74178,
       "prePerformCfg": ""
     }
+  ],
+  "forcePreloadLuaList": [
+    "2247094969010489047"
+  ],
+  "showRedPoint": true,
+  "preloadLuaList": [
+    "10618541653209901967",
+    "3908952460804071918",
+    "12942939051906793145",
+    "12471773992712247293"
   ]
 }

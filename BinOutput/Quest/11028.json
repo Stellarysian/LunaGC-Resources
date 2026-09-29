@@ -5,8 +5,12 @@
   "titleTextMapHash": 1534217159,
   "descTextMapHash": 3377278614,
   "luaPath": "Actor/Quest/LQ11028",
-  "suggestTrackMainQuestList": [11029],
-  "rewardIdList": [111028],
+  "suggestTrackMainQuestList": [
+    11029
+  ],
+  "rewardIdList": [
+    111028
+  ],
   "chapterId": 2037,
   "subQuests": [
     {
@@ -19,14 +23,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -47,14 +57,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -75,14 +91,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -103,14 +125,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -130,14 +158,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -157,14 +191,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -184,14 +224,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -211,14 +257,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -238,14 +290,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -265,14 +323,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -294,14 +358,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -320,13 +390,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102801", "2"],
+          "param": [
+            "1102801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110280101,
-      "npcId": [1068],
+      "npcId": [
+        1068
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102801",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -341,23 +416,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102802", "2"],
+          "param": [
+            "1102802",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102803", "2"],
+          "param": [
+            "1102803",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102804", "2"],
+          "param": [
+            "1102804",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110280201,
-      "npcId": [13138],
+      "npcId": [
+        13138
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -372,23 +458,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102802", "2"],
+          "param": [
+            "1102802",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102803", "2"],
+          "param": [
+            "1102803",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102804", "2"],
+          "param": [
+            "1102804",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110280301,
-      "npcId": [13139],
+      "npcId": [
+        13139
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -403,23 +500,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102802", "2"],
+          "param": [
+            "1102802",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102803", "2"],
+          "param": [
+            "1102803",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102804", "2"],
+          "param": [
+            "1102804",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110280401,
-      "npcId": [13140],
+      "npcId": [
+        13140
+      ],
       "performCfg": "",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -433,14 +541,21 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102805", "2"],
+          "param": [
+            "1102805",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
-      "nextTalks": [1102811],
+      "nextTalks": [
+        1102811
+      ],
       "initDialog": 110280501,
-      "npcId": [1068],
+      "npcId": [
+        1068
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102805",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -454,13 +569,22 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102806", "2"],
+          "param": [
+            "1102806",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110280601,
-      "npcId": [13135, 13136, 10233, 1068, 2103],
+      "npcId": [
+        13135,
+        13136,
+        10233,
+        1068,
+        2103
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102806",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -475,23 +599,34 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102802", "2"],
+          "param": [
+            "1102802",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102803", "2"],
+          "param": [
+            "1102803",
+            "2"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102804", "2"],
+          "param": [
+            "1102804",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110280701,
-      "npcId": [1068],
+      "npcId": [
+        1068
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102807",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -506,13 +641,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102808", "2"],
+          "param": [
+            "1102808",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110280801,
-      "npcId": [13135, 13136, 2103],
+      "npcId": [
+        13135,
+        13136,
+        2103
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102808",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -526,13 +668,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102809", "2"],
+          "param": [
+            "1102809",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110280901,
-      "npcId": [1068],
+      "npcId": [
+        1068
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102809",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -546,13 +693,20 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102810", "2"],
+          "param": [
+            "1102810",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110281001,
-      "npcId": [1068, 13136, 10233],
+      "npcId": [
+        1068,
+        13136,
+        10233
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102810",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -566,13 +720,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102805", "2"],
+          "param": [
+            "1102805",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 4,
       "initDialog": 110281101,
-      "npcId": [1068],
+      "npcId": [
+        1068
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102811",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -586,13 +745,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102801", "2"],
+          "param": [
+            "1102801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110281201,
-      "npcId": [2103],
+      "npcId": [
+        2103
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102812",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -606,13 +770,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102801", "2"],
+          "param": [
+            "1102801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110281301,
-      "npcId": [10233],
+      "npcId": [
+        10233
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102813",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -627,18 +796,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102706", "3"],
+          "param": [
+            "1102706",
+            "3"
+          ],
           "param_str": ""
         },
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102908", "0"],
+          "param": [
+            "1102908",
+            "0"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110281401,
-      "npcId": [1021],
+      "npcId": [
+        1021
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102814",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -652,13 +829,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102801", "2"],
+          "param": [
+            "1102801",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110281501,
-      "npcId": [13136, 13135],
+      "npcId": [
+        13136,
+        13135
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102815",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -672,13 +855,19 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102807", "2"],
+          "param": [
+            "1102807",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110281601,
-      "npcId": [10233, 13135],
+      "npcId": [
+        10233,
+        13135
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102816",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
@@ -692,18 +881,52 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["1102807", "2"],
+          "param": [
+            "1102807",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 110281701,
-      "npcId": [2103],
+      "npcId": [
+        2103
+      ],
       "performCfg": "QuestDialogue/LQ/Baizhu_11028/Q1102817",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 11028,
       "prePerformCfg": "",
       "lowPriority": true
+    }
+  ],
+  "freeStyleDic": {
+    "1021": [
+      1190
+    ],
+    "10233": [
+      1280
+    ],
+    "1068": [
+      1190,
+      1280
+    ],
+    "13135": [
+      5030
+    ],
+    "13136": [
+      4120
+    ]
+  },
+  "HGFFNBIGPJK": true,
+  "activeMode": "PLAY_MODE_SINGLE",
+  "resId": 2037,
+  "dialogList": [
+    {
+      "id": 110289801,
+      "talkRole": {
+        "type": "TALK_ROLE_BLACK_SCREEN"
+      }
     }
   ]
 }

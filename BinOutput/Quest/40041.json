@@ -5,7 +5,9 @@
   "descTextMapHash": 2152905870,
   "luaPath": "Actor/Quest/EQ40041",
   "showType": "QUEST_HIDDEN",
-  "rewardIdList": [140041],
+  "rewardIdList": [
+    140041
+  ],
   "subQuests": [
     {
       "subId": 4004101,
@@ -16,14 +18,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4003503, 3],
+          "param": [
+            4003503,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "0,24"
         }
       ],
@@ -64,7 +72,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -110,7 +121,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -156,7 +170,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -202,7 +219,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -248,7 +268,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -294,7 +317,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
@@ -340,13 +366,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4004102", "2"],
+          "param": [
+            "4004102",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400410201,
-      "npcId": [1045],
+      "npcId": [
+        1045
+      ],
       "performCfg": "",
       "questId": 40041,
       "prePerformCfg": ""
@@ -358,13 +389,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4004103", "2"],
+          "param": [
+            "4004103",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400410301,
-      "npcId": [206501],
+      "npcId": [
+        206501
+      ],
       "performCfg": "",
       "questId": 40041,
       "prePerformCfg": ""
@@ -376,13 +412,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4004104", "2"],
+          "param": [
+            "4004104",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400410401,
-      "npcId": [1045],
+      "npcId": [
+        1045
+      ],
       "performCfg": "",
       "questId": 40041,
       "prePerformCfg": ""
@@ -394,16 +435,23 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4004106", "2"],
+          "param": [
+            "4004106",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 400410601,
-      "npcId": [1045],
+      "npcId": [
+        1045
+      ],
       "performCfg": "",
       "questId": 40041,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "activityId": 2010,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

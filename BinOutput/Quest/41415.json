@@ -16,14 +16,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [4141307, 3],
+          "param": [
+            4141307,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [4141501, 0],
+          "param": [
+            4141501,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -64,17 +70,30 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["4141501", "2"],
+          "param": [
+            "4141501",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 414139601,
-      "npcId": [1001],
+      "npcId": [
+        1001
+      ],
       "performCfg": "QuestDialogue/EQ/Fenghua1_41413/Q4141396",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 41415,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "16163082056778391067"
+  ],
+  "preloadLuaList": [
+    "3088369788188086520",
+    "2759688756406877588"
+  ],
+  "activeMode": "PLAY_MODE_SINGLE"
 }

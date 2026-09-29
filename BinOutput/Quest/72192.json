@@ -4,7 +4,9 @@
   "titleTextMapHash": 3330498503,
   "descTextMapHash": 234119190,
   "luaPath": "Actor/Quest/WQ72192",
-  "suggestTrackMainQuestList": [72177],
+  "suggestTrackMainQuestList": [
+    72177
+  ],
   "chapterId": 10055,
   "subQuests": [
     {
@@ -15,14 +17,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7217716, 3],
+          "param": [
+            7217716,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "72192_activeEnemy",
           "count": 1
         }
@@ -35,7 +43,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q7219201_guide", "30"],
+        "param": [
+          "Q7219201_guide",
+          "30"
+        ],
         "guideScene": 5
       },
       "isRewind": true,
@@ -54,7 +65,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["5", "155005016"],
+          "param": [
+            "5",
+            "155005016"
+          ],
           "param_str": ""
         }
       ]
@@ -67,14 +81,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [99902, 3],
+          "param": [
+            99902,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "72192_DefeatMonster",
           "count": 1
         }
@@ -87,7 +107,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q7219202_guide", "20"],
+        "param": [
+          "Q7219202_guide",
+          "20"
+        ],
         "guideScene": 5
       },
       "isRewind": true,
@@ -106,7 +129,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["5", "155005036"],
+          "param": [
+            "5",
+            "155005036"
+          ],
           "param_str": ""
         }
       ]
@@ -119,14 +145,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7219201, 3],
+          "param": [
+            7219201,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "72192_SolvePuzzle",
           "count": 1
         }
@@ -140,7 +172,9 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q7219202_guide"],
+        "param": [
+          "Q7219202_guide"
+        ],
         "guideScene": 5,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -161,7 +195,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["5", "155005036"],
+          "param": [
+            "5",
+            "155005036"
+          ],
           "param_str": ""
         }
       ]
@@ -174,14 +211,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7219203, 3],
+          "param": [
+            7219203,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7219204, 0],
+          "param": [
+            7219204,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -193,7 +236,10 @@
       ],
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
-        "param": ["Q7219204_guide", "20"],
+        "param": [
+          "Q7219204_guide",
+          "20"
+        ],
         "guideScene": 5
       },
       "isRewind": true,
@@ -212,7 +258,10 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["5", "155005036"],
+          "param": [
+            "5",
+            "155005036"
+          ],
           "param_str": ""
         }
       ]
@@ -225,14 +274,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": [7219204, 3],
+          "param": [
+            7219204,
+            3
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_LUA_NOTIFY",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": "72192_QuestFinish",
           "count": 1
         }
@@ -246,7 +301,9 @@
       "guide": {
         "type": "QUEST_GUIDE_LOCATION",
         "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q7219205_guide"],
+        "param": [
+          "Q7219205_guide"
+        ],
         "guideScene": 5,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -256,7 +313,10 @@
       "finishExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["5", "155005016"],
+          "param": [
+            "5",
+            "155005016"
+          ],
           "param_str": ""
         }
       ],
@@ -269,10 +329,21 @@
       "beginExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-          "param": ["5", "155005016"],
+          "param": [
+            "5",
+            "155005016"
+          ],
           "param_str": ""
         }
       ]
     }
-  ]
+  ],
+  "forcePreloadLuaList": [
+    "7505902633375079630"
+  ],
+  "preloadLuaList": [
+    "13067960308199471950",
+    "4071611807479275628"
+  ],
+  "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
 }

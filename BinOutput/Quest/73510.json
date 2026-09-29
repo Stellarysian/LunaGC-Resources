@@ -5,7 +5,9 @@
   "titleTextMapHash": 1556703527,
   "descTextMapHash": 3480068302,
   "luaPath": "Actor/Quest/WQ73510",
-  "rewardIdList": [173510],
+  "rewardIdList": [
+    173510
+  ],
   "subQuests": [
     {
       "subId": 7351001,
@@ -17,14 +19,20 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
       "finishCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -43,17 +51,30 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7351001", "2"],
+          "param": [
+            "7351001",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 735100101,
-      "npcId": [30226],
+      "npcId": [
+        30226
+      ],
       "performCfg": "QuestDialogue/WQ/Sumeru_73510/Q7351001",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 73510,
       "prePerformCfg": ""
     }
-  ]
+  ],
+  "freeStyleDic": {
+    "30226": [
+      1190
+    ]
+  },
+  "activityId": 5129,
+  "HMJOIJHMGJD": true,
+  "mainQuestTag": "MAINQUEST_TAG_GUIDE"
 }

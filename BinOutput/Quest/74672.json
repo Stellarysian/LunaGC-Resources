@@ -4,24 +4,34 @@
   "titleTextMapHash": 1349846575,
   "descTextMapHash": 2688100574,
   "luaPath": "Actor/Quest/WQ74672",
-  "rewardIdList": [174672],
+  "rewardIdList": [
+    174672
+  ],
   "subQuests": [
     {
       "subId": 7467201,
       "mainId": 74672,
       "order": 2,
       "descTextMapHash": 4157900308,
-      "HIABBDKJOHM": [340135, 340111],
+      "HIABBDKJOHM": [
+        340135,
+        340111
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7467201, 0],
+          "param": [
+            7467201,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["30423"],
+        "param": [
+          "30423"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -36,7 +46,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -50,17 +63,25 @@
       "mainId": 74672,
       "order": 3,
       "descTextMapHash": 3202529100,
-      "HIABBDKJOHM": [340135, 340111],
+      "HIABBDKJOHM": [
+        340135,
+        340111
+      ],
       "finishCond": [
         {
           "type": "QUEST_CONTENT_COMPLETE_TALK",
-          "param": [7467202, 0],
+          "param": [
+            7467202,
+            0
+          ],
           "param_str": ""
         }
       ],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
-        "param": ["1070"],
+        "param": [
+          "1070"
+        ],
         "guideScene": 3,
         "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
         "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
@@ -75,7 +96,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -93,7 +117,10 @@
       "finishCond": [
         {
           "type": "QUEST_CONTENT_FINISH_PLOT",
-          "param": [7467203, 0],
+          "param": [
+            7467203,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -107,7 +134,10 @@
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
+          "param": [
+            0,
+            0
+          ],
           "param_str": ""
         }
       ],
@@ -125,13 +155,18 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7467201", "2"],
+          "param": [
+            "7467201",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 746720101,
-      "npcId": [30423],
+      "npcId": [
+        30423
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74672/Q7467201",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74672,
@@ -145,18 +180,26 @@
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7467202", "2"],
+          "param": [
+            "7467202",
+            "2"
+          ],
           "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 746720201,
-      "npcId": [1070],
+      "npcId": [
+        1070
+      ],
       "performCfg": "QuestDialogue/WQ/Fontaine_74672/Q7467202",
       "heroTalk": "TALK_HERO_MAIN",
       "questId": 74672,
       "prePerformCfg": "",
       "forceNpcNotDestroy": true
     }
-  ]
+  ],
+  "HGFFNBIGPJK": true,
+  "showRedPoint": true,
+  "activeMode": "PLAY_MODE_SINGLE"
 }

@@ -68,7 +68,22 @@
         "x": 0,
         "y": 0,
         "z": 0
-      }
+      },
+      "CHCAGLAPJGP": true,
+      "FPBBOEDKMIE": 1,
+      "dungeonIds": [
+        164
+      ],
+      "mapVisibility": "Never",
+      "sizes": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      "LDFIDPKDNKE": true,
+      "NEPAMKJCLJK": 1,
+      "OEKKLCFPCAO": "UI_STC_Intee_DungeonEntry",
+      "inteeIcon": "UI_Icon_Intee_Talk"
     },
     "3": {
       "$type": "HGEKJIDOFJN",
@@ -111,7 +126,16 @@
         "x": 0,
         "y": 0,
         "z": 0
-      }
+      },
+      "HJNIGDGMCCK": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "INIPMNIGDCG": 24,
+      "tranSceneId": 1010,
+      "KBHKBGKIPII": true,
+      "OEKKLCFPCAO": "UI_STC_Intee_RoleCombatExit"
     },
     "2": {
       "$type": "DungeonExit",
@@ -127,7 +151,18 @@
         "z": 24.54439
       },
       "specialTipsIconPath": "",
-      "unlocked": true
+      "unlocked": true,
+      "tranRot": {
+        "y": 90
+      },
+      "HMOHDOOAGOJ": 1,
+      "tranPos": {
+        "x": 37.54999923706055,
+        "y": 0.30000001192092896,
+        "z": 24.43000030517578
+      },
+      "KBHKBGKIPII": true
     }
-  }
+  },
+  "HINDGNIGCEO": 1500
 }
