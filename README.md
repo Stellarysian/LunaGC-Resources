@@ -1,3 +1,5 @@
+Original Project : https://github.com/invoker-bot/LunaGC-Resources
+
 # LunaGC Resources
 
 An assembled resource dataset for LunaGC, centered on version 7.1 and supplemented with compatible data from other available resource snapshots. The collection brings together game configuration, scripts, scene data, text maps, and server-side mappings in one repository.
